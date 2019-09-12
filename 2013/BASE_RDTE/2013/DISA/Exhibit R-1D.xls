@@ -1,0 +1,4199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40"
+          xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:fn="http://www.w3.org/2005/xpath-functions"
+          xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/022009/jb"
+          xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/022009/r2"
+          xmlns:o="urn:schemas-microsoft-com:office:office">
+   <DocumentProperties xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                       xmlns="urn:schemas-microsoft-com:office:office"
+                       xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                       xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb">
+      <Author>Comptroller Budget Estimate Submission System</Author>
+      <Title>Exhibit R-1D</Title>
+      <Created>2012-02-13T07:58:42.283-05:00</Created>
+      <Company>DTIC</Company>
+      <Version>1.2</Version>
+   </DocumentProperties>
+   <ExcelWorkbook xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                  xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                  xmlns="urn:schemas-microsoft-com:office:excel"
+                  xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb">
+      <WindowHeight>10000</WindowHeight>
+      <WindowWidth>10000</WindowWidth>
+      <WindowTopX>120</WindowTopX>
+      <WindowTopY>30</WindowTopY>
+      <ProtectStructure>False</ProtectStructure>
+      <ProtectWindows>False</ProtectWindows>
+   </ExcelWorkbook>
+   <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+         <Alignment ss:Vertical="Bottom"/>
+         <Borders/>
+         <Font/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="title">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="m148887696">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="9" ss:Bold="0"/>
+      </Style>
+      <Style ss:ID="m148848802">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s21">
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s26">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s33">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s42">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s50">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s66">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s67">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s68">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s70">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFFFFF" ss:Pattern="Gray125" ss:PatternColor="#000000"/>
+      </Style>
+      <Style ss:ID="s71">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="8" ss:Italic="1"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s77">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#F3F4F1" ss:Pattern="Solid"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s92">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="8" ss:Italic="1"/>
+         <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s93">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s94">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Gray125" ss:PatternColor="#000000"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Exhibit R-1D">
+      <Table ss:ExpandedColumnCount="15" x:FullColumns="1" x:FullRows="1">
+         <Column ss:Width="28.5"/>
+         <Column ss:Width="35"/>
+         <Column ss:Width="70"/>
+         <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="279.75"/>
+         <Column ss:Width="22.5"/>
+         <Column ss:Width="80" ss:Span="9"/>
+         <Row xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="13" ss:StyleID="title">
+               <Data ss:Type="String">Defense Information Systems Agency • President's Budget Submission FY 2013 • RDT&amp;E Program</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="13" ss:StyleID="title">
+               <Data ss:Type="String">Exhibit R-1D</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="13"/>
+         </Row>
+         <Row xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="13"/>
+         </Row>
+         <Row>
+            <Cell ss:MergeAcross="4"/>
+            <Cell ss:Index="6" ss:MergeAcross="8" ss:StyleID="m148848802">
+               <Data ss:Type="String">Cost ($ in Millions)</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Line#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Type</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">PE/Project#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">PE/Project/Accomplishments/Planned Programs Title</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">BA#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2011</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2012</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2013 Base</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2013 OCO</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2013 Total</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2014</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2015</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2016</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2017</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">119</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0604764K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Advanced IT Services Joint Program Office (AITS-JPO)</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">21.771</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">38.451</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">25.787</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">25.787</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">26.126</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">26.507</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">27.064</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">27.956</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">T26</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Leading Edge Pilot Information Technology</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">21.771</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">38.451</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">25.787</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">25.787</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">26.126</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">26.507</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">27.064</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">27.956</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Command and Control (C2) and Combat Support (CS)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.029</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.888</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.075</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.075</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Cyber Threat Discovery</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">15.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Information Sharing (IS)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.547</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.006</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.006</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.006</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Network Infrastructure (NI)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.100</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.100</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.100</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Network Operations (NetOps)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.238</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.272</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.272</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.272</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Program Management Support</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">11.957</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">11.185</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">13.334</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">13.334</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">132</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0303141K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Global Combat Support System</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">18.002</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">19.837</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">19.670</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">19.670</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">20.381</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">20.708</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">20.716</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">20.967</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">CS01</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Global Combat Support System</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.002</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">19.837</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">19.670</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">19.670</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">20.381</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">20.708</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">20.716</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">20.967</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Global Combat Support System-Joint</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">05</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.002</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">19.837</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">19.670</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">19.670</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">192</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0208045K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">C4I Interoperability</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">71.459</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">72.403</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">72.574</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">72.574</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">73.597</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">73.533</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">73.824</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">74.215</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">T30</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Test and Evaluation</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">9.768</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">16.540</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">16.226</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">16.226</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">15.067</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">15.128</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">15.256</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">15.284</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Interoperability Testing</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.268</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.155</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">11.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">11.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Operational Test and Evaluation</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.360</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.360</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.334</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.334</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Support to Warfighter</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.140</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.025</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.968</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.968</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">T40</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Major Range Test Facility Base</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">61.691</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">55.863</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">56.348</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">56.348</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">58.530</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">58.405</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">58.568</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">58.931</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Interoperability Test Support</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">61.691</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">55.863</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">56.348</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">56.348</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">194</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0301144K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Joint/Allied Coalition Information Sharing</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">7.677</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">6.222</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">6.214</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">6.214</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">8.223</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.585</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.596</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.668</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">NND</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Multinational Information sharing</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.677</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.222</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.214</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.214</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.223</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.585</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.596</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.668</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Multinational Information Sharing</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.677</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.222</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.214</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.214</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">201</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0302016K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">National Military Command System-Wide Support</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.463</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.481</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.499</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.499</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.517</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.526</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.526</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.532</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">S32</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">NMCS Command Center Engineering</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.463</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.481</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.499</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.499</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.517</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.526</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.526</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.532</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">NMCS Systems Engineering</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.463</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.481</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.499</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.499</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">202</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0302019K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Defense Info. Infrastructure Engineering and Integration</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">34.884</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">15.179</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">14.498</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">14.498</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">14.198</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">9.687</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">8.880</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">8.989</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">E65</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Modeling and Simulation</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">26.090</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.946</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.775</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.775</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.972</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.814</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.005</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.083</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Modeling and Simulation</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">26.090</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.946</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.775</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.775</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">T62</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">GIG Systems Engineering and Support</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.794</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.233</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.723</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.723</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.226</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.873</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.875</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.906</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Global Information Grid (GIG) Systems Engineering and Support</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.794</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.233</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.723</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.723</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">203</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0303126K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Long-Haul Communications - DCS</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">36.598</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">21.619</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">26.164</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">26.164</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">21.694</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">12.033</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">11.025</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">11.151</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">PC01</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Presidential and National Voice Conferencing</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.140</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.902</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.902</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">14.180</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.398</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.389</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.427</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">National Emergency Action Decision Network (NEADN)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.140</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.902</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.902</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">T82</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">DISN Systems Engineering Support</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">35.598</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">17.479</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.262</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.262</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.514</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.635</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.636</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.724</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Distributed Tactical Communications System</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">23.125</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Elements Management System (a component of DISN OSS)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.169</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.336</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.338</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.338</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">IP &amp; Optical Transport (a component of Tech Refresh)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.501</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.715</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.883</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.883</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Peripheral and Component Design (formerly Engineering Change Proposals (ECP) DRSN Components)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.803</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.928</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.041</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.041</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-4]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-4]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-4]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-4]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-4]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-11]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-11]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-11]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-11]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-11]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-11]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-11]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-11]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-11]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-11]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-11]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-11]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-11]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-11]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-11]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-11]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-11]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-11]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">204</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0303131K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Minimum Essential Emergency Communications Network (MEECN)</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">10.640</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">12.514</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">12.931</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">12.931</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">13.284</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">13.448</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">13.448</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">13.602</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">T64</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Special Projects</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.800</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.170</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.251</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.251</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.435</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.523</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.524</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.592</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Special Projects</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.800</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.170</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.251</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.251</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">T70</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Strategic C3 Support</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.840</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.344</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.680</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.680</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.849</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.925</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.010</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Operational Assessments</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.885</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.297</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.297</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.297</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Systems Analysis</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.244</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.360</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.696</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.696</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Systems Engineering</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.711</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.687</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.687</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.687</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-3]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">209</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0303140K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Information Systems Security Program</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">IA3</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Information Systems Security Program</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Information Systems Security Program</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">211</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0303150K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Global Command and Control System</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">26.183</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">56.680</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">36.575</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">36.575</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">23.694</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">14.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">11.368</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">10.423</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">CC01</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Global Command and Control System-Joint (GCCS-J)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">26.183</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">56.680</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">36.575</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">36.575</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">23.694</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">14.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">11.368</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.423</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Development and Strategic Planning                 </Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.492</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">21.364</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.406</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.406</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Planning and Execution Services (JPES)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">13.691</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">35.316</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.169</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.169</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-2]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-2]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-2]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-2]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-2]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-5]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-5]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-5]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-5]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-5]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-5]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-5]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-5]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-5]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-5]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-5]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-5]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-5]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-5]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-5]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-5]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-5]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-5]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">212</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0303153K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Defense Spectrum Organization</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">19.112</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">28.908</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">24.278</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">24.278</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">17.980</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">18.095</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">18.057</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">18.275</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">JS1</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Spectrum Center</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">19.112</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">28.908</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">24.278</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">24.278</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">17.980</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.095</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.057</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">18.275</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">DoD E3 Program</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.358</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.200</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.234</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.234</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Emerging Spectrum Technologies (EST)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.272</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.228</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.169</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.169</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Global Electromagnetic Spectrum Information System (GEMSIS)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.465</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.528</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.299</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.299</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">JSC Data and Data Software (formally called Spectrum Knowledge Resources)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.660</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.952</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Spectrum Common Operating Picture (SCOP)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Spectrum Data Sharing Capability</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.357</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.539</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.539</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-6]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-9]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-9]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">213</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0303170K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Net-Centric Enterprise Services (NCES)</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.505</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">1.830</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">2.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">2.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.360</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">1.516</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">1.515</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">1.535</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">T57</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Net-Centric Enterpise Services (NCES)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.505</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.830</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.360</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.516</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.515</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.535</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Test and Evaluation</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.505</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.830</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">215</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0303610K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Teleport Program</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.935</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">6.418</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">6.050</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">6.050</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.610</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.533</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.536</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.597</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">NS01</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Teleport Program</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.935</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.418</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.050</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.050</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.610</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.533</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.536</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.597</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Teleport Program</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.935</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.418</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.050</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.050</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">222</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0305103K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Cybersecurity Initiative</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">2.240</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.341</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.189</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.189</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.305</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.360</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.361</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.408</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">XXX</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Cybersecurity Initiative</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.240</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.341</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.189</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.189</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.305</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.360</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.361</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.408</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Cybersecurity Initiative</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.240</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.341</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.189</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.189</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">235</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0305208K</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Distributed Common Ground/Surface Systems</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.485</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.154</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.247</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.247</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.384</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.441</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.441</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.480</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">NF1</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Distributed Common Ground/Surface Systems</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.485</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.154</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.247</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.247</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.384</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.441</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.441</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.480</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Distributed Common Ground/Surface Systems (DCGS)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.485</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.154</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.247</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.247</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="4" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                        xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                        xmlns="urn:schemas-microsoft-com:office:excel"
+                        xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb">
+         <PageSetup>
+            <Layout x:Orientation="Landscape" x:CenterHorizontal="1" x:CenterVertical="0"/>
+            <Header x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED"/>
+            <Footer x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED&#xA;Page &amp;P of  &amp;N"/>
+            <PageMargins x:Left="1" x:Right="1"/>
+         </PageSetup>
+         <FitToPage/>
+         <Print>
+            <FitHeight>0</FitHeight>
+            <ValidPrinterInfo/>
+            <FitWidth>1</FitWidth>
+            <HorizontalResolution>600</HorizontalResolution>
+            <VerticalResolution>600</VerticalResolution>
+         </Print>
+         <PageBreakZoom>60</PageBreakZoom>
+         <Selected/>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+               <ActiveRow>1</ActiveRow>
+               <ActiveCol>1</ActiveCol>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+   </Worksheet>
+</Workbook>
