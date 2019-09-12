@@ -1,0 +1,3202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40"
+          xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:fn="http://www.w3.org/2005/xpath-functions"
+          xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/022009/jb"
+          xmlns:proc="http://www.dtic.mil/comptroller/xml/schema/20100219/procurement"
+          xmlns:o="urn:schemas-microsoft-com:office:office">
+   <DocumentProperties xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                       xmlns="urn:schemas-microsoft-com:office:office"
+                       xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                       xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb">
+      <Author>Comptroller XML Exhibits System</Author>
+      <Title>Exhibit P-1D</Title>
+      <Created>2014-03-05T11:56:21.256-05:00</Created>
+      <Company>DTIC</Company>
+      <Version>1.2</Version>
+   </DocumentProperties>
+   <ExcelWorkbook xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                  xmlns="urn:schemas-microsoft-com:office:excel"
+                  xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                  xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb">
+      <WindowHeight>10000</WindowHeight>
+      <WindowWidth>10000</WindowWidth>
+      <WindowTopX>120</WindowTopX>
+      <WindowTopY>30</WindowTopY>
+      <ProtectStructure>False</ProtectStructure>
+      <ProtectWindows>False</ProtectWindows>
+   </ExcelWorkbook>
+   <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+         <Alignment ss:Vertical="Bottom"/>
+         <Borders/>
+         <Font/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="title">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="m149104748">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#ECECEC" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="m149103282">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="m149115748">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="m149115758">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s21">
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s22">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="s24">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s31">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s32">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s33">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s34">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="#,###"/>
+      </Style>
+      <Style ss:ID="s40">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#CCFFCC" ss:Pattern="Solid"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s56">
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s74">
+         <Font x:Family="Swiss" ss:Size="9"/>
+         <Interior/>
+      </Style>
+      <Style ss:ID="s75">
+         <Alignment ss:Vertical="Bottom"/>
+      </Style>
+      <Style ss:ID="s78">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders/>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#ECD9FF" ss:Pattern="Solid"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Exhibit P-1D">
+      <Table ss:ExpandedColumnCount="28" x:FullColumns="1" x:FullRows="1" ss:StyleID="s21"
+             ss:DefaultRowHeight="12">
+         <Column ss:StyleID="s21" ss:Width="32"/>
+         <Column ss:StyleID="s21" ss:Width="40"/>
+         <Column ss:StyleID="s21" ss:Width="28"/>
+         <Column ss:StyleID="s21" ss:Width="28"/>
+         <Column ss:StyleID="s21" ss:Width="50"/>
+         <Column ss:StyleID="s21" ss:Width="72"/>
+         <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="300"/>
+         <Column ss:StyleID="s21" ss:Width="60" ss:Span="20"/>
+         <Row xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="26" ss:StyleID="title">
+               <Data ss:Type="String">Army •  Budget Estimates FY2015 • Procurement</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="26" ss:StyleID="title">
+               <Data ss:Type="String">Exhibit P-1D</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="26"/>
+         </Row>
+         <Row xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="26"/>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:MergeAcross="6" ss:StyleID="Default"/>
+            <Cell ss:MergeAcross="19" ss:StyleID="m149115748">
+               <Data ss:Type="String">Cost ($ in Millions, Quantity in Each)</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:MergeAcross="6" ss:StyleID="Default"/>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">Prior Years</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">FY 2013</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">FY 2014</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">FY 2015 Base</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">FY 2015 OCO</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">FY 2015 Total</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">FY 2016</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">FY 2017</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">FY 2018</Data>
+            </Cell>
+            <Cell ss:MergeAcross="1" ss:StyleID="s24">
+               <Data ss:Type="String">FY 2019</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Line#</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">APP#</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">BA#</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">BSA#</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Cost Type</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Line Item#</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Line Item Title</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Quantity</Data>
+            </Cell>
+            <Cell ss:StyleID="s24">
+               <Data ss:Type="String">Amount</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">1</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E00700</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">CTG, 5.56MM, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2,278.022</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">129.313</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">91.567</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">34.943</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">34.943</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">40.520</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">45.551</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">47.084</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">49.853</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E02000</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">CTG, 7.62MM, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">1,131.570</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">83.893</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">53.571</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">12.418</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">12.418</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">26.495</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">36.672</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">34.706</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">39.966</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">3</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EA3000</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">CTG, Handgun, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">95.114</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.624</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.358</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">9.655</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">9.655</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">9.980</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">9.634</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">10.953</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.234</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">4</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E08000</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">CTG, .50 Cal, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2,061.367</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">87.212</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">60.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">29.304</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">29.304</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">46.395</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">53.684</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">51.666</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">47.790</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">5</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E08900</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">CTG, 20mm, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">99.025</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">4.036</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">6</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E08200</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">CTG, 25MM, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">852.345</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">7.272</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">6.196</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">8.181</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">8.181</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">6.735</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">6.989</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.370</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">13.017</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">7</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">ER8120</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">CTG, 30MM, ALL TYPES</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">1,002.104</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">97.472</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">110.033</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">52.667</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">52.667</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">51.471</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">52.225</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">51.731</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">53.267</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">8</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">ER8001</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">CTG, 40MM, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2,195.879</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">30.831</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">55.781</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">40.904</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">40.904</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">46.972</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">69.978</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">85.947</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">89.626</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">9</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">33</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E89600</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">60MM Mortar, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">403.770</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">66.078</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">43.029</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">41.742</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">41.742</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">65.435</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">90.163</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">95.102</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">59.102</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">10</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">33</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E76000</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">81MM Mortar, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">572.536</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">33.434</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">24.656</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">42.433</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">42.433</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">57.751</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">48.924</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">42.095</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">40.099</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">11</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">33</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E25500</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">120MM Mortar, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">1,065.592</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">143.695</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">60.781</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">39.365</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">39.365</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">94.454</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">84.206</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">99.523</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">72.707</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">12</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">35</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E22203</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Cartridges, Tank, 105MM And 120MM, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">3,762.396</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">111.030</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">121.551</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">101.900</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">101.900</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">136.417</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">132.378</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">137.401</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">118.107</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">13</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">37</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E15101</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Artillery Cartridges, 75MM &amp; 105MM, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2,785.084</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">63.033</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">59.825</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">37.455</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">37.455</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">43.639</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">73.453</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">64.607</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">53.418</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">14</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">37</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E89500</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">ARTILLERY PROJECTILE, 155MM, ALL TYPES</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">781.297</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">67.836</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">47.902</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">47.023</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">47.023</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">77.914</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">136.151</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">148.620</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">169.883</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">15</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">37</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E80100</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Proj 155mm Extended Range M982</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">4,219</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">458.166</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">840</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">68.528</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">929</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">77.326</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">416</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">35.672</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">416</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">35.672</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">472</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">45.518</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">16</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">37</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E27501</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Artillery Propellants, Fuzes and Primers, All</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">1,093.046</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">53.031</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">71.205</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">94.010</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">94.010</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">87.851</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">89.312</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">87.691</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">92.887</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">17</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">43</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EA0800</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Mines &amp; Clearing Charges, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">133.757</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">5.353</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">18</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">44</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E95900</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Spider Network Munitions, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">300.566</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">17.385</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">19</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">45</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EA4000</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Shoulder Launched Munitions, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2.389</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">1.004</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">1.012</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.945</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.945</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.965</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.982</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">1.001</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">1.020</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">20</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">45</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E37300</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Rocket, Hydra 70, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">107,823</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2,670.031</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">162,371</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">179.053</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">99,922</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">165.476</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">741</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">27.286</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">741</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">27.286</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">1,026</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">29.304</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">25,570</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">73.501</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">37,601</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">89.932</Data>
+            </Cell>
+            <Cell ss:StyleID="s34">
+               <Data ss:Type="Number">20,738</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">62.165</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">21</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">47</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E55400</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Demolition Munitions, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">222.791</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">36.744</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">28.074</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">22.899</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">22.899</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">23.707</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">18.938</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">16.573</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">21.465</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">22</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">47</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E34000</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Grenades, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">942.706</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">31.442</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">36.242</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">22.751</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">22.751</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">23.733</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">23.820</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">28.130</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">28.864</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">23</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">47</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E46900</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Signals, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">628.251</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">26.836</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">15.609</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">7.082</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">7.082</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">16.883</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">23.212</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">23.563</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">23.973</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">24</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">47</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E51200</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Simulators, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">274.937</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">10.375</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">5.228</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.638</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.638</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">10.313</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">10.932</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.025</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">10.604</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">25</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">50</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EB0016</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Ammo Components, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">161.038</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">17.660</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.700</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">3.594</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">3.594</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">7.197</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">7.575</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">7.647</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">6.934</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">26</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">50</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">E91901</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Non-Lethal Ammunition, All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">13.667</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">7.326</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">7.366</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.425</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">1.901</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.270</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.213</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">27</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">50</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EA0003</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">CAD/PAD All Types</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">109.685</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">6.632</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">5.614</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">5.430</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">5.430</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">5.580</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">5.838</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">5.379</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">5.490</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">28</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">50</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EA0055</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Items Less Than $5 Million (AMMO)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">133.989</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">18.844</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">12.423</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">8.337</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">8.337</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.672</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">12.648</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.410</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.579</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">29</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">50</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EA0575</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Ammunition Peculiar Equipment</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">278.014</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.713</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">11.604</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.906</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.906</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">15.645</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">15.925</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">18.227</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">18.546</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">30</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">50</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EA0550</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">First Destination Transportation (AMMO)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">889.282</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.088</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.328</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.349</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.349</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.695</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">14.951</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">15.221</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">15.487</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">31</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">01</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">50</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EA8500</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Closeout Liabilities</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.198</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.100</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.108</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.111</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.111</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.113</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.114</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.120</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">0.123</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">32</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">02</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">10</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EP1000</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Provision Of Industrial Facilities</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">6,905.347</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">228.607</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">242.324</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">148.092</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">148.092</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">161.439</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">220.291</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">221.059</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">221.181</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">33</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">02</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">10</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EP1700</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Conventional Munitions Demilitarization</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2,129.083</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">198.399</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">179.605</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">113.881</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">113.881</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">137.004</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">169.137</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">168.797</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">122.838</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0">
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">34</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">2034A</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">02</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">10</Data>
+            </Cell>
+            <Cell ss:StyleID="s31">
+               <Data ss:Type="String">A</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">EP2500</Data>
+            </Cell>
+            <Cell ss:StyleID="s32">
+               <Data ss:Type="String">Arms Initiative</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">347.308</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">3.371</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">3.436</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2.504</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2.504</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">2.575</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">3.646</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">3.719</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">3.797</Data>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                        xmlns="urn:schemas-microsoft-com:office:excel"
+                        xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                        xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb">
+         <PageSetup>
+            <Layout x:Orientation="Landscape" x:CenterHorizontal="1" x:CenterVertical="0"/>
+            <Header x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED"/>
+            <Footer x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED&#xA;Page &amp;P of  &amp;N"/>
+            <PageMargins x:Left="1" x:Right="1"/>
+         </PageSetup>
+         <FitToPage/>
+         <Print>
+            <FitHeight>0</FitHeight>
+            <ValidPrinterInfo/>
+            <FitWidth>1</FitWidth>
+            <HorizontalResolution>600</HorizontalResolution>
+            <VerticalResolution>600</VerticalResolution>
+         </Print>
+         <PageBreakZoom>60</PageBreakZoom>
+         <Selected/>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+               <ActiveRow>1</ActiveRow>
+               <ActiveCol>1</ActiveCol>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+   </Worksheet>
+</Workbook>
