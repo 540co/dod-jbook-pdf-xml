@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jb:JustificationBook xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/022009/jb" targetSchemaVersion="1.0">
+    <jb:Title>Justification Book</jb:Title>
+    <jb:BudgetYear>2018</jb:BudgetYear>
+    <jb:BudgetCycle>PBAmended</jb:BudgetCycle>
+    <jb:SubmissionDate>2017-10</jb:SubmissionDate>
+    <jb:ServiceAgencyName>Air Force</jb:ServiceAgencyName>
+    <jb:AppropriationCode>3010F</jb:AppropriationCode>
+    <jb:AppropriationName>Aircraft Procurement, Air Force</jb:AppropriationName>
+    <jb:CoverPage>
+        <jb:Title>MSPPRG / Special Update Programs</jb:Title>
+    </jb:CoverPage>
+    <jb:ExternalDocuments>
+        <jb:UserP1Doc>
+            <jb:Title>Comptroller Exhibit P-1</jb:Title>
+            <jb:FileName>3020F_2019PB_Unclassified_Exhibit_P1.pdf</jb:FileName>
+        </jb:UserP1Doc>
+    </jb:ExternalDocuments>
+    <jb:DocumentAssemblyOptions>
+        <jb:ForceEvenPages>true</jb:ForceEvenPages>
+        <jb:GenerateLineItemTocByTitle>true</jb:GenerateLineItemTocByTitle>
+        <jb:GenerateLineItemTocByBA>true</jb:GenerateLineItemTocByBA>
+        <jb:IncludeTableOfVolumes>true</jb:IncludeTableOfVolumes>
+    </jb:DocumentAssemblyOptions>
+    <proc:LineItemList xmlns:proc="http://www.dtic.mil/comptroller/xml/schema/20100219/procurement">
+        <proc:LineItem quantityUnits="Each" quantityUnitName="Each" unitCostUnits="Millions" totalCostUnits="Millions" manufacturerRateUnits="Yearly">
+            <proc:LineItemNumber>MSPPRG</proc:LineItemNumber>
+            <proc:LineItemTitle>Special Update Programs</proc:LineItemTitle>
+            <proc:P1LineNumber>20</proc:P1LineNumber>
+            <proc:BudgetYear>2018</proc:BudgetYear>
+            <proc:BudgetCycle>PBAmended</proc:BudgetCycle>
+            <proc:SubmissionDate>2017-10</proc:SubmissionDate>
+            <proc:ServiceAgencyName>Air Force</proc:ServiceAgencyName>
+            <proc:AppropriationNumber>3020F</proc:AppropriationNumber>
+            <proc:AppropriationTitle>Missile Procurement, Air Force</proc:AppropriationTitle>
+            <proc:BudgetActivityNumber>5</proc:BudgetActivityNumber>
+            <proc:BudgetActivityTitle>Other Support</proc:BudgetActivityTitle>
+            <proc:BudgetSubActivityNumber>4</proc:BudgetSubActivityNumber>
+            <proc:BudgetSubActivityTitle>Special Programs</proc:BudgetSubActivityTitle>
+            <proc:ResourceSummary>
+                <proc:TotalCost>
+                    <proc:PriorYear>291.562</proc:PriorYear>
+                    <proc:CurrentYear>46.125</proc:CurrentYear>
+                    <proc:BudgetYearOneBase>44.917</proc:BudgetYearOneBase>
+                    <proc:BudgetYearOneOCO>0</proc:BudgetYearOneOCO>
+                    <proc:BudgetYearOne>44.917</proc:BudgetYearOne>
+                    <proc:BudgetYearTwo>198.831</proc:BudgetYearTwo>
+                    <proc:BudgetYearThree>371.26</proc:BudgetYearThree>
+                    <proc:BudgetYearFour>336.488</proc:BudgetYearFour>
+                    <proc:BudgetYearFive>483.838</proc:BudgetYearFive>
+                    <proc:Total>1773.021</proc:Total>
+                </proc:TotalCost>
+                <proc:NetProcurementP1>
+                    <proc:PriorYear>291.562</proc:PriorYear>
+                    <proc:CurrentYear>46.125</proc:CurrentYear>
+                    <proc:BudgetYearOneBase>44.917</proc:BudgetYearOneBase>
+                    <proc:BudgetYearOneOCO>0</proc:BudgetYearOneOCO>
+                    <proc:BudgetYearOne>44.917</proc:BudgetYearOne>
+                    <proc:BudgetYearTwo>198.831</proc:BudgetYearTwo>
+                    <proc:BudgetYearThree>371.26</proc:BudgetYearThree>
+                    <proc:BudgetYearFour>336.488</proc:BudgetYearFour>
+                    <proc:BudgetYearFive>483.838</proc:BudgetYearFive>
+                    <proc:Total>1773.021</proc:Total>
+                </proc:NetProcurementP1>
+                <proc:TotalObligationAuthority>
+                    <proc:PriorYear>291.562</proc:PriorYear>
+                    <proc:CurrentYear>46.125</proc:CurrentYear>
+                    <proc:BudgetYearOneBase>44.917</proc:BudgetYearOneBase>
+                    <proc:BudgetYearOneOCO>0</proc:BudgetYearOneOCO>
+                    <proc:BudgetYearOne>44.917</proc:BudgetYearOne>
+                    <proc:BudgetYearTwo>198.831</proc:BudgetYearTwo>
+                    <proc:BudgetYearThree>371.26</proc:BudgetYearThree>
+                    <proc:BudgetYearFour>336.488</proc:BudgetYearFour>
+                    <proc:BudgetYearFive>483.838</proc:BudgetYearFive>
+                    <proc:Total>1773.021</proc:Total>
+                </proc:TotalObligationAuthority>
+            </proc:ResourceSummary>
+            <proc:Code>A</proc:Code>
+            <proc:Description>NOTE:
+FY 2018 MISSILE DEFEAT AND DEFENSE ENHANCEMENTS (MDDE) BUDGET AMENDMENT: $+12.0 million is required for address emergency warfighting requirements.
+
+
+This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress.</proc:Description>
+            <proc:Justification>This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress.</proc:Justification>
+            <proc:DocumentAssemblyOptions>
+                <proc:p40AItemScheduleSetting>expandItemSuppressExhibit</proc:p40AItemScheduleSetting>
+            </proc:DocumentAssemblyOptions>
+        </proc:LineItem>
+    </proc:LineItemList>
+</jb:JustificationBook>

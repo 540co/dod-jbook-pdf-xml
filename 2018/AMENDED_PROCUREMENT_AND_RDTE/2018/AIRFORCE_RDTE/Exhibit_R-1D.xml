@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40"
+          xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/022009/r2"
+          xmlns:fn="http://www.w3.org/2005/xpath-functions"
+          xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/022009/jb"
+          xmlns:o="urn:schemas-microsoft-com:office:office">
+   <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"
+                       xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+                       xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                       xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2">
+      <Author>Comptroller XML Exhibits System</Author>
+      <Title>Exhibit R-1D</Title>
+      <Created>2017-11-06T17:39:40.741-05:00</Created>
+      <Company>DTIC</Company>
+      <Version>1.2</Version>
+   </DocumentProperties>
+   <ExcelWorkbook xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+                  xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                  xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                  xmlns="urn:schemas-microsoft-com:office:excel">
+      <WindowHeight>10000</WindowHeight>
+      <WindowWidth>10000</WindowWidth>
+      <WindowTopX>120</WindowTopX>
+      <WindowTopY>30</WindowTopY>
+      <ProtectStructure>False</ProtectStructure>
+      <ProtectWindows>False</ProtectWindows>
+   </ExcelWorkbook>
+   <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+         <Alignment ss:Vertical="Bottom"/>
+         <Borders/>
+         <Font/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="title">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="m148887696">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="9" ss:Bold="0"/>
+      </Style>
+      <Style ss:ID="m148848802">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s21">
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s26">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s33">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s42">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s50">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s66">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s67">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s68">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s70">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFFFFF" ss:Pattern="Gray125" ss:PatternColor="#000000"/>
+      </Style>
+      <Style ss:ID="s71">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="8" ss:Italic="1"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s77">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#F3F4F1" ss:Pattern="Solid"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s92">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="8" ss:Italic="1"/>
+         <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s93">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s94">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Gray125" ss:PatternColor="#000000"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Exhibit R-1D">
+      <Table ss:ExpandedColumnCount="18" x:FullColumns="1" x:FullRows="1">
+         <Column ss:Width="28.5"/>
+         <Column ss:Width="35"/>
+         <Column ss:Width="70"/>
+         <Column ss:Width="70"/>
+         <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="279.75"/>
+         <Column ss:Width="22.5"/>
+         <Column ss:Width="400"/>
+         <Column ss:Width="80" ss:Span="9"/>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16" ss:StyleID="title">
+               <Data ss:Type="String">Air Force • Budget Amendment FY 2018 • RDT&amp;E Program</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16" ss:StyleID="title">
+               <Data ss:Type="String">Exhibit R-1D</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16"/>
+         </Row>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16"/>
+         </Row>
+         <Row>
+            <Cell ss:MergeAcross="6"/>
+            <Cell ss:Index="8" ss:MergeAcross="9" ss:StyleID="m148848802">
+               <Data ss:Type="String">Cost ($ in Millions)</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Line#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Type</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">PE#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Project#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">PE/Project/Accomplishments/Planned Programs Title</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">BA#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Description</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Prior Years</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2016</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2017</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2018 Base</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2018 OCO</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2018 Total</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2019</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2020</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2021</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2022</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">54</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0306250F</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Cyber Operations Technology Development</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">US Cyber Command’s (USCYBERCOM) mission is to deter or defeat strategic threats to US interests and infrastructure, provide mission assurance for the operations and defense of the Department of Defense information environment, and support the achievement of Joint Force Commander objectives.  
+
+USCYBERCOM in conjunction with the Services and National Agencies will develop and expand infrastructure architectures and capabilities/tools to support Cyber Mission Forces (CMF).
+
+The portfolio was restructured to facilitate alignment of resources to four program areas.
+
+The focus is on four broad program areas: 
+
+    1.  Common Services: funding is for enterprise capabilities that enable mission execution for the Cyber Mission Forces. Common Services includes a Unified Platform (UP) to enable CMF to conduct planning and execution of full-spectrum cyber operations.  UP supports and links the following common service capabilities enabling the CMF: Command and Control; defensive cyber operations; situational awareness; and training and assessment. 
+
+    2. Access Platforms: funding supports development of capabilities and/or infrastructures used by Cyber Mission Forces for employment of access on networks to create effects.  Efforts include research, analysis, testing, assessment and integration.  Further details are held at higher classification levels.
+
+    3. Tools: funding supports development of common and specialized tools critical to gain access to or create effects on networks.  Efforts include research, studies, analysis, testing, assessment of development, integration, and operational assessment of cyberspace capabilities, methodologies and tactics. Funding also supports OCO requirements for Cyber, Joint Task Force ARES.
+
+    4. Analytics: funding supports capabilities used in Cyber Mission Force operations to store, correlate, and analyze data collected from multiple sources to garner unique insights to enable decision making.
+
+The origin, details and specific aspects of these efforts are classified and will be provided on a need-to-know basis.  
+
+This is in Budget Activity 4, Advanced Component Development and Prototypes, because efforts are necessary to evaluate integrated technologies, representative modes, or prototype systems in a high fidelity and realistic operating environment.</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">91.845</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">162.644</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">316.787</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.400</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">322.187</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">203.833</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">200.530</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">213.998</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">219.345</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">54</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0306250F</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">646008</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">US Cyber Command Technology Development</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">US Cyber Command’s (USCYBERCOM) mission is to deter or defeat strategic threats to US interests and infrastructure, provide mission assurance for the operations and defense of the Department of Defense information environment, and support the achievement of Joint Force Commander objectives.  
+
+USCYBERCOM in conjunction with the Services and National Agencies will develop and expand infrastructure architectures and capabilities/tools to support Cyber Mission Forces (CMF).
+
+The portfolio was restructured to facilitate alignment of resources to four program areas.
+
+The focus is on four broad program areas: 
+
+    1.  Common Services: funding is for enterprise capabilities that enable mission execution for the Cyber Mission Forces. Common Services includes a Unified Platform (UP) to enable CMF to conduct planning and execution of full-spectrum cyber operations.  UP supports and links the following common service capabilities enabling the CMF: Command and Control; defensive cyber operations; situational awareness; and training and assessment. 
+
+    2. Access Platforms: funding supports development of capabilities and/or infrastructures used by Cyber Mission Forces for employment of access on networks to create effects.  Efforts include research, analysis, testing, assessment and integration.  Further details are held at higher classification levels.
+
+    3. Tools: funding supports development of common and specialized tools critical to gain access to or create effects on networks.  Efforts include research, studies, analysis, testing, assessment of development, integration, and operational assessment of cyberspace capabilities, methodologies and tactics. Funding also supports OCO requirements for Cyber, Joint Task Force ARES.
+
+    4. Analytics: funding supports capabilities used in Cyber Mission Force operations to store, correlate, and analyze data collected from multiple sources to garner unique insights to enable decision making.
+
+The origin, details and specific aspects of these efforts are classified and will be provided on a need-to-know basis.  
+
+This is in Budget Activity 4, Advanced Component Development and Prototypes, because efforts are necessary to evaluate integrated technologies, representative modes, or prototype systems in a high fidelity and realistic operating environment.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">91.845</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">162.644</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">316.787</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.400</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">322.187</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">203.833</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">200.530</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">213.998</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">219.345</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">54</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0306250F</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">646008</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Access Platforms</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">83.434</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">83.434</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">54</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0306250F</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">646008</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Analytics</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">32.752</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">32.752</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">54</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0306250F</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">646008</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Combatant Command Support</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">29.164</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">36.642</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">54</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0306250F</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">646008</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Common Services</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">82.013</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">82.013</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">54</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0306250F</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">646008</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Defend the Nation</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">35.218</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">71.359</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">54</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0306250F</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">646008</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Operate and Defend the DoDIN / Cyber Situational Awareness / Unified Platform</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">27.463</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">54.643</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">54</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0306250F</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">646008</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Tools</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">118.588</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.400</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">123.988</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-7]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-7]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-7]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-7]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-7]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-10]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-10]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+                        xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                        xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                        xmlns="urn:schemas-microsoft-com:office:excel">
+         <PageSetup>
+            <Layout x:Orientation="Landscape" x:CenterHorizontal="1" x:CenterVertical="0"/>
+            <Header x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED"/>
+            <Footer x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED&#xA;Page &amp;P of &amp;N"/>
+            <PageMargins x:Left="1" x:Right="1"/>
+         </PageSetup>
+         <FitToPage/>
+         <Print>
+            <FitHeight>0</FitHeight>
+            <ValidPrinterInfo/>
+            <FitWidth>1</FitWidth>
+            <HorizontalResolution>600</HorizontalResolution>
+            <VerticalResolution>600</VerticalResolution>
+         </Print>
+         <PageBreakZoom>60</PageBreakZoom>
+         <Selected/>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+               <ActiveRow>1</ActiveRow>
+               <ActiveCol>1</ActiveCol>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+   </Worksheet>
+</Workbook>

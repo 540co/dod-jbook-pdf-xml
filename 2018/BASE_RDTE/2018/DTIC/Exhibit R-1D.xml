@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40"
+          xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/022009/r2"
+          xmlns:fn="http://www.w3.org/2005/xpath-functions"
+          xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/022009/jb"
+          xmlns:o="urn:schemas-microsoft-com:office:office">
+   <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"
+                       xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+                       xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                       xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2">
+      <Author>Comptroller XML Exhibits System</Author>
+      <Title>Exhibit R-1D</Title>
+      <Created>2017-05-18T09:33:40.496-04:00</Created>
+      <Company>DTIC</Company>
+      <Version>1.2</Version>
+   </DocumentProperties>
+   <ExcelWorkbook xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+                  xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                  xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                  xmlns="urn:schemas-microsoft-com:office:excel">
+      <WindowHeight>10000</WindowHeight>
+      <WindowWidth>10000</WindowWidth>
+      <WindowTopX>120</WindowTopX>
+      <WindowTopY>30</WindowTopY>
+      <ProtectStructure>False</ProtectStructure>
+      <ProtectWindows>False</ProtectWindows>
+   </ExcelWorkbook>
+   <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+         <Alignment ss:Vertical="Bottom"/>
+         <Borders/>
+         <Font/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="title">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="m148887696">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="9" ss:Bold="0"/>
+      </Style>
+      <Style ss:ID="m148848802">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s21">
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s26">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s33">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s42">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s50">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s66">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s67">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s68">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s70">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFFFFF" ss:Pattern="Gray125" ss:PatternColor="#000000"/>
+      </Style>
+      <Style ss:ID="s71">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="8" ss:Italic="1"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s77">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#F3F4F1" ss:Pattern="Solid"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s92">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="8" ss:Italic="1"/>
+         <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s93">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s94">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Gray125" ss:PatternColor="#000000"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Exhibit R-1D">
+      <Table ss:ExpandedColumnCount="18" x:FullColumns="1" x:FullRows="1">
+         <Column ss:Width="28.5"/>
+         <Column ss:Width="35"/>
+         <Column ss:Width="70"/>
+         <Column ss:Width="70"/>
+         <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="279.75"/>
+         <Column ss:Width="22.5"/>
+         <Column ss:Width="400"/>
+         <Column ss:Width="80" ss:Span="9"/>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16" ss:StyleID="title">
+               <Data ss:Type="String">Defense Technical Information Center • Budget Estimates FY 2018 • RDT&amp;E Program</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16" ss:StyleID="title">
+               <Data ss:Type="String">Exhibit R-1D</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16"/>
+         </Row>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16"/>
+         </Row>
+         <Row>
+            <Cell ss:MergeAcross="6"/>
+            <Cell ss:Index="8" ss:MergeAcross="9" ss:StyleID="m148848802">
+               <Data ss:Type="String">Cost ($ in Millions)</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Line#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Type</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">PE#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Project#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">PE/Project/Accomplishments/Planned Programs Title</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">BA#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Description</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Prior Years</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2016</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2017</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2018 Base</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2018 OCO</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2018 Total</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2019</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2020</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2021</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2022</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">163</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0605801KA</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Defense Technical Information Center</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">The Defense Technical Information Center’s (DTIC) unique mission is to aggregate and fuse science and technology data to provide rapid, accurate, and reliable knowledge to researchers and developers of the next generation of technologies needed to assure our national security. DTIC, a DoD Field Activity, is the DoD’s singular executive agent and designated source for DoD-funded scientific, technical, engineering, and industry-related information.  DTIC also operates DoD Information Analysis Centers (IACs) focused on Defense Systems, Cyber Security and Information Systems, and Homeland Defense and Security.
+
+Each year, DoD invests over $12.0 Billion in research, development and procurement of advanced technologies needed to defend our nation.  DTIC preserves the fruits of these costly labors for reuse across the enterprise.  As an efficient and cost-effective steward of technical information, DTIC provides nearly instantaneous answers to researchers seeking state-of-the-art data relevant to their projects.  DTIC regularly prevents duplication of experiments, tests, and prototyping activities because researchers can see what has already been done in their field of effort, even if prior research resulted in a dead end.  Their work can pick up from the point of most recent results.  Using DTIC-created forums, researchers, Warfighters, and industry partners can also rapidly collaborate and connect across the DoD research and engineering (R&amp;E) enterprise.  Finally, DTIC provides a department-level map of R&amp;D activity.  This map gives decision-makers insight into current and past research, highlighting where progress is being made and by whom.  Through the preservation and sharing of the results of billions of dollars of past DoD investments, DTIC increases the return on past investments and accelerates current efforts, saving the Department precious time and dollars.  Through its collaboration tools and outreach to the R&amp;E community, DTIC connects researchers across the lab enterprise, to include researchers and engineers, Warfighters and DoD’s industry partners. 
+
+DTIC’s strategic themes center on customer focus, innovation, operational excellence, and strategic partnering.  In support of these themes, DTIC’s organizational efforts are focused on the following priority areas:
+1) Search:  Develop new algorithms that enable our users to quickly discover useful information and to ensure we present the most relevant information.  Expand and enhance our data collections to improve the quality and completeness of the data. 
+2) Collaboration:  Provide collaboration platforms for the DoD science and technology community to work together on investments that efficiently deliver solutions to the Warfighter.
+3) Access Identity:  Strengthen methods of user authentication through the use of public key infrastructure (PKI) tokens, biometrics and other methods to grant access to recognized, trusted and authorized users.  Protect intellectual property (IP) and industry proprietary data assets entrusted to DTIC’s stewardship (protect information access).
+4) Data Fusion/Analysis:  Gather information from multiple data sources and provide knowledge products that fuse the disparate data sets into a single view of the life cycle of research.  Present an overarching picture of research investment that enables decision-makers to link multiple efforts with integrated capabilities (employ resources to highest priority efforts and coordinate efforts across Services).  
+5) Cyber Security:  Continue to leverage state-of-the art technologies, processes and practices designed to protect DTIC networks, computers, programs and data from attack, damage or unauthorized access.
+6) Data Center Optimization/Cloud:  Migrate services to cloud providers to improve availability, redundancy, and mission flexibility; to reduce time to deliver new capabilities; to save costs; and to enhance cyber security.
+
+DTIC recognizes the need to accomplish its mission while increasing the value of its services and products in an environment of Department-wide budget reductions.  DTIC has reduced its headquarter staffing, physical footprint, civilian personnel and support contractors.  DTIC has restructured the IAC program, and continues to consolidate its data center.  
+
+Despite reduced budgets, DTIC has taken on additional programs, to include its new role in leading the Department in efforts to provide public access to DoD-funded journal articles and research data and increase outreach to industry through DTIC’s Defense Innovation Marketplace.  Moreover, DTIC activities promote citizen science.  Citizen science mobilizes the public to engage in the scientific process and thereby address real-world problems.  Citizen scientists identify research questions, collect and analyze data, interpret results, make new discoveries, develop technologies and applications, and solve complex problems.  DTIC continues to ensure its activities are efficient and effective, meet users’ expectations, and employ industry best practices and standards, while protecting its wealth of information from cyber threats. 
+
+DTIC's restructured Information Analysis Centers (IACs) drive innovation and technological development by anticipating and responding to the information needs of the defense and broader community. The IAC Program Office provides core funding, management and oversight of three IACs, which are chartered by DoD to collect, analyze, and disseminate worldwide scientific and technical information in specialized fields. The IAC multi-award task order contracts ensure that new research, analysis, and development builds on prior investments and puts to work the best practices of government, industry, and academia. The IAC approach was identified as a "best practice" by the Director of Defense Procurement and Acquisition Policy in a January 2015 memo wherein he promoted maximum use of the IAC contracts across DoD.  The IACs are structured into three application areas:  Cyber Security and Information Systems, Homeland Defense and Security, and Defense Systems. As part of the Department's acquisition improvement initiatives, the IAC multi-award contracts enhance competition, increase usage of small businesses, and reduce costs. For the last several years, competition inherent in the IAC model has produced savings of 17-25 percent over projected costs, delivering vetted technical expertise to address many of the complex challenges DoD faces. An independent assessment by the Center for Strategic and International Studies reported that the IACs improve affordability, productivity, and standardization within defense acquisition programs. Providing the acquisition enterprise access to thousands of industry subject matter experts, DTIC's IACs perform over $1.0 Billion of customer-funded research and prototyping annually.  The results of the work are a rich source of new material in DTIC's information asset collections and are available to users across the Department (and other federal agencies, e.g., Department of Energy, Department of Homeland Security).
+
+This Program Element (PE) supports DTIC mission operations. DTIC focuses on three core mission areas (Collection, Dissemination and IACs) and purchases space and shared services (e.g., human resources (HR); financial management; contracting; IT security; communications; and civilian payroll services) from expert and efficient DoD providers.</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">106.813</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">57.133</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">43.834</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">54.145</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">54.145</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">57.647</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">59.348</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">61.302</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">63.454</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">163</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605801KA</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Defense Technical Information Center</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">DTIC is responsible for developing, coordinating and enabling a strong scientific and technical information (STINFO) program for the Assistant Secretary of Defense for Research and Engineering (ASD(R&amp;E)) and the DoD scientific &amp; technical (S&amp;T) enterprise. In this role, DTIC sets policy for scientific and technical information (STI) exchanges for the research and engineering (R&amp;E) community. DTIC’s aim is to maximize the availability and use of technical information and products resulting from Defense-funded technical activities while ensuring restrictions to safeguard national security, export control, and intellectual property rights.
+
+Recognizing the common elements across budget justification documents, progress reports, completed work reports, studies, and journal articles, DTIC is mapping relationships to enable users to access the life cycle of research projects from planning to final results. DTIC employs information technology to verify and validate information submitted and improve user confidence in DoD research documentation.
+
+DTIC is leading the Department’s efforts to implement public access to published journal articles, and digital data from research funded by taxpayers. In this role, DTIC is actively working with partners across the Services, components, other federal agencies and publishers.  These ongoing efforts directly complement and support the Department’s objectives associated with Citizen Science.  Consistent with the Administration’s (Office of Management and Budget) emphasis for open standards and machine readable formats, DTIC initiated the transition from paper and Portable Document Format (PDF) based information to Web Service Extensible Markup Language (XML) standard data submission and machine readable delivery. DTIC partnered with the OSD Comptroller to collect investment account budget justification documentation in XML and embed this XML in PDF for justification books delivered to Congress. DTIC employed this same technology in collecting S&amp;T progress reports from the Services and Agencies, and Independent Research and Development (IR&amp;D) data from industry. DTIC is planning the migration of its completed technical reports collection to the same open standards, i.e., machine readable formats.  
+
+Through the use of commercial search technology, DTIC provides search capability that links its knowledge of the DoD domain and metadata to support both text searches and data mining. DTIC continually works to enable additional features within our search capabilities and from commercial partners to improve information discovery and relevance.
+
+DoD conducts science and technology research via the following means:  60+ labs, Federally Funded Research and Development Centers (FFRDCs), DTIC’s Information Analysis Centers (IACs), and other contracts and grants.  Spanning over a dozen distinct priority area communities of interest, the results of this work is available through DTIC’s web-based R&amp;E Gateway.  To protect this information, DTIC regulates access through a database of registered users.  In addition, DTIC uses commercial software in compliance with DoD Identity Management Standards to provide instant authenticated access to users of either the Common Access Card (CAC), External Certificate Authority (ECA), or Personal Identity Verification (PIV) cards.  DTIC’s unclassified assets, tools and community interaction capabilities foster innovation, competition and identification of solutions in an access-controlled environment.
+
+Focus on User Communities and Distribution Points:  DTIC supports user communities on the network where they work, i.e., NIPRNET, SIPRNET and public internet, and uniquely provides access controls within unclassified and classified material to protect intellectual property in our search, distribution, and collaboration tools.
+
+- DoD’s RDT&amp;E Enterprise:  As a Field Activity to ASD(R&amp;E)/AT&amp;L, DTIC’s priority is the RDT&amp;E enterprise, hosting information assets and tools on the NIPRNET (the primary network for the community).
+
+- Warfighter:  Improving coordination between the acquisition enterprise and warfighter communities, DTIC hosts a subset of information assets and tools on the SIPRNET. DTIC is working to expand the availability of science and technology (S&amp;T) information, to include Independent Research and Development (IR&amp;D), on the SIPRNET.  DTIC is continuing its efforts to establish parity of information and capabilities on applications hosted on both NIPRNET and SIPRNET platforms.
+
+- Industry and Academia via Public Internet:  Engaging industry outside the NIPRNET firewall to support acquisition improvement initiatives and encourage the introduction of innovation, DTIC hosts unclassified public information and tools accessible to all users on the Internet. The Public Access initiative adds importance to the public distribution point, to encourage technology transfer of basic and public research to the private sector, and to give an economic boost to small businesses that can use that data to provide new applications to consumers.
+
+Summary.  DTIC protects and preserves DoD’s multi-billion dollar investment in research, which empowers the acquisition enterprise through innovative tools, information systems, and decision support capabilities. The efficiency benefits can be enormous.  Each 1 percent increase in the reuse of S&amp;T efforts produces over $100 Million in savings that can be redirected.  Those savings come from elimination of inefficient redundancy (and unnecessary delays), increased community interaction, and ultimately, a more capable military.  DTIC is uniquely positioned to support and to ensure the value of DoD’s R&amp;D portfolio is fully realized.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">94.012</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">51.385</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">38.086</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">49.071</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">49.071</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">52.631</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">54.332</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">56.286</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">58.438</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">163</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605801KA</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Defense Technical Information Center</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">51.385</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">38.086</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">49.071</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">49.071</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">163</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605801KA</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">002</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Information Analysis Centers</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">DoD Information Analysis Centers (IACs), established under DoD Instruction 3200.14, serve as a vital resource in providing timely, relevant information directly to users when and where it is needed. IACs serve as a bridge between the warfighter and the Acquisition/Research community, providing essential technical analysis and data support to a diverse customer base, to include the Combatant Commands (CCMDs), the Office of the Secretary of Defense, Defense Agencies, and the Military Services. IACs actively partner and collaborate with Defense Research and Engineering (R&amp;E) focus groups and communities of interest in areas of specialized fields or specific technologies. The IACs create and maintain comprehensive knowledge analysis centers that include historical, technical, scientific, and other data and information collected worldwide. They are staffed with scientists, engineers and information specialists to provide research and analysis to customers with diverse, complex and challenging requirements. IAC operations directly support the warfighter, and play an ongoing and critical role in solving key CCMD operational issues such as cyber security, unmanned aerial vehicle visual/audible signature reduction, and improvements to the ballistic resistance of body armor.
+
+The IAC Program Management Office at DTIC performs contract acquisition, management, and operational support for IAC contract operations and the technical information that is generated as a result of research and studies. In a time of shrinking budgets and increasing responsibility, IACs are a valuable resource for accessing scientific and technical information culled from efforts to solve new and historic challenges.  Direct IAC customer support activities, such as Technical Area Task (TAT) order processing, Basic Center Operations (BCO) support, Defense Finance and Accounting Service (DFAS) activities, contracting/acquisition related activities, etc., are funded in part through partnerships with the Defense R&amp;E community and the annual collection of customer reimbursements for shared direct costs, in accordance with the IAC Reimbursable Review Board (IRRB) recommendations, with OSD-COMPT and Office of General Counsel concurrence.  This represents the maximum cost-sharing with IAC customers allowable, per guidance from the OSD Office of General Counsel. Annual IAC efforts and accomplishments are dependent on the level of participation and collaboration by the R&amp;E community at large.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.801</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.748</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.748</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.074</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.074</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.016</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.016</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.016</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.016</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">163</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605801KA</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">002</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Information Analysis Centers</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.748</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.748</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.074</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.074</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-8]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-8]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">167</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0605998KA</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Management HQ - Defense Technical Information Center (DTIC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.400</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.187</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">4.187</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.987</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.787</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.836</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.886</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">167</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605998KA</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Management HQ - Defense Technical Information Center (DTIC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">This program element (PE) provides funding for the Management Headquarters (HQ) element of the Defense Technical Information Center (DTIC), a DoD Field Activity to the Assistant Secretary of Defense for Research and Engineering (ASD(R&amp;E)/AT&amp;L).  The PE supports personnel compensation for HQ-assigned civilians, along with related administrative support costs.  This second DTIC PE, established in FY 2017, is designed to track activities deemed as headquarters functions, with no operational efficiencies or enhancement to mission.
+
+The PE supports the following HQ functions and mission essential activities critical to the success of DTIC’s business operations, and mandated by law or regulation: 
+
+- Activity leadership, strategic planning, and Front Office support staff.
+-- The front office staff (6 authorizations) represents a small component of this PE.  Most of the specialized functions and skill-sets described below are centralized activities within the PE, yet support the larger organization and its employees.  These activities were consolidated as a means to improve efficiencies throughout DTIC, and are essential to the operation of DTIC’s primary PE 0605801KA.
+-- Reductions to DTIC’s HQ staffing levels continue, reducing civilian full time equivalents (FTEs) below FY 2017 levels. 
+- Financial Management and Comptroller.  Provides integrated resource management at the Agency level to obtain, control, and execute budget and manpower authorities to support the organization's mission requirements.  Develops and prepares agency budget documents and exhibits for submission to both OSD and Congress.
+-- Accounting support to DTIC’s mission operations; partners with the Defense Finance and Accounting Service to present accurate financial reporting and Fund Balance with Treasury. 
+-- Financial Improvement and Audit Readiness (FIAR) activities and oversight in compliance with the Department’s audit goals, objectives, and milestones.
+- Human Resources (HR) Liaison Support.  Provides the DTIC enterprise with payroll processing and “Hire to Retire” mission support; oversees and organizes employee training, professional development, and certification programs (e.g., Acquisition, Financial Management, and IT programs).
+-- Coordinates recruitment placement and classification action for the mission areas; liaison to the Defense Finance and Accounting Service for HR servicing and the Defense Logistics Agency (DLA) for Equal Employment Opportunity (EEO) program maintenance.
+- Mandatory Records Management compliance activities and administration programs.
+- IT Management/Chief Information Officer (CIO).  Collects, analyzes, and reports information necessary to effectively and efficiently manage enterprise IT resources; CIO functions are performed in compliance with DoD-CIO guidance, instructions and mandates. 
+- IT Help Desk/Local Area Network (LAN).  Office automation supports desktop computing customers; resolves IT-related equipment or system incidents; provides assured system and network availability, info delivery, and secure IT solutions to support current and future business and mission requirements.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.400</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.187</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.187</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.987</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.787</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.836</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.886</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">167</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605998KA</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Management HQ - Defense Technical Information Center</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.400</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.187</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.187</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+                        xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                        xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                        xmlns="urn:schemas-microsoft-com:office:excel">
+         <PageSetup>
+            <Layout x:Orientation="Landscape" x:CenterHorizontal="1" x:CenterVertical="0"/>
+            <Header x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED"/>
+            <Footer x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED&#xA;Page &amp;P of  &amp;N"/>
+            <PageMargins x:Left="1" x:Right="1"/>
+         </PageSetup>
+         <FitToPage/>
+         <Print>
+            <FitHeight>0</FitHeight>
+            <ValidPrinterInfo/>
+            <FitWidth>1</FitWidth>
+            <HorizontalResolution>600</HorizontalResolution>
+            <VerticalResolution>600</VerticalResolution>
+         </Print>
+         <PageBreakZoom>60</PageBreakZoom>
+         <Selected/>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+               <ActiveRow>1</ActiveRow>
+               <ActiveCol>1</ActiveCol>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+   </Worksheet>
+</Workbook>

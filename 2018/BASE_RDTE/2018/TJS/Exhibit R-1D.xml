@@ -1,0 +1,3550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?><Workbook xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40"
+          xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/022009/r2"
+          xmlns:fn="http://www.w3.org/2005/xpath-functions"
+          xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/022009/jb"
+          xmlns:o="urn:schemas-microsoft-com:office:office">
+   <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office"
+                       xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+                       xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                       xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2">
+      <Author>Comptroller XML Exhibits System</Author>
+      <Title>Exhibit R-1D</Title>
+      <Created>2017-05-18T13:07:51.055-04:00</Created>
+      <Company>DTIC</Company>
+      <Version>1.2</Version>
+   </DocumentProperties>
+   <ExcelWorkbook xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+                  xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                  xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                  xmlns="urn:schemas-microsoft-com:office:excel">
+      <WindowHeight>10000</WindowHeight>
+      <WindowWidth>10000</WindowWidth>
+      <WindowTopX>120</WindowTopX>
+      <WindowTopY>30</WindowTopY>
+      <ProtectStructure>False</ProtectStructure>
+      <ProtectWindows>False</ProtectWindows>
+   </ExcelWorkbook>
+   <Styles>
+      <Style ss:ID="Default" ss:Name="Normal">
+         <Alignment ss:Vertical="Bottom"/>
+         <Borders/>
+         <Font/>
+         <Interior/>
+         <NumberFormat/>
+         <Protection/>
+      </Style>
+      <Style ss:ID="title">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+      </Style>
+      <Style ss:ID="m148887696">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="9" ss:Bold="0"/>
+      </Style>
+      <Style ss:ID="m148848802">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s21">
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s26">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9" ss:Bold="1"/>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s33">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s42">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+      </Style>
+      <Style ss:ID="s50">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s66">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s67">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s68">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s70">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFFFFF" ss:Pattern="Gray125" ss:PatternColor="#000000"/>
+      </Style>
+      <Style ss:ID="s71">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="8" ss:Italic="1"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+      </Style>
+      <Style ss:ID="s77">
+         <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#F3F4F1" ss:Pattern="Solid"/>
+         <NumberFormat ss:Format="#,##0.000"/>
+      </Style>
+      <Style ss:ID="s92">
+         <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font x:Family="Swiss" ss:Size="8" ss:Italic="1"/>
+         <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s93">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <NumberFormat ss:Format="@"/>
+      </Style>
+      <Style ss:ID="s94">
+         <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+         <Borders>
+            <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+            <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+         </Borders>
+         <Font ss:Size="9"/>
+         <Interior ss:Color="#FFCC99" ss:Pattern="Gray125" ss:PatternColor="#000000"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Exhibit R-1D">
+      <Table ss:ExpandedColumnCount="18" x:FullColumns="1" x:FullRows="1">
+         <Column ss:Width="28.5"/>
+         <Column ss:Width="35"/>
+         <Column ss:Width="70"/>
+         <Column ss:Width="70"/>
+         <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="279.75"/>
+         <Column ss:Width="22.5"/>
+         <Column ss:Width="400"/>
+         <Column ss:Width="80" ss:Span="9"/>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16" ss:StyleID="title">
+               <Data ss:Type="String">The Joint Staff • Budget Estimates FY 2018 • RDT&amp;E Program</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16" ss:StyleID="title">
+               <Data ss:Type="String">Exhibit R-1D</Data>
+            </Cell>
+         </Row>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16"/>
+         </Row>
+         <Row xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+              xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+              xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+              ss:AutoFitHeight="0"
+              ss:Height="15.75">
+            <Cell ss:MergeAcross="16"/>
+         </Row>
+         <Row>
+            <Cell ss:MergeAcross="6"/>
+            <Cell ss:Index="8" ss:MergeAcross="9" ss:StyleID="m148848802">
+               <Data ss:Type="String">Cost ($ in Millions)</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Line#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Type</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">PE#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Project#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">PE/Project/Accomplishments/Planned Programs Title</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">BA#</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Description</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">Prior Years</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2016</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2017</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2018 Base</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2018 OCO</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2018 Total</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2019</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2020</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2021</Data>
+            </Cell>
+            <Cell ss:StyleID="s26">
+               <Data ss:Type="String">FY 2022</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">104</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0604826J</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Joint C5 Capability Development, Integration, and Interoperability Assessments</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Lead command, control, communications, computers, and cyber (C5) assessments, analyses, capability development, and Joint Fires Command and Control (C2) interoperability efforts required to achieve an effective, integrated, and interoperable Joint Force.  Efforts include C5 requirements determination, C5 architectures development and integration, C5 data standardization, Joint Fires C2 interoperability, and C5 integration and interoperability assessments. This was a new PE for FY 2016 and consolidates legacy U. S. Joint Forces Command (JFCOM) PEs that transitioned to the Joint Staff in FY 2013 after JFCOM disestablishment. The following PEs are no longer used:  0604828J - Joint Fires Integration and Interoperability Team (JFI), 0604787J - Joint Systems Integration Command (JSI), and 0607828J - Joint Integration and Interoperability (JII).</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">21.700</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">23.642</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">23.638</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">23.638</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">23.148</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">20.809</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">20.809</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">20.809</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">104</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0604826J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">C5 Assessments and Analyses</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Conduct analysis and assessment activities to inform and enhance Joint warfighter capabilities in support of U.S. National Security requirements. Provide timely, facts-based findings and recommendations for action through the formal DoD decision-making processes used to validate operational requirements and apply funding to field effective, interoperable capabilities. Conduct interoperability assessments and analyses that evaluate capability and interoperability of fielded and emerging command, control, communications, computers, and cyber (C5), and systems in response to operational issues and shortfalls.  Conduct integration and integration assessment efforts focused on emerging capabilities in wireless devices and security, tactical command and control and networking, satellite communications, advanced secure digital datalinks, and coalition data exchanges.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.196</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.898</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.898</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.898</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.361</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.022</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.022</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.022</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">104</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0604826J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">C5 Assessments and Analyses</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.196</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.898</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.898</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.898</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">104</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0604826J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">002</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">C5 Capability Development</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Lead C2 capability development and integration in order to achieve an interdependent joint force. This will be accomplished through four focus areas:
+Capability Development, C4 Architectures, Data and Services, and Interoperability and Integration.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.079</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.594</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.590</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.590</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.637</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.637</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.637</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.637</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">104</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0604826J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">002</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">C5 Capability Development</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">7.079</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.594</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.590</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.590</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">104</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0604826J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">003</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Fires C2 Interoperability</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Lead interoperability efforts across DoD and partner nations at the operational and tactical level for mission partner operations, fire support, Combat Identification (CID), and Friendly Force Tracking (FFT) capabilities. Conduct Joint Fire Support (JFS)/Joint Close Air Support (JCAS) and CID-FFT action plans to fulfill CJCSI-directed, General Officer/Flag Officer (GOFO) level responsibilities. Conduct JFS Executive Steering Committee (ESC) standardization team accreditation visits to U.S. and partner nation schoolhouses to ensure Memorandum of Agreement (MOA) signatories are accomplishing schoolhouse training in compliance with the Memorandas.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.425</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">104</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0604826J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">003</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Fires C2 Interoperability</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">04</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.425</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.150</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Joint Integrated Air &amp; Missile Defense Organization (JIAMDO)</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">The Joint Integrated Air and Missile Defense Organization(JIAMDO) is the organization within the Department of Defense (DoD) chartered to plan, coordinate, and oversee Integrated Air and Missile Defense (IAMD) requirements, joint operational concepts, and operational architectures.  As part of the Joint Staff (JS), JIAMDO supports the Chairman in meeting his Title 10 responsibilities as they relate to IAMD issues.  JIAMDO is the operational community’s proponent for characteristics, requirements, and capabilities in IAMD, and is the joint IAMD proponent within the DoD’s resource allocation structures.  JIAMDO also leads IAMD mission and utility analysis, integrates IAMD within the Force Protection joint capability area, and conducts evaluations, demonstrations of joint IAMD architectures, and provides advocacy for innovative, technically mature, and affordable solutions.  
+
+JIAMDO has established a close partnership with Combatant Commands (CCMDs) and maintains liaison offices at major CCMD locations to facilitate coordination of integration issues and requirements.  In particular, JIAMDO maintains close coordination with U.S. Strategic Command (USSTRATCOM) and U.S. Northern Command (USNORTHCOM) in support of ballistic missile defense of the U.S.  JIAMDO provides the CJCS and the Joint Requirements Oversight Council the ability to meet statutory responsibilities to review the cost, schedule, and performance criteria of Missile Defense Agency missile defense programs, and assesses the validity of those criteria in relation to national and military requirements.  At the request of USSTRATCOM and at the direction of the CJCS, JIAMDO supports USSTRATCOM in the development of the IAMD Prioritized Capabilities List and the Global Integrated IAMD Assessment and analysis of the Ballistic Missile Defense System.  JIAMDO supports the USSTRATCOM ballistic missile early warning mission by ensuring operational and technical requirements are integrated into the theater missile warning architecture.  JIAMDO also provides direct support to North American Aerospace Defense Command and USNORTHCOM for homeland air and cruise missile surveillance issues and technical oversight of homeland capability solutions.</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">343.535</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">34.139</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">38.059</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">36.581</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">36.581</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">36.469</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">33.901</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">33.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">33.500</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Core</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Joint Integrated Air and Missile Defense Organization (JIAMDO) is the organization within the Department of Defense (DoD) chartered to plan, coordinate, and oversee joint Integrated Air and Missile Defense (IAMD) requirements, joint operational concepts, and operational architectures.  As part of the Joint Staff, JIAMDO supports the Chairman of the Joint Chiefs of Staff in meeting his Title 10 responsibilities as they relate to IAMD issues.  JIAMDO is the operational community's proponent for characteristics, requirements, and capabilities in IAMD, and is the joint IAMD proponent within the DoD's resource allocation structures.  JIAMDO also leads IAMD mission area and utility analyses, integrates IAMD within the Force Protection joint capability area, and conducts evaluations and demonstrations of joint IAMD architectures and concepts.
+
+JIAMDO has established a close partnership with Combatant Commands (CCMDs) and maintains liaison offices at major CCMD locations to facilitate coordination of integration issues and requirements.  In particular, JIAMDO maintains close coordination with USSTRATCOM and USNORTHCOM in support of ballistic missile defense of the U.S.  JIAMDO provides the CJCS and the Joint Requirements Oversight Council the ability to meet statutory responsibilities to review the cost, schedule, and performance criteria of Missile Defense Agency missile defense programs, and assesses the validity of those criteria in relation to national and military requirements.  At the request of USSTRATCOM, and at the direction of the CJCS, JIAMDO supports USSTRATCOM in development of the IAMD Prioritized Capability List, the Global Integrated IAMD Assessment, and analysis of the Ballistic Missile Defense System (BMDS).  JIAMDO supports the USSTRATCOM ballistic missile early warning mission by ensuring operational and technical requirements are integrated into the theater missile warning architecture.  JIAMDO also provides direct support to North American Aerospace Defense Command and USNORTHCOM for homeland air and cruise missile surveillance issues.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">119.901</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">14.339</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">14.329</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">9.343</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">9.343</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.271</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.271</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.476</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.476</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Core</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">14.339</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">14.329</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">9.343</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">9.343</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P002</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Homeland</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Homeland program transitioned to a USAF-led Program of Record across the Future Year Defense Program in the beginning of FY 2016.  JIAMDO will retain operational and requirements oversight.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">67.544</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P003</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Black Dart</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Joint Integrated Air and Missile Defense Organization (JIAMDO) is the organization within the Department of Defense (DoD) chartered to plan, coordinate, and oversee Joint Integrated Air and Missile Defense (IAMD) requirements, joint operational concepts, and operational architectures.  As part of the Joint Staff, JIAMDO supports the Chairman of the Joint Chiefs of Staff in meeting his Title 10 responsibilities as they relate to IAMD issues.  JIAMDO is the operational community's proponent for characteristics, requirements, and capabilities in IAMD, and is the joint IAMD proponent within the DoD's resource allocation structures.  JIAMDO also leads AMD mission area and utility analyses, integrates air and missile defense within the Force Protection joint capability area, and conducts evaluations and demonstrations of joint IAMD architectures and concepts.
+
+JIAMDO has established a close partnership with Combatant Commands (CCMDs) and maintains liaison offices at major CCMD locations to facilitate coordination of integration issues and requirements.  In particular, JIAMDO maintains close coordination with U.S. Strategic Command (USSTRATCOM) and U.S. Northern Command (USNORTHCOM) in support of ballistic missile defense of the U.S.  JIAMDO provides the CJCS and the Joint Requirements Oversight Council the ability to meet statutory responsibilities to review the cost, schedule, and performance criteria of Missile Defense Agency missile defense programs, and assesses the validity of those criteria in relation to national and military requirements.  At the request of USSTRATCOM and at the direction of the CJCS, JIAMDO supports USSTRATCOM in development of the IAMD Prioritized Capability List, the Global Integrated Air and Missile Defense Assessment, and analysis of the Ballistic Missile Defense System (BMDS).  JIAMDO supports the USSTRATCOM ballistic missile early warning mission by ensuring operational and technical requirements are integrated into the theater missile warning architecture.  JIAMDO also provides direct support to North American Aerospace Defense Command and USNORTHCOM for homeland air and cruise missile surveillance issues.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">23.039</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.444</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.300</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.300</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.366</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.366</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P003</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Black Dart Counter Unmanned Aircraft Systems Technology Demonstration</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.444</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P004</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Distributed Engineering Plant</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Joint Integrated Air and Missile Defense Organization (JIAMDO) is the organization within the Department of Defense (DoD) chartered to plan, coordinate, and oversee Joint Integrated Air and Missile Defense (IAMD) requirements, joint operational concepts, and operational architectures.  As part of the Joint Staff, JIAMDO supports the Chairman of the Joint Chiefs of Staff in meeting his Title 10 responsibilities as they relate to IAMD issues.  JIAMDO is the operational community's proponent for characteristics, requirements, and capabilities in IAMD, and is the joint IAMD proponent within the DoD's resource allocation structures.  JIAMDO also leads AMD mission area and utility analyses, integrates air and missile defense within the Force Protection joint capability area, and conducts evaluations and demonstrations of joint IAMD architectures and concepts.
+
+JIAMDO has established a close partnership with Combatant Commands (CCMDs) and maintains liaison offices at major CCMD locations to facilitate coordination of integration issues and requirements.  In particular, JIAMDO maintains close coordination with U.S. Strategic Command (USSTRATCOM) and U.S. Northern Command (USNORTHCOM) in support of ballistic missile defense of the U.S.  JIAMDO provides the CJCS and the Joint Requirements Oversight Council the ability to meet statutory responsibilities to review the cost, schedule, and performance criteria of Missile Defense Agency missile defense programs, and assesses the validity of those criteria in relation to national and military requirements.  At the request of USSTRATCOM and at the direction of the CJCS, JIAMDO supports USSTRATCOM in development of the IAMD Prioritized Capability List, the Global Integrated Air and Missile Defense Assessment, and analysis of the Ballistic Missile Defense System (BMDS).  JIAMDO supports the USSTRATCOM ballistic missile early warning mission by ensuring operational and technical requirements are integrated into the theater missile warning architecture.  JIAMDO also provides direct support to North American Aerospace Defense Command and USNORTHCOM for homeland air and cruise missile surveillance issues.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">14.248</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.738</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.738</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.900</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.475</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.533</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.533</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P004</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Distributed Engineering Plant (JDEP)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.738</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.738</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P005</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Nimble Fire</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Joint Integrated Air and Missile Defense Organization (JIAMDO) is the organization within the Department of Defense (DoD) chartered to plan, coordinate, and oversee Joint Integrated Air and Missile Defense (IAMD) requirements, joint operational concepts, and operational architectures.  As part of the Joint Staff, JIAMDO supports the Chairman of the Joint Chiefs of Staff in meeting his Title 10 responsibilities as they relate to IAMD issues.  JIAMDO is the operational community's proponent for characteristics, requirements, and capabilities in IAMD, and is the joint IAMD proponent within the DoD's resource allocation structures.  JIAMDO also leads AMD mission area and utility analyses, integrates air and missile defense within the Force Protection joint capability area, and conducts evaluations and demonstrations of joint IAMD architectures and concepts.
+
+JIAMDO has established a close partnership with Combatant Commands (CCMDs) and maintains liaison offices at major CCMD locations to facilitate coordination of integration issues and requirements.  In particular, JIAMDO maintains close coordination with U.S. Strategic Command (USSTRATCOM) and U.S. Northern Command (USNORTHCOM) in support of ballistic missile defense of the U.S.  JIAMDO provides the CJCS and the Joint Requirements Oversight Council the ability to meet statutory responsibilities to review the cost, schedule, and performance criteria of Missile Defense Agency missile defense programs, and assesses the validity of those criteria in relation to national and military requirements.  At the request of USSTRATCOM and at the direction of the CJCS, JIAMDO supports USSTRATCOM in development of the IAMD Prioritized Capability List, the Global Integrated Air and Missile Defense Assessment, and analysis of the Ballistic Missile Defense System (BMDS).  JIAMDO supports the USSTRATCOM ballistic missile early warning mission by ensuring operational and technical requirements are integrated into the theater missile warning architecture.  JIAMDO also provides direct support to North American Aerospace Defense Command and USNORTHCOM for homeland air and cruise missile surveillance issues.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">61.539</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.230</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">16.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">16.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">14.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">13.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.650</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.650</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P005</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">JIAMDO Nimble Fire</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">8.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.230</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">16.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">16.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P006</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Cruise Missile Combat Identification (CID)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Joint Integrated Air and Missile Defense Organization (JIAMDO) is the organization within the Department of Defense (DoD) chartered to plan, coordinate, and oversee Joint Integrated Air and Missile Defense (IAMD) requirements, joint operational concepts, and operational architectures.  As part of the Joint Staff, JIAMDO supports the Chairman of the Joint Chiefs of Staff in meeting his Title 10 responsibilities as they relate to IAMD issues.  JIAMDO is the operational community's proponent for characteristics, requirements, and capabilities in IAMD, and is the joint IAMD proponent within the DoD's resource allocation structures.  JIAMDO also leads AMD mission area and utility analyses, integrates air and missile defense within the Force Protection joint capability area, and conducts evaluations and demonstrations of joint IAMD architectures and concepts.
+
+JIAMDO has established a close partnership with Combatant Commands (CCMDs) and maintains liaison offices at major CCMD locations to facilitate coordination of integration issues and requirements.  In particular, JIAMDO maintains close coordination with U.S. Strategic Command (USSTRATCOM) and U.S. Northern Command (USNORTHCOM) in support of ballistic missile defense of the U.S.  JIAMDO provides the CJCS and the Joint Requirements Oversight Council the ability to meet statutory responsibilities to review the cost, schedule, and performance criteria of Missile Defense Agency missile defense programs, and assesses the validity of those criteria in relation to national and military requirements.  At the request of USSTRATCOM and at the direction of the CJCS, JIAMDO supports USSTRATCOM in development of the IAMD Prioritized Capability List, the Global Integrated Air and Missile Defense Assessment, and analysis of the Ballistic Missile Defense System (BMDS).  JIAMDO supports the USSTRATCOM ballistic missile early warning mission by ensuring operational and technical requirements are integrated into the theater missile warning architecture.  JIAMDO also provides direct support to North American Aerospace Defense Command and USNORTHCOM for homeland air and cruise missile surveillance issues.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">57.264</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.356</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.498</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.355</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.475</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.475</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">145</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0605126J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P006</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Cruise Missile Combat Identification (CID)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.356</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">6.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-23]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-23]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">171</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0204571J</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Joint Staff Analytical Support</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">The Joint Staff Analytical Support (JSAS) family of programs provides defense analytical support capabilities for The Joint Staff (TJS) and Combatant Commands (CCMDs).  JSAS encompasses the developmental tools and infrastructure required to conduct analyses and formulates the results to best assist the Chairman in fulfilling his statutory responsibilities.  Key deliverables provided by JSAS include development and implementation of Joint Concepts, wide-ranging force structure assessments, course of action development for the Joint Force environment, analyses and studies to aid in decision-making, and other analysis efforts to implement timely, low-cost joint force development initiatives.</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">13.516</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.983</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">7.464</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">7.712</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">7.712</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">6.870</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.135</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.134</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">5.134</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">171</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0204571J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Future Joint Force Development</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Joint Staff Analytical Support (JSAS) program supports the Chairman of the Joint Chiefs of Staff (CJCS) Title 10, Section 153 statutory responsibilities that directs the analytical support, management, development, evaluation, and implementation of joint concepts in order to advance the operational effectiveness of the future Joint Force and enable the introduction of new capabilities.  The Joint Concepts Program assists the CJCS in the formulation of “best military advice” by providing a long-term (out to 20 years) vision of how the Joint Force will be developed to respond to the future operating environment characterized by trans-regional, multi-domain, and multi-functional challenges.    Key deliverables include:  The Joint Operating Environment (JOE); Capstone Concept for Joint Operations (CCJO); identification, development, and implementation of Joint Concepts necessary to address future operating environment challenges and achieve objectives of the National Military Strategy (NMS); and CJCSI 3010 Guidance for Development and Implementation of Joint Concepts.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.410</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.983</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.564</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.712</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.712</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.470</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.135</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.134</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.134</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">171</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0204571J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Future Joint Force Development</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.983</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.564</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.712</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">5.712</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">171</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0204571J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P002</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Global Force Management Data Initiative (GFM DI)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Joint Staff Analytical Support (JSAS) family of programs provides defense analytical support capabilities for the Joint Staff (TJS) and Combatant Commands (CCMDs).   JSAS encompasses the developmental tools and infrastructure required to conduct analyses and formulates the results to best assist the Chairman in fulfilling his statutory responsibilities.   Under the umbrella of analytical support tools are the Automated Global Force Management Tool (AGT) and the Collaborative Issue Resolution Tool (CIRT), both which will meet requirements set forth in Title 10 U.S.C. and the Unified Command Plan (UCP) for automating the Global Force Management Implementation Guidance Forces For (Assignment and Apportionment) tables.  Additionally, the Joint Organizational Server (JOS) will be the enabler system for Joint Staff personnel to be entered, near-real-time, into the automated Forces For Process.
+
+RDT&amp;E efforts for GFM DI ended in FY 2015.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">9.106</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">171</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0204571J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P002</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">N/A</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">171</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0204571J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P003</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">GFM DI Enterprise Force Structure (EFS) Integration</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Global Force Management Data Initiative (GFM DI) Enterprise Force Structure (EFS) integration effort provides the next steps for GFM Mission Application enhancements intrinsic to balancing global force demand against the total military force. This complex and multi-variant task requires modernized technologies that must provide integrated information by linking authoritative force structure data (derived from the GFM DI Organizational Servers) to C2 data (resident in GFM mission applications). The Joint Staff Operations Directorate is responsible for GFM Allocation and is the Functional Manager of the GFM mission applications. Accordingly, the Joint Staff Operations Directorate will employ a joint strategy for efficiently fulfilling Enterprise Force Structure (EFS) data utility.
+
+The DoD must quickly transition from legacy systems that promulgate data disparity across the Defense enterprise in order to meet National military objectives that have evolved from large force scenarios to operations that include small-to-full scale activities. As stated in both the NSS and NMS, our adversaries demonstrate the ability to readily transition from non-kinetic to kinetic means. Consequently, Information Technology (IT) superiority, capabilities, and recognition of associated vulnerabilities are an operational imperative. Yet, warfighters, strategic planners and GFM decision makers are unable to seamlessly exchange information in a manner that keeps pace with globally changing threats to rapidly and accurately accomplish force sourcing activities to support SecDef allocation decisions. TJS is mandated to utilize the Service Org Server (OS) EFS data to enhance managing, assessing, and displaying the worldwide disposition of U.S. Forces. Key deliverables include incrementally developed, operationally realistic capability enhancements focused on Resource-Informed Planning and GFM sourcing functionality required by JROCMs, the Capability Development Document (CDD) for GFM DI; Joint Command and Control (JC2) Capability Definition Package (CDP); Joint Operation Planning Process (JOPP) and Assessment CDP; and Force Planning &amp; Deployment Planning/Execution CDP.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.900</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.400</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">171</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0204571J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P003</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Critical upgrades to GFM Mission Applications directly supporting Enterprise Force Structure Integration.</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.900</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-12]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-12]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">174</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0303166J</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Support to Information Operations Capability (IO) Capabilities</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">23.875</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">10.404</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.857</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.781</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.781</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">174</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0303166J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Information Operations Range</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Joint Information Operations Range (JIOR) provides DoD a closed-loop, persistent, geographically distributed network to conduct training, testing, and experimentation in support of Computer Network Attack (CNA)/Computer Network Defense (CND) in a threat representative environment with realistic and relevant targets and command &amp; control systems of interest. JIOR uniquely provides Services, Combatant Commanders (CCMD), and other government agencies the ability to test deployment and collaboratively gain insights into advanced Cyberspace, Information Operations (IO), and Electronic Warfare (EW) capabilities under current and future operational environment conditions. JIOR integrates other cyberspace ranges, replicates critical infrastructure, cyber targets, Internet traffic, and opposing forces.  These provide the capacity to meet Presidential policy and CJCS mandates for training and certification of 6000+ cyber warriors by 2017 and DoD/Interagency cyber vulnerability assessments. The JIOR security construct allows users to develop, test, and secure their unique cyber capabilities and protect their identity during range activities. The JIOR conducts multiple, simultaneous, and disparate training, testing, and experimentation events.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">23.875</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.404</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.857</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.781</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.781</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">174</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0303166J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Information Operations Range</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">10.404</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.857</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.673</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">COCOM Exercise Engagement and Training Transformation (CE2T2) - MHA</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">These programs support readiness of the joint force by creating a Joint Training Environment to replicate the complex and changing operational environment.  These investments directly support defense strategic guidance and enhance joint warfighting readiness by building training capabilities that support the operational readiness of the force.  The elements associated with this coordinated effort consist of:
+
+- Joint National Training Capability (JNTC)
+
+- Joint Simulation System (JSS)
+
+- Joint Knowledge Development &amp; Distribution Capability (JKDDC)
+
+- USSTRATCOM SPACE CYBER
+
+- Air Force Joint National Training Capability (JNTC)
+
+- Navy Joint National Training Capability (JNTC)
+
+JNTC:  The mission of the Joint National Training Capability (JNTC) program is to advance joint capabilities and interoperability by concentrating on emerging joint training requirements through collective training experiences using a managed set of globally distributed capabilities and activities. The program resources Service and SOF joint training and enabling capabilities that improve interoperability and realism of tactical and operational joint training between the Services and USSOCOM. JNTC enables joint collective training for Combatant Commands and Services by developing relevant joint training content and ensuring global distributed access. The enabling capabilities support the Services and USSOCOM in their requirement to provide trained and ready forces in support of Combatant Command operational requirements. This program will focus efforts on improving, rather than consuming readiness and create a ready surge force consistent with Chairman’s guidance.
+
+JSS:  The Joint Simulation System (JSS), consisting of the Joint Theater Level Simulation (JTLS) and the Joint Conflict and Tactical Simulation (JCATS), provides a low cost, distributed or deployable, web-based joint training capability with a small technical and operator footprint.  JSS funding provides warfighters with joint simulations and tools that enhance and enable Joint training across Services, Combatant Commands, Combat Support Agencies, NATO, and multinational partners. The Joint simulations and tools provided by JSS funding are critical enablers that support the delivery of trained, capable, and interoperable joint forces.  JSS’s intent is to maintain a capability to share simulation environments with coalition partners by continuing limited investments to ensure JTLS and JCATS remain relevant and provide reliable, low-cost, small footprint, distributed, and deployable joint training solutions. 
+ 
+JKDDC:  Joint Knowledge Development &amp; Distribution Capability (JKDDC) Joint Knowledge Online (JKO) is the program of record for online joint training that implements and operationalizes the OSD T2 JKDDC.  JKO directly supports the CE2T2 program by developing, delivering, tracking, reporting, and supporting online training for Combatant Command exercises; Combatant Command required training; doctrinally based Joint Operations Core Curriculum; multinational, coalition, Interagency training; OSD required training (externally funded): and, administration of the Senior Enlisted Joint Professional Military Education (SEJPME) program.  JKO expends research, development test and evaluation (RDTE) funding for leading edge technology review, market research, and integration to directly enhance specific aspects of the training capability as required to support Combatant Commanders, CE2T2 Program Goals and Objectives, and the Chairman Joint Chiefs of Staff (CJCS) training guidance. JKO satisfies all requirements necessary to provide the CE2T2 stakeholders with a distributed learning capability and access to web-based training content, learning resources, and distributed online training tools.
+
+USSTRATCOM CYBER: The USSTRATCOM CYBER funding provided architecture and analysis support to Space Security and Defense Program (SSDP) and the JOINT SPACE OPERATIONS CENTER (JICSpOC) through Modeling, Simulation and Analysis (MS&amp;A); Trade-Off Analysis; Concept Development; Scenario Development; and Military Utility Analysis.
+
+Air Force JNTC:  The Air Force JNTC funding provides a focused upgrade to develop models for space-based and Cyber capabilities for integration into the Joint Live, Virtual, and Constructive (JLVC) environment.  The Air Force supports development of cross-domain solutions that enable the integration of systems with disparate security requirements, and significantly increases the training audience to additional joint and coalition participants.  Additionally, the Air force supports the integration of tactical models into the virtual environment.  
+
+Navy JNTC:  These funds enable the Navy to develop unique maritime capabilities that integrate JLVC elements into a seamless joint training environment. The Navy program activities include conducting research, development, test and evaluation, and cross-service architecture certification on joint-capable systems.  Additionally, the program develops cross-domain architectures for U.S. and Coalition Forces and ensures sister service modeling/simulation and instrumentation efforts follow a unified standard.</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">44.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">44.500</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">42.940</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">40.071</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">40.063</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">41.044</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">701</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Air Force Joint National Training Capability (JNTC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Air Force JNTC funding provides a focused upgrade to develop models for space-based capabilities for integration into the Joint Live, Virtual, and Constructive (JLVC) environment.  The Air Force supports development of cross-domain solutions that enable the integration of systems with disparate security requirements, and significantly increases the training audience to additional joint and coalition participants.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.964</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.964</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.917</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.869</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.869</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.869</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">701</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Air Force Joint National Training Capability (JNTC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.964</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.964</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">758</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint National Training Capability (JNTC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Investment in the Joint National Training Capability (JNTC) program will enable Service and Combatant Commands to train as they operate.  The net funding increase from FY 2016 through FY 2018 represents planned growth and internal reprogramming decisions to accelerate development of a cloud-enabled joint training environment.  The funding requested continues to modernize joint training capabilities into a single integrating architecture for Joint Training that is aligned to the DoD Chief Information Officer IT mandates.  Funding supports the development of cloud-enabled modular training application services.  Program intent is to reduce dependence on touch labor, and mitigate the impact of reductions in operation and sustainment funding.  Focus must be maintained to deliver operationally relevant training environments and respond to changes in global security landscape and the warfighter’s operational environment.  JNTC enables the Department of Defense to be responsive to the warfighters’ pace of changing operational concepts, threat environments, and best practices. In FY 2018, this investment continues expanding capabilities and access for Service and Combatant Command trainers to plan and execute joint training.  Funds support improved relevance and realism of training by providing capabilities that replicate the contemporary and future operating environment.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">32.550</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">32.550</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">31.370</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">29.052</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">29.044</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">30.025</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">758</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint National Training Capability (JNTC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">32.550</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">32.550</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">761</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Simulations Systems (JSS)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">The Joint Simulation System (JSS) will decompose, harvest, and reuse DoD investment in joint simulations to develop cloud-enabled modular services (CEMS), reaching Initial Operating Capability in FY 2016.  JSS will further development of existing Joint Conflict and Tactical Simulation (JCATS) and Joint Theater Level Simulation (JTLS) as required, to remain relevant and responsive to meet Combatant Command training requirements as the Joint Training Environment is implemented.  JSS will provide design and development of web-based applications used as services in CEMS environment.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.103</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.103</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.067</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">761</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Simulation System (JSS)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.103</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.103</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">769</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Knowledge Development &amp; Distribution Capability (JKDDC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Knowledge Online (JKO) is the DoD unique and authoritative source for online joint training.  JKO is tasked to develop a DoD enterprise-wide, Joint Individual Training Toolkit of web-enabled individual and small group training products, services, and enabling training technology.  Products and services are developed in response to OSD (P&amp;R) CE2T2 Program Goals &amp; Objectives guidance, CJCS High Interest Training Issues, Joint Staff training priorities, and JKO Stakeholders (Combatant Commands, Services, and Combat Support Agencies, Interagency, and Multinational) prioritized training requirements.  JKO supports a career-long joint learning continuum, joint professional military education, and tailored common training standards to Service members for tasks that are jointly executed, resulting in trained, capable, and interoperable joint forces.  JKO research and development will improve all components of the Joint Content Management Architecture including:  
+
+• JKO Learning Content Management System (LCMS): Development and enhancement is required to integrate advanced individual and staff training technologies and methodologies with larger scale, collective training exercises, and modernize military training capability with a DoD enterprise-wide online training toolkit. JKO LCMS is necessary to develop, host and deliver JKO courses and track/report students’ progress, completions and survey results more effectively and efficiently. JKO LCMS extends web-based, distributed access to mission-critical joint training requirements. There are currently over 2.7 million registered users of the JKO LCMS.
+
+• Small Group Scenario Trainer (SGST) desktop modeling and simulation based training: This JKO capability trains and prepares thousands of military and civilian personnel deploying to Combatant Command theaters of operation prior to serving in their assigned Combined/Joint Task Force (C/JTF) billets. Specifically, C/JTF ‘battle staffs’ will be adequately trained, as individuals and the staffs collectively, based on SGST development and implementation throughout the joint training enterprise. JKO integration of SGST simulation exercise scenarios and prerequisite JKO courses enable blended learning training support to large-scale, collective training exercises that augment the Joint Event Learning Cycle and in meeting combatant commanders exercise objectives.
+
+• JKO mobile application training device development:  Development and enhancements facilitate the global distribution of web-based joint training content on portable, hand-held platforms (cell phones and tablets).  JKO Mobile App extends access to training courses and learning resources to personal use of mobile phones and tablets.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.168</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.168</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.126</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.108</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.108</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.108</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">769</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Knowledge Development &amp; Distribution Capability (JKDDC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.168</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">4.168</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">772</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Navy Joint National Training Capability (JNTC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">These funds enable the Navy to develop unique maritime capabilities that integrate JLVC elements into a seamless joint training environment. The Navy program activities include conducting research, development, test and evaluation, and cross-service architecture certification on joint-capable systems.  Additionally, the program develops cross-domain architectures for U.S. and Coalition Forces and ensures sister service modeling/simulation and instrumentation efforts follow a unified standard.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.715</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.715</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.460</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.042</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.042</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.042</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">183</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0804767J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">772</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Navy Joint National Training Capability (JNTC)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">06</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.715</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.715</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-20]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-20]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">195</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0208043J</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Planning and Decision Aid System (PDAS)</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">12.919</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">1.842</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.038</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.097</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">3.097</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">195</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0208043J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Planning and Decision Aid System OPS</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Provides engineering and testing support to the Planning and Decision Aid System, a classified Joint Staff automated information system supporting the combatant commanders, Services, and Department of Defense Agencies.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">12.919</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">1.842</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.038</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.037</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.097</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">3.097</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-3]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-3]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">247</Data>
+            </Cell>
+            <Cell ss:StyleID="s71">
+               <Data ss:Type="String">PE</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">0902298J</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Management HQ - OJCS</Data>
+            </Cell>
+            <Cell ss:StyleID="s66">
+               <Data ss:Type="String">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s67">
+               <Data ss:Type="String">Provides RDT&amp;E funds for the Joint Staff Information Network (JSIN). JSIN is the network infrastructure (for both classified and unclassified information) enabling collaboration and information-sharing among the Joint Staff, Combatant Commands (CCMD) and the Services. The JSIN also provides crucial business-related, decision-making information, and workflow support affecting military operations in support of the JCS. JSIN improves actions processing for faster coordination of critical issues with Combatant Commands, Services, and Agencies, as well as within TJS.</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">15.722</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">2.953</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.826</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s68">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">247</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">Project</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0902298J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Staff Information Network (JSIN)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Provides RDT&amp;E funds for the Joint Staff Information Network (JSIN). JSIN is the network infrastructure (for both classified and unclassified information) enabling collaboration and information-sharing among the Joint Staff, Combatant Commands (CCMD) and the Services. The JSIN also provides crucial business-related, decision-making information, and workflow support affecting military operations in support of the JCS. JSIN improves actions processing for faster coordination of critical issues with Combatant Commands, Services, and Agencies, as well as within TJS.</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">15.722</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.953</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.826</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number"/>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">247</Data>
+            </Cell>
+            <Cell ss:StyleID="s92">
+               <Data ss:Type="String">A/PP</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">0902298J</Data>
+            </Cell>
+            <Cell ss:StyleID="s93">
+               <Data ss:Type="String">P001</Data>
+            </Cell>
+            <Cell ss:StyleID="s42">
+               <Data ss:Type="String">Joint Staff Information Network (JSIN)</Data>
+            </Cell>
+            <Cell ss:StyleID="s33">
+               <Data ss:Type="Number">07</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">2.953</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.826</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s50">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Accomplishments/Planned Programs (A/PP) Totals (sum of all A/PP's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s77" ss:Formula="=SUM(R[-1]C:R[-1]C)"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Congressional Add Totals (sum of all CA's for this project)</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+            <Cell ss:StyleID="s70"/>
+         </Row>
+         <Row ss:AutoFitHeight="0" ss:Height="12" ss:StyleID="s21">
+            <Cell ss:MergeAcross="6" ss:StyleID="m148887696">
+               <Data ss:Type="String">Project Totals (sum of all projects for this PE)</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-4]:R[-1]C[-4],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-5]:R[-1]C[-5],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-6]:R[-1]C[-6],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-7]:R[-1]C[-7],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-8]:R[-1]C[-8],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-9]:R[-1]C[-9],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-10]:R[-1]C[-10],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-11]:R[-1]C[-11],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-12]:R[-1]C[-12],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+            <Cell ss:StyleID="s77"
+                  ss:Formula="=SUMIF(R[-4]C[-13]:R[-1]C[-13],&#34;=Project&#34;,R[-4]C:R[-1]C)">
+               <Data ss:Type="Number">0.000</Data>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/jb"
+                        xmlns:r2a="http://www.dtic.mil/comptroller/xml/schema/r2a"
+                        xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/r2"
+                        xmlns="urn:schemas-microsoft-com:office:excel">
+         <PageSetup>
+            <Layout x:Orientation="Landscape" x:CenterHorizontal="1" x:CenterVertical="0"/>
+            <Header x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED"/>
+            <Footer x:Data="&amp;C&amp;&#34;Arial,Bold&#34;&amp;12UNCLASSIFIED&#xA;Page &amp;P of  &amp;N"/>
+            <PageMargins x:Left="1" x:Right="1"/>
+         </PageSetup>
+         <FitToPage/>
+         <Print>
+            <FitHeight>0</FitHeight>
+            <ValidPrinterInfo/>
+            <FitWidth>1</FitWidth>
+            <HorizontalResolution>600</HorizontalResolution>
+            <VerticalResolution>600</VerticalResolution>
+         </Print>
+         <PageBreakZoom>60</PageBreakZoom>
+         <Selected/>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+               <ActiveRow>1</ActiveRow>
+               <ActiveCol>1</ActiveCol>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+   </Worksheet>
+</Workbook>
