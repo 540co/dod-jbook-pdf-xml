@@ -48,6 +48,9 @@ for ($y=$fromYear; $y<$toYear; $y++) {
   }
 }
 
+sort($numericSuperSet['MasterJustificationBook']);
+sort($numericSuperSet['JustificationBook']);
+
 
 
 $grid = [];
