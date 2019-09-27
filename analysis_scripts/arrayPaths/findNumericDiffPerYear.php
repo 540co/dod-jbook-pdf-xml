@@ -51,6 +51,10 @@ for ($y=$fromYear; $y<$toYear; $y++) {
 sort($numericSuperSet['MasterJustificationBook']);
 sort($numericSuperSet['JustificationBook']);
 
+echo "Writing allYearArraySuperset.json\n";
+$fp = fopen('allYearArraySuperset.json', 'w');
+fwrite ($fp, json_encode($numericSuperSet, JSON_PRETTY_PRINT));
+fclose($fp);
 
 
 $grid = [];
@@ -81,6 +85,8 @@ foreach ($numericSuperSet['JustificationBook'] as $k=>$v) {
     }
   }
 }
+
+
 
 echo "Writing MasterJustificationBookNumericPerYear.csv\n";
 $fp = fopen('MasterJustificationBookNumericPerYear.csv', 'w');
