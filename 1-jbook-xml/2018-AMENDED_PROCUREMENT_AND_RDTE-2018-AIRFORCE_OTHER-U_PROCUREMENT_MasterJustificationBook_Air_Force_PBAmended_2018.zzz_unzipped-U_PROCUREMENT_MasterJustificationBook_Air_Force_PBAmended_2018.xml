@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jb:MasterJustificationBook xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/022009/jb" targetSchemaVersion="1.0">
+    <jb:BudgetYear>2018</jb:BudgetYear>
+    <jb:BudgetCycle>PBAmended</jb:BudgetCycle>
+    <jb:SubmissionDate>2017-10</jb:SubmissionDate>
+    <jb:ServiceAgencyName>Air Force</jb:ServiceAgencyName>
+    <jb:CoverPage/>
+    <jb:ExternalDocuments>
+        <jb:UserP1Doc>
+            <jb:Title>Comptroller Exhibit P-1</jb:Title>
+            <jb:FileName>3080F_2019PB_Unclassified_Exhibit_P1.pdf</jb:FileName>
+        </jb:UserP1Doc>
+    </jb:ExternalDocuments>
+    <jb:TableOfContents>
+        <jb:TocItemList>
+            <jb:TocItem>
+                <jb:Title>Air Force</jb:Title>
+                <jb:Location>Volume 1</jb:Location>
+            </jb:TocItem>
+        </jb:TocItemList>
+    </jb:TableOfContents>
+    <jb:DocumentAssemblyOptions>
+        <jb:ForceEvenPages>true</jb:ForceEvenPages>
+        <jb:GenerateP1m>true</jb:GenerateP1m>
+    </jb:DocumentAssemblyOptions>
+    <jb:JustificationBookGroupList>
+        <jb:JustificationBookGroup>
+            <jb:JustificationBookInfoList>
+                <jb:JustificationBookInfo>
+                    <jb:BookDescription>Air Force</jb:BookDescription>
+                    <jb:BookLabel>Volume</jb:BookLabel>
+                    <jb:BookNumber>1</jb:BookNumber>
+                    <jb:JustificationBook targetSchemaVersion="1.0">
+                        <jb:Title>Justification Book</jb:Title>
+                        <jb:BudgetYear>2018</jb:BudgetYear>
+                        <jb:BudgetCycle>PBAmended</jb:BudgetCycle>
+                        <jb:SubmissionDate>2017-10</jb:SubmissionDate>
+                        <jb:ServiceAgencyName>Air Force</jb:ServiceAgencyName>
+                        <jb:AppropriationCode>3010F</jb:AppropriationCode>
+                        <jb:AppropriationName>Aircraft Procurement, Air Force</jb:AppropriationName>
+                        <jb:CoverPage>
+                            <jb:Title>846510 / Special Update Program</jb:Title>
+                        </jb:CoverPage>
+                        <jb:ExternalDocuments>
+                            <jb:UserP1Doc>
+                                <jb:Title>Comptroller Exhibit P-1</jb:Title>
+                                <jb:FileName>3080F_2019PB_Unclassified_Exhibit_P1.pdf</jb:FileName>
+                            </jb:UserP1Doc>
+                        </jb:ExternalDocuments>
+                        <jb:DocumentAssemblyOptions>
+                            <jb:ForceEvenPages>true</jb:ForceEvenPages>
+                            <jb:GenerateLineItemTocByTitle>true</jb:GenerateLineItemTocByTitle>
+                            <jb:GenerateLineItemTocByBA>true</jb:GenerateLineItemTocByBA>
+                            <jb:IncludeTableOfVolumes>true</jb:IncludeTableOfVolumes>
+                        </jb:DocumentAssemblyOptions>
+                        <proc:LineItemList xmlns:proc="http://www.dtic.mil/comptroller/xml/schema/20100219/procurement">
+                            <proc:LineItem quantityUnits="Each" quantityUnitName="Each" unitCostUnits="Dollars" totalCostUnits="Millions" manufacturerRateUnits="Yearly">
+                                <proc:LineItemNumber>846510</proc:LineItemNumber>
+                                <proc:LineItemTitle>Special Update Program</proc:LineItemTitle>
+                                <proc:P1LineNumber>61</proc:P1LineNumber>
+                                <proc:BudgetYear>2018</proc:BudgetYear>
+                                <proc:BudgetCycle>PBAmended</proc:BudgetCycle>
+                                <proc:SubmissionDate>2017-10</proc:SubmissionDate>
+                                <proc:ServiceAgencyName>Air Force</proc:ServiceAgencyName>
+                                <proc:AppropriationNumber>3080F</proc:AppropriationNumber>
+                                <proc:AppropriationTitle>Other Procurement, Air Force</proc:AppropriationTitle>
+                                <proc:BudgetActivityNumber>4</proc:BudgetActivityNumber>
+                                <proc:BudgetActivityTitle>Other Base Maintenance and Support Equip</proc:BudgetActivityTitle>
+                                <proc:BudgetSubActivityNumber>6</proc:BudgetSubActivityNumber>
+                                <proc:BudgetSubActivityTitle>Special Support Projects</proc:BudgetSubActivityTitle>
+                                <proc:ResourceSummary>
+                                    <proc:TotalCost>
+                                        <proc:PriorYear>629.371</proc:PriorYear>
+                                        <proc:CurrentYear>577.71</proc:CurrentYear>
+                                        <proc:BudgetYearOneBase>881.98</proc:BudgetYearOneBase>
+                                        <proc:BudgetYearOneOCO>0</proc:BudgetYearOneOCO>
+                                        <proc:BudgetYearOne>881.98</proc:BudgetYearOne>
+                                        <proc:BudgetYearTwo>713.612</proc:BudgetYearTwo>
+                                        <proc:BudgetYearThree>653.158</proc:BudgetYearThree>
+                                        <proc:BudgetYearFour>687.218</proc:BudgetYearFour>
+                                        <proc:BudgetYearFive>669.865</proc:BudgetYearFive>
+                                        <proc:Total>4812.914</proc:Total>
+                                    </proc:TotalCost>
+                                    <proc:NetProcurementP1>
+                                        <proc:PriorYear>629.371</proc:PriorYear>
+                                        <proc:CurrentYear>577.71</proc:CurrentYear>
+                                        <proc:BudgetYearOneBase>881.98</proc:BudgetYearOneBase>
+                                        <proc:BudgetYearOneOCO>0</proc:BudgetYearOneOCO>
+                                        <proc:BudgetYearOne>881.98</proc:BudgetYearOne>
+                                        <proc:BudgetYearTwo>713.612</proc:BudgetYearTwo>
+                                        <proc:BudgetYearThree>653.158</proc:BudgetYearThree>
+                                        <proc:BudgetYearFour>687.218</proc:BudgetYearFour>
+                                        <proc:BudgetYearFive>669.865</proc:BudgetYearFive>
+                                        <proc:Total>4812.914</proc:Total>
+                                    </proc:NetProcurementP1>
+                                    <proc:TotalObligationAuthority>
+                                        <proc:PriorYear>629.371</proc:PriorYear>
+                                        <proc:CurrentYear>577.71</proc:CurrentYear>
+                                        <proc:BudgetYearOneBase>881.98</proc:BudgetYearOneBase>
+                                        <proc:BudgetYearOneOCO>0</proc:BudgetYearOneOCO>
+                                        <proc:BudgetYearOne>881.98</proc:BudgetYearOne>
+                                        <proc:BudgetYearTwo>713.612</proc:BudgetYearTwo>
+                                        <proc:BudgetYearThree>653.158</proc:BudgetYearThree>
+                                        <proc:BudgetYearFour>687.218</proc:BudgetYearFour>
+                                        <proc:BudgetYearFive>669.865</proc:BudgetYearFive>
+                                        <proc:Total>4812.914</proc:Total>
+                                    </proc:TotalObligationAuthority>
+                                </proc:ResourceSummary>
+                                <proc:Code>A</proc:Code>
+                                <proc:Description>NOTE:
+FY 2018 MISSILE DEFEAT AND DEFENSE ENHANCEMENTS (MDDE) BUDGET AMENDMENT: $+41.0 million is required for address emergency warfighting requirements. 
+
+
+This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress.</proc:Description>
+                                <proc:Justification>This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress.</proc:Justification>
+                                <proc:DocumentAssemblyOptions>
+                                    <proc:p40AItemScheduleSetting>expandItemSuppressExhibit</proc:p40AItemScheduleSetting>
+                                </proc:DocumentAssemblyOptions>
+                            </proc:LineItem>
+                        </proc:LineItemList>
+                    </jb:JustificationBook>
+                </jb:JustificationBookInfo>
+            </jb:JustificationBookInfoList>
+        </jb:JustificationBookGroup>
+    </jb:JustificationBookGroupList>
+</jb:MasterJustificationBook>
