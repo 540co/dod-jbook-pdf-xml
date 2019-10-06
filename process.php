@@ -12,7 +12,8 @@ ini_set('memory_limit', -1);
 
 $longOptions = [
     'step:',
-    'jbook-list:'
+    'jbook-list:',
+    'rglob-pattern:'
 ];
   
 $options = getopt('', $longOptions);
@@ -48,14 +49,23 @@ switch ($options['step']) {
         echo "=========================================================\n";
         echo "[3-convert-xml-to-json]\n";
         echo "=========================================================\n";
-        convertXmlToJson();
+        if (isset($options['rglob-pattern'])) {
+            convertXmlToJson($options['rglob-pattern']);
+        } else {
+            convertXmlToJson('*.xml');
+        }
+        
     break;
 
     case '4-process-json-docs': 
         echo "=========================================================\n";
         echo "[4-process-json-docs]\n";
         echo "=========================================================\n";
-        processJsonDocs();
+        if (isset($options['rglob-pattern'])) {
+            processJsonDocs($options['rglob-pattern']);
+        } else {
+            processJsonDocs('*.json');
+        }
     break;
 }
 
@@ -142,12 +152,20 @@ function downloadJbooks($jbookList) {
 
 }
 
-function saveRecords($recordId, $year, $recordType, $meta, $records, $targetPath) {
-    echo "Saving (".count($records).") ".$year." - ".$recordType."\n";
+
+function saveRecords($jbookRecordId, $recordType, $meta, $records, $targetPath) {
+    echo "<Saving (".count($records).") ".$year." - ".$recordType.">\n";
     
-    foreach ($records as $k=>$record) {
+    foreach ($records as $recordIdx=>$record) {
         $recordToSave = [];
-        $recordToSave['id'] = $year.'-'.$meta['service_agency_name'].'-'.$recordId.'-'.$k;
+        $idFields = [];
+        $idFields[] = $meta['budget_year'];
+        $idFields[] = $meta['service_agency_name'];
+        $idFields[] = $meta['budget_cycle'];
+        $idFields[] = $meta['appropriation_code'];
+        $idFields[] = $jbookRecordId;
+        $idFields[] = $recordIdx;
+        $recordToSave['id'] = str_replace(' ', '', implode('-',$idFields));
         $recordToSave['meta'] = $meta;
         $recordToSave['record'] = $record;
         
@@ -157,21 +175,55 @@ function saveRecords($recordId, $year, $recordType, $meta, $records, $targetPath
 
 }
 
-function processJsonDocs() {
+function processJbookDocObj($jbookType, $filename, $fileRecordId, $jbookGrpIdx, $jbookInfoIdx, $jbookDocObj, $recordType, $meta, $targetPath) {
+    
+    echo "<Process jbook doc object - $recordType>\n";
+    $meta['budget_year'] = $jbookDocObj['JustificationBook']['BudgetYear']['val'];
+    $meta['budget_cycle'] = $jbookDocObj['JustificationBook']['BudgetCycle']['val'];
+    $meta['submission_date'] = $jbookDocObj['JustificationBook']['SubmissionDate']['val'];
+    $meta['service_agency_name'] = $jbookDocObj['JustificationBook']['ServiceAgencyName']['val'];
+    $meta['appropriation_code'] = $jbookDocObj['JustificationBook']['AppropriationCode']['val'];
+    $meta['appropriation_name'] = $jbookDocObj['JustificationBook']['AppropriationName']['val'];
+
+    switch ($recordType) {
+        case 'procurement-lineitems':
+            $records = $jbookDocObj['JustificationBook']['LineItemList']['LineItem'];
+            echo "<record count = ".count($records).">\n";
+        break;
+
+        case 'rdte-programelements':
+            $records = $jbookDocObj['JustificationBook']['R2ExhibitList']['R2Exhibit'];
+            echo "<record count = ".count($records).">\n";
+        break;
+    }
+
+    if ($jbookType == 'masterjbook') {
+        $id = $jbookGrpIdx."-".$jbookInfoIdx."-".$fileRecordId;
+    } else {
+        $id = $fileRecordId;
+    }
+
+    saveRecords($id, $recordType, $meta, $records, $targetPath);
+
+}
+
+function processJsonDocs($rglobPattern='*.json') {
     $sourcePath = './2-jbook-json';
 
     $targetPaths = [];
     $targetPaths['procurement-lineitems'] = './3-procurement-lineitems';
     $targetPaths['rdte-programelements'] = './3-rdte-programelements';
     
+    echo "<Removing / creating target folders>\n";
     foreach ($targetPaths as $targetPath) {
-        if (!file_exists($targetPath)) {
-            echo "Folder does not exist - creating.\n";
-            mkdir($targetPath);
-        }
+        echo "<$targetPath>\n";
+        exec('rm -Rf '.$targetPath);
+        mkdir($targetPath);
     }
 
-    $fileList = rglob($sourcePath.'/*.json');
+    sleep(2);
+
+    $fileList = rglob($sourcePath.'/'.$rglobPattern);
     sort($fileList);
     $fileCount = count($fileList);
 
@@ -184,7 +236,7 @@ function processJsonDocs() {
         echo "[".($fileIdx+1)."/".$fileCount."]\n";
         echo "FILE = ".$filePath."\n";
         echo "----------------------\n";
-
+        
         echo "<Reading JSON into memory>\n";
         $jbookDoc = json_decode(file_get_contents($filePath), TRUE);
 
@@ -192,36 +244,89 @@ function processJsonDocs() {
         $meta['filename'] = $jbookDoc['@filename'];
         $meta['doctype'] = $jbookDoc['@doctype'];
 
-        $records = [];
-
         $recordType = '';
         
         // procurement-lineitems in JBOOKS
         if (isset($jbookDoc['JustificationBook']['LineItemList']['LineItem'])) {
-            $recordType = 'procurement-lineitems';
-            $records = $jbookDoc['JustificationBook']['LineItemList']['LineItem'];
-   
-            $meta['budget_year'] = $jbookDoc['JustificationBook']['BudgetYear']['val'];
-            $meta['budget_cycle'] = $jbookDoc['JustificationBook']['BudgetCycle']['val'];;
-            $meta['submission_date'] = $jbookDoc['JustificationBook']['SubmissionDate']['val'];;
-            $meta['service_agency_name'] = $jbookDoc['JustificationBook']['ServiceAgencyName']['val'];;
-            $meta['appropriation_code'] = $jbookDoc['JustificationBook']['AppropriationCode']['val'];;
-            $meta['appropriation_name'] = $jbookDoc['JustificationBook']['AppropriationName']['val'];;
-
-            saveRecords($jbookDoc['@recordid'], $meta['budget_year'], $recordType, $meta, $records, $targetPaths[$recordType]);
+           $recordType = 'procurement-lineitems';
+           processJbookDocObj(
+               'jbook',
+               $jbookDoc['@filename'], 
+               $jbookDoc['@recordid'], 
+               null,
+               null,
+               $jbookDoc, 
+               $recordType, 
+               $meta, 
+               $targetPaths[$recordType]
+           );
         }
        
-        // procurement-lineitems in MASTER JBOOKS
-        if (isset($jbookDoc['MasterJustificationBook']['JustificationBookGroupList']['JustificationBookGroup'])) {
+        // rdte-programelements in JBOOKS
+        if (isset($jbookDoc['JustificationBook']['R2ExhibitList']['R2Exhibit'])) {
+            $recordType = 'rdte-programelements';
+            processJbookDocObj(
+                'jbook',
+                $jbookDoc['@filename'], 
+                $jbookDoc['@recordid'], 
+                null,
+                null,
+                $jbookDoc, 
+                $recordType, 
+                $meta, 
+                $targetPaths[$recordType]
+            );
+        }
 
-            /*['JustificationBookInfoList']['JustificationBookInfo']['JustificationBook']['LineItemList']['LineItem'] */
-            $recordType = 'procurement-lineitems';
-            //$records = $jbookDoc['MasterJustificationBook']['JustificationBookGroupList']['JustificationBookGroup']['JustificationBookInfoList']['JustificationBookInfo']['JustificationBook']['LineItemList']['LineItem'];
-            //saveRecords($recordType, $meta, $records, $targetPaths[$recordType]);
+        // MASTER JBOOKS
+        if (isset($jbookDoc['MasterJustificationBook']['JustificationBookGroupList']['JustificationBookGroup'])) {
+            foreach ($jbookDoc['MasterJustificationBook']['JustificationBookGroupList']['JustificationBookGroup'] as $jbookGrpIdx=>$jbookGrp) {
+                echo "<MASTER JBOOK GROUP: $jbookGrpIdx>\n";
+                
+                if (isset($jbookGrp['JustificationBookInfoList']['JustificationBookInfo'])) {
+                    foreach ($jbookGrp['JustificationBookInfoList']['JustificationBookInfo'] as $jbookIdx=>$jbook) {
+
+                        // procurement-lineitems in MASTER JBOOKS
+                        if (isset($jbook['JustificationBook']['LineItemList']['LineItem'])) {
+                            $recordType = 'procurement-lineitems';
+                            processJbookDocObj(
+                                'masterjbook',
+                                $jbook['@filename'],
+                                $jbookDoc['@recordid'], 
+                                $jbookGrpIdx, 
+                                $jbookIdx, 
+                                $jbook, 
+                                $recordType, 
+                                $meta, 
+                                $targetPaths[$recordType]
+                            );
+                        }
+
+                        // rdte-programelements in MASTER JBOOKS
+                        if (isset($jbook['JustificationBook']['R2ExhibitList']['R2Exhibit'])) {
+                            $recordType = 'rdte-programelements';
+                            processJbookDocObj(
+                                'masterjbook',
+                                $jbook['@filename'], 
+                                $jbookDoc['@recordid'], 
+                                $jbookGrpIdx, 
+                                $jbookIdx, 
+                                $jbook, 
+                                $recordType, 
+                                $meta, 
+                                $targetPaths[$recordType]
+                            );
+                        }
+
+                    }
+                }
+
+            }
         }
 
         if ($recordType === '') {
-            echo "WARNING: No records found in jbook";
+            echo "<WARNING: No records found in jbook>\n";
+            sleep(1);
         }
 
 
@@ -325,7 +430,7 @@ function determineJbookArrayPaths() {
     
 }
 
-function convertXmlToJson() {
+function convertXmlToJson($rglobPattern='*.xml') {
     $sourcePath = './1-jbook-xml';
     $targetPath = './2-jbook-json';
 
@@ -348,8 +453,8 @@ function convertXmlToJson() {
     }
     echo "<arrayPaths count = ".count($allJbookArrayPaths).">\n";
     echo "=========================================================\n";
-  
-    $fileList = rglob($sourcePath.'/*.xml');
+    
+    $fileList = rglob($sourcePath.'/'.$rglobPattern);
     sort($fileList);
     $fileCount = count($fileList);
 
