@@ -60,7 +60,7 @@ switch ($options['step']) {
 }
 
 function downloadJbooks($jbookList) {
-    $targetPath = '00-jbook-pdf';
+    $targetPath = '0-jbook-pdf';
     echo "<Reading $jbookList>\n";
     $toc = json_decode(file_get_contents($targetPath.'/'.$jbookList));
     if ($toc === null) {
