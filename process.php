@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ERROR | E_PARSE);
+
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/Exception.php';
 require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/Exception/JsonDecodeException.php';
@@ -31,9 +33,6 @@ require __DIR__ . '/540co/keboola/php-csvtable/src/Keboola/CsvTable/Table.php';
 require __DIR__ . '/540co/keboola/php-temp/src/Keboola/Temp/Temp.php';
 require __DIR__ . '/540co/xml-tools/src/Xmltools.php';
 require __DIR__ . '/540co/CsvOutput.php';
-
-
-//use FiveFortyCo\Xmlpipeline\Xmltools;
 
 $GLOBALS['jbookArrayPaths'] = array();
 $GLOBALS['jbookArrayPaths']['MasterJustificationBook'] = array();
@@ -157,7 +156,6 @@ function jsonToCsv() {
         echo "<Csvparser:getCsvFiles>\n";
         $csvfiles = $parser->getCsvFiles();
 
-        
         foreach ($csvfiles as $k=>$v) {
             echo "<Writing: $k>\n";
             
@@ -186,12 +184,10 @@ function jsonToCsv() {
         sleep(2);
         
     }
+
+    echo "\n\n[done]\n";
+    die;
     
-
-
-
-
-
 }
 
 function downloadJbooks($jbookList) {
