@@ -11,12 +11,25 @@ date_default_timezone_set ('GMT');
 ini_set('memory_limit', -1);
 
 $longOptions = [
-    'step:'
+    'step:',
+    'jbook-list:'
 ];
   
 $options = getopt('', $longOptions);
 
+echo "\n\n";
 switch ($options['step']) {
+    case '0-download-jbooks':
+        echo "=========================================================\n";
+        echo "[1-copy-jbook-xml-to-single-folder]\n";
+        echo "=========================================================\n";
+        if (!isset($options['jbook-list'])) {
+            echo "ERROR: jbook-list must be provided => example: --jbook-list 2021_jbook_list.json\n\n";
+            die;
+        }
+        downloadJbooks($options['jbook-list']);
+    break;
+
     case '1-copy-jbook-xml-to-single-folder': 
         echo "=========================================================\n";
         echo "[1-copy-jbook-xml-to-single-folder]\n";
@@ -44,6 +57,89 @@ switch ($options['step']) {
         echo "=========================================================\n";
         processJsonDocs();
     break;
+}
+
+function downloadJbooks($jbookList) {
+    $targetPath = '00-jbook-pdf';
+    echo "<Reading $jbookList>\n";
+    $toc = json_decode(file_get_contents($targetPath.'/'.$jbookList));
+    if ($toc === null) {
+        echo "ERROR: Error reading jbook list file\n\n";
+        die;
+    }
+    
+    $currentDirectory = getcwd();
+
+    $tocFileSegments = explode('_',$jbookList);
+    $targetPathYear = $currentDirectory.'/'.$targetPath.'/'.$tocFileSegments[0];
+    
+    echo "<Removing folder in prep for download: $targetPathYear>\n";
+    sleep(20);
+    $rmCmd = 'rm -Rf '.$targetPathYear;
+    exec($rmCmd);
+
+    echo "<Preparing to download files>\n";
+    sleep(2);
+
+    foreach ($toc as $type=>$year_list) {
+        foreach ($year_list as $year=>$pdf_list) {
+            foreach ($pdf_list as $folder_name=>$pdf_url) {
+    
+            $folder = $targetPathYear."/".$type."/".$year."/".$folder_name;
+            
+            echo "=========================================================\n";
+            echo "<Creating folder $folder>\n";
+            mkdir($folder,0755,TRUE);
+          
+            echo "<DOWNLOAD: $pdf_url => $folder>\n";
+            $pathinfo = pathinfo($pdf_url);
+    
+            $download_successful = FALSE;
+            while ($download_successful == FALSE) {
+                $c_cmd = 'curl --url "'.$pdf_url.'" --output "'.$folder.'/'.$pathinfo['basename'].'"';
+                echo $c_cmd."\n";
+                exec($c_cmd);
+    
+                if (filesize($folder.'/'.$pathinfo['basename']) > 100) {
+                    $download_successful = TRUE;
+                    echo "<OK (".filesize($folder.'/'.$pathinfo['basename']).")>\n";
+                } else {
+                    $download_successful = FALSE;
+                    echo "<ERROR (".filesize($folder.'/'.$pathinfo['basename']).")>\n";
+                    echo "*** WILL TRY AGAIN IN 10 seconds ***\n";
+                    sleep(10);
+                }
+    
+            }
+    
+            // extract attachments from PDF
+            chdir($folder);
+    
+            foreach (glob('*.[pP][dD][fF]') as $filename) {
+                echo "<Extracting attachments from $folder/$filename>\n";
+                exec('qpdf --decrypt "'.$filename.'" "d_'.$filename.'"');
+                exec('rm "'.$filename.'"');
+                exec('mv "d_'.$filename.'" "'.$filename.'"');
+                exec('pdftk "'.$filename.'" unpack_files');
+            }
+             
+            // find .zzz files within the $folder and unzip files to folder with same name as filename (with _unzipped as suffix)
+            foreach (glob('*.[zZ][zZ][zZ]') as $filename) {
+                echo "<Unzipping $filename>\n";
+                exec('unzip "'.$filename.'" -d "./'.$filename.'_unzipped"');
+            }
+    
+            chdir($targetPathYear);
+    
+            echo "=========================================================\n";
+    
+            }
+        }
+    }
+
+    echo "\n\n[done]\n";
+    die;
+
 }
 
 function saveRecords($recordId, $year, $recordType, $meta, $records, $targetPath) {
@@ -133,7 +229,8 @@ function processJsonDocs() {
 
 
 
-
+    echo "\n\n[done]\n";
+    die;
 
 }
 
@@ -158,7 +255,8 @@ function copyJbookXmlToSingleFolder() {
         copy($filePath,$targetPath.'/'.$targetFilename);
     }
 
-    echo "\n[done]\n\n";
+    echo "\n\n[done]\n";
+    die;
     
 }
 
@@ -304,7 +402,8 @@ function convertXmlToJson() {
       
     }
 
-    echo "\n[done]\n\n";
+    echo "\n\n[done]\n";
+    die;
 }
 
 function getXMLPaths($fileYear, $jbookType, $json, $path="") {
@@ -333,10 +432,9 @@ function getXMLPaths($fileYear, $jbookType, $json, $path="") {
   
     }
   
-  }
+}
 
-
-  function rglob($pattern, $flags = 0) {
+function rglob($pattern, $flags = 0) {
     $files = glob($pattern, $flags);
   
     foreach (glob(dirname($pattern).'/*', GLOB_ONLYDIR|GLOB_NOSORT) as $dir) {
