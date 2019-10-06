@@ -53,7 +53,7 @@ echo "\n\n";
 switch ($options['step']) {
     case '0-download-jbooks':
         echo "=========================================================\n";
-        echo "[1-copy-jbook-xml-to-single-folder]\n";
+        echo "[0-download-jbooks]\n";
         echo "=========================================================\n";
         if (!isset($options['jbook-list'])) {
             echo "ERROR: jbook-list must be provided => example: --jbook-list 2021_jbook_list.json\n\n";
@@ -610,8 +610,10 @@ function convertXmlToJson($rglobPattern='*.xml') {
         echo "----------------------\n";
 
         $xml = simplexml_load_file($filePath);
-
-        $jsonDoc = Xmltools::XmlToArray($xml,$jbookType,
+   
+        $jsonDoc = Xmltools::XmlToArray(
+            $xml,
+            $jbookType,
             array('alwaysArray'=>$allJbookArrayPaths, 'removeNamespace'=>true)
         );
 
