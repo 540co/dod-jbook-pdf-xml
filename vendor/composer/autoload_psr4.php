@@ -6,11 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Symfony\\Component\\Filesystem\\' => array($vendorDir . '/symfony/filesystem'),
-    'Seld\\JsonLint\\' => array($vendorDir . '/seld/jsonlint/src/Seld/JsonLint'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
-    'Goetas\\XML\\XSDReader\\' => array($vendorDir . '/goetas/xsd-reader/src'),
-    'FiveFortyCo\\Json\\' => array($vendorDir . '/540co/json-parser/src/FiveFortyCo/Json'),
-    'FiveFortyCo\\' => array($vendorDir . '/540co/xml-tools/src'),
 );

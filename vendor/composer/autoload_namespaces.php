@@ -6,8 +6,4 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Keboola\\Utils' => array($vendorDir . '/keboola/php-utils/src'),
-    'Keboola\\Temp' => array($vendorDir . '/keboola/php-temp/src'),
-    'Keboola\\CsvTable' => array($vendorDir . '/keboola/php-csvtable/src'),
-    'Keboola\\Csv' => array($vendorDir . '/keboola/csv/src'),
 );

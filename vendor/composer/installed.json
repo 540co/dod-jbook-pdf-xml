@@ -1,590 +1,243 @@
 [
-  {
-    "name": "mikemccabe/json-patch-php",
-    "version": "dev-master",
-    "version_normalized": "9999999-dev",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/mikemccabe/json-patch-php.git",
-      "reference": "006a018ea71b17a90198c6db340bdd09f36278cc"
+    {
+        "name": "monolog/monolog",
+        "version": "1.25.1",
+        "version_normalized": "1.25.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Seldaek/monolog.git",
+            "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Seldaek/monolog/zipball/70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
+            "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "psr/log": "~1.0"
+        },
+        "provide": {
+            "psr/log-implementation": "1.0.0"
+        },
+        "require-dev": {
+            "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+            "doctrine/couchdb": "~1.0@dev",
+            "graylog2/gelf-php": "~1.0",
+            "jakub-onderka/php-parallel-lint": "0.9",
+            "php-amqplib/php-amqplib": "~2.4",
+            "php-console/php-console": "^3.1.3",
+            "phpunit/phpunit": "~4.5",
+            "phpunit/phpunit-mock-objects": "2.3.0",
+            "ruflin/elastica": ">=0.90 <3.0",
+            "sentry/sentry": "^0.13",
+            "swiftmailer/swiftmailer": "^5.3|^6.0"
+        },
+        "suggest": {
+            "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+            "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+            "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+            "ext-mongo": "Allow sending log messages to a MongoDB server",
+            "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+            "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+            "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+            "php-console/php-console": "Allow sending log messages to Google Chrome",
+            "rollbar/rollbar": "Allow sending log messages to Rollbar",
+            "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+            "sentry/sentry": "Allow sending log messages to a Sentry server"
+        },
+        "time": "2019-09-06T13:49:17+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Monolog\\": "src/Monolog"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jordi Boggiano",
+                "email": "j.boggiano@seld.be",
+                "homepage": "http://seld.be"
+            }
+        ],
+        "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+        "homepage": "http://github.com/Seldaek/monolog",
+        "keywords": [
+            "log",
+            "logging",
+            "psr-3"
+        ]
     },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/mikemccabe/json-patch-php/zipball/006a018ea71b17a90198c6db340bdd09f36278cc",
-      "reference": "006a018ea71b17a90198c6db340bdd09f36278cc",
-      "shasum": ""
+    {
+        "name": "psr/log",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/log.git",
+            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+            "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-11-20T15:27:04+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Log\\": "Psr/Log/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for logging libraries",
+        "homepage": "https://github.com/php-fig/log",
+        "keywords": [
+            "log",
+            "psr",
+            "psr-3"
+        ]
     },
-    "time": "2015-01-14T00:59:52+00:00",
-    "type": "library",
-    "installation-source": "source",
-    "autoload": {
-      "psr-4": {
-        "mikemccabe\\JsonPatch\\": "src"
-      }
+    {
+        "name": "symfony/filesystem",
+        "version": "v4.3.4",
+        "version_normalized": "4.3.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/filesystem.git",
+            "reference": "9abbb7ef96a51f4d7e69627bc6f63307994e4263"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/filesystem/zipball/9abbb7ef96a51f4d7e69627bc6f63307994e4263",
+            "reference": "9abbb7ef96a51f4d7e69627bc6f63307994e4263",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1.3",
+            "symfony/polyfill-ctype": "~1.8"
+        },
+        "time": "2019-08-20T14:07:54+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Filesystem\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Filesystem Component",
+        "homepage": "https://symfony.com"
     },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "LGPL-3.0"
-    ],
-    "description": "Produce and apply json-patch objects"
-  },
-  {
-    "name": "goetas/xsd-reader",
-    "version": "dev-master",
-    "version_normalized": "9999999-dev",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/goetas/xsd-reader.git",
-      "reference": "c5bcc02d1a07f26533991e7b0d6c51a98d78c02c"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/goetas/xsd-reader/zipball/c5bcc02d1a07f26533991e7b0d6c51a98d78c02c",
-      "reference": "c5bcc02d1a07f26533991e7b0d6c51a98d78c02c",
-      "shasum": ""
-    },
-    "require": {
-      "php": ">=5.4.0"
-    },
-    "require-dev": {
-      "phpunit/phpunit": "~4.0",
-      "sami/sami": "~2.0"
-    },
-    "time": "2016-05-14 12:21:46",
-    "type": "library",
-    "extra": {
-      "branch-alias": {
-        "dev-master": "2.0-dev"
-      }
-    },
-    "installation-source": "source",
-    "autoload": {
-      "psr-4": {
-        "Goetas\\XML\\XSDReader\\": "src/"
-      }
-    },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "MIT"
-    ],
-    "authors": [
-      {
-        "name": "Asmir Mustafic",
-        "email": "goetas@lignano.it"
-      }
-    ],
-    "description": "Read any XML Schema (XSD) programmatically with PHP",
-    "homepage": "https://github.com/goetas/xsd-reader",
-    "keywords": [
-      "parser",
-      "php",
-      "xml",
-      "xmlschema",
-      "xsd"
-    ],
-    "abandoned": "goetas-webservices/xsd-reader"
-  },
-  {
-    "name": "540co/xml-tools",
-    "version": "dev-master",
-    "version_normalized": "9999999-dev",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/540co/xml-tools.git",
-      "reference": "bf59cfb0f899e525211ac801e623cd58cb75af10"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/540co/xml-tools/zipball/bf59cfb0f899e525211ac801e623cd58cb75af10",
-      "reference": "bf59cfb0f899e525211ac801e623cd58cb75af10",
-      "shasum": ""
-    },
-    "require": {
-      "goetas/xsd-reader": "2.*@dev"
-    },
-    "require-dev": {
-      "phpunit/phpunit": "^4.8"
-    },
-    "time": "2016-03-17 13:22:16",
-    "type": "library",
-    "installation-source": "source",
-    "autoload": {
-      "psr-4": {
-        "FiveFortyCo\\": "src/"
-      }
-    },
-    "authors": [
-      {
-        "name": "Jon Minter",
-        "email": "jon@540.co"
-      }
-    ],
-    "description": "Tools to help with processing/analyzing XML and XSD documents",
-    "support": {
-      "source": "https://github.com/540co/xml-tools/tree/master",
-      "issues": "https://github.com/540co/xml-tools/issues"
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.12.0",
+        "version_normalized": "1.12.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
+            "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2019-08-06T08:03:45+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.12-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
     }
-  },
-  {
-    "name": "psr/log",
-    "version": "dev-master",
-    "version_normalized": "9999999-dev",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/php-fig/log.git",
-      "reference": "607ce1d4005af32dd866c4a402459494c168d555"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/php-fig/log/zipball/607ce1d4005af32dd866c4a402459494c168d555",
-      "reference": "607ce1d4005af32dd866c4a402459494c168d555",
-      "shasum": ""
-    },
-    "require": {
-      "php": ">=5.3.0"
-    },
-    "time": "2016-09-25 13:41:54",
-    "type": "library",
-    "extra": {
-      "branch-alias": {
-        "dev-master": "1.0.x-dev"
-      }
-    },
-    "installation-source": "source",
-    "autoload": {
-      "psr-4": {
-        "Psr\\Log\\": "Psr/Log/"
-      }
-    },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "MIT"
-    ],
-    "authors": [
-      {
-        "name": "PHP-FIG",
-        "homepage": "http://www.php-fig.org/"
-      }
-    ],
-    "description": "Common interface for logging libraries",
-    "homepage": "https://github.com/php-fig/log",
-    "keywords": [
-      "log",
-      "psr",
-      "psr-3"
-    ]
-  },
-  {
-    "name": "monolog/monolog",
-    "version": "1.x-dev",
-    "version_normalized": "1.9999999.9999999.9999999-dev",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/Seldaek/monolog.git",
-      "reference": "214b8ef34b17ed0fcd3a5e027ef5a9ae9ebeb193"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/Seldaek/monolog/zipball/214b8ef34b17ed0fcd3a5e027ef5a9ae9ebeb193",
-      "reference": "214b8ef34b17ed0fcd3a5e027ef5a9ae9ebeb193",
-      "shasum": ""
-    },
-    "require": {
-      "php": ">=5.3.0",
-      "psr/log": "~1.0"
-    },
-    "provide": {
-      "psr/log-implementation": "1.0.0"
-    },
-    "require-dev": {
-      "aws/aws-sdk-php": "^2.4.9 || ^3.0",
-      "doctrine/couchdb": "~1.0@dev",
-      "graylog2/gelf-php": "~1.0",
-      "jakub-onderka/php-parallel-lint": "0.9",
-      "php-amqplib/php-amqplib": "~2.4",
-      "php-console/php-console": "^3.1.3",
-      "phpunit/phpunit": "~4.5",
-      "phpunit/phpunit-mock-objects": "2.3.0",
-      "ruflin/elastica": ">=0.90 <3.0",
-      "sentry/sentry": "^0.13",
-      "swiftmailer/swiftmailer": "~5.3"
-    },
-    "suggest": {
-      "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
-      "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
-      "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
-      "ext-mongo": "Allow sending log messages to a MongoDB server",
-      "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-      "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
-      "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
-      "php-console/php-console": "Allow sending log messages to Google Chrome",
-      "rollbar/rollbar": "Allow sending log messages to Rollbar",
-      "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
-      "sentry/sentry": "Allow sending log messages to a Sentry server"
-    },
-    "time": "2016-10-03 18:31:30",
-    "type": "library",
-    "extra": {
-      "branch-alias": {
-        "dev-master": "2.0.x-dev"
-      }
-    },
-    "installation-source": "source",
-    "autoload": {
-      "psr-4": {
-        "Monolog\\": "src/Monolog"
-      }
-    },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "MIT"
-    ],
-    "authors": [
-      {
-        "name": "Jordi Boggiano",
-        "email": "j.boggiano@seld.be",
-        "homepage": "http://seld.be"
-      }
-    ],
-    "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
-    "homepage": "http://github.com/Seldaek/monolog",
-    "keywords": [
-      "log",
-      "logging",
-      "psr-3"
-    ]
-  },
-  {
-    "name": "seld/jsonlint",
-    "version": "1.4.1",
-    "version_normalized": "1.4.1.0",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/Seldaek/jsonlint.git",
-      "reference": "e827b5254d3e58c736ea2c5616710983d80b0b70"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/e827b5254d3e58c736ea2c5616710983d80b0b70",
-      "reference": "e827b5254d3e58c736ea2c5616710983d80b0b70",
-      "shasum": ""
-    },
-    "require": {
-      "php": "^5.3 || ^7.0"
-    },
-    "time": "2016-09-14 15:17:56",
-    "bin": [
-      "bin/jsonlint"
-    ],
-    "type": "library",
-    "installation-source": "dist",
-    "autoload": {
-      "psr-4": {
-        "Seld\\JsonLint\\": "src/Seld/JsonLint/"
-      }
-    },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "MIT"
-    ],
-    "authors": [
-      {
-        "name": "Jordi Boggiano",
-        "email": "j.boggiano@seld.be",
-        "homepage": "http://seld.be"
-      }
-    ],
-    "description": "JSON Linter",
-    "keywords": [
-      "json",
-      "linter",
-      "parser",
-      "validator"
-    ]
-  },
-  {
-    "name": "keboola/csv",
-    "version": "1.1.4",
-    "version_normalized": "1.1.4.0",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/keboola/php-csv.git",
-      "reference": "d7e257096c42eab09b54b7b46a905ca953a8eb6f"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/keboola/php-csv/zipball/d7e257096c42eab09b54b7b46a905ca953a8eb6f",
-      "reference": "d7e257096c42eab09b54b7b46a905ca953a8eb6f",
-      "shasum": ""
-    },
-    "require-dev": {
-      "phpunit/phpunit": "~3.7"
-    },
-    "time": "2016-04-21 20:46:22",
-    "type": "library",
-    "installation-source": "dist",
-    "autoload": {
-      "psr-0": {
-        "Keboola\\Csv": "src/"
-      }
-    },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "MIT"
-    ],
-    "description": "Keboola CSV reader and writer",
-    "homepage": "http://keboola.com"
-  },
-  {
-    "name": "symfony/filesystem",
-    "version": "dev-master",
-    "version_normalized": "9999999-dev",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/symfony/filesystem.git",
-      "reference": "b3251ed8c44eff89b9ca6aa2d89f9f9b4565e056"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/symfony/filesystem/zipball/b3251ed8c44eff89b9ca6aa2d89f9f9b4565e056",
-      "reference": "b3251ed8c44eff89b9ca6aa2d89f9f9b4565e056",
-      "shasum": ""
-    },
-    "require": {
-      "php": ">=5.5.9"
-    },
-    "time": "2016-09-14 22:49:28",
-    "type": "library",
-    "extra": {
-      "branch-alias": {
-        "dev-master": "3.2-dev"
-      }
-    },
-    "installation-source": "source",
-    "autoload": {
-      "psr-4": {
-        "Symfony\\Component\\Filesystem\\": ""
-      },
-      "exclude-from-classmap": [
-        "/Tests/"
-      ]
-    },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "MIT"
-    ],
-    "authors": [
-      {
-        "name": "Fabien Potencier",
-        "email": "fabien@symfony.com"
-      },
-      {
-        "name": "Symfony Community",
-        "homepage": "https://symfony.com/contributors"
-      }
-    ],
-    "description": "Symfony Filesystem Component",
-    "homepage": "https://symfony.com"
-  },
-  {
-    "name": "keboola/php-temp",
-    "version": "0.1.6",
-    "version_normalized": "0.1.6.0",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/keboola/php-temp.git",
-      "reference": "ffe345e78ba0d35d970fc26fe2c1a36f7d20ca8c"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/keboola/php-temp/zipball/ffe345e78ba0d35d970fc26fe2c1a36f7d20ca8c",
-      "reference": "ffe345e78ba0d35d970fc26fe2c1a36f7d20ca8c",
-      "shasum": ""
-    },
-    "require": {
-      "php": ">=5.3.3",
-      "symfony/filesystem": ">2.1.0"
-    },
-    "require-dev": {
-      "codeclimate/php-test-reporter": "dev-master",
-      "phpunit/phpunit": "^5.2"
-    },
-    "time": "2016-03-23 17:48:01",
-    "type": "library",
-    "installation-source": "dist",
-    "autoload": {
-      "psr-0": {
-        "Keboola\\Temp": "src/"
-      }
-    },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "MIT"
-    ],
-    "authors": [
-      {
-        "name": "Miro Cillik",
-        "email": "miro@keboola.cz"
-      },
-      {
-        "name": "Ondrej Vana",
-        "email": "kachna@keboola.cz"
-      }
-    ],
-    "description": "Temp service - handles application's temporary files",
-    "keywords": [
-      "filesystem",
-      "temp"
-    ]
-  },
-  {
-    "name": "keboola/php-csvtable",
-    "version": "0.1.7",
-    "version_normalized": "0.1.7.0",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/keboola/php-csvtable.git",
-      "reference": "099d234ed14da2948a92117df10edbd35cfa336c"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/keboola/php-csvtable/zipball/099d234ed14da2948a92117df10edbd35cfa336c",
-      "reference": "099d234ed14da2948a92117df10edbd35cfa336c",
-      "shasum": ""
-    },
-    "require": {
-      "keboola/csv": "~1.1.0",
-      "keboola/php-temp": ">=0.1.0"
-    },
-    "require-dev": {
-      "codeclimate/php-test-reporter": "dev-master",
-      "phpunit/phpunit": "^5.2"
-    },
-    "time": "2016-03-31 21:16:36",
-    "type": "library",
-    "installation-source": "dist",
-    "autoload": {
-      "psr-0": {
-        "Keboola\\CsvTable": "src/"
-      }
-    },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "MIT"
-    ],
-    "authors": [
-      {
-        "name": "Ondrej Vana",
-        "email": "kachna@keboola.cz"
-      }
-    ],
-    "description": "CSV file class with Keboola StorageApi extensions",
-    "keywords": [
-      "csv",
-      "storageapi",
-      "table"
-    ]
-  },
-  {
-    "name": "keboola/php-utils",
-    "version": "0.1.20",
-    "version_normalized": "0.1.20.0",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/keboola/php-utils.git",
-      "reference": "43ead859da20a5aa74ea1f6c3b25361efcd79238"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/keboola/php-utils/zipball/43ead859da20a5aa74ea1f6c3b25361efcd79238",
-      "reference": "43ead859da20a5aa74ea1f6c3b25361efcd79238",
-      "shasum": ""
-    },
-    "require": {
-      "keboola/php-csvtable": "~0.1.1",
-      "keboola/php-temp": "~0.1.0",
-      "php": ">=5.5.0",
-      "seld/jsonlint": "^1.4"
-    },
-    "require-dev": {
-      "phpunit/phpunit": "3.7.*"
-    },
-    "time": "2015-12-10 00:24:43",
-    "type": "library",
-    "installation-source": "dist",
-    "autoload": {
-      "psr-0": {
-        "Keboola\\Utils": "src/"
-      }
-    },
-    "notification-url": "https://packagist.org/downloads/",
-    "license": [
-      "MIT"
-    ],
-    "authors": [
-      {
-        "name": "Ondrej Vana",
-        "email": "kachna@keboola.cz"
-      }
-    ],
-    "description": "Misc utility functions",
-    "keywords": [
-      "utility"
-    ]
-  },
-  {
-    "name": "540co/json-parser",
-    "version": "dev-master",
-    "version_normalized": "9999999-dev",
-    "source": {
-      "type": "git",
-      "url": "https://github.com/540co/php-jsonparser.git",
-      "reference": "0497e1786c72cfda58c03ca1fcec20f9f8af0647"
-    },
-    "dist": {
-      "type": "zip",
-      "url": "https://api.github.com/repos/540co/php-jsonparser/zipball/0497e1786c72cfda58c03ca1fcec20f9f8af0647",
-      "reference": "0497e1786c72cfda58c03ca1fcec20f9f8af0647",
-      "shasum": ""
-    },
-    "require": {
-      "keboola/php-csvtable": "~0.1.0",
-      "keboola/php-temp": "~0.1.0",
-      "keboola/php-utils": "~0.1.18",
-      "monolog/monolog": "~1.8",
-      "php": ">=5.4.0"
-    },
-    "require-dev": {
-      "codeclimate/php-test-reporter": "dev-master",
-      "phpunit/phpunit": "3.7.*"
-    },
-    "time": "2016-03-18 12:28:43",
-    "type": "library",
-    "installation-source": "source",
-    "autoload": {
-      "psr-4": {
-        "FiveFortyCo\\Json\\": "src/FiveFortyCo/Json"
-      }
-    },
-    "license": [
-      "MIT"
-    ],
-    "authors": [
-      {
-        "name": "Ondrej Vana",
-        "email": "kachna@keboola.cz"
-      }
-    ],
-    "description": "JSON to CSV parser",
-    "keywords": [
-      "converter",
-      "csv",
-      "json",
-      "json2csv",
-      "parser"
-    ],
-    "support": {
-      "source": "https://github.com/540co/php-jsonparser/tree/master"
-    }
-  }
 ]

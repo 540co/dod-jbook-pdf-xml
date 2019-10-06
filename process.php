@@ -1,6 +1,38 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . '/vendor/540co/xml-tools/src/Xmltools.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/Exception.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/Exception/JsonDecodeException.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/Exception/NoDataFoundException.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/arrayToObject.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/buildUrl.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/camelize.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/flattenArray.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/formatDateTime.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/getDataFromPath.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/httpBuildUrl.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/isEmptyObject.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/isValidDateTimeString.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/jsonDecode.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/objectToArray.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/replaceDates.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/replaceDatesInArray.php';
+require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/sanitizeUtf8.php';
+require __DIR__ . '/540co/keboola/csv/src/Keboola/Csv/CsvFile.php';
+require __DIR__ . '/540co/keboola/csv/src/Keboola/Csv/Exception.php';
+require __DIR__ . '/540co/keboola/csv/src/Keboola/Csv/InvalidArgumentException.php';
+require __DIR__ . '/540co/keboola/json-parser/src/Keboola/Json/Exception/JsonParserException.php';
+require __DIR__ . '/540co/keboola/json-parser/src/Keboola/Json/Exception/NoDataException.php';
+require __DIR__ . '/540co/keboola/json-parser/src/Keboola/Json/Analyzer.php';
+require __DIR__ . '/540co/keboola/json-parser/src/Keboola/Json/Cache.php';
+require __DIR__ . '/540co/keboola/json-parser/src/Keboola/Json/CsvRow.php';
+require __DIR__ . '/540co/keboola/json-parser/src/Keboola/Json/Parser.php';
+require __DIR__ . '/540co/keboola/json-parser/src/Keboola/Json/Struct.php';
+require __DIR__ . '/540co/keboola/php-csvtable/src/Keboola/CsvTable/Table.php';
+require __DIR__ . '/540co/keboola/php-temp/src/Keboola/Temp/Temp.php';
+require __DIR__ . '/540co/xml-tools/src/Xmltools.php';
+require __DIR__ . '/540co/CsvOutput.php';
+
+
 //use FiveFortyCo\Xmlpipeline\Xmltools;
 
 $GLOBALS['jbookArrayPaths'] = array();
@@ -67,6 +99,99 @@ switch ($options['step']) {
             processJsonDocs('*.json');
         }
     break;
+
+    case '5-json-to-csv': 
+        echo "=========================================================\n";
+        echo "[5-json-to-csv]\n";
+        echo "=========================================================\n";
+        jsonToCsv();
+    break;
+}
+
+function jsonToCsv() {
+
+    $sourcePaths = [];
+    $sourcePaths['procurement-lineitems'] = './3-json-procurement-lineitems';
+    $sourcePaths['rdte-programelements'] = './3-json-rdte-programelements';
+
+    $targetPaths = [];
+    $targetPaths['procurement-lineitems'] = './4-csv-procurement-lineitems';
+    $targetPaths['rdte-programelements'] = './4-csv-rdte-programelements';
+
+    echo "<Removing / creating target folders>\n";
+    foreach ($targetPaths as $targetPath) {
+        echo "<$targetPath>\n";
+        exec('rm -Rf '.$targetPath);
+        mkdir($targetPath);
+    }
+
+    sleep(2);
+
+    
+    foreach ($sourcePaths as $sourceIdx=>$sourcePath) {
+        
+        echo "<Reading $sourceIdx into an array list>\n";
+        sleep(1);
+
+        $fileList = rglob($sourcePath.'/*.json');
+        sort($fileList);
+        $fileCount = count($fileList);
+
+        $records = [];
+        foreach ($fileList as $fileIdx=>$filePath) {
+            echo "[".($fileIdx+1)."/".$fileCount."]\n";
+            echo "<$filePath>\n";
+            $records[] = json_decode(file_get_contents($filePath));
+        }
+        echo "<record count = ".count($records)." >\n";
+
+        echo "<Csv:createTables>\n";
+        $tables = Csv::createTables($records);
+
+        echo "<Csvparser:create>\n";
+        $parser = Csvparser::create(new \Monolog\Logger('json-parser'));
+
+        echo "<Csvparser:process>\n";
+        $parser->process($records);
+
+        echo "<Csvparser:getCsvFiles>\n";
+        $csvfiles = $parser->getCsvFiles();
+
+        
+        foreach ($csvfiles as $k=>$v) {
+            echo "<Writing: $k>\n";
+            
+            $csvfile = $v->openFile('r');
+            $csvfile->setFlags(\SplFileObject::READ_CSV);
+            $attributes = $v->getAttributes();
+
+            file_put_contents($targetPaths[$sourceIdx]."/".substr(str_replace('.','',$attributes['fullDisplayName']),-250).".csv","");
+            
+            foreach ($csvfile as $rownum=>$rowval) {
+                if ($rowval[0] == null) {
+                    continue;
+                }
+
+                $rowToWrite = "";
+                foreach ($rowval as $val) {
+                    $rowToWrite .= '"'.str_replace(array("\n", "\t", "\r"), '', $val).'",';
+                }
+                $rowToWrite .= "\n";
+
+                file_put_contents($targetPaths[$sourceIdx]."/".substr(str_replace('.','',$attributes['fullDisplayName']),-250).".csv", $rowToWrite, FILE_APPEND);
+          }
+
+        }
+
+        sleep(2);
+        
+    }
+    
+
+
+
+
+
 }
 
 function downloadJbooks($jbookList) {
@@ -152,7 +277,6 @@ function downloadJbooks($jbookList) {
 
 }
 
-
 function saveRecords($jbookRecordId, $recordType, $meta, $records, $targetPath) {
     echo "<Saving (".count($records).") ".$year." - ".$recordType.">\n";
     
@@ -211,8 +335,8 @@ function processJsonDocs($rglobPattern='*.json') {
     $sourcePath = './2-jbook-json';
 
     $targetPaths = [];
-    $targetPaths['procurement-lineitems'] = './3-procurement-lineitems';
-    $targetPaths['rdte-programelements'] = './3-rdte-programelements';
+    $targetPaths['procurement-lineitems'] = './3-json-procurement-lineitems';
+    $targetPaths['rdte-programelements'] = './3-json-rdte-programelements';
     
     echo "<Removing / creating target folders>\n";
     foreach ($targetPaths as $targetPath) {
@@ -547,4 +671,4 @@ function rglob($pattern, $flags = 0) {
     }
     return $files;
 }
-  
+
