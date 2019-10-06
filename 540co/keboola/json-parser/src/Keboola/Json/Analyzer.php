@@ -60,7 +60,8 @@ class Analyzer
      * @throws JsonParserException
      */
     public function analyze(array $data, $type)
-    {
+    {   
+        
         if ($this->isAnalyzed($type) || empty($data)) {
             return false;
         }
@@ -71,6 +72,11 @@ class Analyzer
 
         $rowType = $this->getStruct()->getArrayType($type);
         foreach ($data as $row) {
+            // ** ADDED TO DO ANALYSIS 
+            if (isset($row->id)) {
+                echo "{Analyzing: ".$row->id."}\n";
+            }
+            
             $newType = $this->analyzeRow($row, $type);
             if (!is_null($rowType)
                 && $newType != $rowType
