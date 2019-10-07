@@ -37,6 +37,7 @@ require __DIR__ . '/540co/CsvOutput.php';
 $GLOBALS['jbookArrayPaths'] = array();
 $GLOBALS['jbookArrayPaths']['MasterJustificationBook'] = array();
 $GLOBALS['jbookArrayPaths']['JustificationBook'] = array();
+$GLOBALS['jbookArrayPaths']['FilesAnalyzed'] = array();
 
 date_default_timezone_set ('GMT');
 ini_set('memory_limit', -1);
@@ -73,7 +74,11 @@ switch ($options['step']) {
         echo "=========================================================\n";
         echo "[2-determine-jbook-array-paths]\n";
         echo "=========================================================\n";
-        determineJbookArrayPaths();
+        if (isset($options['rglob-pattern'])) {
+            determineJbookArrayPaths($options['rglob-pattern']);
+        } else {
+            determineJbookArrayPaths('*.xml');
+        }
     break;
 
     case '3-convert-xml-to-json': 
@@ -485,16 +490,25 @@ function copyJbookXmlToSingleFolder() {
     
 }
 
-function determineJbookArrayPaths() {
+function determineJbookArrayPaths($rglobPattern='*.xml') {
     $sourcePath = './1-jbook-xml';
     $arrayConfigOutput = "./jbookArrays.json";
     $jbookArrays = [];
 
-    $fileList = rglob($sourcePath.'/*.xml');
+    echo "<load current $arrayConfigOutput to append to (if exists)>\n";
+    if (file_exists($arrayConfigOutput)) {
+        $GLOBALS['jbookArrayPaths'] = json_decode(file_get_contents($arrayConfigOutput),TRUE);
+    } else {
+        file_put_contents($arrayConfigOutput, json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
+    }
+    
+
+    $fileList = rglob($sourcePath.'/'.$rglobPattern);
     sort($fileList);
     $fileCount = count($fileList);
 
     foreach ($fileList as $fileIdx=>$filePath) {
+
         // Get file year
         $filePathSegments = explode('-',str_replace($sourcePath."/","",$filePath));
         $fileYear = $filePathSegments[0];
@@ -506,21 +520,48 @@ function determineJbookArrayPaths() {
             $jbookType = 'JustificationBook';
         }
 
+        // Get filename
+        $fileName = str_replace($sourcePath.'/','',$filePath);
+
         echo "----------------------\n";
         echo "[".($fileIdx+1)."/".$fileCount."]\n";
-        echo "FILE = ".$filePath."\n";
+        echo "FILEPATH = ".$filePath."\n";
+        echo "FILENAME = ".$fileName."\n";
         echo "YEAR = ".$fileYear."\n";
         echo "JBOOK_TYPE = ".$jbookType."\n";
         echo "----------------------\n";
-        echo "<Loading XML>\n";
+
+        // If global file year hasn't been set before, set it.
+        if (!isset($GLOBALS['jbookArrayPaths'][$jbookType][$fileYear])) {
+            $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear] = [];
+        }
+
+        // If we have already processed this file - simple read from FileAnalyzed list of paths and ensure
+        // they are already included.
+    
+        if (isset($GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName])) {
+            if (count($GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName]) > 0) {
+                foreach ($GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName] as $k=>$path) {
+                    $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear][] = $path;
+                    $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear] = array_values(array_unique($GLOBALS['jbookArrayPaths'][$jbookType][$fileYear]));   
+                };
+                echo "<Skipping - already have paths for this file>\n";
+                file_put_contents($arrayConfigOutput,json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
+                continue;
+            }
+        }
         
+        // If we didn't continue from last setp - file needs to
+        $GLOBALS['FilesAnalyzed'][$fileName] = [];
+    
+        echo "<Loading XML>\n";
         $xml = simplexml_load_file($filePath);
         
         echo "<Converting XML to JSON>\n";
         $json = XmlTools::xmlToArray($xml,null,array('removeNamespace'=>true));
 
         echo "<Determining paths that are arrays>\n";
-        getXMLPaths($fileYear, $jbookType, $json);
+        getXMLPaths($fileYear, $jbookType, $fileName, $json);
 
         echo "----------------------\n";
 
@@ -535,8 +576,8 @@ function determineJbookArrayPaths() {
          echo "[".$kv."=>".count($vv)."]";
         }
         echo "\n";
-        echo "<Updating jbookArrayPaths.json>\n";
-        file_put_contents('jbookArrayPaths.json',json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
+        echo "<Updating $arrayConfigOutput>\n";
+        file_put_contents($arrayConfigOutput,json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
    
         echo "=========================================================\n";
        
@@ -633,26 +674,27 @@ function convertXmlToJson($rglobPattern='*.xml') {
     die;
 }
 
-function getXMLPaths($fileYear, $jbookType, $json, $path="") {
+function getXMLPaths($fileYear, $jbookType, $fileName, $json, $path="") {
 
     if (is_array($json)) {
       foreach ($json as $key=>$val) {
   
             if (!is_numeric($key)) {
               if (is_array($val)) {
-                getXMLPaths($fileYear, $jbookType, $val, ltrim($path.".".$key,"."));
+                getXMLPaths($fileYear, $jbookType, $fileName, $val, ltrim($path.".".$key,"."));
               } else {
-                getXMLPaths($fileYear, $jbookType, $val, $path);
+                getXMLPaths($fileYear, $jbookType, $fileName, $val, $path);
               }
             } else {
-              if (!isset($GLOBALS['jbookArrayPaths'][$jbookType][$fileYear])) {
-                $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear] = [];
-              }
+              // Append to list of paths per jbook types (jbook or master jbook)
               $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear][] = $path;
-
               $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear] = array_values(array_unique($GLOBALS['jbookArrayPaths'][$jbookType][$fileYear]));
               
-              getXMLPaths($fileYear, $jbookType, $val, $path);
+              // Append to list of paths per file to minimize need to re-eval in future
+              $GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName][] = $path;
+              $GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName] = array_values(array_unique($GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName]));
+              
+              getXMLPaths($fileYear, $jbookType, $fileName, $val, $path);
             }
   
       }
