@@ -15,7 +15,7 @@ function flattenArray(array $array, $prefix = "", $glue = '.')
     $result = [];
     foreach ($array as $key => $value) {
         if (is_array($value)) {
-            $result = array_merge($result, flattenArray($value, $prefix . $key . $glue));
+            $result = array_merge($result, flattenArray($value, $prefix . $key . $glue, $glue));
         } else {
             $result[$prefix . $key] = $value;
         }

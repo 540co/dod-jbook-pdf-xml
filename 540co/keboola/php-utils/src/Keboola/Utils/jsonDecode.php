@@ -36,6 +36,17 @@ function jsonDecode($json, $assoc = false, $depth = 512, $options = 0, $logJson 
         case JSON_ERROR_UTF8:
             $error = 'Malformed UTF-8 characters, possibly incorrectly encoded';
             break;
+        case JSON_ERROR_UTF16:
+            $error = 'Malformed UTF-16 characters, possibly incorrectly encoded';
+            $json = stripInvalidUtf16($json);
+            $data = json_decode($json, $assoc, $depth, $options);
+
+            if (json_last_error() === JSON_ERROR_NONE) {
+                return $data;
+            }
+            $error .= '. Tried to strip invalid characters, but got ' . json_last_error_msg();
+
+            break;
         default:
             $error = 'Unknown error';
             break;

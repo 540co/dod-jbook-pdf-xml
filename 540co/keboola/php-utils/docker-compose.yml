@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  dev:
+    build: .
+    volumes:
+      - ./:/code
+    tty: true
+    command: bash
+    working_dir: /code

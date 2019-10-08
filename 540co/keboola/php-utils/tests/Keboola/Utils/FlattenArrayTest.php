@@ -24,4 +24,29 @@ class FlattenArrayTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals($single, flattenArray($multi));
     }
+
+    public function testFlattenArrayGlue()
+    {
+        $multi = [
+            'a' => 'b',
+            'c' => [
+                'd' => 'e',
+                'f' => [
+                    'g' => 'h',
+                    'i' => [
+                        'j' => 'k'
+                    ]
+                ]
+            ]
+        ];
+
+        $single = [
+            'a' => 'b',
+            'c_d' => 'e',
+            'c_f_g' => 'h',
+            'c_f_i_j' => 'k',
+        ];
+
+        $this->assertEquals($single, flattenArray($multi, '', '_'));
+    }
 }

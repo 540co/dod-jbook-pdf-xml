@@ -22,4 +22,13 @@ EOT;
 
         self::assertInstanceOf('Keboola\Utils\Exception\JsonDecodeException', $err);
     }
+
+    public function testJsonDecodeUTF16Chars()
+    {
+        $jsonString = '{"snippet": "\uD83D\uDC9CMissing pair\uD83D\uDC9C\uD83D\uDE0A\uD83D"}';
+        $json = jsonDecode($jsonString, true);
+
+        $expected = ['snippet' => 'Missing pair'];
+        $this->assertEquals($expected, $json);
+    }
 }

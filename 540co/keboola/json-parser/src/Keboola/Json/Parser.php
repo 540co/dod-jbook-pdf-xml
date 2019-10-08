@@ -62,12 +62,19 @@ class Parser
     /**
      * @var Table[]
      */
-    protected $csvFiles = [];
+    //protected $csvFiles = [];
+    /* CHANGED - @540CO */
+
+    public $csvFiles = [];
+    
 
     /**
      * @var Cache
      */
-    protected $cache;
+    //protected $cache;
+    /* CHANGED - @540CO */
+
+    public $cache;
 
     /**
      * @var LoggerInterface
@@ -135,6 +142,7 @@ class Parser
      * @throws NoDataException
      * @api
      */
+    /*
     public function process(array $data, $type = "root", $parentId = null)
     {
         // The analyzer wouldn't set the $struct and parse fails!
@@ -162,6 +170,35 @@ class Parser
             "parentId" => $parentId
         ]);
     }
+    */
+
+    /* CHANGED BEHAVIOR - @540CO */
+    public function process(array $data, $type = "root", $parentId = null) {
+            // The analyzer wouldn't set the $struct and parse fails!
+            if ((empty($data) || $data == [null]) && !$this->struct->hasDefinitions($type)) {
+                throw new NoDataException("Empty data set received for '{$type}'", [
+                    "data" => $data,
+                    "type" => $type,
+                    "parentId" => $parentId
+                ]);
+            }
+
+            // Log it here since we shouldn't log children analysis
+            if (empty($this->analyzer->getRowsAnalyzed()[$type])) {
+                $this->log->debug("Analyzing {$type}", [
+                    "rowsAnalyzed" => $this->analyzer->getRowsAnalyzed(),
+                    "rowsToAnalyze" => count($data)
+                ]);
+            }
+
+            $this->analyzer->analyze(null, null, $data, $type);
+
+            $this->getCache()->store([
+                "data" => $data,
+                "type" => $type,
+                "parentId" => $parentId
+            ]);
+    }
 
     /**
      * Parse data of known type
@@ -172,6 +209,8 @@ class Parser
      * @return void
      * @see Parser::process()
      */
+
+    /*
     public function parse(array $data, $type, $parentId = null)
     {
         if (!$this->analyzer->isAnalyzed($type)
@@ -216,6 +255,51 @@ class Parser
             $csvFile->writeRow($csvRow->getRow());
         }
     }
+    */
+    /* CHANGED BEHAVIOR - @540CO */
+
+    public function parse(array $data, $type, $parentId = null) {
+        if (
+            !$this->analyzer->isAnalyzed($type)
+            && (empty($this->analyzer->getRowsAnalyzed()[$type])
+                || $this->analyzer->getRowsAnalyzed()[$type] < count($data))
+        ) {
+            // analyse instead of failing if the data is unknown!
+            $this->log->log(
+                "debug",
+                "Trying to parse an unknown data type '{$type}'. Trying on-the-fly analysis",
+                [
+                    "data" => $data,
+                    "type" => $type,
+                    "parentId" => $parentId
+                ]
+            );
+            $this->analyzer->analyze(null, null, $data, $type);
+        }
+        $parentId = $this->validateParentId($parentId);
+        $csvFile = $this->createCsvFile($type, $parentId);
+        $parentCols = array_fill_keys(array_keys($parentId), "string");
+
+        foreach ($data as $rowNum=>$row) {
+            // in case of non-associative array of strings
+            // prepare {"data": $value} objects for each row
+            if (is_scalar($row) || is_null($row)) {
+                $row = (object) [self::DATA_COLUMN => $row];
+            } elseif ($this->analyzer->getNestedArrayAsJson() && is_array($row)) {
+                $row = (object) [self::DATA_COLUMN => json_encode($row)];
+            }
+            // Add parentId to each row
+            if (!empty($parentId)) {
+                $row = (object) array_replace((array) $row, $parentId);
+            }
+            $csvRow = $this->parseRow($rowNum,$row, $type, $parentCols);
+
+            $csvFile->writeRow($csvRow->getRow());
+
+        }
+
+    }
+
 
     /**
      * Parse a single row
@@ -227,6 +311,8 @@ class Parser
      * @param string $outerObjectHash Outer object hash to distinguish different parents in deep nested arrays
      * @return CsvRow
      */
+
+    /*
     protected function parseRow(
         \stdClass $dataRow,
         $type,
@@ -243,9 +329,36 @@ class Parser
             $outerObjectHash
         );
 
+        var_dump($arrayParentId);
+        
+
         foreach (array_replace($this->getStruct()->getDefinitions($type), $parentCols) as $column => $dataType) {
             $this->parseField($dataRow, $csvRow, $arrayParentId, $column, $dataType, $type);
         }
+
+        return $csvRow;
+    }
+    */
+
+    /* CHANGED BEHAVIOR - @540CO */
+    protected function parseRow($rowNum, \stdClass $dataRow, $type, array $parentCols = [], $outerObjectHash = null) {
+        // move back out to parse/switch if it causes issues
+        $csvRow = new \Keboola\Json\CsvRow($this->getHeader($type, $parentCols));
+
+        // Generate parent ID for arrays
+        $arrayParentId = $this->getPrimaryKeyValue(
+            $rowNum,
+            $dataRow,
+            $type,
+            $outerObjectHash
+        );
+
+    
+        foreach (array_merge($this->getStruct()->getDefinitions($type), $parentCols) as $column => $dataType) {
+            $this->parseField($rowNum,$dataRow, $csvRow, $arrayParentId, $column, $dataType, $type);
+
+        }
+
 
         return $csvRow;
     }
@@ -260,6 +373,9 @@ class Parser
      * @param string $type
      * @return void
      */
+
+    /* CHANGED BEHAVIOR - @540CO */
+    /*
     protected function parseField(
         \stdClass $dataRow,
         CsvRow $csvRow,
@@ -349,6 +465,77 @@ class Parser
                 break;
         }
     }
+    */
+
+    protected function parseField($rowNum, \stdClass $dataRow, \Keboola\Json\CsvRow $csvRow, $arrayParentId, $column, $dataType, $type) {
+        // TODO safeColumn should be associated with $this->struct[$type]
+        // (and parentCols -> create in parse() where the arr is created)
+        // Actually, the csvRow should REALLY have a pointer to the real name (not validated),
+        // perhaps sorting the child columns on its own?
+        // (because keys in struct don't contain child objects)
+        $safeColumn = $this->createSafeName($column);
+        // skip empty objects & arrays to prevent creating empty tables
+        // or incomplete column names
+        if (
+            !isset($dataRow->{$column})
+            || is_null($dataRow->{$column})
+            || (empty($dataRow->{$column}) && !is_scalar($dataRow->{$column}))
+        ) {
+            // do not save empty objects to prevent creation of ["obj_name" => null]
+            if ($dataType != 'object') {
+                $csvRow->setValue($safeColumn, null);
+            }
+            return;
+        }
+        if ($dataType == "NULL") {
+            // Throw exception instead? Any usecase? TODO get rid of it maybe?
+            $this->log->log(
+                "WARNING", "Encountered data where 'NULL' was expected from previous analysis",
+                [
+                    'type' => $type,
+                    'data' => $dataRow
+                ]
+            );
+            $csvRow->setValue($column, json_encode($dataRow));
+            return;
+        }
+        if ($this->getStruct()->isArrayOf($dataType)) {
+            if (!is_array($dataRow->{$column})) {
+                $dataRow->{$column} = [$dataRow->{$column}];
+            }
+            $dataType = 'array';
+        }
+        switch ($dataType) {
+            case "array":
+                $csvRow->setValue($safeColumn, $arrayParentId);
+                $this->parse($dataRow->{$column}, $type . "." . $column, $arrayParentId);
+                break;
+            case "object":
+                $childRow = $this->parseRow($rowNum, $dataRow->{$column}, $type . "." . $column, [], $arrayParentId);
+                foreach($childRow->getRow() as $key => $value) {
+                    // FIXME createSafeName is duplicated here
+                    $csvRow->setValue($this->createSafeName($safeColumn . '_' . $key), $value);
+                }
+                break;
+            default:
+                // If a column is an object/array while $struct expects a single column, log an error
+                if (is_scalar($dataRow->{$column})) {
+                    $csvRow->setValue($safeColumn, $dataRow->{$column});
+                } else {
+                    $jsonColumn = json_encode($dataRow->{$column});
+                    $this->log->log(
+                        "ERROR",
+                        "Data parse error in '{$column}' - unexpected '"
+                            . $this->analyzer->getType($dataRow->{$column})
+                            . "' where '{$dataType}' was expected!",
+                        [ "data" => $jsonColumn, "row" => json_encode($dataRow) ]
+                    );
+                    $csvRow->setValue($safeColumn, $jsonColumn);
+                }
+                break;
+        }
+    }
+
 
     /**
      * Get header for a data type
@@ -415,6 +602,9 @@ class Parser
      * @return string
      * @todo Could use just a part of the md5 hash
      */
+
+    /* CHANGED TO ALLOW NAMES TO NOT BE CHANGED - @540CO */
+    /*
     protected function createSafeName($name)
     {
         if (strlen($name) > 64) {
@@ -438,6 +628,11 @@ class Parser
 
         $newName = preg_replace('/[^A-Za-z0-9-]/', '_', $newName);
         return trim($newName, "_");
+    }
+    */
+
+    protected function createSafeName($name) {
+        return $name;
     }
 
     /**
@@ -475,6 +670,7 @@ class Parser
      * @param string $outerObjectHash
      * @return string
      */
+    /* CHANGED TO ALLOW TO ENSURE PK IS MORE PRECISE
     protected function getPrimaryKeyValue(\stdClass $dataRow, $type, $outerObjectHash = null)
     {
         // Try to find a "real" parent ID
@@ -501,6 +697,36 @@ class Parser
             return $type . "_" . md5(serialize($dataRow) . $outerObjectHash);
         }
     }
+    */
+
+    protected function getPrimaryKeyValue($rowNum, \stdClass $dataRow, $type, $outerObjectHash = null) {
+
+        // Try to find a "real" parent ID
+        if (!empty($this->primaryKeys[$this->createSafeName($type)])) {
+            $pk = $this->primaryKeys[$this->createSafeName($type)];
+            $pKeyCols = explode(',', $pk);
+            $pKeyCols = array_map('trim', $pKeyCols);
+            $values = [];
+            foreach ($pKeyCols as $pKeyCol) {
+                if (empty($dataRow->{$pKeyCol})) {
+                    $values[] = sha1(serialize($dataRow) . $outerObjectHash);
+                    $this->log->log(
+                        "WARNING",
+                        "Primary key for type '{$type}' was set to '{$pk}', but its column '{$pKeyCol}' does not exist! Using hash to link child objects instead.",
+                        ['row' => $dataRow]
+                    );
+                } else {
+                    $values[] = $dataRow->{$pKeyCol};
+                }
+            }
+            return $type . "_" . join(";", $values);
+        } else {
+            // Of no pkey is specified to get the real ID, use a hash of the row
+            return $type . "_" . sha1(serialize($dataRow) . $outerObjectHash) . "-".$rowNum;
+        }
+   
+    }  
+
 
     /**
      * Ensure the parentId array is not multidimensional

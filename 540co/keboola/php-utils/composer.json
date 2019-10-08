@@ -1,49 +1,50 @@
 {
-    "name": "keboola/php-utils",
-    "description": "Misc utility functions",
-    "license": "MIT",
-	"keywords": ["utility"],
-    "authors": [
-        {
-            "name": "Ondrej Vana",
-            "email": "kachna@keboola.com"
-        },
-        {
-            "name": "Ondrej Hlavacek",
-            "email": "ondrej.hlavacek@keboola.com"
-        }
+  "name": "keboola/php-utils",
+  "description": "Misc utility functions",
+  "license": "MIT",
+  "keywords": [
+    "utility"
+  ],
+  "authors": [
+    {
+      "name": "Keboola",
+      "email": "devel@keboola.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "seld/jsonlint": "^1.4",
+    "keboola/sanitizer": "^0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0",
+    "codeclimate/php-test-reporter": "~0.2",
+    "squizlabs/php_codesniffer": "~2.4"
+  },
+  "autoload": {
+    "files": [
+      "src/Keboola/Utils/jsonDecode.php",
+      "src/Keboola/Utils/sanitizeUtf8.php",
+      "src/Keboola/Utils/objectToArray.php",
+      "src/Keboola/Utils/formatDateTime.php",
+      "src/Keboola/Utils/replaceDates.php",
+      "src/Keboola/Utils/replaceDatesInArray.php",
+      "src/Keboola/Utils/buildUrl.php",
+      "src/Keboola/Utils/httpBuildUrl.php",
+      "src/Keboola/Utils/returnBytes.php",
+      "src/Keboola/Utils/camelize.php",
+      "src/Keboola/Utils/getDataFromPath.php",
+      "src/Keboola/Utils/isValidDateTimeString.php",
+      "src/Keboola/Utils/flattenArray.php",
+      "src/Keboola/Utils/arrayToObject.php",
+      "src/Keboola/Utils/isEmptyObject.php",
+      "src/Keboola/Utils/stripInvalidUtf16.php",
+      "src/Keboola/Utils/toAscii.php",
+      "src/Keboola/Utils/sanitizeColumnName.php",
+      "src/Keboola/Utils/formatBytes.php"
     ],
-    "require": {
-		"keboola/php-temp": "~0.1.0",
-		"php": ">=5.6.0",
-        "seld/jsonlint": "^1.4"
-    },
-	"require-dev": {
-		"phpunit/phpunit": "~5.0",
-        "codeclimate/php-test-reporter": "~0.2",
-        "squizlabs/php_codesniffer": "~2.4"
-
-	},
-	"autoload": {
-        "files": [
-            "src/Keboola/Utils/jsonDecode.php",
-            "src/Keboola/Utils/sanitizeUtf8.php",
-            "src/Keboola/Utils/objectToArray.php",
-            "src/Keboola/Utils/formatDateTime.php",
-            "src/Keboola/Utils/replaceDates.php",
-            "src/Keboola/Utils/replaceDatesInArray.php",
-            "src/Keboola/Utils/buildUrl.php",
-            "src/Keboola/Utils/httpBuildUrl.php",
-            "src/Keboola/Utils/returnBytes.php",
-            "src/Keboola/Utils/camelize.php",
-            "src/Keboola/Utils/getDataFromPath.php",
-            "src/Keboola/Utils/isValidDateTimeString.php",
-            "src/Keboola/Utils/flattenArray.php",
-            "src/Keboola/Utils/arrayToObject.php",
-            "src/Keboola/Utils/isEmptyObject.php"
-        ],
-		"psr-0": {
-			"Keboola\\Utils": "src/"
-		}
-	}
+    "psr-0": {
+      "Keboola\\Utils": "src/"
+    }
+  }
 }

@@ -59,9 +59,10 @@ class Analyzer
      * @return bool|null|string
      * @throws JsonParserException
      */
-    public function analyze(array $data, $type)
+    
+    public function analyze($fileName, $recordId, array $data, $type)
     {   
-        
+  
         if ($this->isAnalyzed($type) || empty($data)) {
             return false;
         }
@@ -71,13 +72,33 @@ class Analyzer
             : ($this->rowsAnalyzed[$type] + count($data));
 
         $rowType = $this->getStruct()->getArrayType($type);
-        foreach ($data as $row) {
-            // ** ADDED TO DO ANALYSIS 
-            if (isset($row->id)) {
-                echo "{Analyzing: ".$row->id."}\n";
-            }
+    
+        foreach ($data as $rowIdx=>$row) {
             
-            $newType = $this->analyzeRow($row, $type);
+            // ** ADDED TO INJECT A UNIQUE ROWID BASED UPON ROOT ID
+            // ----
+            
+            if (isset($row->meta->filename)) {
+                echo "{FILENAME: ".$row->meta->filename."}\n";
+                $fileName = $row->meta->filename;
+            }
+
+            if (isset($row->id)) {
+                echo "{RECORDID: ".$row->id."}\n";
+                $recordId = $row->id;
+            }
+
+            $row->{'@SOURCE_FILENAME'} = $fileName;
+            $row->{'@RECORDID'} = hash('sha256',$recordId);
+            $row->{'@ROWID'} = $this->createPrimaryKey($rowIdx,$row);
+
+            echo "[$type][".$rowIdx."][".$recordId."][".$fileName."]\n";
+           
+           
+
+            // ----
+            
+            $newType = $this->analyzeRow($fileName, $recordId, $row, $type);
             if (!is_null($rowType)
                 && $newType != $rowType
                 && $newType != 'NULL'
@@ -91,16 +112,29 @@ class Analyzer
 
         return $rowType;
     }
+    
+    // Added - @540CO
+    private function createPrimaryKey($rownum,$row) {
+        return $rownum.'-'.hash('sha256',random_bytes(200));
+        /*
+        $row = json_decode(json_encode($row), true);
+        $stopFields = ['JSON_parentId'];
+    
+        $stringToHash = $rownum;
+    
+        foreach ($row as $fieldkey=>$fieldval) {
+          if (!in_array($fieldkey,$stopFields)) {
+            $stringToHash .= hash('sha256',json_encode($fieldval));
+          }
+        }
+        
+        //return $rownum.'-'.$stringToHash;
+        return $rownum.'-'.hash('sha256',$stringToHash);
+        */
+      }
 
-    /**
-     * Analyze row of input data & create $this->struct
-     *
-     * @param mixed $row
-     * @param string $type
-     * @return string
-     * @throws JsonParserException
-     */
-    protected function analyzeRow($row, $type)
+  
+    protected function analyzeRow($fileName, $recordId, $row, $type)
     {
         // Current row's structure
         $struct = [];
@@ -121,9 +155,9 @@ class Analyzer
                         continue;
                     }
 
-                    $this->analyzeRow($field, $type . "." . $key);
+                    $this->analyzeRow($fileName, $recordId, $field, $type . "." . $key);
                 } elseif ($fieldType == "array") {
-                    $arrayType = $this->analyze($field, $type . "." . $key);
+                    $arrayType = $this->analyze($fileName, $recordId, $field, $type . "." . $key);
                     if (false !== $arrayType) {
                         $fieldType = 'arrayOf' . $arrayType;
                     } else {

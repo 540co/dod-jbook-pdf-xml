@@ -17,7 +17,14 @@ class CsvRow
     }
 
     public function setValue($column, $value)
-    {
+    {   
+        /*
+        if ($column=='JSON_parentId') {
+            var_dump($value);
+            sleep(1);
+        }
+        */
+
         if (!array_key_exists($column, $this->data)) {
             throw new JsonParserException(
                 "Error assigning '{$value}' to a non-existing column '{$column}'!",
