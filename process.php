@@ -49,7 +49,7 @@ $longOptions = [
     'jbook-list:',
     'rglob-pattern:'
 ];
-  
+
 $options = getopt('', $longOptions);
 
 echo "\n\n";
@@ -65,14 +65,14 @@ switch ($options['step']) {
         downloadJbooks($options['jbook-list']);
     break;
 
-    case '1-copy-jbook-xml-to-single-folder': 
+    case '1-copy-jbook-xml-to-single-folder':
         echo "=========================================================\n";
         echo "[1-copy-jbook-xml-to-single-folder]\n";
         echo "=========================================================\n";
         copyJbookXmlToSingleFolder();
     break;
 
-    case '2-determine-jbook-array-paths': 
+    case '2-determine-jbook-array-paths':
         echo "=========================================================\n";
         echo "[2-determine-jbook-array-paths]\n";
         echo "=========================================================\n";
@@ -83,7 +83,7 @@ switch ($options['step']) {
         }
     break;
 
-    case '3-convert-xml-to-json': 
+    case '3-convert-xml-to-json':
         echo "=========================================================\n";
         echo "[3-convert-xml-to-json]\n";
         echo "=========================================================\n";
@@ -92,10 +92,10 @@ switch ($options['step']) {
         } else {
             convertXmlToJson('*.xml');
         }
-        
+
     break;
 
-    case '4-process-json-docs': 
+    case '4-process-json-docs':
         echo "=========================================================\n";
         echo "[4-process-json-docs]\n";
         echo "=========================================================\n";
@@ -106,14 +106,14 @@ switch ($options['step']) {
         }
     break;
 
-    case '5-json-to-csv': 
+    case '5-json-to-csv':
         echo "=========================================================\n";
         echo "[5-json-to-csv]\n";
         echo "=========================================================\n";
         jsonToCsv();
     break;
 
-    case '6-generate-csv-docs': 
+    case '6-generate-csv-docs':
         echo "=========================================================\n";
         echo "[6-generate-csv-docs]\n";
         echo "=========================================================\n";
@@ -122,7 +122,7 @@ switch ($options['step']) {
 }
 
 function generateCsvDocs() {
-    
+
 
     $sourcePaths = [];
     $sourcePaths['procurement-lineitems'] = './4-csv-procurement-lineitems';
@@ -154,7 +154,7 @@ function findParentInfo($tables, $jsonParentIdInfo) {
         echo "ERROR - PARENT COUNT > 1\n";
         die;
     }
- 
+
     return $parent[0];
 
 }
@@ -176,9 +176,9 @@ function jsonToCsv() {
         exec('rm -Rf '.$targetPath);
         mkdir($targetPath);
     }
-    
+
     foreach ($sourcePaths as $sourceIdx=>$sourcePath) {
-        
+
         echo "<Reading $sourceIdx into an array list>\n";
         sleep(1);
 
@@ -210,7 +210,7 @@ function jsonToCsv() {
                         'childRowId' => $row['@ROWID'],
                         'childRowIdx' => $rowIdx
                     );
-                }    
+                }
             }
         }
 
@@ -268,12 +268,12 @@ function jsonToCsv() {
             }
 
             if ($parentChildMap[$tableName] == null) {
-                $schemaDetails[$tableName]['childTables'] = []; 
+                $schemaDetails[$tableName]['childTables'] = [];
             } else {
-                $schemaDetails[$tableName]['childTables'] = $parentChildMap[$tableName]; 
+                $schemaDetails[$tableName]['childTables'] = $parentChildMap[$tableName];
             }
-          
-        }  
+
+        }
 
         // Write CSV files / summary to disk
         foreach ($tables as $tableName=>$tableRows) {
@@ -288,7 +288,7 @@ function jsonToCsv() {
         $readme = [];
         $readme[] = '_Generated on '.date(DateTime::ISO8601).'_';
         $readme[] = '';
-    
+
         foreach ($schemaDetails as $k=>$v) {
             $readme[] = '';
             $readme[] = '##'.$k;
@@ -320,7 +320,7 @@ function jsonToCsv() {
             $dotTable = "\"".$tableName."\" [label=<\n";
             $dotTable .= "  <table border=\"0\" cellborder=\"1\" cellspacing=\"0\">\n";
             $dotTable .= "  <tr><td port=\"0\"><b><i>".$tableName."</i></b></td></tr>\n";
-        
+
             foreach ($v['columns'] as $ck=>$cv) {
                 $dotTable .= "  <tr><td port=\"".$cv."\">".$cv."</td></tr>\n";
             }
@@ -345,25 +345,25 @@ function jsonToCsv() {
         file_put_contents($targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot',implode($digraph,"\n"));
         exec('dot -Tpng '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot -o '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.png');
         exec('dot -Tpdf '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot -o '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.pdf');
-    
 
 
 
 
-        
-
-       
 
 
 
-        
 
 
-    } 
+
+
+
+
+
+    }
 
     echo "\n\n[done]\n";
     die;
-    
+
 }
 
 
@@ -376,12 +376,12 @@ function downloadJbooks($jbookList) {
         echo "ERROR: Error reading jbook list file\n\n";
         die;
     }
-    
+
     $currentDirectory = getcwd();
 
     $tocFileSegments = explode('_',$jbookList);
     $targetPathYear = $currentDirectory.'/'.$targetPath.'/'.$tocFileSegments[0];
-    
+
     echo "<Removing folder in prep for download: $targetPathYear>\n";
     sleep(20);
     $rmCmd = 'rm -Rf '.$targetPathYear;
@@ -393,22 +393,22 @@ function downloadJbooks($jbookList) {
     foreach ($toc as $type=>$year_list) {
         foreach ($year_list as $year=>$pdf_list) {
             foreach ($pdf_list as $folder_name=>$pdf_url) {
-    
+
             $folder = $targetPathYear."/".$type."/".$year."/".$folder_name;
-            
+
             echo "=========================================================\n";
             echo "<Creating folder $folder>\n";
             mkdir($folder,0755,TRUE);
-          
+
             echo "<DOWNLOAD: $pdf_url => $folder>\n";
             $pathinfo = pathinfo($pdf_url);
-    
+
             $download_successful = FALSE;
             while ($download_successful == FALSE) {
                 $c_cmd = 'curl --url "'.$pdf_url.'" --output "'.$folder.'/'.$pathinfo['basename'].'"';
                 echo $c_cmd."\n";
                 exec($c_cmd);
-    
+
                 if (filesize($folder.'/'.$pathinfo['basename']) > 100) {
                     $download_successful = TRUE;
                     echo "<OK (".filesize($folder.'/'.$pathinfo['basename']).")>\n";
@@ -418,12 +418,12 @@ function downloadJbooks($jbookList) {
                     echo "*** WILL TRY AGAIN IN 10 seconds ***\n";
                     sleep(10);
                 }
-    
+
             }
-    
+
             // extract attachments from PDF
             chdir($folder);
-    
+
             foreach (glob('*.[pP][dD][fF]') as $filename) {
                 echo "<Extracting attachments from $folder/$filename>\n";
                 exec('qpdf --decrypt "'.$filename.'" "d_'.$filename.'"');
@@ -431,17 +431,17 @@ function downloadJbooks($jbookList) {
                 exec('mv "d_'.$filename.'" "'.$filename.'"');
                 exec('pdftk "'.$filename.'" unpack_files');
             }
-             
+
             // find .zzz files within the $folder and unzip files to folder with same name as filename (with _unzipped as suffix)
             foreach (glob('*.[zZ][zZ][zZ]') as $filename) {
                 echo "<Unzipping $filename>\n";
                 exec('unzip "'.$filename.'" -d "./'.$filename.'_unzipped"');
             }
-    
+
             chdir($targetPathYear);
-    
+
             echo "=========================================================\n";
-    
+
             }
         }
     }
@@ -453,7 +453,7 @@ function downloadJbooks($jbookList) {
 
 function saveRecords($jbookRecordId, $recordType, $meta, $rows, $targetPath) {
     echo "<Saving (".count($schemaDetails[$tableName]['filename'],$rows).") ".$year." - ".$recordType.">\n";
-    
+
     foreach ($rows as $recordIdx=>$record) {
         $recordToSave = [];
         $idFields = [];
@@ -466,7 +466,7 @@ function saveRecords($jbookRecordId, $recordType, $meta, $rows, $targetPath) {
         $recordToSave['id'] = str_replace(' ', '', implode('-',$idFields));
         $recordToSave['meta'] = $meta;
         $recordToSave['record'] = $record;
-        
+
         echo $recordToSave['id']."\n";
         file_put_contents($targetPath."/".$recordToSave['id'].".json", json_encode($recordToSave, JSON_PRETTY_PRINT));
     }
@@ -474,7 +474,7 @@ function saveRecords($jbookRecordId, $recordType, $meta, $rows, $targetPath) {
 }
 
 function processJbookDocObj($jbookType, $filename, $fileRecordId, $jbookGrpIdx, $jbookInfoIdx, $jbookDocObj, $recordType, $meta, $targetPath) {
-    
+
     echo "<Process jbook doc object - $recordType>\n";
     $meta['budget_year'] = $jbookDocObj['JustificationBook']['BudgetYear']['val'];
     $meta['budget_cycle'] = $jbookDocObj['JustificationBook']['BudgetCycle']['val'];
@@ -516,7 +516,7 @@ function processJsonDocs($rglobPattern='*.json') {
     $targetPaths = [];
     $targetPaths['procurement-lineitems'] = './3-json-procurement-lineitems';
     $targetPaths['rdte-programelements'] = './3-json-rdte-programelements';
-    
+
     echo "<Removing / creating target folders>\n";
     foreach ($targetPaths as $targetPath) {
         echo "<$targetPath>\n";
@@ -534,12 +534,12 @@ function processJsonDocs($rglobPattern='*.json') {
         // Get file year
         $filePathSegments = explode('-',str_replace($sourcePath."/","",$filePath));
         $fileYear = $filePathSegments[0];
-        
+
         echo "----------------------\n";
         echo "[".($fileIdx+1)."/".$fileCount."]\n";
         echo "FILE = ".$filePath."\n";
         echo "----------------------\n";
-        
+
         echo "<Reading JSON into memory>\n";
         $jbookDoc = json_decode(file_get_contents($filePath), TRUE);
 
@@ -548,35 +548,35 @@ function processJsonDocs($rglobPattern='*.json') {
         $meta['doctype'] = $jbookDoc['@doctype'];
 
         $recordType = '';
-        
+
         // procurement-lineitems in JBOOKS
         if (isset($jbookDoc['JustificationBook']['LineItemList']['LineItem'])) {
            $recordType = 'procurement-lineitems';
            processJbookDocObj(
                'jbook',
-               $jbookDoc['@filename'], 
-               $jbookDoc['@recordid'], 
+               $jbookDoc['@filename'],
+               $jbookDoc['@recordid'],
                null,
                null,
-               $jbookDoc, 
-               $recordType, 
-               $meta, 
+               $jbookDoc,
+               $recordType,
+               $meta,
                $targetPaths[$recordType]
            );
         }
-       
+
         // rdte-programelements in JBOOKS
         if (isset($jbookDoc['JustificationBook']['R2ExhibitList']['R2Exhibit'])) {
             $recordType = 'rdte-programelements';
             processJbookDocObj(
                 'jbook',
-                $jbookDoc['@filename'], 
-                $jbookDoc['@recordid'], 
+                $jbookDoc['@filename'],
+                $jbookDoc['@recordid'],
                 null,
                 null,
-                $jbookDoc, 
-                $recordType, 
-                $meta, 
+                $jbookDoc,
+                $recordType,
+                $meta,
                 $targetPaths[$recordType]
             );
         }
@@ -585,7 +585,7 @@ function processJsonDocs($rglobPattern='*.json') {
         if (isset($jbookDoc['MasterJustificationBook']['JustificationBookGroupList']['JustificationBookGroup'])) {
             foreach ($jbookDoc['MasterJustificationBook']['JustificationBookGroupList']['JustificationBookGroup'] as $jbookGrpIdx=>$jbookGrp) {
                 echo "<MASTER JBOOK GROUP: $jbookGrpIdx>\n";
-                
+
                 if (isset($jbookGrp['JustificationBookInfoList']['JustificationBookInfo'])) {
                     foreach ($jbookGrp['JustificationBookInfoList']['JustificationBookInfo'] as $jbookIdx=>$jbook) {
 
@@ -595,12 +595,12 @@ function processJsonDocs($rglobPattern='*.json') {
                             processJbookDocObj(
                                 'masterjbook',
                                 $jbook['@filename'],
-                                $jbookDoc['@recordid'], 
-                                $jbookGrpIdx, 
-                                $jbookIdx, 
-                                $jbook, 
-                                $recordType, 
-                                $meta, 
+                                $jbookDoc['@recordid'],
+                                $jbookGrpIdx,
+                                $jbookIdx,
+                                $jbook,
+                                $recordType,
+                                $meta,
                                 $targetPaths[$recordType]
                             );
                         }
@@ -610,13 +610,13 @@ function processJsonDocs($rglobPattern='*.json') {
                             $recordType = 'rdte-programelements';
                             processJbookDocObj(
                                 'masterjbook',
-                                $jbook['@filename'], 
-                                $jbookDoc['@recordid'], 
-                                $jbookGrpIdx, 
-                                $jbookIdx, 
-                                $jbook, 
-                                $recordType, 
-                                $meta, 
+                                $jbook['@filename'],
+                                $jbookDoc['@recordid'],
+                                $jbookGrpIdx,
+                                $jbookIdx,
+                                $jbook,
+                                $recordType,
+                                $meta,
                                 $targetPaths[$recordType]
                             );
                         }
@@ -665,7 +665,26 @@ function copyJbookXmlToSingleFolder() {
 
     echo "\n\n[done]\n";
     die;
-    
+
+}
+
+function saveJsonArrayPaths($arrayConfigOutput) {
+
+  echo "<Sorting jbookArrayPaths[MasterJustificationBook]>\n";
+  foreach ($GLOBALS['jbookArrayPaths']['MasterJustificationBook'] as $year=>$paths) {
+    sort($GLOBALS['jbookArrayPaths']['MasterJustificationBook'][$year]);
+  }
+  echo "<Sorting jbookArrayPaths[JustificationBook]>\n";
+  foreach ($GLOBALS['jbookArrayPaths']['JustificationBook'] as $year=>$paths) {
+    sort($GLOBALS['jbookArrayPaths']['JustificationBook'][$year]);
+  }
+  echo "<Sorting jbookArrayPaths[FilesAnalyzed]>\n";
+  foreach ($GLOBALS['jbookArrayPaths']['JustificationBook'] as $year=>$paths) {
+    sort($GLOBALS['jbookArrayPaths']['JustificationBook'][$year]);
+  }
+
+  echo "<Saving ".$arrayConfigOutput.">\n";
+  file_put_contents($arrayConfigOutput, json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
 }
 
 function determineJbookArrayPaths($rglobPattern='*.xml') {
@@ -679,7 +698,7 @@ function determineJbookArrayPaths($rglobPattern='*.xml') {
     } else {
         file_put_contents($arrayConfigOutput, json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
     }
-    
+
 
     $fileList = rglob($sourcePath.'/'.$rglobPattern);
     sort($fileList);
@@ -690,7 +709,7 @@ function determineJbookArrayPaths($rglobPattern='*.xml') {
         // Get file year
         $filePathSegments = explode('-',str_replace($sourcePath."/","",$filePath));
         $fileYear = $filePathSegments[0];
-        
+
         // Get file type
         if (strpos($filePath,'MasterJustificationBook') !== false) {
             $jbookType = 'MasterJustificationBook';
@@ -716,25 +735,26 @@ function determineJbookArrayPaths($rglobPattern='*.xml') {
 
         // If we have already processed this file - simple read from FileAnalyzed list of paths and ensure
         // they are already included.
-    
+
         if (isset($GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName])) {
             if (count($GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName]) > 0) {
                 foreach ($GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName] as $k=>$path) {
                     $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear][] = $path;
-                    $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear] = array_values(array_unique($GLOBALS['jbookArrayPaths'][$jbookType][$fileYear]));   
+                    $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear] = array_values(array_unique($GLOBALS['jbookArrayPaths'][$jbookType][$fileYear]));
                 };
                 echo "<Skipping - already have paths for this file>\n";
-                file_put_contents($arrayConfigOutput,json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
+                saveJsonArrayPaths($arrayConfigOutput);
+                //file_put_contents($arrayConfigOutput,json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
                 continue;
             }
         }
-        
+
         // If we didn't continue from last setp - file needs to
         $GLOBALS['FilesAnalyzed'][$fileName] = [];
-    
+
         echo "<Loading XML>\n";
         $xml = simplexml_load_file($filePath);
-        
+
         echo "<Converting XML to JSON>\n";
         $json = XmlTools::xmlToArray($xml,null,array('removeNamespace'=>true));
 
@@ -755,18 +775,19 @@ function determineJbookArrayPaths($rglobPattern='*.xml') {
         }
         echo "\n";
         echo "<Updating $arrayConfigOutput>\n";
-        file_put_contents($arrayConfigOutput,json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
-   
+        saveJsonArrayPaths($arrayConfigOutput);
+        //file_put_contents($arrayConfigOutput,json_encode($GLOBALS['jbookArrayPaths'], JSON_PRETTY_PRINT));
+
         echo "=========================================================\n";
-       
+
     }
 
     echo "----------------------\n";
-    
-    echo "\n[done]\n\n";
-        
 
-    
+    echo "\n[done]\n\n";
+
+
+
 }
 
 function convertXmlToJson($rglobPattern='*.xml') {
@@ -792,13 +813,13 @@ function convertXmlToJson($rglobPattern='*.xml') {
     }
     echo "<arrayPaths count = ".count($allJbookArrayPaths).">\n";
     echo "=========================================================\n";
-    
+
     $fileList = rglob($sourcePath.'/'.$rglobPattern);
     sort($fileList);
     $fileCount = count($fileList);
 
     foreach ($fileList as $fileIdx=>$filePath) {
-    
+
         $fileName = str_replace($sourcePath."/","",$filePath);
         $filePathSegments = explode('-',str_replace($sourcePath."/","",$filePath));
         $fileSize = filesize($filePath);
@@ -812,11 +833,11 @@ function convertXmlToJson($rglobPattern='*.xml') {
         }
 
         $docType = $filePathSegments[0].'-'.$filePathSegments[1].'-'.strtoupper($jbookType);
-        
+
         $recordId = hash_file('sha256',$filePath);
-        
+
         $targetFileName = substr($fileName, 0, -3)."json";
-       
+
         echo "----------------------\n";
         echo "[".($fileIdx+1)."/".$fileCount."]\n";
         echo "FILEPATH = ".$filePath."\n";
@@ -829,7 +850,7 @@ function convertXmlToJson($rglobPattern='*.xml') {
         echo "----------------------\n";
 
         $xml = simplexml_load_file($filePath);
-   
+
         $jsonDoc = Xmltools::XmlToArray(
             $xml,
             $jbookType,
@@ -841,11 +862,11 @@ function convertXmlToJson($rglobPattern='*.xml') {
         $doc['@doctype'] = $docType;
         $doc['@filename'] = $fileName;
         $doc = array_merge($doc,$jsonDoc);
-      
+
         $target = $targetPath."/".$targetFileName;
         echo "<Writing ".$target.">\n";
         file_put_contents($target,json_encode($doc, JSON_PRETTY_PRINT));
-      
+
     }
 
     echo "\n\n[done]\n";
@@ -856,7 +877,7 @@ function getXMLPaths($fileYear, $jbookType, $fileName, $json, $path="") {
 
     if (is_array($json)) {
       foreach ($json as $key=>$val) {
-  
+
             if (!is_numeric($key)) {
               if (is_array($val)) {
                 getXMLPaths($fileYear, $jbookType, $fileName, $val, ltrim($path.".".$key,"."));
@@ -867,26 +888,25 @@ function getXMLPaths($fileYear, $jbookType, $fileName, $json, $path="") {
               // Append to list of paths per jbook types (jbook or master jbook)
               $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear][] = $path;
               $GLOBALS['jbookArrayPaths'][$jbookType][$fileYear] = array_values(array_unique($GLOBALS['jbookArrayPaths'][$jbookType][$fileYear]));
-              
+
               // Append to list of paths per file to minimize need to re-eval in future
               $GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName][] = $path;
               $GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName] = array_values(array_unique($GLOBALS['jbookArrayPaths']['FilesAnalyzed'][$fileName]));
-              
+
               getXMLPaths($fileYear, $jbookType, $fileName, $val, $path);
             }
-  
+
       }
-  
+
     }
-  
+
 }
 
 function rglob($pattern, $flags = 0) {
     $files = glob($pattern, $flags);
-  
+
     foreach (glob(dirname($pattern).'/*', GLOB_ONLYDIR|GLOB_NOSORT) as $dir) {
         $files = array_merge($files, rglob($dir.'/'.basename($pattern), $flags));
     }
     return $files;
 }
-
