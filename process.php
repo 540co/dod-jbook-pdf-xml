@@ -793,6 +793,7 @@ function determineJbookArrayPaths($rglobPattern='*.xml') {
 function convertXmlToJson($rglobPattern='*.xml') {
     $sourcePath = './1-jbook-xml';
     $targetPath = './2-jbook-json';
+    $jsonArrayFile = "./jbookArrays.json";
 
     if (!file_exists($targetPath)) {
         echo "Folder does not exist - creating.\n";
@@ -800,18 +801,31 @@ function convertXmlToJson($rglobPattern='*.xml') {
     }
 
     echo "<Loading and merging all jbookArrayPaths into a single list>\n";
-    $jbookArrayPaths = json_decode(file_get_contents('./jbookArrayPaths.json'), TRUE);
+    $jbookArrayPaths = json_decode(file_get_contents($jsonArrayFile), TRUE);
+    $jbookArrayPathsLastUpdated = filemtime($jsonArrayFile);
+
     $allJbookArrayPaths = [];
-    foreach ($jbookArrayPaths as $jbookType => $years) {
-        echo "/".$jbookType."/";
-        foreach ($years as $year=>$arrayPathList) {
-            echo $year."/";
-            $allJbookArrayPaths = array_merge($allJbookArrayPaths,$jbookArrayPaths[$jbookType][$year]);
-            $allJbookArrayPaths = array_values(array_unique($allJbookArrayPaths));
-        }
-        echo "\n";
+
+    echo '|MasterJustificationBook|';
+
+    foreach ($jbookArrayPaths['MasterJustificationBook'] as $year=>$arrayPathList) {
+      echo $year."|";
+      $allJbookArrayPaths = array_merge($allJbookArrayPaths,$arrayPathList);
+      $allJbookArrayPaths = array_values(array_unique($allJbookArrayPaths));
     }
+    echo "\n";
+
+    echo '|JustificationBook|';
+
+    foreach ($jbookArrayPaths['JustificationBook'] as $year=>$arrayPathList) {
+      echo $year."|";
+      $allJbookArrayPaths = array_merge($allJbookArrayPaths,$arrayPathList);
+      $allJbookArrayPaths = array_values(array_unique($allJbookArrayPaths));
+    }
+    echo "\n";
+
     echo "<arrayPaths count = ".count($allJbookArrayPaths).">\n";
+    echo "<last updated = ".date('c', $jbookArrayPathsLastUpdated).">\n";
     echo "=========================================================\n";
 
     $fileList = rglob($sourcePath.'/'.$rglobPattern);
@@ -837,6 +851,22 @@ function convertXmlToJson($rglobPattern='*.xml') {
         $recordId = hash_file('sha256',$filePath);
 
         $targetFileName = substr($fileName, 0, -3)."json";
+        $target = $targetPath."/".$targetFileName;
+
+        // check if file exists and timestamp is "greater than" jbookArrays.json
+        if (file_exists($target)) {
+          $jsonCreateTimestamp = filemtime($target);
+          echo "<NOTICE: XML->JSON file exists - created ".date('c', $jsonCreateTimestamp).">\n";
+
+          if ($jsonCreateTimestamp > $jbookArrayPathsLastUpdated) {
+            echo "<SKIPPING XML->JSON: xml has already been converted since last jbookArrayPaths update>\n";
+            continue;
+          }
+
+          if ($jsonCreateTimestamp <= $jbookArrayPathsLastUpdated) {
+            echo "<OVERWRITE: conversion will be done - and file will be overwritten - since it appears to have been created previous to last array analysis>\n";
+          }
+        }
 
         echo "----------------------\n";
         echo "[".($fileIdx+1)."/".$fileCount."]\n";
@@ -863,7 +893,6 @@ function convertXmlToJson($rglobPattern='*.xml') {
         $doc['@filename'] = $fileName;
         $doc = array_merge($doc,$jsonDoc);
 
-        $target = $targetPath."/".$targetFileName;
         echo "<Writing ".$target.">\n";
         file_put_contents($target,json_encode($doc, JSON_PRETTY_PRINT));
 
