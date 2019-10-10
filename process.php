@@ -452,7 +452,7 @@ function downloadJbooks($jbookList) {
 }
 
 function saveRecords($jbookRecordId, $recordType, $meta, $rows, $targetPath) {
-    echo "<Saving (".count($schemaDetails[$tableName]['filename'],$rows).") ".$year." - ".$recordType.">\n";
+    echo "<Saving (".count($rows).") ".$year." - ".$recordType.">\n";
 
     foreach ($rows as $recordIdx=>$record) {
         $recordToSave = [];
@@ -482,16 +482,17 @@ function processJbookDocObj($jbookType, $filename, $fileRecordId, $jbookGrpIdx, 
     $meta['service_agency_name'] = $jbookDocObj['JustificationBook']['ServiceAgencyName']['val'];
     $meta['appropriation_code'] = $jbookDocObj['JustificationBook']['AppropriationCode']['val'];
     $meta['appropriation_name'] = $jbookDocObj['JustificationBook']['AppropriationName']['val'];
-
+    var_dump($jbookDocObj);
+    die;
     switch ($recordType) {
         case 'procurement-lineitems':
             $rows = $jbookDocObj['JustificationBook']['LineItemList']['LineItem'];
-            echo "<record count = ".count($schemaDetails[$tableName]['filename'],$rows).">\n";
+            echo "<record count = ".count($rows).">\n";
         break;
 
         case 'rdte-programelements':
             $rows = $jbookDocObj['JustificationBook']['R2ExhibitList']['R2Exhibit'];
-            echo "<record count = ".count($schemaDetails[$tableName]['filename'],$rows).">\n";
+            echo "<record count = ".count($rows).">\n";
         break;
     }
 
@@ -501,7 +502,7 @@ function processJbookDocObj($jbookType, $filename, $fileRecordId, $jbookGrpIdx, 
         $id = $fileRecordId;
     }
 
-    saveRecords($id, $recordType, $meta, $schemaDetails[$tableName]['filename'],$rows, $targetPath);
+    saveRecords($id, $recordType, $meta, $rows, $targetPath);
 
 }
 
@@ -629,7 +630,7 @@ function processJsonDocs($rglobPattern='*.json') {
 
         if ($recordType === '') {
             echo "<WARNING: No records found in jbook>\n";
-            sleep(1);
+            sleep(5);
         }
 
 
@@ -864,7 +865,7 @@ function convertXmlToJson($rglobPattern='*.xml') {
         echo "@doctype = ".$docType."\n";
         echo "@filename = ".$fileName."\n";
         echo "----------------------\n";
-        
+
         // check if file exists and timestamp is "greater than" jbookArrays.json
         if (file_exists($target)) {
           $jsonCreateTimestamp = filemtime($target);
