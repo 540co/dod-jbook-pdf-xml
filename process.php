@@ -482,8 +482,7 @@ function processJbookDocObj($jbookType, $filename, $fileRecordId, $jbookGrpIdx, 
     $meta['service_agency_name'] = $jbookDocObj['JustificationBook']['ServiceAgencyName']['val'];
     $meta['appropriation_code'] = $jbookDocObj['JustificationBook']['AppropriationCode']['val'];
     $meta['appropriation_name'] = $jbookDocObj['JustificationBook']['AppropriationName']['val'];
-    var_dump($jbookDocObj);
-    die;
+  
     switch ($recordType) {
         case 'procurement-lineitems':
             $rows = $jbookDocObj['JustificationBook']['LineItemList']['LineItem'];
