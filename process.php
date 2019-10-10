@@ -1,6 +1,4 @@
 <?php
-//error_reporting(E_ERROR | E_PARSE);
-
 require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/Exception.php';
 require __DIR__ . '/540co/keboola/php-utils/src/Keboola/Utils/Exception/JsonDecodeException.php';
@@ -463,17 +461,20 @@ function saveRecords($jbookRecordId, $recordType, $meta, $rows, $targetPath) {
         $idFields[] = $meta['appropriation_code'];
         $idFields[] = $jbookRecordId;
         $idFields[] = $recordIdx;
-        $recordToSave['id'] = str_replace(' ', '', implode('-',$idFields));
+        $id = str_replace(' ', '', preg_replace("/[^a-z0-9\_\-\.]/i",'',implode('-',$idFields)));
+        $recordToSave['id'] = $id;
         $recordToSave['meta'] = $meta;
         $recordToSave['record'] = $record;
 
         echo $recordToSave['id']."\n";
         file_put_contents($targetPath."/".$recordToSave['id'].".json", json_encode($recordToSave, JSON_PRETTY_PRINT));
     }
+    echo "[done]";
+    echo "\n";
 
 }
 
-function processJbookDocObj($jbookType, $filename, $fileRecordId, $jbookGrpIdx, $jbookInfoIdx, $jbookDocObj, $recordType, $meta, $targetPath) {
+function processJbookDocObj($jbookType, $filename, $fileRecordId, $jbookGrpIdx, $jbookInfoIdx, $jbookDocObj, $recordType, $meta, $rows, $targetPath) {
 
     echo "<Process jbook doc object - $recordType>\n";
     $meta['budget_year'] = $jbookDocObj['JustificationBook']['BudgetYear']['val'];
@@ -482,26 +483,27 @@ function processJbookDocObj($jbookType, $filename, $fileRecordId, $jbookGrpIdx, 
     $meta['service_agency_name'] = $jbookDocObj['JustificationBook']['ServiceAgencyName']['val'];
     $meta['appropriation_code'] = $jbookDocObj['JustificationBook']['AppropriationCode']['val'];
     $meta['appropriation_name'] = $jbookDocObj['JustificationBook']['AppropriationName']['val'];
-  
+
     switch ($recordType) {
         case 'procurement-lineitems':
-            $rows = $jbookDocObj['JustificationBook']['LineItemList']['LineItem'];
             echo "<record count = ".count($rows).">\n";
         break;
 
         case 'rdte-programelements':
-            $rows = $jbookDocObj['JustificationBook']['R2ExhibitList']['R2Exhibit'];
             echo "<record count = ".count($rows).">\n";
         break;
     }
 
     if ($jbookType == 'masterjbook') {
-        $id = $jbookGrpIdx."-".$jbookInfoIdx."-".$fileRecordId;
+        $jbookRecordId = "MJBOOK"."-".$jbookGrpIdx."-".$jbookInfoIdx."-".$fileRecordId;
     } else {
-        $id = $fileRecordId;
+        $jbookRecordId = "JBOOK"."-".$fileRecordId;
     }
 
-    saveRecords($id, $recordType, $meta, $rows, $targetPath);
+    // ensure no special chars in $id that might affect writing to disk
+    $jbookRecordId = preg_replace("/[^a-z0-9\_\-\.]/i",'',$jbookRecordId);
+
+    saveRecords($jbookRecordId, $recordType, $meta, $rows, $targetPath);
 
 }
 
@@ -541,6 +543,7 @@ function processJsonDocs($rglobPattern='*.json') {
         echo "----------------------\n";
 
         echo "<Reading JSON into memory>\n";
+        $jbookDoc = '';
         $jbookDoc = json_decode(file_get_contents($filePath), TRUE);
 
         $meta = [];
@@ -561,11 +564,12 @@ function processJsonDocs($rglobPattern='*.json') {
                $jbookDoc,
                $recordType,
                $meta,
+               $jbookDoc['JustificationBook']['LineItemList']['LineItem'],
                $targetPaths[$recordType]
            );
         }
 
-        // rdte-programelements in JBOOKS
+        // rdte-programelements in JBOOKS (2013-2016)
         if (isset($jbookDoc['JustificationBook']['R2ExhibitList']['R2Exhibit'])) {
             $recordType = 'rdte-programelements';
             processJbookDocObj(
@@ -577,6 +581,24 @@ function processJsonDocs($rglobPattern='*.json') {
                 $jbookDoc,
                 $recordType,
                 $meta,
+                $jbookDoc['JustificationBook']['R2ExhibitList']['R2Exhibit'],
+                $targetPaths[$recordType]
+            );
+        }
+
+        // rdte-programelements in JBOOKS (2017-current)
+        if (isset($jbookDoc['JustificationBook']['ProgramElementList']['ProgramElement'])) {
+            $recordType = 'rdte-programelements';
+            processJbookDocObj(
+                'jbook',
+                $jbookDoc['@filename'],
+                $jbookDoc['@recordid'],
+                null,
+                null,
+                $jbookDoc,
+                $recordType,
+                $meta,
+                $jbookDoc['JustificationBook']['ProgramElementList']['ProgramElement'],
                 $targetPaths[$recordType]
             );
         }
@@ -601,11 +623,12 @@ function processJsonDocs($rglobPattern='*.json') {
                                 $jbook,
                                 $recordType,
                                 $meta,
+                                $jbook['JustificationBook']['LineItemList']['LineItem'],
                                 $targetPaths[$recordType]
                             );
                         }
 
-                        // rdte-programelements in MASTER JBOOKS
+                        // rdte-programelements in MASTER JBOOKS (2013 - 2016)
                         if (isset($jbook['JustificationBook']['R2ExhibitList']['R2Exhibit'])) {
                             $recordType = 'rdte-programelements';
                             processJbookDocObj(
@@ -617,6 +640,24 @@ function processJsonDocs($rglobPattern='*.json') {
                                 $jbook,
                                 $recordType,
                                 $meta,
+                                $jbook['JustificationBook']['R2ExhibitList']['R2Exhibit'],
+                                $targetPaths[$recordType]
+                            );
+                        }
+
+                        // rdte-programelements in MASTER JBOOKS (2013 - 2016)
+                        if (isset($jbook['JustificationBook']['ProgramElementList']['ProgramElement'])) {
+                            $recordType = 'rdte-programelements';
+                            processJbookDocObj(
+                                'masterjbook',
+                                $jbook['@filename'],
+                                $jbookDoc['@recordid'],
+                                $jbookGrpIdx,
+                                $jbookIdx,
+                                $jbook,
+                                $recordType,
+                                $meta,
+                                $jbook['JustificationBook']['ProgramElementList']['ProgramElement'],
                                 $targetPaths[$recordType]
                             );
                         }
@@ -628,8 +669,10 @@ function processJsonDocs($rglobPattern='*.json') {
         }
 
         if ($recordType === '') {
-            echo "<WARNING: No records found in jbook>\n";
-            sleep(5);
+            echo "<ERROR: No records found in jbook>\n";
+            echo "\n\n".json_encode($jbookDoc)."\n\n";
+            echo "<ERROR: No records found in jbook>\n";
+            die;
         }
 
 
