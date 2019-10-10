@@ -827,6 +827,7 @@ function convertXmlToJson($rglobPattern='*.xml') {
     echo "<arrayPaths count = ".count($allJbookArrayPaths).">\n";
     echo "<last updated = ".date('c', $jbookArrayPathsLastUpdated).">\n";
     echo "=========================================================\n";
+    sleep(2);
 
     $fileList = rglob($sourcePath.'/'.$rglobPattern);
     sort($fileList);
@@ -853,6 +854,17 @@ function convertXmlToJson($rglobPattern='*.xml') {
         $targetFileName = substr($fileName, 0, -3)."json";
         $target = $targetPath."/".$targetFileName;
 
+        echo "----------------------\n";
+        echo "[".($fileIdx+1)."/".$fileCount."]\n";
+        echo "FILEPATH = ".$filePath."\n";
+        echo "FILESIZE = ".$fileSize."\n";
+        echo "YEAR = ".$fileYear."\n";
+        echo "JBOOK_TYPE = ".$jbookType."\n";
+        echo "@recordid = ".$recordId."\n";
+        echo "@doctype = ".$docType."\n";
+        echo "@filename = ".$fileName."\n";
+        echo "----------------------\n";
+        
         // check if file exists and timestamp is "greater than" jbookArrays.json
         if (file_exists($target)) {
           $jsonCreateTimestamp = filemtime($target);
@@ -868,16 +880,7 @@ function convertXmlToJson($rglobPattern='*.xml') {
           }
         }
 
-        echo "----------------------\n";
-        echo "[".($fileIdx+1)."/".$fileCount."]\n";
-        echo "FILEPATH = ".$filePath."\n";
-        echo "FILESIZE = ".$fileSize."\n";
-        echo "YEAR = ".$fileYear."\n";
-        echo "JBOOK_TYPE = ".$jbookType."\n";
-        echo "@recordid = ".$recordId."\n";
-        echo "@doctype = ".$docType."\n";
-        echo "@filename = ".$fileName."\n";
-        echo "----------------------\n";
+
 
         $xml = simplexml_load_file($filePath);
 
