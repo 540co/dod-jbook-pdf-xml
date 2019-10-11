@@ -872,10 +872,58 @@ function convertXmlToJson($rglobPattern='*.xml') {
     }
     echo "\n";
 
-    echo "<arrayPaths count = ".count($allJbookArrayPaths).">\n";
+    $rootPaths = [
+      "JustificationBook.LineItemList.LineItem.",
+      "JustificationBook.R2ExhibitList.R2Exhibit.",
+      "JustificationBook.ProgramElementList.ProgramElement.",
+      "MasterJustificationBook.JustificationBookGroupList.JustificationBookGroup.JustificationBookInfoList.JustificationBookInfo.JustificationBook.LineItemList.LineItem.",
+      "MasterJustificationBook.JustificationBookGroupList.JustificationBookGroup.JustificationBookInfoList.JustificationBookInfo.JustificationBook.R2ExhibitList.R2Exhibit.",
+      "MasterJustificationBook.JustificationBookGroupList.JustificationBookGroup.JustificationBookInfoList.JustificationBookInfo.JustificationBook.ProgramElementList.ProgramElement."
+    ];
+
+    $recordArrayPaths = [];
+    $otherArrayPaths = [];
+
+    foreach ($allJbookArrayPaths as $k=>$v) {
+
+      $recordPath = null;
+
+      foreach ($rootPaths as $kf=>$vf) {
+        if (substr($v,0,strlen($vf)) == $vf) {
+          $recordPath = str_replace($vf,"",$v);
+        }
+      }
+
+      if (strlen($recordPath) > 0) {
+        $recordArrayPaths[] = $recordPath ;
+        $recordArrayPaths = array_values(array_unique($recordArrayPaths));
+        sort($recordArrayPaths);
+      } else {
+        $otherArrayPaths[] = $v;
+        $otherArrayPaths = array_values(array_unique($otherArrayPaths));
+        sort($otherArrayPaths);
+      }
+
+    }
+
+    $overloadedPathArray = [];
+    foreach ($recordArrayPaths as $k=>$v) {
+      foreach ($rootPaths as $kk=>$vv) {
+        $overloadedPathArray[] = $vv."".$v;
+        $overloadedPathArray = array_values(array_unique($overloadedPathArray));
+        sort($overloadedPathArray);
+      }
+    }
+
+    $overloadedPathArray = array_merge($overloadedPathArray,$otherArrayPaths);
+
+    echo "<arrayPaths count = ".count($overloadedPathArray).">\n";
     echo "<last updated = ".date('c', $jbookArrayPathsLastUpdated).">\n";
     echo "=========================================================\n";
+
     sleep(2);
+
+
 
     $fileList = rglob($sourcePath.'/'.$rglobPattern);
     sort($fileList);
@@ -935,7 +983,7 @@ function convertXmlToJson($rglobPattern='*.xml') {
         $jsonDoc = Xmltools::XmlToArray(
             $xml,
             $jbookType,
-            array('alwaysArray'=>$allJbookArrayPaths, 'removeNamespace'=>true)
+            array('alwaysArray'=>$overloadedPathArray, 'removeNamespace'=>true)
         );
 
         $doc = [];
