@@ -1,0 +1,33 @@
+
+
+=========================================================
+[3-convert-xml-to-json]
+=========================================================
+Folder does not exist - creating.
+<Loading and merging all jbookArrayPaths into a single list>
+|MasterJustificationBook|2013|2014|2015|2016|2017|2018|2019|2020|
+|JustificationBook|2013|2014|2015|2016|2017|2018|2019|2020|
+<arrayPaths count = 1254>
+<last updated = 2019-10-09T04:51:40+00:00>
+=========================================================
+----------------------
+[1/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 2532513
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = efdbc1a8257a29bc83b13a3d5513a077722a4e37cdf5292a15ae39d35916bf22
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.json>
+----------------------
+[2/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 14283421
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = ed84e6b5b483910c63aae03b170d3f06fccc1c2982c3d344410bc1cde5b6285b
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------

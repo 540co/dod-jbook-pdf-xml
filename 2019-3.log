@@ -1,0 +1,43 @@
+
+
+=========================================================
+[3-convert-xml-to-json]
+=========================================================
+<Loading and merging all jbookArrayPaths into a single list>
+|MasterJustificationBook|2013|2014|2015|2016|2017|2018|2019|2020|
+|JustificationBook|2013|2014|2015|2016|2017|2018|2019|2020|
+<arrayPaths count = 1254>
+<last updated = 2019-10-09T04:51:40+00:00>
+=========================================================
+----------------------
+[1/143]
+FILEPATH = ./1-jbook-xml/2019-BASE_PROCUREMENT-2019-AIRFORCE_AIRCRAFT_VOL1-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.zzz_unzipped-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.xml
+FILESIZE = 1714058
+YEAR = 2019
+JBOOK_TYPE = JustificationBook
+@recordid = 0def6600310b124f6afd6c61bf70eb7915b88ea3b5def6a6875b1e1e129b528c
+@doctype = 2019-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2019-BASE_PROCUREMENT-2019-AIRFORCE_AIRCRAFT_VOL1-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.zzz_unzipped-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.xml
+----------------------
+<Writing ./2-jbook-json/2019-BASE_PROCUREMENT-2019-AIRFORCE_AIRCRAFT_VOL1-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.zzz_unzipped-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.json>
+----------------------
+[2/143]
+FILEPATH = ./1-jbook-xml/2019-BASE_PROCUREMENT-2019-AIRFORCE_AIRCRAFT_VOL1-U_PROCUREMENT_MasterJustificationBook_Air_Force_PB_2019.zzz_unzipped-U_PROCUREMENT_MasterJustificationBook_Air_Force_PB_2019.xml
+FILESIZE = 9316285
+YEAR = 2019
+JBOOK_TYPE = MasterJustificationBook
+@recordid = ecc0c394f0c845de11e1000cd93b58739b941ef09277342649d24c19da1aaf0e
+@doctype = 2019-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2019-BASE_PROCUREMENT-2019-AIRFORCE_AIRCRAFT_VOL1-U_PROCUREMENT_MasterJustificationBook_Air_Force_PB_2019.zzz_unzipped-U_PROCUREMENT_MasterJustificationBook_Air_Force_PB_2019.xml
+----------------------
+<Writing ./2-jbook-json/2019-BASE_PROCUREMENT-2019-AIRFORCE_AIRCRAFT_VOL1-U_PROCUREMENT_MasterJustificationBook_Air_Force_PB_2019.zzz_unzipped-U_PROCUREMENT_MasterJustificationBook_Air_Force_PB_2019.json>
+----------------------
+[3/143]
+FILEPATH = ./1-jbook-xml/2019-BASE_PROCUREMENT-2019-AIRFORCE_AIRCRAFT_VOL2-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.zzz_unzipped-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.xml
+FILESIZE = 5723308
+YEAR = 2019
+JBOOK_TYPE = JustificationBook
+@recordid = 1696c36ac6b4944a3159d895df55e9d0f6c525e92e9770dd51a99ea615fd35e1
+@doctype = 2019-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2019-BASE_PROCUREMENT-2019-AIRFORCE_AIRCRAFT_VOL2-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.zzz_unzipped-U_PROCUREMENT_JustificationBook_Air_Force_PB_2019.xml
+----------------------
