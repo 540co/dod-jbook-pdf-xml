@@ -45,7 +45,8 @@ ini_set('memory_limit', -1);
 $longOptions = [
     'step:',
     'jbook-list:',
-    'rglob-pattern:'
+    'rglob-pattern:',
+    'resource-type:'
 ];
 
 $options = getopt('', $longOptions);
@@ -108,15 +109,15 @@ switch ($options['step']) {
         echo "=========================================================\n";
         echo "[5-json-to-csv]\n";
         echo "=========================================================\n";
-        jsonToCsv();
+        if (
+          $options['resource-type'] == 'procurement-lineitems' ||
+          $options['resource-type'] == 'rdte-programelements')
+        {
+          jsonToCsv($options['resource-type']);
+        }
+
     break;
 
-    case '6-generate-csv-docs':
-        echo "=========================================================\n";
-        echo "[6-generate-csv-docs]\n";
-        echo "=========================================================\n";
-        generateCsvDocs();
-    break;
 }
 
 function generateCsvDocs() {
@@ -142,6 +143,7 @@ function findParentInfo($tables, $jsonParentIdInfo) {
                             'parentRowId' => $row['@ROWID'],
                             'parentRowIdx' => $rowIdx
                         );
+                        return $parent[0];
                     }
                 }
             }
@@ -157,207 +159,210 @@ function findParentInfo($tables, $jsonParentIdInfo) {
 
 }
 
-function jsonToCsv() {
+function jsonToCsv($resourceType) {
 
 
     $sourcePaths = [];
-    $sourcePaths['procurement-lineitems'] = './3-json-procurement-lineitems';
     $sourcePaths['rdte-programelements'] = './3-json-rdte-programelements';
+    $sourcePaths['procurement-lineitems'] = './3-json-procurement-lineitems';
 
     $targetPaths = [];
     $targetPaths['procurement-lineitems'] = './4-csv-procurement-lineitems';
     $targetPaths['rdte-programelements'] = './4-csv-rdte-programelements';
 
-    echo "<Removing / creating target folders>\n";
-    foreach ($targetPaths as $targetPath) {
-        echo "<$targetPath>\n";
-        exec('rm -Rf '.$targetPath);
-        mkdir($targetPath);
+    $targetPath = $targetPaths[$resourceType];
+    $sourcePath = $sourcePaths[$resourceType];
+    $sourceIdx = $resourceType;
+
+    echo "<Removing / creating target folders\n";
+    echo "<$targetPath>\n";
+    exec('rm -Rf '.$targetPath);
+    mkdir($targetPath);
+
+    echo "<Reading $sourceIdx into an array list>\n";
+    sleep(1);
+
+    $fileList = rglob($sourcePath.'/*.json');
+    sort($fileList);
+    $fileCount = count($fileList);
+
+    $rows = [];
+
+    foreach ($fileList as $fileIdx=>$filePath) {
+        echo "[".($fileIdx+1)."/".$fileCount."]\n";
+        echo "<$filePath>\n";
+        $record = json_decode(file_get_contents($filePath));
+        $rows[] = $record;
     }
 
-    foreach ($sourcePaths as $sourceIdx=>$sourcePath) {
+    echo "<record count = ".count($rows)." >\n";
 
-        echo "<Reading $sourceIdx into an array list>\n";
-        sleep(1);
+    $tables = Csv::createTables($rows);
 
-        $fileList = rglob($sourcePath.'/*.json');
-        sort($fileList);
-        $fileCount = count($fileList);
-
-        $rows = [];
-
-        foreach ($fileList as $fileIdx=>$filePath) {
-            echo "[".($fileIdx+1)."/".$fileCount."]\n";
-            echo "<$filePath>\n";
-            $record = json_decode(file_get_contents($filePath));
-            $rows[] = $record;
-        }
-
-        echo "<record count = ".count($rows)." >\n";
-
-        $tables = Csv::createTables($rows);
-
-        // Create map of JSON_parentId values
-        $JSON_parentId_List = [];
-        foreach ($tables as $tableName => $tableRows) {
-            foreach ($tableRows as $rowIdx => $row) {
-                if (isset($row['JSON_parentId'])) {
-                    $JSON_parentId_List[] = array(
-                        'JSON_parentId' => $row['JSON_parentId'],
-                        'childTableName' => $tableName,
-                        'childRowId' => $row['@ROWID'],
-                        'childRowIdx' => $rowIdx
-                    );
-                }
+    // Create map of JSON_parentId values
+    echo "<create map of json parent id values>\n";
+    $JSON_parentId_List = [];
+    foreach ($tables as $tableName => $tableRows) {
+        foreach ($tableRows as $rowIdx => $row) {
+            if (isset($row['JSON_parentId'])) {
+                $JSON_parentId_List[] = array(
+                    'JSON_parentId' => $row['JSON_parentId'],
+                    'childTableName' => $tableName,
+                    'childRowId' => $row['@ROWID'],
+                    'childRowIdx' => $rowIdx
+                );
             }
         }
+    }
 
-        // Lookup parent(s)
-        foreach ($JSON_parentId_List as $k=>$v) {
-            $JSON_parentId_List[$k] = array_merge($v, findParentInfo($tables, $v));
+    // Lookup parent(s)
+    foreach ($JSON_parentId_List as $k=>$v) {
+
+        echo "findParentInfo($k / ".count($JSON_parentId_List).")\n";
+        $JSON_parentId_List[$k] = array_merge($v, findParentInfo($tables, $v));
+    }
+
+    // Transform $tables
+    foreach ($JSON_parentId_List as $k=>$v) {
+        // Add @PARENTROWID to child row
+        $tables[$v['childTableName']][$v['childRowIdx']]['@PARENTROWID'] = $v['parentRowId'];
+        // Add @PARENT to child row
+        $tables[$v['childTableName']][$v['childRowIdx']]['@PARENT'] = $v['parentTableName'];
+        // Remove JSON_parentId from child row
+        unset($tables[$v['childTableName']][$v['childRowIdx']]['JSON_parentId']);
+        // Remove [parentColumnName] from parent row
+        unset($tables[$v['parentTableName']][$v['parentRowIdx']][$v['parentColumnName']]);
+    }
+
+    // Build parent / child relationship map
+    $parentChildMap = [];
+    $childParentMap = [];
+    foreach ($JSON_parentId_List as $k=>$v) {
+        if (!(isset($parentChildMap[$v['parentTableName']]))) {
+            $parentChildMap[$v['parentTableName']] = [];
+        }
+        $parentChildMap[$v['parentTableName']][] = $v['childTableName'];
+        $parentChildMap[$v['parentTableName']] = array_values(array_unique($parentChildMap[$v['parentTableName']]));
+
+        if (!(isset($childParentMap[$v['childTableName']]))) {
+            $childParentMap[$v['childTableName']] = [];
+        }
+        $childParentMap[$v['childTableName']][] = $v['parentTableName'];
+        $childParentMap[$v['childTableName']] = array_values(array_unique($childParentMap[$v['childTableName']]));
+    }
+
+    // Generate schema details prior to writing to disk
+    $schemaDetails = [];
+    foreach ($tables as $tableName => $tableRows) {
+        $schemaDetails[$tableName] = [];
+
+        if (strlen($tableName) > 250) {
+            $schemaDetails[$tableName]['filename'] = "~".substr($tableName,-250).".csv";
+        } else {
+            $schemaDetails[$tableName]['filename'] = $tableName.".csv";
         }
 
-        // Transform $tables
-        foreach ($JSON_parentId_List as $k=>$v) {
-            // Add @PARENTROWID to child row
-            $tables[$v['childTableName']][$v['childRowIdx']]['@PARENTROWID'] = $v['parentRowId'];
-            // Add @PARENT to child row
-            $tables[$v['childTableName']][$v['childRowIdx']]['@PARENT'] = $v['parentTableName'];
-            // Remove JSON_parentId from child row
-            unset($tables[$v['childTableName']][$v['childRowIdx']]['JSON_parentId']);
-            // Remove [parentColumnName] from parent row
-            unset($tables[$v['parentTableName']][$v['parentRowIdx']][$v['parentColumnName']]);
+        $schemaDetails[$tableName]['count'] = count($tableRows);
+        $schemaDetails[$tableName]['columns'] = array_keys($tableRows[0]);
+        if ($childParentMap[$tableName] == null) {
+            $schemaDetails[$tableName]['parentTables'] = [];
+        } else {
+            $schemaDetails[$tableName]['parentTables'] = $childParentMap[$tableName];
         }
 
-        // Build parent / child relationship map
-        $parentChildMap = [];
-        $childParentMap = [];
-        foreach ($JSON_parentId_List as $k=>$v) {
-            if (!(isset($parentChildMap[$v['parentTableName']]))) {
-                $parentChildMap[$v['parentTableName']] = [];
-            }
-            $parentChildMap[$v['parentTableName']][] = $v['childTableName'];
-            $parentChildMap[$v['parentTableName']] = array_values(array_unique($parentChildMap[$v['parentTableName']]));
-
-            if (!(isset($childParentMap[$v['childTableName']]))) {
-                $childParentMap[$v['childTableName']] = [];
-            }
-            $childParentMap[$v['childTableName']][] = $v['parentTableName'];
-            $childParentMap[$v['childTableName']] = array_values(array_unique($childParentMap[$v['childTableName']]));
+        if ($parentChildMap[$tableName] == null) {
+            $schemaDetails[$tableName]['childTables'] = [];
+        } else {
+            $schemaDetails[$tableName]['childTables'] = $parentChildMap[$tableName];
         }
 
-        // Generate schema details prior to writing to disk
-        $schemaDetails = [];
-        foreach ($tables as $tableName => $tableRows) {
-            $schemaDetails[$tableName] = [];
+    }
 
-            if (strlen($tableName) > 250) {
-                $schemaDetails[$tableName]['filename'] = "~".substr($tableName,-250).".csv";
-            } else {
-                $schemaDetails[$tableName]['filename'] = $tableName.".csv";
-            }
+    // Write CSV files / summary to disk
+    foreach ($tables as $tableName=>$tableRows) {
+        $csvSummaryFilename = $sourceIdx."-summary.json";
+        echo "<Writing CSV details summary - ".$csvSummaryFilename.">";
+        file_put_contents($targetPaths[$sourceIdx]."/".$csvSummaryFilename, json_encode($schemaDetails, JSON_PRETTY_PRINT));
+        echo "<Writing CSV - ".$schemaDetails[$tableName]['filename']." - ".$tableName.">\n";
+        Csv::writeCsv($targetPaths[$sourceIdx]."/".$schemaDetails[$tableName]['filename'], $tableRows);
+    }
 
-            $schemaDetails[$tableName]['count'] = count($tableRows);
-            $schemaDetails[$tableName]['columns'] = array_keys($tableRows[0]);
-            if ($childParentMap[$tableName] == null) {
-                $schemaDetails[$tableName]['parentTables'] = [];
-            } else {
-                $schemaDetails[$tableName]['parentTables'] = $childParentMap[$tableName];
-            }
+    // Generate docs
+    $readme = [];
+    $readme[] = '_Generated on '.date(DateTime::ISO8601).'_';
+    $readme[] = '';
 
-            if ($parentChildMap[$tableName] == null) {
-                $schemaDetails[$tableName]['childTables'] = [];
-            } else {
-                $schemaDetails[$tableName]['childTables'] = $parentChildMap[$tableName];
-            }
-
-        }
-
-        // Write CSV files / summary to disk
-        foreach ($tables as $tableName=>$tableRows) {
-            $csvSummaryFilename = $sourceIdx."-summary.json";
-            echo "<Writing CSV details summary - ".$csvSummaryFilename.">";
-            file_put_contents($targetPaths[$sourceIdx]."/".$csvSummaryFilename, json_encode($schemaDetails, JSON_PRETTY_PRINT));
-            echo "<Writing CSV - ".$schemaDetails[$tableName]['filename']." - ".$tableName.">\n";
-            Csv::writeCsv($targetPaths[$sourceIdx]."/".$schemaDetails[$tableName]['filename'], $tableRows);
-        }
-
-        // Generate docs
-        $readme = [];
-        $readme[] = '_Generated on '.date(DateTime::ISO8601).'_';
+    foreach ($schemaDetails as $k=>$v) {
         $readme[] = '';
+        $readme[] = '##'.$k;
+        $readme[] = '```';
+        $readme[] = 'filename => '.$v['filename'];
+        $readme[] = '# of rows => '.$v['count'];
+        $readme[] = '# of rows => '.count($v['columns']);
+        $readme[] = '```';
 
-        foreach ($schemaDetails as $k=>$v) {
-            $readme[] = '';
-            $readme[] = '##'.$k;
-            $readme[] = '```';
-            $readme[] = 'filename => '.$v['filename'];
-            $readme[] = '# of rows => '.$v['count'];
-            $readme[] = '# of rows => '.count($v['columns']);
-            $readme[] = '```';
-
-            $readme[] = '| Column |';
-            $readme[] = '|--------|';
-            foreach ($v['columns'] as $col) {
-                $readme[] = '| '.str_replace("_","\_",$col).' |';
-            }
-
+        $readme[] = '| Column |';
+        $readme[] = '|--------|';
+        foreach ($v['columns'] as $col) {
+            $readme[] = '| '.str_replace("_","\_",$col).' |';
         }
-        echo "<Writing README for $sourceIdx>\n";
-        file_put_contents($targetPaths[$sourceIdx].'/README.md',implode($readme,"\n"));
-
-        $digraph = [];
-        $digraph[] = "digraph {";
-        $digraph[] = "  graph [pad=\"0.5\", nodesep=\"0.5\", ranksep=\"2\"];\n";
-        $digraph[] = "  node [shape=plain]\n";
-        $digraph[] = "  rankdir=LR;\n";
-        $digraph[] = "";
-        $digraph[] = "";
-
-        foreach ($schemaDetails as $tableName=>$v) {
-            $dotTable = "\"".$tableName."\" [label=<\n";
-            $dotTable .= "  <table border=\"0\" cellborder=\"1\" cellspacing=\"0\">\n";
-            $dotTable .= "  <tr><td port=\"0\"><b><i>".$tableName."</i></b></td></tr>\n";
-
-            foreach ($v['columns'] as $ck=>$cv) {
-                $dotTable .= "  <tr><td port=\"".$cv."\">".$cv."</td></tr>\n";
-            }
-            $dotTable .= "  </table>>];\n\n";
-
-            $digraph[] = $dotTable;
-            $digraph[] = "";
-        }
-
-        $digraph[] = "";
-        $digraph[] = "";
-
-        foreach ($schemaDetails as $tableName=>$v) {
-            foreach ($v['childTables'] as $ctk=>$ctv) {
-                $digraph[] = "\"".$tableName."\":0 -> \"".$ctv."\":0";
-            }
-        }
-
-        $digraph[] = "}";
-
-        echo "<Writing ERD for $sourceIdx>\n";
-        file_put_contents($targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot',implode($digraph,"\n"));
-        exec('dot -Tpng '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot -o '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.png');
-        exec('dot -Tpdf '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot -o '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.pdf');
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
+    echo "<Writing README for $sourceIdx>\n";
+    file_put_contents($targetPaths[$sourceIdx].'/README.md',implode($readme,"\n"));
+
+    $digraph = [];
+    $digraph[] = "digraph {";
+    $digraph[] = "  graph [pad=\"0.5\", nodesep=\"0.5\", ranksep=\"2\"];\n";
+    $digraph[] = "  node [shape=plain]\n";
+    $digraph[] = "  rankdir=LR;\n";
+    $digraph[] = "";
+    $digraph[] = "";
+
+    foreach ($schemaDetails as $tableName=>$v) {
+        $dotTable = "\"".$tableName."\" [label=<\n";
+        $dotTable .= "  <table border=\"0\" cellborder=\"1\" cellspacing=\"0\">\n";
+        $dotTable .= "  <tr><td port=\"0\"><b><i>".$tableName."</i></b></td></tr>\n";
+
+        foreach ($v['columns'] as $ck=>$cv) {
+            $dotTable .= "  <tr><td port=\"".$cv."\">".$cv."</td></tr>\n";
+        }
+        $dotTable .= "  </table>>];\n\n";
+
+        $digraph[] = $dotTable;
+        $digraph[] = "";
+    }
+
+    $digraph[] = "";
+    $digraph[] = "";
+
+    foreach ($schemaDetails as $tableName=>$v) {
+        foreach ($v['childTables'] as $ctk=>$ctv) {
+            $digraph[] = "\"".$tableName."\":0 -> \"".$ctv."\":0";
+        }
+    }
+
+    $digraph[] = "}";
+
+    echo "<Writing ERD for $sourceIdx>\n";
+    file_put_contents($targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot',implode($digraph,"\n"));
+    exec('dot -Tpng '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot -o '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.png');
+    exec('dot -Tpdf '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot -o '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.pdf');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     echo "\n\n[done]\n";
     die;
