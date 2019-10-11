@@ -129,11 +129,69 @@ function generateCsvDocs() {
 
 }
 
-function findParentInfo($tables, $jsonParentIdInfo) {
+function findParentInfo($tables, $jsonParentIdInfo, $lastTableParentFound, $lastParentRowIdx) {
     $parent = [];
 
+    // first look in last parent since most likely there
+
+    if ($lastTableParentFound !== null) {
+
+      echo "look in last table => [".$lastTableParentFound."] starting at [rowIdx = ".$lastParentRowIdx."]";
+
+      $rowIdx = ($lastParentRowIdx-1);
+      for ($rowIdx; $rowIdx < count($tables[$lastTableParentFound]); $rowIdx++) {
+
+        foreach ($tables[$lastTableParentFound][$rowIdx] as $rowField => $rowFieldVal) {
+            if ($rowFieldVal == $jsonParentIdInfo['JSON_parentId'] && $rowField !== 'JSON_parentId') {
+                if (strpos(str_replace(".","_",$jsonParentIdInfo['childTableName']),$rowField) !== FALSE) {
+                    $parent[] = array(
+                        'parentTableName' => $lastTableParentFound,
+                        'parentColumnName' => $rowField,
+                        'parentRowId' => $tables[$lastTableParentFound][$rowIdx]['@ROWID'],
+                        'parentRowIdx' => $rowIdx
+                    );
+                    echo "[found at row num = ".$rowIdx." (out of ".count($tables[$lastTableParentFound])." rows)]\n";
+                    echo "\n";
+                    return $parent[0];
+
+                }
+            }
+        }
+
+      }
+
+      /*
+      foreach ($tables[$lastTableParentFound] as $rowIdx => $row) {
+
+            foreach ($row as $rowField => $rowFieldVal) {
+                if ($rowFieldVal == $jsonParentIdInfo['JSON_parentId'] && $rowField !== 'JSON_parentId') {
+                    if (strpos(str_replace(".","_",$jsonParentIdInfo['childTableName']),$rowField) !== FALSE) {
+                        $parent[] = array(
+                            'parentTableName' => $lastTableParentFound,
+                            'parentColumnName' => $rowField,
+                            'parentRowId' => $row['@ROWID'],
+                            'parentRowIdx' => $rowIdx
+                        );
+                        echo "[found at row num = ".$rowIdx." (out of ".count($tables[$lastTableParentFound])." rows)]\n";
+                        echo "\n";
+                        return $parent[0];
+
+                    }
+                }
+          }
+      }
+      */
+
+
+    }
+
+
+    echo "\n\n*****didn't find - starting from beginning => [".$lastTableParentFound."]";
+
     foreach ($tables as $tableName => $tableRows) {
-        foreach ($tableRows as $rowIdx => $row) {
+      echo "[".$tableName."]";
+      foreach ($tableRows as $rowIdx => $row) {
+
             foreach ($row as $rowField => $rowFieldVal) {
                 if ($rowFieldVal == $jsonParentIdInfo['JSON_parentId'] && $rowField !== 'JSON_parentId') {
                     if (strpos(str_replace(".","_",$jsonParentIdInfo['childTableName']),$rowField) !== FALSE) {
@@ -143,18 +201,21 @@ function findParentInfo($tables, $jsonParentIdInfo) {
                             'parentRowId' => $row['@ROWID'],
                             'parentRowIdx' => $rowIdx
                         );
+                        echo "[found at row num = ".$rowIdx." (out of ".count($tables[$tableName])." rows)]\n";
+                        echo "\n";
                         return $parent[0];
                     }
                 }
             }
         }
+
     }
 
     if (count($parent) > 1) {
         echo "ERROR - PARENT COUNT > 1\n";
         die;
     }
-
+    echo "\n";
     return $parent[0];
 
 }
@@ -217,9 +278,20 @@ function jsonToCsv($resourceType) {
 
     // Lookup parent(s)
     foreach ($JSON_parentId_List as $k=>$v) {
-
         echo "findParentInfo($k / ".count($JSON_parentId_List).")\n";
-        $JSON_parentId_List[$k] = array_merge($v, findParentInfo($tables, $v));
+        if ($k > 0) {
+          $JSON_parentId_List[$k] = array_merge($v,
+          findParentInfo(
+            $tables,
+            $v,
+            $JSON_parentId_List[($k-1)]['parentTableName'],
+            $JSON_parentId_List[($k-1)]['parentRowIdx']
+          ));
+        } else {
+          $JSON_parentId_List[$k] = array_merge($v, findParentInfo($tables, $v, null, null));
+        }
+        
+
     }
 
     // Transform $tables
