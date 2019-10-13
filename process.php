@@ -290,7 +290,6 @@ function jsonToCsv($resourceType) {
         } else {
           $JSON_parentId_List[$k] = array_merge($v, findParentInfo($tables, $v, null, null));
         }
-        
 
     }
 
