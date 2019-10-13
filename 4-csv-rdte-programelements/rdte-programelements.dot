@@ -216,9 +216,11 @@ digraph {
   <tr><td port="R5Exhibit_TerminationLiability_Cost_BudgetYearThree_val">R5Exhibit_TerminationLiability_Cost_BudgetYearThree_val</td></tr>
   <tr><td port="R5Exhibit_TerminationLiability_Cost_BudgetYearFour_val">R5Exhibit_TerminationLiability_Cost_BudgetYearFour_val</td></tr>
   <tr><td port="R5Exhibit_TerminationLiability_Cost_BudgetYearFive_val">R5Exhibit_TerminationLiability_Cost_BudgetYearFive_val</td></tr>
+  <tr><td port="R5Exhibit_TerminationLiability_Cost_AllPriorYears_val">R5Exhibit_TerminationLiability_Cost_AllPriorYears_val</td></tr>
   <tr><td port="R5Exhibit_TerminationLiability_Remarks_val">R5Exhibit_TerminationLiability_Remarks_val</td></tr>
   <tr><td port="SpecialProject_val">SpecialProject_val</td></tr>
   <tr><td port="MdapCode_val">MdapCode_val</td></tr>
+  <tr><td port="PriorYearsDelta_val">PriorYearsDelta_val</td></tr>
   <tr><td port="@PARENTROWID">@PARENTROWID</td></tr>
   <tr><td port="@PARENT">@PARENT</td></tr>
   </table>>];
@@ -484,6 +486,16 @@ digraph {
   <tr><td port="@suppressProjectPDF">@suppressProjectPDF</td></tr>
   <tr><td port="SpecialProject_val">SpecialProject_val</td></tr>
   <tr><td port="R4Exhibit_ScheduleProfile">R4Exhibit_ScheduleProfile</td></tr>
+  <tr><td port="R4Exhibit_ScheduleProfileNote_val">R4Exhibit_ScheduleProfileNote_val</td></tr>
+  <tr><td port="R5Exhibit_TerminationLiability_Cost_AllPriorYears_val">R5Exhibit_TerminationLiability_Cost_AllPriorYears_val</td></tr>
+  <tr><td port="R5Exhibit_TerminationLiability_Cost_PriorYear_val">R5Exhibit_TerminationLiability_Cost_PriorYear_val</td></tr>
+  <tr><td port="R5Exhibit_TerminationLiability_Cost_CurrentYear_val">R5Exhibit_TerminationLiability_Cost_CurrentYear_val</td></tr>
+  <tr><td port="R5Exhibit_TerminationLiability_Cost_BudgetYearOne_val">R5Exhibit_TerminationLiability_Cost_BudgetYearOne_val</td></tr>
+  <tr><td port="R5Exhibit_TerminationLiability_Cost_BudgetYearTwo_val">R5Exhibit_TerminationLiability_Cost_BudgetYearTwo_val</td></tr>
+  <tr><td port="R5Exhibit_TerminationLiability_Cost_BudgetYearThree_val">R5Exhibit_TerminationLiability_Cost_BudgetYearThree_val</td></tr>
+  <tr><td port="R5Exhibit_TerminationLiability_Cost_BudgetYearFour_val">R5Exhibit_TerminationLiability_Cost_BudgetYearFour_val</td></tr>
+  <tr><td port="R5Exhibit_TerminationLiability_Cost_BudgetYearFive_val">R5Exhibit_TerminationLiability_Cost_BudgetYearFive_val</td></tr>
+  <tr><td port="PriorYearsDelta_val">PriorYearsDelta_val</td></tr>
   <tr><td port="@PARENTROWID">@PARENTROWID</td></tr>
   <tr><td port="@PARENT">@PARENT</td></tr>
   </table>>];
@@ -508,6 +520,7 @@ digraph {
   <tr><td port="PlannedProgram_BudgetYearOneBase_Articles_val">PlannedProgram_BudgetYearOneBase_Articles_val</td></tr>
   <tr><td port="PlannedProgram_BudgetYearOneOCO_Funding_val">PlannedProgram_BudgetYearOneOCO_Funding_val</td></tr>
   <tr><td port="PlannedProgram_BudgetYearOneOCO_Text_val">PlannedProgram_BudgetYearOneOCO_Text_val</td></tr>
+  <tr><td port="PlannedProgram_BudgetYearOneOCO_Articles_val">PlannedProgram_BudgetYearOneOCO_Articles_val</td></tr>
   <tr><td port="PlannedProgram_AppChangeSummary_val">PlannedProgram_AppChangeSummary_val</td></tr>
   <tr><td port="@SOURCE_FILENAME">@SOURCE_FILENAME</td></tr>
   <tr><td port="@RECORDID">@RECORDID</td></tr>

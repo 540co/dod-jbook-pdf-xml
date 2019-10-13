@@ -1,7 +1,7 @@
 {
     "root": {
         "filename": "root.csv",
-        "count": 5366,
+        "count": 14747,
         "columns": [
             "id",
             "meta_filename",
@@ -148,7 +148,7 @@
     },
     "root.record.ProgramElement.ChangeSummary.AdjustmentDetails.OtherAdjustmentDetailList.OtherAdjustmentDetail": {
         "filename": "root.record.ProgramElement.ChangeSummary.AdjustmentDetails.OtherAdjustmentDetailList.OtherAdjustmentDetail.csv",
-        "count": 4264,
+        "count": 11390,
         "columns": [
             "Title_val",
             "Funding_PriorYear_val",
@@ -169,7 +169,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project": {
         "filename": "root.record.ProgramElement.ProjectList.Project.csv",
-        "count": 6068,
+        "count": 15334,
         "columns": [
             "ProjectNumber_val",
             "ProjectTitle_val",
@@ -218,9 +218,11 @@
             "R5Exhibit_TerminationLiability_Cost_BudgetYearThree_val",
             "R5Exhibit_TerminationLiability_Cost_BudgetYearFour_val",
             "R5Exhibit_TerminationLiability_Cost_BudgetYearFive_val",
+            "R5Exhibit_TerminationLiability_Cost_AllPriorYears_val",
             "R5Exhibit_TerminationLiability_Remarks_val",
             "SpecialProject_val",
             "MdapCode_val",
+            "PriorYearsDelta_val",
             "@PARENTROWID",
             "@PARENT"
         ],
@@ -240,7 +242,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R2aExhibit.AccomplishmentPlannedProgramList.AccomplishmentPlannedProgram": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R2aExhibit.AccomplishmentPlannedProgramList.AccomplishmentPlannedProgram.csv",
-        "count": 18655,
+        "count": 44950,
         "columns": [
             "Title_val",
             "Description_val",
@@ -271,7 +273,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R2aExhibit.OtherProgramFundingSummaryList.OtherProgramFundingSummary": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R2aExhibit.OtherProgramFundingSummaryList.OtherProgramFundingSummary.csv",
-        "count": 8415,
+        "count": 20231,
         "columns": [
             "LineItem_val",
             "Title_val",
@@ -299,7 +301,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R2aExhibit.CongressionalAddDetailList.CongressionalAddDetail": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R2aExhibit.CongressionalAddDetailList.CongressionalAddDetail.csv",
-        "count": 286,
+        "count": 710,
         "columns": [
             "Title_val",
             "CurrentYear_Funding_val",
@@ -319,7 +321,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R4Exhibit.ScheduleProfile": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R4Exhibit.ScheduleProfile.csv",
-        "count": 2823,
+        "count": 8774,
         "columns": [
             "ImageFileName_val",
             "@SOURCE_FILENAME",
@@ -335,7 +337,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R4aExhibit.ScheduleDetailList.ScheduleDetail": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R4aExhibit.ScheduleDetailList.ScheduleDetail.csv",
-        "count": 23964,
+        "count": 43247,
         "columns": [
             "EventTitle_val",
             "Schedule_Start_Quarter_val",
@@ -355,7 +357,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R3Exhibit.CostCategoryGroupList.CostCategoryGroup": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R3Exhibit.CostCategoryGroupList.CostCategoryGroup.csv",
-        "count": 8754,
+        "count": 23022,
         "columns": [
             "Name_val",
             "@SOURCE_FILENAME",
@@ -374,7 +376,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R3Exhibit.CostCategoryGroupList.CostCategoryGroup.CostCategoryItemList.CostCategoryItem": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R3Exhibit.CostCategoryGroupList.CostCategoryGroup.CostCategoryItemList.CostCategoryItem.csv",
-        "count": 24446,
+        "count": 84006,
         "columns": [
             "Name_val",
             "ContractMethod_val",
@@ -408,7 +410,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R2aExhibit.JointFundingList.JointFunding": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R2aExhibit.JointFundingList.JointFunding.csv",
-        "count": 34,
+        "count": 200,
         "columns": [
             "Title_val",
             "Funding_PriorYear_val",
@@ -433,7 +435,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R4aExhibit.SubProjectScheduleList.SubProjectSchedule": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R4aExhibit.SubProjectScheduleList.SubProjectSchedule.csv",
-        "count": 566,
+        "count": 4478,
         "columns": [
             "Title_val",
             "@SOURCE_FILENAME",
@@ -451,7 +453,7 @@
     },
     "root.record.ProgramElement.ProjectList.Project.R4aExhibit.SubProjectScheduleList.SubProjectSchedule.ScheduleDetailList.ScheduleDetail": {
         "filename": "root.record.ProgramElement.ProjectList.Project.R4aExhibit.SubProjectScheduleList.SubProjectSchedule.ScheduleDetailList.ScheduleDetail.csv",
-        "count": 6659,
+        "count": 50255,
         "columns": [
             "EventTitle_val",
             "Schedule_Start_Quarter_val",
@@ -471,7 +473,7 @@
     },
     "root.record.ChangeSummary.AdjustmentDetails.OtherAdjustmentDetailList.OtherAdjustmentDetail": {
         "filename": "root.record.ChangeSummary.AdjustmentDetails.OtherAdjustmentDetailList.OtherAdjustmentDetail.csv",
-        "count": 2409,
+        "count": 10285,
         "columns": [
             "Title_val",
             "Funding_PriorYear_val",
@@ -492,7 +494,7 @@
     },
     "root.record.ProjectList.Project": {
         "filename": "root.record.ProjectList.Project.csv",
-        "count": 4094,
+        "count": 15976,
         "columns": [
             "ProjectNumber_val",
             "ProjectTitle_val",
@@ -535,6 +537,16 @@
             "@suppressProjectPDF",
             "SpecialProject_val",
             "R4Exhibit_ScheduleProfile",
+            "R4Exhibit_ScheduleProfileNote_val",
+            "R5Exhibit_TerminationLiability_Cost_AllPriorYears_val",
+            "R5Exhibit_TerminationLiability_Cost_PriorYear_val",
+            "R5Exhibit_TerminationLiability_Cost_CurrentYear_val",
+            "R5Exhibit_TerminationLiability_Cost_BudgetYearOne_val",
+            "R5Exhibit_TerminationLiability_Cost_BudgetYearTwo_val",
+            "R5Exhibit_TerminationLiability_Cost_BudgetYearThree_val",
+            "R5Exhibit_TerminationLiability_Cost_BudgetYearFour_val",
+            "R5Exhibit_TerminationLiability_Cost_BudgetYearFive_val",
+            "PriorYearsDelta_val",
             "@PARENTROWID",
             "@PARENT"
         ],
@@ -554,7 +566,7 @@
     },
     "root.record.ProjectList.Project.R2aExhibit.AccomplishmentPlannedProgramList.AccomplishmentPlannedProgram": {
         "filename": "root.record.ProjectList.Project.R2aExhibit.AccomplishmentPlannedProgramList.AccomplishmentPlannedProgram.csv",
-        "count": 9399,
+        "count": 40243,
         "columns": [
             "Title_val",
             "Description_val",
@@ -571,6 +583,7 @@
             "PlannedProgram_BudgetYearOneBase_Articles_val",
             "PlannedProgram_BudgetYearOneOCO_Funding_val",
             "PlannedProgram_BudgetYearOneOCO_Text_val",
+            "PlannedProgram_BudgetYearOneOCO_Articles_val",
             "PlannedProgram_AppChangeSummary_val",
             "@SOURCE_FILENAME",
             "@RECORDID",
@@ -585,7 +598,7 @@
     },
     "root.record.ProjectList.Project.R2aExhibit.OtherProgramFundingSummaryList.OtherProgramFundingSummary": {
         "filename": "root.record.ProjectList.Project.R2aExhibit.OtherProgramFundingSummaryList.OtherProgramFundingSummary.csv",
-        "count": 5106,
+        "count": 17642,
         "columns": [
             "LineItem_val",
             "Title_val",
@@ -613,7 +626,7 @@
     },
     "root.record.ProjectList.Project.R3Exhibit.CostCategoryGroupList.CostCategoryGroup": {
         "filename": "root.record.ProjectList.Project.R3Exhibit.CostCategoryGroupList.CostCategoryGroup.csv",
-        "count": 7394,
+        "count": 24053,
         "columns": [
             "Name_val",
             "@SOURCE_FILENAME",
@@ -632,7 +645,7 @@
     },
     "root.record.ProjectList.Project.R3Exhibit.CostCategoryGroupList.CostCategoryGroup.CostCategoryItemList.CostCategoryItem": {
         "filename": "root.record.ProjectList.Project.R3Exhibit.CostCategoryGroupList.CostCategoryGroup.CostCategoryItemList.CostCategoryItem.csv",
-        "count": 18082,
+        "count": 97317,
         "columns": [
             "Name_val",
             "ContractMethod_val",
@@ -666,7 +679,7 @@
     },
     "root.record.ProjectList.Project.R4aExhibit.ScheduleDetailList.ScheduleDetail": {
         "filename": "root.record.ProjectList.Project.R4aExhibit.ScheduleDetailList.ScheduleDetail.csv",
-        "count": 10019,
+        "count": 32955,
         "columns": [
             "EventTitle_val",
             "Schedule_Start_Quarter_val",
@@ -686,7 +699,7 @@
     },
     "root.record.ProjectList.Project.R2aExhibit.JointFundingList.JointFunding": {
         "filename": "root.record.ProjectList.Project.R2aExhibit.JointFundingList.JointFunding.csv",
-        "count": 36,
+        "count": 207,
         "columns": [
             "Title_val",
             "Funding_TotalPreviousYears_val",
@@ -710,7 +723,7 @@
     },
     "root.record.ProjectList.Project.R2aExhibit.CongressionalAddDetailList.CongressionalAddDetail": {
         "filename": "root.record.ProjectList.Project.R2aExhibit.CongressionalAddDetailList.CongressionalAddDetail.csv",
-        "count": 476,
+        "count": 1736,
         "columns": [
             "Title_val",
             "PriorYear_Funding_val",
@@ -730,7 +743,7 @@
     },
     "root.record.ProjectList.Project.R4Exhibit.ScheduleProfile": {
         "filename": "root.record.ProjectList.Project.R4Exhibit.ScheduleProfile.csv",
-        "count": 232,
+        "count": 6973,
         "columns": [
             "ImageFileName_val",
             "@SOURCE_FILENAME",
@@ -746,7 +759,7 @@
     },
     "root.record.ProjectList.Project.R4aExhibit.SubProjectScheduleList.SubProjectSchedule": {
         "filename": "root.record.ProjectList.Project.R4aExhibit.SubProjectScheduleList.SubProjectSchedule.csv",
-        "count": 1800,
+        "count": 8134,
         "columns": [
             "Title_val",
             "@SOURCE_FILENAME",
@@ -764,7 +777,7 @@
     },
     "root.record.ProjectList.Project.R4aExhibit.SubProjectScheduleList.SubProjectSchedule.ScheduleDetailList.ScheduleDetail": {
         "filename": "root.record.ProjectList.Project.R4aExhibit.SubProjectScheduleList.SubProjectSchedule.ScheduleDetailList.ScheduleDetail.csv",
-        "count": 10307,
+        "count": 71156,
         "columns": [
             "EventTitle_val",
             "Schedule_Start_Quarter_val",
