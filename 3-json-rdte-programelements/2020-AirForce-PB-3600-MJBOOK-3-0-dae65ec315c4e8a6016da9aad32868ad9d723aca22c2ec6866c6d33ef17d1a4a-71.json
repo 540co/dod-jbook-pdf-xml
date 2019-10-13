@@ -1,0 +1,2382 @@
+{
+    "id": "2020-AirForce-PB-3600-MJBOOK-3-0-dae65ec315c4e8a6016da9aad32868ad9d723aca22c2ec6866c6d33ef17d1a4a-71",
+    "meta": {
+        "filename": "2020-BASE_RDTE-2020-AIRFORCE_V3B-U_RDTE_MasterJustificationBook_Air_Force_PB_2020.zzz_unzipped-U_RDTE_MasterJustificationBook_Air_Force_PB_2020.xml",
+        "doctype": "2020-BASE_RDTE-MASTERJUSTIFICATIONBOOK",
+        "budget_year": "2020",
+        "budget_cycle": "PB",
+        "submission_date": "2019-03",
+        "service_agency_name": "Air Force",
+        "appropriation_code": "3600",
+        "appropriation_name": "Research, Development, Test & Evaluation, Air Force"
+    },
+    "record": {
+        "@monetaryUnit": "Millions",
+        "ProgramElementNumber": {
+            "val": "1203265F"
+        },
+        "ProgramElementTitle": {
+            "val": "GPS III Space Segment"
+        },
+        "R1LineNumber": {
+            "val": "301"
+        },
+        "MdapCode": {
+            "val": "292"
+        },
+        "BudgetYear": {
+            "val": "2020"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2019-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Air Force"
+        },
+        "AppropriationCode": {
+            "val": "3600"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Air Force"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "3112.320"
+            },
+            "PriorYear": {
+                "val": "233.043"
+            },
+            "CurrentYear": {
+                "val": "141.892"
+            },
+            "BudgetYearOne": {
+                "val": "42.440"
+            },
+            "BudgetYearOneBase": {
+                "val": "42.440"
+            },
+            "BudgetYearOneOCO": {
+                "val": "0.000"
+            },
+            "BudgetYearTwo": {
+                "val": "10.780"
+            },
+            "BudgetYearThree": {
+                "val": "7.296"
+            },
+            "BudgetYearFour": {
+                "val": "7.451"
+            },
+            "BudgetYearFive": {
+                "val": "7.585"
+            },
+            "CostToComplete": {
+                "val": "Continuing"
+            },
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "The Global Positioning System (GPS) is a space-based navigation system that fills validated Joint Service requirements for worldwide, accurate, common-grid three- dimensional positioning\/navigation for military aircraft, ships, and ground personnel. The consistent accuracy, unaffected by location or weather and available in real time, significantly improves effectiveness of reconnaissance, weapons delivery, mine countermeasures, and rapid deployment for all services. GPS must comply with Title 10 United States Code (USC) Sec. 2281, which requires that the Secretary of Defense ensure continued sustainment and operations of GPS for military and civilian purposes, and 51 USC Sec. 50112, which requires that GPS comply with certain standards and facilitate international cooperation.\n\nThe system is composed of three segments: User Equipment (funded under Program Element (PE) 1203164F), Space (funded under this PE and PE 1203269F) and a Control Network (funded under PE 1203165F and PE 1206423F). The satellites broadcast high-accuracy data using precisely synchronized signals that are received and processed by user equipment installed in military platforms. This equipment computes the platform position and velocity and provides steering vectors to target locations or navigation waypoints. The control segment provides daily updates to the navigation messages broadcast from the satellites to maintain system precision in three dimensions to 16 meters (spherical error probable) worldwide. Additionally, GPS supports the United States Nuclear Detonation (NUDET) Detection System (USNDS) mission and provides strategic and tactical support to the following Department of Defense (DoD) missions: Joint Operations by providing capabilities for Positioning, Navigation, and Timing (PNT); Command, Control, Communications, and Intelligence (C3I); Special Operations; Military Operations in Urban Terrain (MOUT); Defense- Wide Mission Support; Air Mobility; and Space Launch Orbital Support.\n\nGPS III is the next generation Space Vehicle (SV) supporting the GPS constellation and is funded in PE 1203265F. GPS III SVs will deliver significant enhancements, including a new international civil (L1C) signal, enhanced anti-jam power. GPS III SVs 03-10 are in the Production & Deployment Phase.\n\nPE 1203265F funds GPS III and supports the Research, Development, Test, and Evaluation (RDT&E) of GPS III SVs 01-02 and risk-reducing simulators through a systems engineering approach that matures and delivers SVs for launch. This PE includes SVs 01-02 engineering studies and analyses, trade studies, system development, test and evaluation efforts, integrated logistics support products, on-orbit support, and mission operations support for civil and military applications that protect United States (U.S.) military and allied use of GPS. The program also includes Contingency Operations (COps) as a bridge capability to fly GPS III SVs until the delivery of the GPS Next Generation Operational Control System (OCX).\n\nStarting in FY 2019, PE 1203269F funds the RDT&E of GPS IIIF (SVs 11-12), which will include Non-Recurring Engineering (NRE) support efforts. GPS IIIF includes design activity, risk-reducing simulators, and systems engineering associated with delivering the new capabilities required of GPS IIIF SVs, including backward compatibility, dual band Telemetry, Tracking, and Control (TT&C), integration of Government Furnished Equipment (GFE) hosted payloads, a new civil (L1C) Galileo- compatible signal, and the Regional Military Protection (RMP) capability that provides the ability to deliver high-power regional Military Code (M-Code) signals in specific areas of intended effect.\n\nThe Air Force (AF) is using its research laboratories to mature an On-Orbit Reprogrammable Digital Waveform Generator (ORDWG), which provides signal flexibility to change the signal form while the satellite is on-orbit. This effort will be funded with Air Force Research Laboratory (AFRL) Science & Technology (S&T) funding and PE 1203265F GPS III to increase the number of alternate navigation payloads and inform future PNT architectures.\n\nMission Readiness Campaign (MRC) activities include launch preparation, planning, mission readiness testing to validate space-ground-user interfaces, mission crew exercises and rehearsals, launch vehicle integration, and On-Orbit Checkout activities to validate performance prior to and after launch. Newly certified launch vehicles must be incorporated into the GPS III launch baseline. Integration requires the development of plans and procedures and procurement of special support equipment.\n\nGPS supports the early deployment of Global M-Code to meet the congressional mandate limiting user equipment purchases to M-Code-capable receivers starting in FY 2017. Funds in this PE will cover the M-Code Early Use (MCEU) program and support development costs associated with the GPS control segment software to provide core M-Code capabilities to the warfighter, as well as the ability to command and control, process, and monitor the M-Code signal. MCEU mitigates delays with OCX, supports Military Global Positioning System User Equipment (MGUE) testing, and allows for early M-Code operations. M-Code provides greater security to protect navigation and timing in electronically contested environments.\n\nImpacts of the M-Code deployment include:\n-Compliance with The Air Force Space Command Commander's mandate to provide global monitoring necessary for early M-Code operational use and verification of Navigation Warfare (NAVWAR) effects.\n-Direction to improve the resiliency of the GPS capability.\n-Confirmation that Enterprise modernization efforts are integrated and deployed properly.\n-Testing and Verification of M-Code capability on MGUE\/GPS III solution and early M-Code use tied to MGUE fielding.\n\nThe feasibility studies and preliminary engineering analyses that are funded with this budget item help to determine whether an initiative to host GPS M-Code augmentation payloads on other satellite systems is practical and beneficial. The primary goal is to provide additional mission assurance and resiliency through redundant systems not directly connected with the current U.S. GPS satellite constellation. This augmentation to the GPS constellation enables future rapid technology on-ramps with minimal risk.\n\nSpace acquisition must respond with speed and agility to emerging adversary threats.  Space & Missile Systems Center (SMC) is transforming the organization and implementation of space acquisition to an enterprise approach, maximizing innovation and resiliency, leveraging international, commercial, and mission partnerships, and managing program\/project priorities according to an integrated unclassified\/classified enterprise space architecture.  Expanding the appropriate acquisition authorities and contract mechanisms to deliver capability sooner, SMC will strategically execute experimentation, prototyping, risk reduction, and other efforts to develop new or repurpose capabilities.\n\nThis PE may include necessary civilian pay expenses required to manage, execute, and deliver GPS III Space Segment weapon system capability. The use of such program funds would be in addition to the civilian pay expenses budgeted in PEs 1206392F and 1206398F.\n\nThis PE encompasses the GPS III (SVs 01-10), COps, MCEU, M-Code Hosted Payload, and prior to FY 2019, GPS IIIF Production Readiness efforts.\n\nAs directed in the FY 2018 NDAA, Sec 825, amendment to PL 114-92 FY 2016 NDAA, Sec 828 Penalty for Cost Overruns, the FY 2018 Air Force penalty total is $14.373M. The calculated percentage reduction to each research, development, test and evaluation and procurement account will be allocated proportionally from all programs, projects, or activities under such account.\n\nThis program is in Budget Activity 7, Operational System Development because this budget activity includes development efforts to upgrade systems that have been fielded or have received approval for full rate production and anticipate production funding in the current or subsequent fiscal year."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "243.435"
+                },
+                "CurrentYear": {
+                    "val": "144.543"
+                },
+                "BudgetYearOne": {
+                    "val": "42.440"
+                },
+                "BudgetYearOneBase": {
+                    "val": "42.440"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "0.000"
+                }
+            },
+            "CurrentPresidentBudget": {
+                "PriorYear": {
+                    "val": "233.043"
+                },
+                "CurrentYear": {
+                    "val": "141.892"
+                },
+                "BudgetYearOne": {
+                    "val": "42.440"
+                },
+                "BudgetYearOneBase": {
+                    "val": "42.440"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "0.000"
+                }
+            },
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-10.392"
+                },
+                "CurrentYear": {
+                    "val": "-2.651"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "0.000"
+                }
+            },
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
+                    "PriorYear": {
+                        "val": "-1.839"
+                    },
+                    "CurrentYear": {
+                        "val": "-2.651"
+                    }
+                },
+                "CongressionalDirectedReductions": {
+                    "PriorYear": {
+                        "val": "-10.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalRescissions": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalAdds": {
+                    "PriorYear": {
+                        "val": "10.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalDirectedTransfers": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "Reprogrammings": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
+                        "val": "-8.553"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.000"
+                                },
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOneOCO": {
+                                    "val": "0.000"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "SummaryExplanation": {
+                "val": "FY 2018: -$10.000M Excess to Need (GPS III)\n\nFY 2018: +$10.000M Congressional plus up for GPS Backup Technology demo"
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "676007"
+                    },
+                    "ProjectTitle": {
+                        "val": "SAR- GPS"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "10.019"
+                        },
+                        "PriorYear": {
+                            "val": "1.277"
+                        },
+                        "CurrentYear": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOne": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOneOCO": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "11.296"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectArticles": {
+                            "PriorYear": {
+                                "val": "0"
+                            },
+                            "CurrentYear": {
+                                "val": "0"
+                            },
+                            "BudgetYearOne": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneOCO": {
+                                "val": "0"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "0"
+                            },
+                            "BudgetYearThree": {
+                                "val": "0"
+                            },
+                            "BudgetYearFour": {
+                                "val": "0"
+                            },
+                            "BudgetYearFive": {
+                                "val": "0"
+                            }
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "Search and Rescue GPS (SAR\/GPS) is an approved auxiliary payload on GPS IIIF beginning no earlier than SV 11. SAR\/GPS fills validated National Search and Rescue (SAR) Committee requirements to provide enduring, space-based distress alerting capability to detect, locate, and relay distress alerts to fulfill its responsibilities under international agreements for SAR.\n\nIn addition, the United States Air Force (USAF) has on-going requirements to rescue US Military personnel in harm's way per AF Doctrine Document 2-1.6. The implementation of a U.S. Medium Earth Orbiting (MEO) SAR Space Segment is via a Canadian-provided 406 MHz SAR repeater on GPS IIIF SVs. This system presents a cost effective, low-risk opportunity that accommodates existing and planned 406 MHz beacons across the globe. Per National Security Presidential Directive (NSPD)-39, USAF and United States Coast Guard (USCG), the U.S. operators of the civil Cosmicheskaya Sistyema Poiska Avariynich Sudov-Search and Rescue Satellite-Aided Tracking (COSPAS\/SARSAT) system, and the international SAR system will integrate the Canadian provided SAR repeater into GPS IIIF beginning no earlier than SV 11.\n\nSAR\/GPS funds were transferred to GPS III SPAF beginning in FY 2019."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "SAR\/GPS"
+                                    },
+                                    "Description": {
+                                        "val": "Nonrecurring costs for systems engineering activities to integrate the payload onto the GPS IIIF program no earlier than SV 11."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "1.277"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "N\/A"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "OtherProgramFundingSummaryList": {
+                            "OtherProgramFundingSummary": [
+                                {
+                                    "LineItem": {
+                                        "val": "SPAF 01 Line Item GPSIII"
+                                    },
+                                    "Title": {
+                                        "val": "GPS III"
+                                    },
+                                    "Funding": {
+                                        "PriorYear": {
+                                            "val": "63.664"
+                                        },
+                                        "CurrentYear": {
+                                            "val": "69.386"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "35.466"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "35.466"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "18.543"
+                                        },
+                                        "BudgetYearThree": {
+                                            "val": "18.920"
+                                        },
+                                        "BudgetYearFour": {
+                                            "val": "19.332"
+                                        },
+                                        "BudgetYearFive": {
+                                            "val": "19.680"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "Continuing"
+                                        },
+                                        "TotalCost": {
+                                            "val": "Continuing"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "SAR\/GPS and Laser Retroreflector Array (LRA) will be integrated as part of the GPS IIIF program no earlier than SV 11."
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Please refer to the Performance Base Budget Overview Book for information on how Air Force resources are applied and how those resources are contributing to Air Force performance goals and most importantly, how they contribute to our mission."
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Product Development"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Search and Rescue SAR\/GPS Integration"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Engility Corp (TASC)"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "El Segundo, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "9.519"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "1.277"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2017-12"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "10.796"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Support"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Search and Rescue SAR\/GPS FFRDC"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Aerospace Corp"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "El Segundo, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.500"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.500"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "R4aExhibit": {
+                        "SubProjectScheduleList": {
+                            "SubProjectSchedule": [
+                                {
+                                    "Title": {
+                                        "val": "SAR"
+                                    },
+                                    "ScheduleDetailList": {
+                                        "ScheduleDetail": [
+                                            {
+                                                "EventTitle": {
+                                                    "val": "SAR"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ProjectNumber": {
+                        "val": "67A011"
+                    },
+                    "ProjectTitle": {
+                        "val": "Space Analysis and Application Development"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
+                        },
+                        "PriorYear": {
+                            "val": "19.326"
+                        },
+                        "CurrentYear": {
+                            "val": "69.481"
+                        },
+                        "BudgetYearOne": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOneOCO": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectArticles": {
+                            "PriorYear": {
+                                "val": "0"
+                            },
+                            "CurrentYear": {
+                                "val": "0"
+                            },
+                            "BudgetYearOne": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneOCO": {
+                                "val": "0"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "0"
+                            },
+                            "BudgetYearThree": {
+                                "val": "0"
+                            },
+                            "BudgetYearFour": {
+                                "val": "0"
+                            },
+                            "BudgetYearFive": {
+                                "val": "0"
+                            }
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "Space Analysis and Application Development M-Code Hosted Payload will provide additional mission assurance through redundant systems not directly connected with the current U.S. GPS satellite constellation. The feasibility studies and preliminary engineering analyses funded in this project will determine whether an initiative to host GPS M-Code augmentation payloads on other satellite systems is practical and beneficial. The primary goal is to provide additional mission assurance and resiliency through redundant systems not directly connected with the current U.S. GPS satellite constellation. This augmentation to the GPS constellation enables future rapid technology on-ramps with minimal risk."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "M-Code Hosted Payload"
+                                    },
+                                    "Description": {
+                                        "val": "The initial studies, prototyping, and experiments will explore size, weight, power, and cost (SWAP-C) requirements of potential payloads, the level of broadcast power as received on the ground, advanced signal capabilities, the needed modifications that will allow current and future GPS ground control systems to communicate with these payloads, and how best to upgrade GPS user equipment with minimal impact on cost and downtime to existing GPS users."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "19.326"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "69.481"
+                                            },
+                                            "Text": {
+                                                "val": "Complete initial feasibility study and preliminary engineering analysis, which will inform Hosted Payload and NTS-3 programs, with the goal of starting a Preliminary Design Review (PDR) no later than the fourth quarter FY 2019. Begin long lead procurement activities and NTS-3 prototype production.  Deliver Hosted Payload Interface Unit (HPIU) unit for testing. Leverage AFRL efforts to initiate technology maturation on modular, host-agnostic payloads in order to bridge technologies to multiple future hosts and promote standardized interfaces for competition. Continue program office support and other related support activities that may include, but are not limited to, studies, technical analysis, prototyping, etc."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "N\/A"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "Hosted payload studies and engineering analysis to be conducted by Federally Funded Research and Development Centers (FFRDCs), GPS satellite vendors, and contractors involved with user equipment development."
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Please refer to the Performance Base Budget Overview Book for information on how Air Force resources are applied and how those resources are contributing to Air Force performance goals and most importantly, how they contribute to our mission."
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Product Development"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "M-Code Hosted Payload"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "8.958"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2017-11"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "61.475"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-11"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Technical Mission Analysis"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Aerospace"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "El Segundo, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.000"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.000"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Enterprise SE&I"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPAF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SAIC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "El Segundo, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.717"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-05"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "1.052"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-05"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Department of Homeland Security\/ Transportation"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "9.649"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-12"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Management Services"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "FFRDC"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.002"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2017-11"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "1.246"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-12"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "A&AS"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.000"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "5.643"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-03"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Other Support"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "El Segundo, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.000"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.065"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-10"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "R4aExhibit": {
+                        "SubProjectScheduleList": {
+                            "SubProjectSchedule": [
+                                {
+                                    "Title": {
+                                        "val": "Hosted Payload"
+                                    },
+                                    "ScheduleDetailList": {
+                                        "ScheduleDetail": [
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Hosted Payload PDR-level design"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2019"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Hosted Payload User Equipment Study"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "2"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "2"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2019"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ProjectNumber": {
+                        "val": "67A019"
+                    },
+                    "ProjectTitle": {
+                        "val": "GPS III"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "3102.301"
+                        },
+                        "PriorYear": {
+                            "val": "212.440"
+                        },
+                        "CurrentYear": {
+                            "val": "72.411"
+                        },
+                        "BudgetYearOne": {
+                            "val": "42.440"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "42.440"
+                        },
+                        "BudgetYearOneOCO": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "10.780"
+                        },
+                        "BudgetYearThree": {
+                            "val": "7.296"
+                        },
+                        "BudgetYearFour": {
+                            "val": "7.451"
+                        },
+                        "BudgetYearFive": {
+                            "val": "7.585"
+                        },
+                        "CostToComplete": {
+                            "val": "26.717"
+                        },
+                        "TotalCost": {
+                            "val": "3489.421"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectArticles": {
+                            "PriorYear": {
+                                "val": "0"
+                            },
+                            "CurrentYear": {
+                                "val": "0"
+                            },
+                            "BudgetYearOne": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneOCO": {
+                                "val": "0"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "0"
+                            },
+                            "BudgetYearThree": {
+                                "val": "0"
+                            },
+                            "BudgetYearFour": {
+                                "val": "0"
+                            },
+                            "BudgetYearFive": {
+                                "val": "0"
+                            }
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "GPS III is the next-generation SV supporting the GPS constellation and is funded in PE 1203265F. GPS III SVs will deliver significant enhancements, including a new international civil (L1C) signal, and enhanced anti-jam power. GPS III SVs 03-10 are in the Production & Deployment Phase.\n\nPE 1203265F funds GPS III and supports RDT&E of GPS III SVs 01-02 and risk-reducing simulators through a systems engineering approach that matures and delivers SVs for launch. This program includes SVs 01-02 engineering studies and analyses, trade studies, system development, test and evaluation efforts, integrated logistics support products, on-orbit support, and mission operations support for civil and military applications that protect U.S. military and allied use of GPS. The program also includes Contingency Operations (COps) as a bridge capability to fly GPS III SVs until the delivery of the GPS OCX program.\n\nMission Readiness Campaign (MRC) activities include launch preparation, planning, mission readiness testing to validate space-ground-user interfaces, mission crew exercises and rehearsals, launch vehicle integration, and On-Orbit Checkout activities to validate performance prior to launch and post launch. Newly certified launch vehicles must be incorporated into the GPS III launch baseline. Integration requires the development of plans and procedures and procurement of special support equipment.\n\nSpace Modernization Initiative (SMI) focuses on space vehicle affordability and capability, addresses future requirements and resiliency needs, and expands the industrial base to enhance future competition. Phase 1 will address GPS Enterprise Analysis of Alternative (AoA) recommendations to increase GPS signal strength from space by maturing navigation payload technologies that include a new regional M-Code capability. The AF is using its research laboratories to mature an On-Orbit Reprogrammable Digital Waveform Generator (ORDWG), which will provide signal flexibility to change the signal form while the satellite is on-orbit. This effort will be funded with AFRL's S&T funding, PE 1203265F, and PE 1203269F (starting in FY 2019) to increase the number of alternate navigation payloads.\n\nGPS supports the early deployment of Global M-Code to meet a congressional mandate limiting user equipment purchase to M-Code-capable receivers starting in FY 2017. The funds will cover the MCEU program and support development costs associated with the GPS control segment software to provide core M-Code capabilities to the warfighter, as well as the ability to command and control, process, and monitor the M-Code signal. MCEU mitigates delays with GPS OCX, supports MGUE testing, and allows for early M-Code operations. M-Code provides greater security to protect navigation and timing in electronically contested environments.\n\nImpacts of the M-Code deployment include:\n-Compliance with The Air Force Space Command Commander's mandate to provide global monitoring necessary for early m-code operational use and verification of NAVWAR effects.\n-Direction to improve the resiliency of the GPS capability.\n-Confirmation that Enterprise modernization efforts are integrated and deployed properly.\n-Testing and Verification of M-Code capability on MGUE\/GPS III solution and early M-Code use tied to MGUE fielding.\n\nThe feasibility studies and preliminary engineering analyses that are funded by this budget item will determine whether an initiative to host GPS M-Code augmentation payloads on other satellite systems is practical and beneficial. The primary goal is to provide additional mission assurance through redundant systems not directly connected with the current U.S. GPS satellite constellation.\n\nThis PE encompasses the GPS III (SVs 01-10), COps, MCEU, M-Code Hosted Payload, and prior to FY2019, GPS III Follow-On Production Readiness efforts."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "GPS III SVs 01-02"
+                                    },
+                                    "Description": {
+                                        "val": "Development, test, and evaluation of GPS III SVs 01-02 and associated simulators, engineering studies and analyses, trade studies, system development, test and evaluation efforts, and integrated logistics support products."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "106.156"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "33.415"
+                                            },
+                                            "Text": {
+                                                "val": "Began the launch campaign for GPS III SV 01 mission and On-Orbit Checkout activities.\n\nContinue and finalize MRC events for SV 02, which includes launch preparation, planning, mission readiness testing to validate space-ground-user interfaces, mission crew exercises and rehearsals, launch vehicle integration, and On-Orbit Checkout preparation activities to validate performance prior to launch. Began the launch campaign for the GPS III SV 02 mission and On- Orbit Checkout activities.\n\nIn addition, SV 02 continued incorporation into the GPS III launch baseline. Integration required the development and refinement of plans and procedures and procurement of special support equipment. Continued technical support for the launch processing facility at CCAFS. Continue program office support and other related support activities that may include, but are not limited to, studies, technical analysis, prototyping, etc."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "24.030"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "24.030"
+                                            },
+                                            "Text": {
+                                                "val": "Continue on-orbit activities and engineering support for GPS III SV 01 and SV 02 to validate performance.\n\nIn addition, support SV 01 and SV 02 activities that include product development through life testing, technical mission analysis, information assurance, technical support, system engineering, and mission operations.  Rapidly respond to implement system resiliency and situational awareness necessary to operate in the contested space domain.  Activities may include, but are not limited to, program office support, studies, technical analysis, experimentation, prototyping, etc."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2020 decreased compared to FY 2019 by $9.385M. Justification for this decrease is described in plans above."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "GPS III Follow-On (Production Readiness)"
+                                    },
+                                    "Description": {
+                                        "val": "Under Secretary of Defense for Acquisition, Technology, and Logistics USD(AT&L) approved the first phase of a two-phased GPS III Follow-On Acquisition Strategy starting no earlier than SV 11. The strategy utilizes FY 2015-2017 RDT&E funding for the Phase 1 effort to mature three contractors'; GPS III Follow-On production designs. The Phase 1 Production Readiness Feasibility Assessment is providing data and insight into contractors GPS III Follow-On Production Design with emphasis on a mature navigation payload and production ready designs. Phase 1 requires contractors to provide a GPS III Follow-On SV and navigation payload production designs, manufacturing plans, and a navigation payload engineering brass board (hardware)."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "34.919"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "N\/A"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Contingency Operations (COps)"
+                                    },
+                                    "Description": {
+                                        "val": "COps is a risk-reduction activity to maintain constellation sustainment as prescribed by the GPS III Space Vehicle Acquisition Strategy to support GPS III operations until delivery of GPS OCX. COps adds to the existing Operational Control System (OCS) Architecture Evolution Plan (AEP) command, control, maneuver planning, re-programmability, navigation functionality, USNDS support, and external interfaces for GPS III SVs. COps includes integrating GPS III SV simulation modules to the GPS System Simulator (GSS) and updates to the Positional Training Emulator (PTE)."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "47.640"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "24.400"
+                                            },
+                                            "Text": {
+                                                "val": "Complete Factory Qualification Test (FQT) and all Development Test and Evaluation activities; deliver PTE updates; conduct successful Fielding Readiness Review; handoff to sustainment; complete Operational Test Readiness Certification; complete Program Executive Officer (PEO) certification and Transition to Operations. Continue program office support and other related support activities that may include, but are not limited to, studies, technical analysis, prototyping, etc."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2020 decreased compared to FY 2019 by $24.400M. Justification for this decrease is described in plans above."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Architecture Evolution Plan (AEP) M-Code Monitoring"
+                                    },
+                                    "Description": {
+                                        "val": "The M-Code Early Use (MCEU) program initiative will cover the development costs associated with updating the legacy control segment software, AEP, with additional capabilities needed to provide M-Code operations. MCEU will provide the Combined Space Operations Center (CSpOC) with command and control (C2), processing, and integrity monitoring for the M-Code signal. The development will also include the integration of modernized Monitor Station Technology Improvement Capability (MSTIC) receivers, which are being procured separately using Operations and Maintenance (O&M) funding as a Form-Fit- Functional replacement for the legacy Monitor Station Receiver Element (MSRE) Y-Code receivers. MCEU will add a software upgrade to MSTIC receivers to allow it to process M-Code signals. Prime contract was awarded to start software development and test activities; includes insertion of Legacy Hot Start, Demilitarized Zone, and Receiver Protection Profile requirements into the MCEU baseline."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "23.725"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "14.596"
+                                            },
+                                            "Text": {
+                                                "val": "Finish software development phase and start test phase; complete Code and Unit Test; complete Component Integration Test; start and finish FQT.  Continue program office support and other related support activities that may include, but are not limited to, studies, technical analysis, prototyping, etc."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "18.410"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "18.410"
+                                            },
+                                            "Text": {
+                                                "val": "Start and finish Integrated System Test; complete Fielding Readiness Review; hold Operational Test Readiness Certification and begin Operational Test and Evaluation. Rapidly respond to implement system resiliency and situational awareness necessary to operate in the contested space domain. Activities may include, but are not limited to, program office support, studies, technical analysis, experimentation, prototyping, etc."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2020 increased compared to FY 2019 by $3.814M. Justification for this increase is described in plans above."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "OtherProgramFundingSummaryList": {
+                            "OtherProgramFundingSummary": [
+                                {
+                                    "LineItem": {
+                                        "val": "SPAF 01 Line Item GPS III"
+                                    },
+                                    "Title": {
+                                        "val": "GPS III"
+                                    },
+                                    "Funding": {
+                                        "PriorYear": {
+                                            "val": "84.064"
+                                        },
+                                        "CurrentYear": {
+                                            "val": "69.386"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "31.466"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "31.466"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "20.143"
+                                        },
+                                        "BudgetYearThree": {
+                                            "val": "21.320"
+                                        },
+                                        "BudgetYearFour": {
+                                            "val": "19.332"
+                                        },
+                                        "BudgetYearFive": {
+                                            "val": "19.680"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "26.400"
+                                        },
+                                        "TotalCost": {
+                                            "val": "291.791"
+                                        }
+                                    }
+                                },
+                                {
+                                    "LineItem": {
+                                        "val": "SPAF 01 GPS IIIF SPAF"
+                                    },
+                                    "Title": {
+                                        "val": "GPS IIIF SPAF"
+                                    },
+                                    "Funding": {
+                                        "BudgetYearOne": {
+                                            "val": "414.625"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "414.625"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "628.495"
+                                        },
+                                        "BudgetYearThree": {
+                                            "val": "890.355"
+                                        },
+                                        "BudgetYearFour": {
+                                            "val": "897.544"
+                                        },
+                                        "BudgetYearFive": {
+                                            "val": "962.300"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "Continuing"
+                                        },
+                                        "TotalCost": {
+                                            "val": "Continuing"
+                                        }
+                                    }
+                                },
+                                {
+                                    "LineItem": {
+                                        "val": "RDTE 05 PE 1203629F"
+                                    },
+                                    "Title": {
+                                        "val": "GPS III Follow-On"
+                                    },
+                                    "Funding": {
+                                        "CurrentYear": {
+                                            "val": "426.889"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "462.875"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "462.875"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "279.423"
+                                        },
+                                        "BudgetYearThree": {
+                                            "val": "258.041"
+                                        },
+                                        "BudgetYearFour": {
+                                            "val": "294.800"
+                                        },
+                                        "BudgetYearFive": {
+                                            "val": "286.368"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "Continuing"
+                                        },
+                                        "TotalCost": {
+                                            "val": "Continuing"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "The GPS III next generation space segment (SV 01-10) rapidly and affordably responds to warfighter capability requirements. The acquisition approach utilizes a disciplined systems engineering approach which focuses on mitigating cost and schedule risk through a lower-risk incremental delivery of mature technologies. This approach focuses on mission success and on-time delivery. The GPS III SVs will have GPS IIF capabilities plus up to a 3x-8x increase in anti-jam signal power, 3x improved accuracy, 3+ year increased design life, a new civil (L1C) signal compatible with the European Galileo system, and a satellite bus capable of supporting future SV capability additions.\n\nRDT&E funding for SVs 11 and 12 is in PE 1203269F, Project GPS IIIF. Beginning in FY 2020 SPAF funding for SVs 13-32 is captured in PE 1203269F, Project GPS IIIF.\n\nThe AF is using its research laboratories to mature an On-Orbit Reprogrammable Digital Waveform Generator (ORDWG) which provide signal flexibility to change the signal form while the satellite is on-orbit. This effort is funded with AFRL's S&T funding, PE 1203265F, and PE 1203269F (starting in FY2019) to increase the number of alternate navigation payloads and inform future PNT architectures.\n\nOn 19 July 2016, PEO Space approved the Acquisition Strategy Document (ASD) for the COps effort. The strategy enables contingency constellation sustainment capability for GPS III PNT. GPS III COps is needed because GPS OCX will not deliver in time to support initial GPS III SV operations. COps operates (post-launch and check-out) GPS III SVs at the capability level of GPS IIR-M or GPS IIF using the existing AEP control segment.\n\nOn 21 Jan 2017, PEO Space approved the Acquisition Strategy for the MCEU program. The MCEU acquisition strategy enables the GPS Enterprise to provide core M-Code capabilities to the warfighter prior to GPS OCX delivery. MCEU will also support the scheduled operational testing of MGUE. MCEU will update the GPS control segment software, AEP, to allow for command and control, processing, and integrity monitoring of the M-Code signal. MCEU acquires this capability by using the existing GPS III prime contract vehicle to modify the operational AEP software.\n\nThe Air Force approved reinstatement of a previously deferred Key Support Area (KSA) on 10 Feb 2016. The MSTIC receivers currently under development will get a software upgrade to process M-Code data. This $7.96M project to procure the M-MSTIC receivers was funded through both O&M and SPAF funds in FY 2016-FY 2018. Performance monitoring, integration, and test will be conducted by the MCEU program and sustained under the Global Positioning Operations Support and Sustainment Division contract with Lockheed Martin."
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Please refer to the Performance Base Budget Overview Book for information on how Air Force resources are applied and how those resources are contributing to Air Force performance goals and most importantly, how they contribute to our mission."
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Product Development"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Development"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPIF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Lockheed Martin"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Denver, CO"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "2556.069"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "47.817"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2017-12"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "6.559"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-12"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "2.200"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "2.200"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-12"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "9.951"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "2622.596"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "2617.388"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III SV01-02 On Orbit Incentive Fee"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPIF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Lockheed Martin"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Denver, CO"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "3.000"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-06"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "12.000"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "12.000"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "6.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "21.000"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "21.000"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Development 11+"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Lockheed Martin"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Denver, CO"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "11.029"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "30.561"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-10"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "41.590"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "41.590"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Development_ COps"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPIF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Lockheed Martin"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Denver, CO"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "63.530"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "45.086"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-02"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "20.247"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-02"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "128.863"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "128.863"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Development_MCEU"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPIF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Lockheed Martin"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Denver, CO"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "26.284"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "15.593"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2017-10"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "13.767"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-12"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "12.880"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "12.880"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-10"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "3.633"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "72.157"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "72.157"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Technical Mission Analysis"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "18.348"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "6.543"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2017-10"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "5.603"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-12"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "6.614"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "6.614"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-10"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "11.845"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "48.953"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Enterprise SE&I"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPAF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TASC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "El Segundo, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "89.900"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "6.658"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2017-11"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "2.162"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-05"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "1.743"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "1.743"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-10"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "100.463"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "100.463"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Launch Support"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "RO"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "45th"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Cape Canaveral, FL"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "28.512"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "39.930"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-03"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "13.601"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-03"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "16.500"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "98.543"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "82.043"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Production SMI"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "36.156"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.000"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "36.156"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "36.153"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Enterprise Ground Service"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPAF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "N\/A"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "N\/A"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "7.500"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "7.500"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "7.500"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Test and Evaluation"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III T&E"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "32.662"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "3.462"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-04"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "36.124"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Management Services"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III FFRDC"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "El Segundo, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "109.215"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "2.019"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-04"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "2.429"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-04"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "2.349"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "2.349"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-04"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "5.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "121.012"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III A&AS"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "110.895"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "14.000"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-04"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "4.343"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-04"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "4.054"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "4.054"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-04"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "6.800"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "140.092"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "GPS III Other Support"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "12.201"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.771"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2017-10"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.700"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-10"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.600"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.600"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-10"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.100"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "14.372"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "R4aExhibit": {
+                        "SubProjectScheduleList": {
+                            "SubProjectSchedule": [
+                                {
+                                    "Title": {
+                                        "val": "GPS III"
+                                    },
+                                    "ScheduleDetailList": {
+                                        "ScheduleDetail": [
+                                            {
+                                                "EventTitle": {
+                                                    "val": "GPS III SV02 Available for Launch"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "GPS III Follow-on (SV11-32)"
+                                    },
+                                    "ScheduleDetailList": {
+                                        "ScheduleDetail": [
+                                            {
+                                                "EventTitle": {
+                                                    "val": "GPS III Follow-On Acquisition Decision"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "GPS III Follow-On Request for Proposal (RFP) Release"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "COps\/MCEU"
+                                    },
+                                    "ScheduleDetailList": {
+                                        "ScheduleDetail": [
+                                            {
+                                                "EventTitle": {
+                                                    "val": "COps Transition to OCS"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2019"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2019"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "COps Fielding Readiness Review (FRR)"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2019"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2019"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "COps Operational Test Readiness Certification"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2020"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "1"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2020"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "MCEU Milestone B"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "2"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "2"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "MCEU Critical Design Review"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "3"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "3"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "MCEU Fielding Readiness Review"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "2"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2020"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "2"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2020"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "MCEU Operational Test Readiness Certification"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "3"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2020"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "3"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2020"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "ScheduleDetailNote": {
+                            "val": "COps\/MCEU schedule milestones adjusted to match approved Acquisition Program Baseline dated 26 April 2018"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
