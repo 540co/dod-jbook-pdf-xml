@@ -1,0 +1,1040 @@
+{
+    "id": "2020-DefenseInformationSystemsAgency-PB-0400-JBOOK-7908071481b8ce0690ce2657558faaf96b2abe8b93c176d5032b2f91e3d4fe27-11",
+    "meta": {
+        "filename": "2020-BASE_RDTE-2020-DISA-U_RDTE_JustificationBook_Defense_Information_Systems_Agency_PB_2020.zzz_unzipped-U_RDTE_JustificationBook_Defense_Information_Systems_Agency_PB_2020.xml",
+        "doctype": "2020-BASE_RDTE-JUSTIFICATIONBOOK",
+        "budget_year": "2020",
+        "budget_cycle": "PB",
+        "submission_date": "2019-03",
+        "service_agency_name": "Defense Information Systems Agency",
+        "appropriation_code": "0400",
+        "appropriation_name": "Research, Development, Test & Evaluation, Defense-Wide"
+    },
+    "record": {
+        "@monetaryUnit": "Millions",
+        "ProgramElementNumber": {
+            "val": "0303140K"
+        },
+        "ProgramElementTitle": {
+            "val": "Information Systems Security Program"
+        },
+        "R1LineNumber": {
+            "val": "217"
+        },
+        "BudgetYear": {
+            "val": "2020"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2019-03"
+        },
+        "ServiceAgencyName": {
+            "val": "Defense Information Systems Agency"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "0.000"
+            },
+            "PriorYear": {
+                "val": "0.000"
+            },
+            "CurrentYear": {
+                "val": "19.611"
+            },
+            "BudgetYearOne": {
+                "val": "42.796"
+            },
+            "BudgetYearOneBase": {
+                "val": "42.796"
+            },
+            "BudgetYearTwo": {
+                "val": "12.904"
+            },
+            "BudgetYearThree": {
+                "val": "8.422"
+            },
+            "BudgetYearFour": {
+                "val": "8.470"
+            },
+            "BudgetYearFive": {
+                "val": "8.601"
+            },
+            "CostToComplete": {
+                "val": "Continuing"
+            },
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "The Information Systems Security Program (ISSP) mission focuses on developing Department of Defense (DoD) enterprise solutions to Combatant Commands, Services, and Defense-wide agencies to ensure critical mission execution in the face of cyber attacks.  The ISSP ensures that, the network, the computing centers, and core enterprise services will evolve to better support a joint cybersecurity\/information assurance model that has common enterprise-scale perimeter defenses and will support a broad range of sharing policies from completely unclassified to tightly-held within a classified community.  The ISSP will test and develop active-active defensive capabilities; test and integrate software defined networking and orchestration closed-loop security; perform research, development and engineering of emerging cyber situational awareness technologies; harden the network by providing architecture support, systems engineering and analytical functions for Endpoint and Perimeter defense capabilities; cyber IT infrastructure and automation support to deploy enterprise-wide next generation identity technologies; and develop and evolve an integrated cyber domain security workforce to be on the leading edge of defensive capabilities."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "19.611"
+                },
+                "BudgetYearOne": {
+                    "val": "12.596"
+                },
+                "BudgetYearOneBase": {
+                    "val": "12.596"
+                }
+            },
+            "CurrentPresidentBudget": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "19.611"
+                },
+                "BudgetYearOne": {
+                    "val": "42.796"
+                },
+                "BudgetYearOneBase": {
+                    "val": "42.796"
+                }
+            },
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "30.200"
+                },
+                "BudgetYearOneBase": {
+                    "val": "30.200"
+                }
+            },
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Adjustment"
+                            },
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "30.200"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "30.200"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "SummaryExplanation": {
+                "val": "The increase of +$30.200 in FY 2020 is due to +$36.000 of additional funding for Identity, Credential, and Access Management (ICAM) and the Secure Application Development Program. The funding will be used to develop and implement the Automated Account Management data sharing and automation and Master User Record (MUR) for the automated account provisioning effort within ICAM (+$28.000); resource R&D innovation efforts to evaluate commercial meta\/virtual directory data synchronization services in alignment with identity management, credentialing, active authentication, federation, and automated authorization for the federalized authentication services within ICAM (+$2.000); and support innovation activities and mission priorities for secure application development and quantitative analysis tools within the Secure Application Development program (+$6.000). This is offset by a decrease of -$5.800 in FY 2020 is due to the implementation of a standard information technology (IT) enterprise patch management capability."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "IA3"
+                    },
+                    "ProjectTitle": {
+                        "val": "Information Systems Security Program"
+                    },
+                    "SpecialProject": {
+                        "val": "0"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
+                        },
+                        "PriorYear": {
+                            "val": "0.000"
+                        },
+                        "CurrentYear": {
+                            "val": "19.611"
+                        },
+                        "BudgetYearOne": {
+                            "val": "42.796"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "42.796"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "12.904"
+                        },
+                        "BudgetYearThree": {
+                            "val": "8.422"
+                        },
+                        "BudgetYearFour": {
+                            "val": "8.470"
+                        },
+                        "BudgetYearFive": {
+                            "val": "8.601"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The Information Systems Security Program (ISSP) mission focuses on developing Department of Defense (DoD) enterprise solutions to Combatant Commands, Services, and Defense-wide agencies to ensure critical mission execution in the face of cyber attacks.  The ISSP ensures that, the network, the computing centers, and core enterprise services will evolve to better support a joint cybersecurity\/information assurance model that has common enterprise-scale perimeter defenses and will support a broad range of sharing policies from completely unclassified to tightly-held within a classified community.  The ISSP will test and develop active-active defensive capabilities; test and integrate software defined networking and orchestration closed-loop security; perform research, development and engineering of emerging cyber situational awareness technologies; harden the network by providing architecture support, systems engineering and analytical functions for Endpoint and Perimeter defense capabilities; cyber IT infrastructure and automation support to deploy enterprise-wide next generation identity technologies; and develop and evolve an integrated cyber domain security workforce to be on the leading edge of defensive capabilities."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Zero-Day Network Defense Email Capability"
+                                    },
+                                    "Description": {
+                                        "val": "Zero-Day Network Defense (ZND) Email Capability Technology Assessment\/Evaluation for Tech Refresh."
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "4.500"
+                                            },
+                                            "Text": {
+                                                "val": "Conduct Technology Assessment\/Evaluation in support of Zero-Day Network Defense (ZND) Email Tech Refresh."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "The decrease of -$4.500 from FY 2019 to FY 2020 represents one-time funding in FY 2019 for technology evaluation in support of the Zero Day Net Defense (ZND) email capability on the Non-Classified Internet Protocol Router Network (NIPRNet).  The evaluation supports research and engineering solutions for enhanced malware analysis, preventative spear-phishing and perimeter attacks within the Department of Defense Information Network (DODIN), design of layered defenses against adversary Tactics, Techniques, and Procedures (TTPs) and testing of automated machine to machine processes of cyber situational awareness at the five email gateways."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "DoD Cyber Security Range (CSR)"
+                                    },
+                                    "Description": {
+                                        "val": "The DoD Cyber Security Range (CSR) provides a multi-classification level, operationally realistic, DODIN representative, cyber security environment to sustain and enhance the professional development of the DoD cyber security workforce."
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "1.811"
+                                            },
+                                            "Text": {
+                                                "val": "Continue providing the IA Range platform to test new Cybersecurity efforts using the CS Range; Increase capability to leverage CS Range for training and capstone events; Increase capability for remote access to CS Range for testing, training and exercises. Implement Joint Regional Security Stacks (JRSS) Cloud Learning Environment improvements, JRSS Management System (JMS) Enhancements, and replicate the tactical network boundaries of the four services."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "1.337"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "1.337"
+                                            },
+                                            "Text": {
+                                                "val": "Continue providing the Cybersecurity (CS) \/ Information Assurance (IA) Range platform to test new Cybersecurity efforts using the CS Range;  Continue to support capability to leverage CS Range for training and capstone events;  Support capability for remote access to CS Range for testing, training and exercises.  Implement Joint Regional Security Stacks (JRSS) Cloud Learning Environment improvements, JRSS Management System (JMS) Enhancements, and replicate the tactical network boundaries of the four services."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "The decrease of -$0.474 from FY 2019 to FY 2020 is attributable to reduced testing and simulation requirements for the operational networks within the Cybersecurity Range."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Endpoint Security Solutions (ESS)"
+                                    },
+                                    "Description": {
+                                        "val": "Endpoint Security Solutions (ESS) provides counters exploitation and destructive malware, contain exploited threats, and make indicators of attack\/compromise visible to the operator; fully supports friendly forces operating in contested cyber environments. Provides Asset Inventory Management Modules (AIMM) to provide near-real time situational awareness of devices. Provides Digital Policy Management System (DPMS) to facilitate development and maintenance of Cybersecurity\/Information Assurance Standards. Provides Assured Compliance Assessment Solution (ACAS) to assess the configuration compliance of networks and systems against DoD and all known vulnerabilities."
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "3.000"
+                                            },
+                                            "Text": {
+                                                "val": "Provide software licensing necessary to perform the Automated Patch Management (APM) Proof of Concept, technical expertise necessary to deploy this APM solution, and additional infrastructure investment to provide an updated platform for the APM effort to be successful."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "The decrease of -$3.000 from FY 2019 to FY 2020 represents one-time funding in FY 2019 for a standard information technology (IT) enterprise patch management capability proof of concept."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Cyber HQs Support"
+                                    },
+                                    "Description": {
+                                        "val": "Preserves User Activity Monitoring (UAM) capability in countering insider threats at nine Combatant Commands."
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "10.300"
+                                            },
+                                            "Text": {
+                                                "val": "Perform engineering and provide software licensing\/maintenance in support of the User Activity Monitoring (UAM) capability in countering insider threats at nine Combatant Commands."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "The decrease -$10.300 from FY 2019 to FY 2020 is attributed to the transition of engineering and software licensing\/maintenance  of DoD User Activity Monitoring (UAM) capability into Operations and Sustainment in countering insider threats for the nine Combatant Commands."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Cyber Innovation and Technology"
+                                    },
+                                    "Description": {
+                                        "val": "Provide research and development, conduct technology assessments, rapidly produce prototypes using commercial solutions, validate assumptions, and provide empirical data to drive real time enterprise solutions and decisions in assisting DoD requirement owners for enterprise fielding of innovative gap fillers to address cyber capabilities and militarization of commercial information assurance capabilities tactical edge.  All project undertaken directly increase information sharing capabilities and assure C2 functionality against a common operating picture.  The program will leverage its robust IT infrastructure to develop small prototypes to find cost saving initiatives across the DODIN in an effort to provide the DoD with faster more reliable communications capabilities. These solutions will look to provide enhanced warfighting technology and research development programs improving the protection, survivability, mobility and combat effectiveness of the DoD."
+                                    },
+                                    "PlannedProgram": {
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "11.459"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "11.459"
+                                            },
+                                            "Text": {
+                                                "val": "Assess at least two capabilities as directed by senior leadership, with focus on Blockchain and Next Generation Identify and Authentication commercial capabilities emphasizing enhancements and integrations of innovative technologies, to enhance enterprise level services for all DoD entities keeping the agency and DoD at the forefront of IT capabilities.  DISA capabilities to be leveraged include DoD Mobility Classified Capability\/Unclassified Capability (DMCC\/UC), DoD Public Key Infrastructure (PKI), JRSS, NETOPS, Perimeter and Endpoint programs and transport to include terrestrial."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "The increase of +$11.459 from FY 2019 to FY 2020 is due to the establishment of Cyber Innovation Funds supporting cyber innovation and technology assessment of 2 cyber capabilities. Increase will also be used to improve the security of application development by deploying DevSecOps software\/model\/platforms on NIPRNet and SIPRNet."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Identity, Credential, and Access Management (ICAM)"
+                                    },
+                                    "Description": {
+                                        "val": "Develop and deploy Identity, Credential, and Access Management (ICAM) efforts associated with automated account provisioning and auditability and federalized authentication services that support credentials for DoD and non-DoD personnel."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "30.000"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "30.000"
+                                            },
+                                            "Text": {
+                                                "val": "Conduct the Master User Record (MUR) pathfinder effort and several Automated Account Provisioning (AAP) use-case Pilots."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "The increase of +$30.000 in is due to a +$28,000 increase to develop and implement the Automated Account Management data sharing and automation and Master User Record (MUR) for the automated account provisioning effort within ICAM and a +$2,000 increase to resource R&D innovation efforts to evaluate commercial meta\/virtual directory data sycronization services in alignment with identity management, credentialing, active authentication, federation, and automated authorization for the federalized authentication services within ICAM."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "OtherProgramFundingSummaryRemarks": {
+                            "val": "N\/A"
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "N\/A"
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Conduct Technology Assessment\/Evaluation in support of Zero-Day Network Defense (ZND) Email Tech Refresh. Performance objectives include 60% of Defense Enterprise Email (DEE) Mailboxes protected, 0% bypassed emails, and capability to handle up to 43% unique attachments to total threats detected.\n\nContinue providing the IA Range platform to test new Cybersecurity efforts using the CS Range; Increase capability to leverage CS Range for training and capstone events; Increase capability for remote access to CS Range for testing, training and exercises. Implement Joint Regional Security Stacks (JRSS) Cloud Learning Environment improvements, JRSS Management System (JMS) Enhancements, and replicate the tactical network boundaries of the four services.  Annual objectives include 15 test and evaluation events, 9 training events, and support of 5 exercise events.\n\nProvide engineering expertise and software licensing\/maintenance in support of the User Activity Monitoring (UAM) capability in countering insider threats at Ten CCMDs (USSOCOM, USAFRICOM, USCENTCOM, USEUCOM, USCYBERCOM, USNORTHCOM, USPACOM, USSOUTHCOM, USSTRATCOM, and USTRANSCOM).\n\nAcquire software licensing necessary to perform the Automated Patch Management (APM) Proof of Concept, technical expertise necessary to deploy this APM solution, and infrastructure investment to provide an updated platform for the APM effort to be successful.\n\nTwo cyber architecture model and DODIN assessments to programs per fiscal Year"
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Support"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "ZND Technology Assessment\/Evaluation for email capability Tech Refresh"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "4.500"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-02"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "4.500"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "DoD Cyber Security Range (CSR) Virtual Training Environment"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "ManTech"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Fairfax, VA"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "1.198"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-02"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "1.198"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "DoD Cyber Security Range (CSR) Virtual Training Environment - Re-compete"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.483"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-06"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "1.207"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "1.207"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-09"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "DoD Endpoint Security Solutions (ESS)"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "3.000"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "3.000"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Cyber HQs Support"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "10.300"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "10.300"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Joint Information Operations Range (JIOR) Connection"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.130"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-01"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.130"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.130"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-09"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "DISA EA Model Development for Cyber Security and Network Technical Domains, DODCAR Cyber Analysis Tool Development"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.459"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.459"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Deployment of Blockchain and Next Generation Identity"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "6.000"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "6.000"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Cyber Innovation and Technology"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "5.000"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "5.000"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-03"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Identity, Credential, and Access Management (ICAM)"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "FFP"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "30.000"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "30.000"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-03"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "R4aExhibit": {
+                        "SubProjectScheduleList": {
+                            "SubProjectSchedule": [
+                                {
+                                    "Title": {
+                                        "val": "Zero-Day Network Defense Email Capability"
+                                    },
+                                    "ScheduleDetailList": {
+                                        "ScheduleDetail": [
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Zero-Day Network Defence (ZND) Email Capability Technology Assessment\/Evaluation for Tech Refresh"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2019"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Cyber HQs Support"
+                                    },
+                                    "ScheduleDetailList": {
+                                        "ScheduleDetail": [
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Test new Cybersecurity efforts using the CS Range"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2024"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Increase capability to leverage CS Range for training and capstone events;"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2024"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Increase capability for remote access to CS Range for testing, training and exercises."
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2024"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Implement Joint Regional Security Stacks (JRSS) Cloud Learning Environment improvements"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2024"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "JRSS Management System (JMS) Enhancements"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2024"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Replicate the tactical network boundaries of the four services."
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2018"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "4"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2024"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Architecture and Model development"
+                                    },
+                                    "ScheduleDetailList": {
+                                        "ScheduleDetail": [
+                                            {
+                                                "EventTitle": {
+                                                    "val": "DODCAR WG Support"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "2"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2020"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "3"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2024"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Innovation and Technology"
+                                    },
+                                    "ScheduleDetailList": {
+                                        "ScheduleDetail": [
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Block Chain Cyber Innovation Technology Assessment"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "3"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2020"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "3"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2024"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "EventTitle": {
+                                                    "val": "Next Gen Identity Tool Suite Cyber Innovation Technology Assessment"
+                                                },
+                                                "Schedule": {
+                                                    "Start": {
+                                                        "Quarter": {
+                                                            "val": "3"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2020"
+                                                        }
+                                                    },
+                                                    "End": {
+                                                        "Quarter": {
+                                                            "val": "3"
+                                                        },
+                                                        "Year": {
+                                                            "val": "2024"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
