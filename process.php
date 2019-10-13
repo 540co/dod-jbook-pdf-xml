@@ -138,7 +138,7 @@ function csvToZip($resourceType) {
   $targetPaths['procurement-lineitems'] = './4-csv-procurement-lineitems';
   $targetPaths['rdte-programelements'] = './4-csv-rdte-programelements';
 
-  $fileList = rglob($targetPaths[$resourceType].'/root.record*');
+  $fileList = rglob($targetPaths[$resourceType].'/*.csv');
   sort($fileList);
   $fileCount = count($fileList);
 
