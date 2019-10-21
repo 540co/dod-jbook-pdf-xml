@@ -410,7 +410,7 @@ function jsonToCsv($resourceType) {
         $schemaDetails[$tableName] = [];
 
         if (strlen($tableName) > 240) {
-            $schemaDetails[$tableName]['filename'] = "~".substr($tableName,-250).".csv";
+            $schemaDetails[$tableName]['filename'] = "~".substr($tableName,-240).".csv";
         } else {
             $schemaDetails[$tableName]['filename'] = $tableName.".csv";
         }
