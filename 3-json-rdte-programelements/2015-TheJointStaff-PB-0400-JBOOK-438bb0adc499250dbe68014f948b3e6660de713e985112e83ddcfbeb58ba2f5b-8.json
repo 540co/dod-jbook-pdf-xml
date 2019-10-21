@@ -12,45 +12,94 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "@format": "R2Long",
-            "ProgramElementNumber": {
-                "val": "0208043J"
+        "@format": "R2Long",
+        "ProgramElementNumber": {
+            "val": "0208043J"
+        },
+        "ProgramElementTitle": {
+            "val": "Planning and Decision Aid System (PDAS)"
+        },
+        "R1LineNumber": {
+            "val": "186"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "The Joint Staff"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "4.690"
             },
-            "ProgramElementTitle": {
-                "val": "Planning and Decision Aid System (PDAS)"
+            "PriorYear": {
+                "val": "3.603"
             },
-            "R1LineNumber": {
-                "val": "186"
+            "CurrentYear": {
+                "val": "3.061"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOne": {
+                "val": "1.842"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "1.842"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearTwo": {
+                "val": "3.061"
             },
-            "ServiceAgencyName": {
-                "val": "The Joint Staff"
+            "BudgetYearThree": {
+                "val": "3.061"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFour": {
+                "val": "3.061"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
+            "BudgetYearFive": {
+                "val": "3.061"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
-                    "val": "4.690"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "Provides engineering and testing support to the Planning and Decision Aid System, a classified Joint Staff automated information system supporting the combatant commanders, Services, and Department of Defense Agencies."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "3.603"
                 },
+                "CurrentYear": {
+                    "val": "3.061"
+                },
+                "BudgetYearOne": {
+                    "val": "3.061"
+                },
+                "BudgetYearOneBase": {
+                    "val": "3.061"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "3.603"
                 },
@@ -62,270 +111,219 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "1.842"
-                },
-                "BudgetYearTwo": {
-                    "val": "3.061"
-                },
-                "BudgetYearThree": {
-                    "val": "3.061"
-                },
-                "BudgetYearFour": {
-                    "val": "3.061"
-                },
-                "BudgetYearFive": {
-                    "val": "3.061"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "Provides engineering and testing support to the Planning and Decision Aid System, a classified Joint Staff automated information system supporting the combatant commanders, Services, and Department of Defense Agencies."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "-1.219"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-1.219"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "3.603"
-                    },
-                    "CurrentYear": {
-                        "val": "3.061"
-                    },
-                    "BudgetYearOne": {
-                        "val": "3.061"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "3.061"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "3.603"
-                    },
-                    "CurrentYear": {
-                        "val": "3.061"
-                    },
-                    "BudgetYearOne": {
-                        "val": "1.842"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "1.842"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "0.000"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-1.219"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-1.219"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Program Change"
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Program Change"
+                            },
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "-1.219"
                                 },
-                                "Funding": {
-                                    "BudgetYearOne": {
-                                        "val": "-1.219"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-1.219"
-                                    }
+                                "BudgetYearOneBase": {
+                                    "val": "-1.219"
                                 }
                             }
-                        ]
-                    }
+                        }
+                    ]
                 }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "P001"
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "P001"
+                    },
+                    "ProjectTitle": {
+                        "val": "Planning and Decision Aid System OPS"
+                    },
+                    "SpecialProject": {
+                        "val": "0"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "4.690"
                         },
-                        "ProjectTitle": {
-                            "val": "Planning and Decision Aid System OPS"
+                        "PriorYear": {
+                            "val": "3.603"
                         },
-                        "SpecialProject": {
-                            "val": "0"
+                        "CurrentYear": {
+                            "val": "3.061"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "4.690"
-                            },
-                            "PriorYear": {
-                                "val": "3.603"
-                            },
-                            "CurrentYear": {
-                                "val": "3.061"
-                            },
-                            "BudgetYearOne": {
-                                "val": "1.842"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "1.842"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "3.061"
-                            },
-                            "BudgetYearThree": {
-                                "val": "3.061"
-                            },
-                            "BudgetYearFour": {
-                                "val": "3.061"
-                            },
-                            "BudgetYearFive": {
-                                "val": "3.061"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOne": {
+                            "val": "1.842"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "Provides engineering and testing support to the Planning and Decision Aid System, a classified Joint Staff automated information system supporting the combatant commanders, Services, and Department of Defense Agencies."
-                            },
-                            "AccomplishmentPlannedProgramList": {
-                                "AccomplishmentPlannedProgram": [
-                                    {
-                                        "Title": {
-                                            "val": "Planning and Decision Aid System (PDAS)"
-                                        },
-                                        "Description": {
-                                            "val": "Critical engineering support monitors the ever-changing information technology environment and develops strategies and solutions to integrate modern commercial off the shelf upgrades to the existing system.  Contractor-independent testing ensures government developmental testing is performed on all software upgrades regardless of size."
-                                        },
-                                        "Accomplishment": {
-                                            "PriorYear": {
-                                                "Funding": {
-                                                    "val": "3.603"
-                                                },
-                                                "Text": {
-                                                    "val": "Details of the program are classified."
-                                                }
+                        "BudgetYearOneBase": {
+                            "val": "1.842"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "3.061"
+                        },
+                        "BudgetYearThree": {
+                            "val": "3.061"
+                        },
+                        "BudgetYearFour": {
+                            "val": "3.061"
+                        },
+                        "BudgetYearFive": {
+                            "val": "3.061"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "Provides engineering and testing support to the Planning and Decision Aid System, a classified Joint Staff automated information system supporting the combatant commanders, Services, and Department of Defense Agencies."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Planning and Decision Aid System (PDAS)"
+                                    },
+                                    "Description": {
+                                        "val": "Critical engineering support monitors the ever-changing information technology environment and develops strategies and solutions to integrate modern commercial off the shelf upgrades to the existing system.  Contractor-independent testing ensures government developmental testing is performed on all software upgrades regardless of size."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "3.603"
+                                            },
+                                            "Text": {
+                                                "val": "Details of the program are classified."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "3.061"
+                                            },
+                                            "Text": {
+                                                "val": "Details of the program are classified."
                                             }
                                         },
-                                        "PlannedProgram": {
-                                            "CurrentYear": {
-                                                "Funding": {
-                                                    "val": "3.061"
-                                                },
-                                                "Text": {
-                                                    "val": "Details of the program are classified."
-                                                }
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "1.842"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "1.842"
                                             },
-                                            "BudgetYearOne": {
-                                                "Funding": {
-                                                    "val": "1.842"
-                                                }
-                                            },
-                                            "BudgetYearOneBase": {
-                                                "Funding": {
-                                                    "val": "1.842"
-                                                },
-                                                "Text": {
-                                                    "val": "Details of the program are classified."
-                                                }
+                                            "Text": {
+                                                "val": "Details of the program are classified."
                                             }
                                         }
                                     }
-                                ]
-                            },
-                            "AcquisitionStrategy": {
-                                "val": "Details of the program are classified."
-                            },
-                            "PerformanceMetrics": {
-                                "val": "(1)  Independent testing of at least 3-client and 2-server based software patches.\n(2)  Maintenance of the Planning and Decision Aid System technology road-map.\n(3)  Trade studies for specific commercial off the shelf solutions."
-                            }
+                                }
+                            ]
                         },
-                        "R3Exhibit": {
-                            "CostCategoryGroupList": {
-                                "CostCategoryGroup": [
-                                    {
-                                        "Name": {
-                                            "val": "Management Services"
-                                        },
-                                        "CostCategoryItemList": {
-                                            "CostCategoryItem": [
-                                                {
-                                                    "Name": {
-                                                        "val": "PDAS"
+                        "AcquisitionStrategy": {
+                            "val": "Details of the program are classified."
+                        },
+                        "PerformanceMetrics": {
+                            "val": "(1)  Independent testing of at least 3-client and 2-server based software patches.\n(2)  Maintenance of the Planning and Decision Aid System technology road-map.\n(3)  Trade studies for specific commercial off the shelf solutions."
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Management Services"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "PDAS"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "4.690"
                                                     },
-                                                    "ContractMethod": {
-                                                        "val": "C"
-                                                    },
-                                                    "ContractType": {
-                                                        "val": "TBD"
-                                                    },
-                                                    "PerformingActivity": {
-                                                        "val": "TBD"
-                                                    },
-                                                    "PerformingActivityLocation": {
-                                                        "val": "TBD"
-                                                    },
-                                                    "Cost": {
-                                                        "TotalPreviousYears": {
-                                                            "val": "4.690"
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "3.603"
                                                         },
-                                                        "PriorYear": {
-                                                            "Amount": {
-                                                                "val": "3.603"
-                                                            },
-                                                            "AwardDate": {
-                                                                "val": "2012-09"
-                                                            }
-                                                        },
-                                                        "CurrentYear": {
-                                                            "Amount": {
-                                                                "val": "3.061"
-                                                            },
-                                                            "AwardDate": {
-                                                                "val": "2013-09"
-                                                            }
-                                                        },
-                                                        "BudgetYearOne": {
-                                                            "Amount": {
-                                                                "val": "1.842"
-                                                            }
-                                                        },
-                                                        "BudgetYearOneBase": {
-                                                            "Amount": {
-                                                                "val": "1.842"
-                                                            },
-                                                            "AwardDate": {
-                                                                "val": "2015-10"
-                                                            }
-                                                        },
-                                                        "CostToComplete": {
-                                                            "val": "Continuing"
-                                                        },
-                                                        "TotalCost": {
-                                                            "val": "Continuing"
+                                                        "AwardDate": {
+                                                            "val": "2012-09"
                                                         }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "3.061"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2013-09"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "1.842"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "1.842"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2015-10"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
                                                     }
                                                 }
-                                            ]
-                                        }
+                                            }
+                                        ]
                                     }
-                                ]
-                            }
+                                }
+                            ]
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

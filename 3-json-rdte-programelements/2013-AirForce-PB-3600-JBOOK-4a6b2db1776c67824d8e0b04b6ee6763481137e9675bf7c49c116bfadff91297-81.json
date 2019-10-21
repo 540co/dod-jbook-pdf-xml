@@ -12,42 +12,97 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "@format": "R2Long",
-            "ProgramElementNumber": {
-                "val": "0909980F"
+        "@format": "R2Long",
+        "ProgramElementNumber": {
+            "val": "0909980F"
+        },
+        "ProgramElementTitle": {
+            "val": "JUDGMENT FUND REIMBURSEMENT"
+        },
+        "R1LineItemNumber": {
+            "val": "109"
+        },
+        "BudgetYear": {
+            "val": "2013"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2012-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Air Force"
+        },
+        "AppropriationCode": {
+            "val": "3600"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Air Force"
+        },
+        "BudgetActivityNumber": {
+            "val": "6"
+        },
+        "BudgetActivityTitle": {
+            "val": "RDT&E Management Support"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "0.371"
             },
-            "ProgramElementTitle": {
-                "val": "JUDGMENT FUND REIMBURSEMENT"
+            "CurrentYear": {
+                "val": "0.000"
             },
-            "R1LineItemNumber": {
-                "val": "109"
+            "BudgetYearOne": {
+                "val": "0.000"
             },
-            "BudgetYear": {
-                "val": "2013"
+            "BudgetYearOneBase": {
+                "val": "0.000"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneOCO": {
+                "val": "0.000"
             },
-            "SubmissionDate": {
-                "val": "2012-02"
+            "BudgetYearTwo": {
+                "val": "0.000"
             },
-            "ServiceAgencyName": {
-                "val": "Air Force"
+            "BudgetYearThree": {
+                "val": "0.000"
             },
-            "AppropriationCode": {
-                "val": "3600"
+            "BudgetYearFour": {
+                "val": "0.000"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Air Force"
+            "BudgetYearFive": {
+                "val": "0.000"
             },
-            "BudgetActivityNumber": {
-                "val": "6"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "RDT&E Management Support"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "Judgment Fund Reimbursement"
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "0.000"
+                }
             },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "0.371"
                 },
@@ -62,301 +117,244 @@
                 },
                 "BudgetYearOneOCO": {
                     "val": "0.000"
-                },
-                "BudgetYearTwo": {
-                    "val": "0.000"
-                },
-                "BudgetYearThree": {
-                    "val": "0.000"
-                },
-                "BudgetYearFour": {
-                    "val": "0.000"
-                },
-                "BudgetYearFive": {
-                    "val": "0.000"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "Judgment Fund Reimbursement"
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.371"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "0.000"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalDirectedReductions": {
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalRescissions": {
                     "PriorYear": {
                         "val": "0.000"
                     },
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneOCO": {
-                        "val": "0.000"
                     }
                 },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.371"
-                    },
+                "CongressionalAdds": {
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneOCO": {
+                    }
+                },
+                "CongressionalDirectedTransfers": {
+                    "CurrentYear": {
                         "val": "0.000"
                     }
                 },
-                "TotalAdjustments": {
+                "Reprogrammings": {
                     "PriorYear": {
                         "val": "0.371"
                     },
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
+                    }
+                },
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
                         "val": "0.000"
                     },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneOCO": {
+                    "CurrentYear": {
                         "val": "0.000"
                     }
                 },
-                "AdjustmentDetails": {
-                    "CongressionalGeneralReductions": {
-                        "CurrentYear": {
-                            "val": "0.000"
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.000"
+                                },
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOneOCO": {
+                                    "val": "0.000"
+                                }
+                            }
                         }
+                    ]
+                }
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "660000"
                     },
-                    "CongressionalDirectedReductions": {
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                    "ProjectTitle": {
+                        "val": "Industrial Preparedness"
                     },
-                    "CongressionalRescissions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalAdds": {
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalDirectedTransfers": {
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "Reprogrammings": {
+                    "ProjectFunding": {
                         "PriorYear": {
                             "val": "0.371"
                         },
                         "CurrentYear": {
                             "val": "0.000"
-                        }
-                    },
-                    "SBIRSTTRTransfer": {
-                        "PriorYear": {
+                        },
+                        "BudgetYearOne": {
                             "val": "0.000"
                         },
-                        "CurrentYear": {
+                        "BudgetYearOneBase": {
                             "val": "0.000"
+                        },
+                        "BudgetYearOneOCO": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
                         }
                     },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustments"
-                                },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOneOCO": {
-                                        "val": "0.000"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "660000"
-                        },
-                        "ProjectTitle": {
-                            "val": "Industrial Preparedness"
-                        },
-                        "ProjectFunding": {
+                    "R2aExhibit": {
+                        "ProjectArticles": {
                             "PriorYear": {
-                                "val": "0.371"
+                                "val": "0"
                             },
                             "CurrentYear": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearOne": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearOneBase": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearOneOCO": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearTwo": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearThree": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearFour": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearFive": {
-                                "val": "0.000"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
+                                "val": "0"
                             }
                         },
-                        "R2aExhibit": {
-                            "ProjectArticles": {
-                                "PriorYear": {
-                                    "val": "0"
-                                },
-                                "CurrentYear": {
-                                    "val": "0"
-                                },
-                                "BudgetYearOne": {
-                                    "val": "0"
-                                },
-                                "BudgetYearOneBase": {
-                                    "val": "0"
-                                },
-                                "BudgetYearOneOCO": {
-                                    "val": "0"
-                                },
-                                "BudgetYearTwo": {
-                                    "val": "0"
-                                },
-                                "BudgetYearThree": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFour": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFive": {
-                                    "val": "0"
+                        "ProjectMissionDescription": {
+                            "val": "Judgment Fund Reimbursement"
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Judgement Fund Reimbursement"
+                                    },
+                                    "Description": {
+                                        "val": "Judgement fund reimbursement"
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "0.371"
+                                            },
+                                            "Text": {
+                                                "val": "Judgement fund reimbursement"
+                                            }
+                                        }
+                                    }
                                 }
-                            },
-                            "ProjectMissionDescription": {
-                                "val": "Judgment Fund Reimbursement"
-                            },
-                            "AccomplishmentPlannedProgramList": {
-                                "AccomplishmentPlannedProgram": [
-                                    {
-                                        "Title": {
-                                            "val": "Judgement Fund Reimbursement"
+                            ]
+                        },
+                        "OtherProgramFundingSummaryList": {
+                            "OtherProgramFundingSummary": [
+                                {
+                                    "LineItem": {
+                                        "val": "N\/A"
+                                    },
+                                    "Title": {
+                                        "val": "N\/A"
+                                    },
+                                    "Funding": {
+                                        "PriorYear": {
+                                            "val": "0.000"
                                         },
-                                        "Description": {
-                                            "val": "Judgement fund reimbursement"
+                                        "CurrentYear": {
+                                            "val": "0.000"
                                         },
-                                        "Accomplishment": {
-                                            "PriorYear": {
-                                                "Funding": {
-                                                    "val": "0.371"
-                                                },
-                                                "Text": {
-                                                    "val": "Judgement fund reimbursement"
-                                                }
-                                            }
+                                        "BudgetYearOne": {
+                                            "val": "0.000"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "0.000"
+                                        },
+                                        "BudgetYearOneOCO": {
+                                            "val": "0.000"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "0.000"
+                                        },
+                                        "BudgetYearThree": {
+                                            "val": "0.000"
+                                        },
+                                        "BudgetYearFour": {
+                                            "val": "0.000"
+                                        },
+                                        "BudgetYearFive": {
+                                            "val": "0.000"
                                         }
                                     }
-                                ]
-                            },
-                            "OtherProgramFundingSummaryList": {
-                                "OtherProgramFundingSummary": [
-                                    {
-                                        "LineItem": {
-                                            "val": "N\/A"
-                                        },
-                                        "Title": {
-                                            "val": "N\/A"
-                                        },
-                                        "Funding": {
-                                            "PriorYear": {
-                                                "val": "0.000"
-                                            },
-                                            "CurrentYear": {
-                                                "val": "0.000"
-                                            },
-                                            "BudgetYearOne": {
-                                                "val": "0.000"
-                                            },
-                                            "BudgetYearOneBase": {
-                                                "val": "0.000"
-                                            },
-                                            "BudgetYearOneOCO": {
-                                                "val": "0.000"
-                                            },
-                                            "BudgetYearTwo": {
-                                                "val": "0.000"
-                                            },
-                                            "BudgetYearThree": {
-                                                "val": "0.000"
-                                            },
-                                            "BudgetYearFour": {
-                                                "val": "0.000"
-                                            },
-                                            "BudgetYearFive": {
-                                                "val": "0.000"
-                                            }
-                                        }
-                                    }
-                                ]
-                            },
-                            "PerformanceMetrics": {
-                                "val": "Please refer to the Performance Base Budget Overview Book for information on how Air Force resources are applied and how those resources are contributing to Air Force performance goals and most importantly, how they contribute to our mission."
-                            }
+                                }
+                            ]
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Please refer to the Performance Base Budget Overview Book for information on how Air Force resources are applied and how those resources are contributing to Air Force performance goals and most importantly, how they contribute to our mission."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

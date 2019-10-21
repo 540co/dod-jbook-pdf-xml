@@ -12,41 +12,90 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0604131A"
+        "ProgramElementNumber": {
+            "val": "0604131A"
+        },
+        "ProgramElementTitle": {
+            "val": "TRACTOR JUTE"
+        },
+        "R1LineNumber": {
+            "val": "75"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "Army"
+        },
+        "AppropriationCode": {
+            "val": "2040"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Army"
+        },
+        "BudgetActivityNumber": {
+            "val": "4"
+        },
+        "BudgetActivityTitle": {
+            "val": "Advanced Component Development & Prototypes (ACD&P)"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "0.054"
             },
-            "ProgramElementTitle": {
-                "val": "TRACTOR JUTE"
+            "CurrentYear": {
+                "val": "0.000"
             },
-            "R1LineNumber": {
-                "val": "75"
+            "BudgetYearOne": {
+                "val": "0.000"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOneBase": {
+                "val": "0.000"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "0.000"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearThree": {
+                "val": "0.000"
             },
-            "ServiceAgencyName": {
-                "val": "Army"
+            "BudgetYearFour": {
+                "val": "0.000"
             },
-            "AppropriationCode": {
-                "val": "2040"
+            "BudgetYearFive": {
+                "val": "0.000"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Army"
+            "CostToComplete": {
+                "val": "0.000"
             },
-            "BudgetActivityNumber": {
-                "val": "4"
+            "TotalCost": {
+                "val": "0.054"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "The details of this program are is reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "0.059"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
             },
-            "BudgetActivityTitle": {
-                "val": "Advanced Component Development & Prototypes (ACD&P)"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "0.054"
                 },
@@ -58,141 +107,90 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "0.000"
-                },
-                "BudgetYearTwo": {
-                    "val": "0.000"
-                },
-                "BudgetYearThree": {
-                    "val": "0.000"
-                },
-                "BudgetYearFour": {
-                    "val": "0.000"
-                },
-                "BudgetYearFive": {
-                    "val": "0.000"
-                },
-                "CostToComplete": {
-                    "val": "0.000"
-                },
-                "TotalCost": {
-                    "val": "0.054"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "The details of this program are is reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-0.005"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.059"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.054"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "-0.005"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustments 1"
-                                },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "-0.005"
-                                    }
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments 1"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "-0.005"
                                 }
                             }
-                        ]
-                    }
+                        }
+                    ]
                 }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "DT1"
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "DT1"
+                    },
+                    "ProjectTitle": {
+                        "val": "TRACTOR JUTE"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "0.054"
                         },
-                        "ProjectTitle": {
-                            "val": "TRACTOR JUTE"
+                        "CurrentYear": {
+                            "val": "0.000"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "BudgetYearOne": {
+                            "val": "0.000"
                         },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "0.054"
-                            },
-                            "CurrentYear": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.000"
-                            },
-                            "CostToComplete": {
-                                "val": "0.000"
-                            },
-                            "TotalCost": {
-                                "val": "0.054"
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "The details of this program are being reported in accorance with Title 10, United States Code, Section 119(a)(1)."
-                            }
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "0.054"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The details of this program are being reported in accorance with Title 10, United States Code, Section 119(a)(1)."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

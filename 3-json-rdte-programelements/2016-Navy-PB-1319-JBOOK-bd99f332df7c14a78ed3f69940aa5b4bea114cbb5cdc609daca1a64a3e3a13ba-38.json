@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0603746N"
+        "ProgramElementNumber": {
+            "val": "0603746N"
+        },
+        "ProgramElementTitle": {
+            "val": "(U)RETRACT MAPLE"
+        },
+        "R1LineNumber": {
+            "val": "64"
+        },
+        "BudgetYear": {
+            "val": "2016"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2015-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Navy"
+        },
+        "AppropriationCode": {
+            "val": "1319"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Navy"
+        },
+        "BudgetActivityNumber": {
+            "val": "4"
+        },
+        "BudgetActivityTitle": {
+            "val": "Advanced Component Development & Prototypes (ACD&P)"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "0.000"
             },
-            "ProgramElementTitle": {
-                "val": "(U)RETRACT MAPLE"
+            "PriorYear": {
+                "val": "293.872"
             },
-            "R1LineNumber": {
-                "val": "64"
+            "CurrentYear": {
+                "val": "376.028"
             },
-            "BudgetYear": {
-                "val": "2016"
+            "BudgetYearOne": {
+                "val": "360.065"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "360.065"
             },
-            "SubmissionDate": {
-                "val": "2015-02"
+            "BudgetYearTwo": {
+                "val": "317.148"
             },
-            "ServiceAgencyName": {
-                "val": "Navy"
+            "BudgetYearThree": {
+                "val": "215.673"
             },
-            "AppropriationCode": {
-                "val": "1319"
+            "BudgetYearFour": {
+                "val": "124.717"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Navy"
+            "BudgetYearFive": {
+                "val": "112.964"
             },
-            "BudgetActivityNumber": {
-                "val": "4"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "Advanced Component Development & Prototypes (ACD&P)"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
-                    "val": "0.000"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "308.131"
                 },
+                "CurrentYear": {
+                    "val": "376.028"
+                },
+                "BudgetYearOne": {
+                    "val": "304.561"
+                },
+                "BudgetYearOneBase": {
+                    "val": "304.561"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "293.872"
                 },
@@ -61,191 +110,140 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "360.065"
-                },
-                "BudgetYearTwo": {
-                    "val": "317.148"
-                },
-                "BudgetYearThree": {
-                    "val": "215.673"
-                },
-                "BudgetYearFour": {
-                    "val": "124.717"
-                },
-                "BudgetYearFive": {
-                    "val": "112.964"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-14.259"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "55.504"
+                },
+                "BudgetYearOneBase": {
+                    "val": "55.504"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
+            "AdjustmentDetails": {
+                "Reprogrammings": {
                     "PriorYear": {
-                        "val": "308.131"
-                    },
-                    "CurrentYear": {
-                        "val": "376.028"
-                    },
-                    "BudgetYearOne": {
-                        "val": "304.561"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "304.561"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "293.872"
-                    },
-                    "CurrentYear": {
-                        "val": "376.028"
-                    },
-                    "BudgetYearOne": {
-                        "val": "360.065"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "360.065"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "-14.259"
+                        "val": "-10.000"
                     },
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "55.504"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "55.504"
                     }
                 },
-                "AdjustmentDetails": {
-                    "Reprogrammings": {
-                        "PriorYear": {
-                            "val": "-10.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
+                        "val": "-4.259"
                     },
-                    "SBIRSTTRTransfer": {
-                        "PriorYear": {
-                            "val": "-4.259"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Program Adjustments"
-                                },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "59.870"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "59.870"
-                                    }
-                                }
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Program Adjustments"
                             },
-                            {
-                                "Title": {
-                                    "val": "Rate\/Misc Adjustments"
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.000"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "-4.366"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-4.366"
-                                    }
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "59.870"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "59.870"
                                 }
                             }
-                        ]
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "Technical: Not applicable.\nSchedule: Not applicable."
+                        },
+                        {
+                            "Title": {
+                                "val": "Rate\/Misc Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.000"
+                                },
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "-4.366"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "-4.366"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "1906"
+            "SummaryExplanation": {
+                "val": "Technical: Not applicable.\nSchedule: Not applicable."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "1906"
+                    },
+                    "ProjectTitle": {
+                        "val": "Retract Maple"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
                         },
-                        "ProjectTitle": {
-                            "val": "Retract Maple"
+                        "PriorYear": {
+                            "val": "293.872"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "CurrentYear": {
+                            "val": "376.028"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "0.000"
-                            },
-                            "PriorYear": {
-                                "val": "293.872"
-                            },
-                            "CurrentYear": {
-                                "val": "376.028"
-                            },
-                            "BudgetYearOne": {
-                                "val": "360.065"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "360.065"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "317.148"
-                            },
-                            "BudgetYearThree": {
-                                "val": "215.673"
-                            },
-                            "BudgetYearFour": {
-                                "val": "124.717"
-                            },
-                            "BudgetYearFive": {
-                                "val": "112.964"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOne": {
+                            "val": "360.065"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "360.065"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "317.148"
+                        },
+                        "BudgetYearThree": {
+                            "val": "215.673"
+                        },
+                        "BudgetYearFour": {
+                            "val": "124.717"
+                        },
+                        "BudgetYearFive": {
+                            "val": "112.964"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

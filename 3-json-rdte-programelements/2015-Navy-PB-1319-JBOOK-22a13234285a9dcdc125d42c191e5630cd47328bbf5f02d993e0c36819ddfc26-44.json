@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0305207N"
+        "ProgramElementNumber": {
+            "val": "0305207N"
+        },
+        "ProgramElementTitle": {
+            "val": "Manned Reconnaissance Sys"
+        },
+        "R1LineNumber": {
+            "val": "215"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "Navy"
+        },
+        "AppropriationCode": {
+            "val": "1319"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Navy"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "0.000"
             },
-            "ProgramElementTitle": {
-                "val": "Manned Reconnaissance Sys"
+            "PriorYear": {
+                "val": "28.099"
             },
-            "R1LineNumber": {
-                "val": "215"
+            "CurrentYear": {
+                "val": "0.000"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOne": {
+                "val": "0.000"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "0.000"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearTwo": {
+                "val": "0.000"
             },
-            "ServiceAgencyName": {
-                "val": "Navy"
+            "BudgetYearThree": {
+                "val": "0.000"
             },
-            "AppropriationCode": {
-                "val": "1319"
+            "BudgetYearFour": {
+                "val": "0.000"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Navy"
+            "BudgetYearFive": {
+                "val": "0.000"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "CostToComplete": {
+                "val": "0.000"
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
+            "TotalCost": {
+                "val": "28.099"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "The details of this program element are classified SECRET and are submitted annually to Congress in the classified budget justification books."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "30.654"
+                },
+                "CurrentYear": {
                     "val": "0.000"
                 },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "28.099"
                 },
@@ -61,222 +110,171 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "0.000"
-                },
-                "BudgetYearTwo": {
-                    "val": "0.000"
-                },
-                "BudgetYearThree": {
-                    "val": "0.000"
-                },
-                "BudgetYearFour": {
-                    "val": "0.000"
-                },
-                "BudgetYearFive": {
-                    "val": "0.000"
-                },
-                "CostToComplete": {
-                    "val": "0.000"
-                },
-                "TotalCost": {
-                    "val": "28.099"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "The details of this program element are classified SECRET and are submitted annually to Congress in the classified budget justification books."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-2.555"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "30.654"
-                    },
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
                     "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
                         "val": "0.000"
                     }
                 },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "28.099"
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Rate\/Misc Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.001"
+                                },
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "0.000"
+                                }
+                            }
+                        },
+                        {
+                            "Title": {
+                                "val": "Congressional General Reductions Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "-2.556"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "SummaryExplanation": {
+                "val": "Technical: Not applicable.\nSchedule: Not applicable."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "0117"
                     },
-                    "CurrentYear": {
-                        "val": "0.000"
+                    "ProjectTitle": {
+                        "val": "Reef Point"
                     },
-                    "BudgetYearOne": {
-                        "val": "0.000"
+                    "SpecialProject": {
+                        "val": "1"
                     },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "-2.555"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "CongressionalGeneralReductions": {
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
+                        },
+                        "PriorYear": {
+                            "val": "10.931"
+                        },
                         "CurrentYear": {
                             "val": "0.000"
+                        },
+                        "BudgetYearOne": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "10.931"
                         }
                     },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Rate\/Misc Adjustments"
-                                },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.001"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "0.000"
-                                    }
-                                }
-                            },
-                            {
-                                "Title": {
-                                    "val": "Congressional General Reductions Adjustments"
-                                },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "-2.556"
-                                    }
-                                }
-                            }
-                        ]
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The details of this program element are classified SECRET and are submitted annually to Congress in the classified budget justification books."
+                        }
                     }
                 },
-                "SummaryExplanation": {
-                    "val": "Technical: Not applicable.\nSchedule: Not applicable."
-                }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "0117"
+                {
+                    "ProjectNumber": {
+                        "val": "3329"
+                    },
+                    "ProjectTitle": {
+                        "val": "Multi Intelligence Sensor Development"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
                         },
-                        "ProjectTitle": {
-                            "val": "Reef Point"
+                        "PriorYear": {
+                            "val": "17.168"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "CurrentYear": {
+                            "val": "0.000"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "0.000"
-                            },
-                            "PriorYear": {
-                                "val": "10.931"
-                            },
-                            "CurrentYear": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.000"
-                            },
-                            "CostToComplete": {
-                                "val": "0.000"
-                            },
-                            "TotalCost": {
-                                "val": "10.931"
-                            }
+                        "BudgetYearOne": {
+                            "val": "0.000"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "The details of this program element are classified SECRET and are submitted annually to Congress in the classified budget justification books."
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "17.168"
                         }
                     },
-                    {
-                        "ProjectNumber": {
-                            "val": "3329"
-                        },
-                        "ProjectTitle": {
-                            "val": "Multi Intelligence Sensor Development"
-                        },
-                        "SpecialProject": {
-                            "val": "1"
-                        },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "0.000"
-                            },
-                            "PriorYear": {
-                                "val": "17.168"
-                            },
-                            "CurrentYear": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.000"
-                            },
-                            "CostToComplete": {
-                                "val": "0.000"
-                            },
-                            "TotalCost": {
-                                "val": "17.168"
-                            }
-                        },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "The details of this program element are classified SECRET and are submitted annually to Congress in the classified budget justification books."
-                            }
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The details of this program element are classified SECRET and are submitted annually to Congress in the classified budget justification books."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

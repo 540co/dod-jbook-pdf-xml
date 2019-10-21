@@ -12,42 +12,94 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "@format": "R2Long",
-            "ProgramElementNumber": {
-                "val": "0305146F"
+        "@format": "R2Long",
+        "ProgramElementNumber": {
+            "val": "0305146F"
+        },
+        "ProgramElementTitle": {
+            "val": "Defense Joint Counterintelligence Activities"
+        },
+        "R1LineNumber": {
+            "val": "201"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "Air Force"
+        },
+        "AppropriationCode": {
+            "val": "3600"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Air Force"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "0.000"
             },
-            "ProgramElementTitle": {
-                "val": "Defense Joint Counterintelligence Activities"
+            "CurrentYear": {
+                "val": "0.010"
             },
-            "R1LineNumber": {
-                "val": "201"
+            "BudgetYearOne": {
+                "val": "0.360"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOneBase": {
+                "val": "0.360"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "0.363"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearThree": {
+                "val": "0.365"
             },
-            "ServiceAgencyName": {
-                "val": "Air Force"
+            "BudgetYearFour": {
+                "val": "0.372"
             },
-            "AppropriationCode": {
-                "val": "3600"
+            "BudgetYearFive": {
+                "val": "0.379"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Air Force"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementNote": {
+            "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
+        },
+        "ProgramElementMissionDescription": {
+            "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "0.342"
+                },
+                "CurrentYear": {
+                    "val": "0.330"
+                },
+                "BudgetYearOne": {
+                    "val": "0.365"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.365"
+                }
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "0.000"
                 },
@@ -59,286 +111,232 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "0.360"
-                },
-                "BudgetYearTwo": {
-                    "val": "0.363"
-                },
-                "BudgetYearThree": {
-                    "val": "0.365"
-                },
-                "BudgetYearFour": {
-                    "val": "0.372"
-                },
-                "BudgetYearFive": {
-                    "val": "0.379"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementNote": {
-                "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
-            },
-            "ProgramElementMissionDescription": {
-                "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
-            },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.342"
-                    },
-                    "CurrentYear": {
-                        "val": "0.330"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.365"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.365"
-                    }
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-0.342"
                 },
-                "CurrentPresidentBudget": {
+                "CurrentYear": {
+                    "val": "-0.320"
+                },
+                "BudgetYearOne": {
+                    "val": "-0.005"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-0.005"
+                }
+            },
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
                     "PriorYear": {
                         "val": "0.000"
                     },
                     "CurrentYear": {
-                        "val": "0.010"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.360"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.360"
+                        "val": "0.000"
                     }
                 },
-                "TotalAdjustments": {
+                "CongressionalDirectedReductions": {
                     "PriorYear": {
                         "val": "-0.342"
                     },
                     "CurrentYear": {
                         "val": "-0.320"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-0.005"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-0.005"
                     }
                 },
-                "AdjustmentDetails": {
-                    "CongressionalGeneralReductions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                "CongressionalRescissions": {
+                    "PriorYear": {
+                        "val": "0.000"
                     },
-                    "CongressionalDirectedReductions": {
-                        "PriorYear": {
-                            "val": "-0.342"
-                        },
-                        "CurrentYear": {
-                            "val": "-0.320"
-                        }
-                    },
-                    "CongressionalRescissions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalAdds": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalDirectedTransfers": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "Reprogrammings": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "SBIRSTTRTransfer": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustments"
-                                },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "-0.005"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-0.005"
-                                    }
-                                }
-                            }
-                        ]
+                    "CurrentYear": {
+                        "val": "0.000"
                     }
-                }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "671931"
-                        },
-                        "ProjectTitle": {
-                            "val": "TECH SURVEIL COUNTER MEAS EQPT"
-                        },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "0.000"
+                },
+                "CongressionalAdds": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalDirectedTransfers": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "Reprogrammings": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments"
                             },
-                            "CurrentYear": {
-                                "val": "0.010"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.360"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.360"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.363"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.365"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.372"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.379"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
-                        },
-                        "R2aExhibit": {
-                            "ProjectArticles": {
+                            "Funding": {
                                 "PriorYear": {
-                                    "val": "0"
+                                    "val": "0.000"
                                 },
                                 "CurrentYear": {
-                                    "val": "0"
+                                    "val": "0.000"
                                 },
                                 "BudgetYearOne": {
-                                    "val": "0"
+                                    "val": "-0.005"
                                 },
                                 "BudgetYearOneBase": {
-                                    "val": "0"
-                                },
-                                "BudgetYearTwo": {
-                                    "val": "0"
-                                },
-                                "BudgetYearThree": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFour": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFive": {
-                                    "val": "0"
+                                    "val": "-0.005"
                                 }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "671931"
+                    },
+                    "ProjectTitle": {
+                        "val": "TECH SURVEIL COUNTER MEAS EQPT"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "0.000"
+                        },
+                        "CurrentYear": {
+                            "val": "0.010"
+                        },
+                        "BudgetYearOne": {
+                            "val": "0.360"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "0.360"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.363"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.365"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.372"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.379"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectArticles": {
+                            "PriorYear": {
+                                "val": "0"
                             },
-                            "ProjectNote": {
-                                "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
+                            "CurrentYear": {
+                                "val": "0"
                             },
-                            "ProjectMissionDescription": {
-                                "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
+                            "BudgetYearOne": {
+                                "val": "0"
                             },
-                            "AccomplishmentPlannedProgramList": {
-                                "AccomplishmentPlannedProgram": [
-                                    {
-                                        "Title": {
-                                            "val": "Defense Joint Counterintelligence Program"
-                                        },
-                                        "Description": {
-                                            "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
-                                        },
-                                        "Accomplishment": {
-                                            "PriorYear": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Text": {
-                                                    "val": "FY13 funds were excess to need."
-                                                }
+                            "BudgetYearOneBase": {
+                                "val": "0"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "0"
+                            },
+                            "BudgetYearThree": {
+                                "val": "0"
+                            },
+                            "BudgetYearFour": {
+                                "val": "0"
+                            },
+                            "BudgetYearFive": {
+                                "val": "0"
+                            }
+                        },
+                        "ProjectNote": {
+                            "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Defense Joint Counterintelligence Program"
+                                    },
+                                    "Description": {
+                                        "val": "TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): TECHNICAL SURVEILLANCE COUNTERMEASURES (TSCM): The requested funds will be used for the development of future technologies capable of thwarting advanced, hostile force technical capabilities.  They will be developed to provide secure environments safe locations, austere mission planning locations, theater commander centers, and collection of information for counterthreat operations in support of DoD and AF requirements."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Text": {
+                                                "val": "FY13 funds were excess to need."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.010"
+                                            },
+                                            "Text": {
+                                                "val": "FY14 dollars will be used for continued research and development of advanced systems to provide support to counterthreat operations in Afghanistan and other austere and contingency areas as needed."
                                             }
                                         },
-                                        "PlannedProgram": {
-                                            "CurrentYear": {
-                                                "Funding": {
-                                                    "val": "0.010"
-                                                },
-                                                "Text": {
-                                                    "val": "FY14 dollars will be used for continued research and development of advanced systems to provide support to counterthreat operations in Afghanistan and other austere and contingency areas as needed."
-                                                }
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.360"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.360"
                                             },
-                                            "BudgetYearOne": {
-                                                "Funding": {
-                                                    "val": "0.360"
-                                                }
-                                            },
-                                            "BudgetYearOneBase": {
-                                                "Funding": {
-                                                    "val": "0.360"
-                                                },
-                                                "Text": {
-                                                    "val": "FY15 dollars will be used for continued research and development of advanced systems to provide support to counterthreat operations and other austere and contingency areas as needed."
-                                                }
+                                            "Text": {
+                                                "val": "FY15 dollars will be used for continued research and development of advanced systems to provide support to counterthreat operations and other austere and contingency areas as needed."
                                             }
                                         }
                                     }
-                                ]
-                            },
-                            "AcquisitionStrategy": {
-                                "val": "Contracts will be awarded based on full and open competition."
-                            },
-                            "PerformanceMetrics": {
-                                "val": "Please refer to the Performance Base Budget Overview Book for information on how Air Force resources are applied and how those resources are contributing to Air Force performance goals and most importantly, how they contribute to our mission."
-                            }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "Contracts will be awarded based on full and open competition."
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Please refer to the Performance Base Budget Overview Book for information on how Air Force resources are applied and how those resources are contributing to Air Force performance goals and most importantly, how they contribute to our mission."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

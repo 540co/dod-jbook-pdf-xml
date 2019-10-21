@@ -12,41 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0603274C"
+        "ProgramElementNumber": {
+            "val": "0603274C"
+        },
+        "ProgramElementTitle": {
+            "val": "Special Program - MDA Technology"
+        },
+        "R1LineItemNumber": {
+            "val": "33"
+        },
+        "BudgetYear": {
+            "val": "2013"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2012-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Missile Defense Agency"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "3"
+        },
+        "BudgetActivityTitle": {
+            "val": "Advanced Technology Development (ATD)"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "0.000"
             },
-            "ProgramElementTitle": {
-                "val": "Special Program - MDA Technology"
+            "CurrentYear": {
+                "val": "61.371"
             },
-            "R1LineItemNumber": {
-                "val": "33"
+            "BudgetYearOne": {
+                "val": "36.685"
             },
-            "BudgetYear": {
-                "val": "2013"
+            "BudgetYearOneBase": {
+                "val": "36.685"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "39.736"
             },
-            "SubmissionDate": {
-                "val": "2012-02"
+            "BudgetYearThree": {
+                "val": "42.726"
             },
-            "ServiceAgencyName": {
-                "val": "Missile Defense Agency"
+            "BudgetYearFour": {
+                "val": "46.310"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFive": {
+                "val": "47.213"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityNumber": {
-                "val": "3"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementNote": {
+            "val": "NA"
+        },
+        "ProgramElementMissionDescription": {
+            "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "61.458"
+                },
+                "BudgetYearOne": {
+                    "val": "37.866"
+                },
+                "BudgetYearOneBase": {
+                    "val": "37.866"
+                }
             },
-            "BudgetActivityTitle": {
-                "val": "Advanced Technology Development (ATD)"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "0.000"
                 },
@@ -58,301 +110,247 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "36.685"
-                },
-                "BudgetYearTwo": {
-                    "val": "39.736"
-                },
-                "BudgetYearThree": {
-                    "val": "42.726"
-                },
-                "BudgetYearFour": {
-                    "val": "46.310"
-                },
-                "BudgetYearFive": {
-                    "val": "47.213"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementNote": {
-                "val": "NA"
-            },
-            "ProgramElementMissionDescription": {
-                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-            },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.000"
-                    },
-                    "CurrentYear": {
-                        "val": "61.458"
-                    },
-                    "BudgetYearOne": {
-                        "val": "37.866"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "37.866"
-                    }
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.000"
                 },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.000"
-                    },
-                    "CurrentYear": {
-                        "val": "61.371"
-                    },
-                    "BudgetYearOne": {
-                        "val": "36.685"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "36.685"
-                    }
+                "CurrentYear": {
+                    "val": "-0.087"
                 },
-                "TotalAdjustments": {
+                "BudgetYearOne": {
+                    "val": "-1.181"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-1.181"
+                }
+            },
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
                     "PriorYear": {
                         "val": "0.000"
                     },
                     "CurrentYear": {
                         "val": "-0.087"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-1.181"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-1.181"
                     }
                 },
-                "AdjustmentDetails": {
-                    "CongressionalGeneralReductions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "-0.087"
-                        }
+                "CongressionalDirectedReductions": {
+                    "PriorYear": {
+                        "val": "0.000"
                     },
-                    "CongressionalDirectedReductions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalRescissions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalAdds": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalDirectedTransfers": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "Reprogrammings": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "SBIRSTTRTransfer": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustment"
-                                },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "-1.181"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-1.181"
-                                    }
-                                }
-                            }
-                        ]
+                    "CurrentYear": {
+                        "val": "0.000"
                     }
                 },
-                "SummaryExplanation": {
-                    "val": "FY 2013 decrease reflects a realignment of Department of Defense priorities."
-                }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "MD81"
-                        },
-                        "ProjectTitle": {
-                            "val": "Special Programs - MDA Technology"
-                        },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "0.000"
+                "CongressionalRescissions": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalAdds": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalDirectedTransfers": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "Reprogrammings": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustment"
                             },
-                            "CurrentYear": {
-                                "val": "61.371"
-                            },
-                            "BudgetYearOne": {
-                                "val": "36.685"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "36.685"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "39.736"
-                            },
-                            "BudgetYearThree": {
-                                "val": "42.726"
-                            },
-                            "BudgetYearFour": {
-                                "val": "46.310"
-                            },
-                            "BudgetYearFive": {
-                                "val": "47.213"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
-                        },
-                        "R2aExhibit": {
-                            "ProjectArticles": {
+                            "Funding": {
                                 "PriorYear": {
-                                    "val": "0"
+                                    "val": "0.000"
                                 },
                                 "CurrentYear": {
-                                    "val": "0"
+                                    "val": "0.000"
                                 },
                                 "BudgetYearOne": {
-                                    "val": "0"
+                                    "val": "-1.181"
                                 },
                                 "BudgetYearOneBase": {
-                                    "val": "0"
-                                },
-                                "BudgetYearTwo": {
-                                    "val": "0"
-                                },
-                                "BudgetYearThree": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFour": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFive": {
-                                    "val": "0"
+                                    "val": "-1.181"
                                 }
+                            }
+                        }
+                    ]
+                }
+            },
+            "SummaryExplanation": {
+                "val": "FY 2013 decrease reflects a realignment of Department of Defense priorities."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "MD81"
+                    },
+                    "ProjectTitle": {
+                        "val": "Special Programs - MDA Technology"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "0.000"
+                        },
+                        "CurrentYear": {
+                            "val": "61.371"
+                        },
+                        "BudgetYearOne": {
+                            "val": "36.685"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "36.685"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "39.736"
+                        },
+                        "BudgetYearThree": {
+                            "val": "42.726"
+                        },
+                        "BudgetYearFour": {
+                            "val": "46.310"
+                        },
+                        "BudgetYearFive": {
+                            "val": "47.213"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectArticles": {
+                            "PriorYear": {
+                                "val": "0"
                             },
-                            "ProjectNote": {
-                                "val": "N\/A"
+                            "CurrentYear": {
+                                "val": "0"
                             },
-                            "ProjectMissionDescription": {
-                                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+                            "BudgetYearOne": {
+                                "val": "0"
                             },
-                            "AccomplishmentPlannedProgramList": {
-                                "AccomplishmentPlannedProgram": [
-                                    {
-                                        "Title": {
-                                            "val": "Special Programs"
-                                        },
-                                        "Description": {
-                                            "val": "See Description Below"
-                                        },
-                                        "Accomplishment": {
-                                            "PriorYear": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-                                                }
+                            "BudgetYearOneBase": {
+                                "val": "0"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "0"
+                            },
+                            "BudgetYearThree": {
+                                "val": "0"
+                            },
+                            "BudgetYearFour": {
+                                "val": "0"
+                            },
+                            "BudgetYearFive": {
+                                "val": "0"
+                            }
+                        },
+                        "ProjectNote": {
+                            "val": "N\/A"
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Special Programs"
+                                    },
+                                    "Description": {
+                                        "val": "See Description Below"
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "61.371"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
                                             }
                                         },
-                                        "PlannedProgram": {
-                                            "CurrentYear": {
-                                                "Funding": {
-                                                    "val": "61.371"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-                                                }
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "36.685"
                                             },
-                                            "BudgetYearOne": {
-                                                "Funding": {
-                                                    "val": "36.685"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                }
+                                            "Articles": {
+                                                "val": "0"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "36.685"
                                             },
-                                            "BudgetYearOneBase": {
-                                                "Funding": {
-                                                    "val": "36.685"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-                                                }
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
                                             }
                                         }
                                     }
-                                ]
-                            },
-                            "AcquisitionStrategy": {
-                                "val": "NA"
-                            },
-                            "PerformanceMetrics": {
-                                "val": "NA"
-                            }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "NA"
+                        },
+                        "PerformanceMetrics": {
+                            "val": "NA"
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

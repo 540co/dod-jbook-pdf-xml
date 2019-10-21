@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0305103K"
+        "ProgramElementNumber": {
+            "val": "0305103K"
+        },
+        "ProgramElementTitle": {
+            "val": "Cybersecurity Initiative"
+        },
+        "R1LineNumber": {
+            "val": "212"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "Defense Information Systems Agency"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "4.141"
             },
-            "ProgramElementTitle": {
-                "val": "Cybersecurity Initiative"
+            "PriorYear": {
+                "val": "3.216"
             },
-            "R1LineNumber": {
-                "val": "212"
+            "CurrentYear": {
+                "val": "3.658"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOne": {
+                "val": "3.234"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "3.234"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearTwo": {
+                "val": "3.114"
             },
-            "ServiceAgencyName": {
-                "val": "Defense Information Systems Agency"
+            "BudgetYearThree": {
+                "val": "3.070"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFour": {
+                "val": "3.166"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
+            "BudgetYearFive": {
+                "val": "3.350"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
-                    "val": "4.141"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "This is a classified program.  Details will be provided upon request."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "4.189"
                 },
+                "CurrentYear": {
+                    "val": "3.658"
+                },
+                "BudgetYearOne": {
+                    "val": "4.673"
+                },
+                "BudgetYearOneBase": {
+                    "val": "4.673"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "3.216"
                 },
@@ -61,156 +110,105 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "3.234"
-                },
-                "BudgetYearTwo": {
-                    "val": "3.114"
-                },
-                "BudgetYearThree": {
-                    "val": "3.070"
-                },
-                "BudgetYearFour": {
-                    "val": "3.166"
-                },
-                "BudgetYearFive": {
-                    "val": "3.350"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "This is a classified program.  Details will be provided upon request."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-0.973"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "-1.439"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-1.439"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "4.189"
-                    },
-                    "CurrentYear": {
-                        "val": "3.658"
-                    },
-                    "BudgetYearOne": {
-                        "val": "4.673"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "4.673"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "3.216"
-                    },
-                    "CurrentYear": {
-                        "val": "3.658"
-                    },
-                    "BudgetYearOne": {
-                        "val": "3.234"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "3.234"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "-0.973"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-1.439"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-1.439"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustments"
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "-0.973"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "-0.973"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "-1.439"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-1.439"
-                                    }
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "-1.439"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "-1.439"
                                 }
                             }
-                        ]
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "Classified."
+                        }
+                    ]
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "XXX"
+            "SummaryExplanation": {
+                "val": "Classified."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "XXX"
+                    },
+                    "ProjectTitle": {
+                        "val": "Cybersecurity Initiative"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "4.141"
                         },
-                        "ProjectTitle": {
-                            "val": "Cybersecurity Initiative"
+                        "PriorYear": {
+                            "val": "3.216"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "CurrentYear": {
+                            "val": "3.658"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "4.141"
-                            },
-                            "PriorYear": {
-                                "val": "3.216"
-                            },
-                            "CurrentYear": {
-                                "val": "3.658"
-                            },
-                            "BudgetYearOne": {
-                                "val": "3.234"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "3.234"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "3.114"
-                            },
-                            "BudgetYearThree": {
-                                "val": "3.070"
-                            },
-                            "BudgetYearFour": {
-                                "val": "3.166"
-                            },
-                            "BudgetYearFive": {
-                                "val": "3.350"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOne": {
+                            "val": "3.234"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "Classified."
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "3.234"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "3.114"
+                        },
+                        "BudgetYearThree": {
+                            "val": "3.070"
+                        },
+                        "BudgetYearFour": {
+                            "val": "3.166"
+                        },
+                        "BudgetYearFive": {
+                            "val": "3.350"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "Classified."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

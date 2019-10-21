@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0909999N"
+        "ProgramElementNumber": {
+            "val": "0909999N"
+        },
+        "ProgramElementTitle": {
+            "val": "Cancelled Account Adjustments"
+        },
+        "R1LineNumber": {
+            "val": "167"
+        },
+        "BudgetYear": {
+            "val": "2016"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2015-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Navy"
+        },
+        "AppropriationCode": {
+            "val": "1319"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Navy"
+        },
+        "BudgetActivityNumber": {
+            "val": "6"
+        },
+        "BudgetActivityTitle": {
+            "val": "RDT&E Management Support"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "0.000"
             },
-            "ProgramElementTitle": {
-                "val": "Cancelled Account Adjustments"
+            "PriorYear": {
+                "val": "1.209"
             },
-            "R1LineNumber": {
-                "val": "167"
+            "CurrentYear": {
+                "val": "0.000"
             },
-            "BudgetYear": {
-                "val": "2016"
+            "BudgetYearOne": {
+                "val": "0.000"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "0.000"
             },
-            "SubmissionDate": {
-                "val": "2015-02"
+            "BudgetYearTwo": {
+                "val": "0.000"
             },
-            "ServiceAgencyName": {
-                "val": "Navy"
+            "BudgetYearThree": {
+                "val": "0.000"
             },
-            "AppropriationCode": {
-                "val": "1319"
+            "BudgetYearFour": {
+                "val": "0.000"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Navy"
+            "BudgetYearFive": {
+                "val": "0.000"
             },
-            "BudgetActivityNumber": {
-                "val": "6"
+            "CostToComplete": {
+                "val": "0.000"
             },
-            "BudgetActivityTitle": {
-                "val": "RDT&E Management Support"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
+            "TotalCost": {
+                "val": "1.209"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "Funding is to reimburse the Department of Treasury for cancelled account liabilities."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
                     "val": "0.000"
                 },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "1.209"
                 },
@@ -61,380 +110,329 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "0.000"
-                },
-                "BudgetYearTwo": {
-                    "val": "0.000"
-                },
-                "BudgetYearThree": {
-                    "val": "0.000"
-                },
-                "BudgetYearFour": {
-                    "val": "0.000"
-                },
-                "BudgetYearFive": {
-                    "val": "0.000"
-                },
-                "CostToComplete": {
-                    "val": "0.000"
-                },
-                "TotalCost": {
-                    "val": "1.209"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "Funding is to reimburse the Department of Treasury for cancelled account liabilities."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "1.209"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.000"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "CurrentPresidentBudget": {
+            "AdjustmentDetails": {
+                "Reprogrammings": {
                     "PriorYear": {
                         "val": "1.209"
                     },
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
                     }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "1.209"
+                }
+            },
+            "SummaryExplanation": {
+                "val": "Technical: Not applicable.\nSchedule: Not applicable."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "0000"
                     },
-                    "CurrentYear": {
-                        "val": "0.000"
+                    "ProjectTitle": {
+                        "val": "UNDIST"
                     },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "Reprogrammings": {
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
+                        },
                         "PriorYear": {
-                            "val": "1.209"
+                            "val": "1.193"
                         },
                         "CurrentYear": {
                             "val": "0.000"
+                        },
+                        "BudgetYearOne": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "1.193"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectArticles": {
+                            "AllPriorYears": {
+                                "val": "0"
+                            },
+                            "PriorYear": {
+                                "val": "0"
+                            },
+                            "CurrentYear": {
+                                "val": "0"
+                            },
+                            "BudgetYearOne": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "0"
+                            },
+                            "BudgetYearThree": {
+                                "val": "0"
+                            },
+                            "BudgetYearFour": {
+                                "val": "0"
+                            },
+                            "BudgetYearFive": {
+                                "val": "0"
+                            }
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "Funding is to reimburse the Department of Treasury for a cancelled account liability."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "New Accomplishment\/Planned Program Entry"
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "1.193"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "Funding is to reimburse Department of the Treasury for cancelled account liabilities."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        },
+                                        "BudgetYearOneOCO": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Not applicable."
                         }
                     }
                 },
-                "SummaryExplanation": {
-                    "val": "Technical: Not applicable.\nSchedule: Not applicable."
-                }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "0000"
+                {
+                    "ProjectNumber": {
+                        "val": "9000"
+                    },
+                    "ProjectTitle": {
+                        "val": "Cancelled Account Adjustment"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
                         },
-                        "ProjectTitle": {
-                            "val": "UNDIST"
+                        "PriorYear": {
+                            "val": "0.016"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "0.000"
-                            },
-                            "PriorYear": {
-                                "val": "1.193"
-                            },
-                            "CurrentYear": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.000"
-                            },
-                            "CostToComplete": {
-                                "val": "0.000"
-                            },
-                            "TotalCost": {
-                                "val": "1.193"
-                            }
+                        "CurrentYear": {
+                            "val": "0.000"
                         },
-                        "R2aExhibit": {
-                            "ProjectArticles": {
-                                "AllPriorYears": {
-                                    "val": "0"
-                                },
-                                "PriorYear": {
-                                    "val": "0"
-                                },
-                                "CurrentYear": {
-                                    "val": "0"
-                                },
-                                "BudgetYearOne": {
-                                    "val": "0"
-                                },
-                                "BudgetYearOneBase": {
-                                    "val": "0"
-                                },
-                                "BudgetYearTwo": {
-                                    "val": "0"
-                                },
-                                "BudgetYearThree": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFour": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFive": {
-                                    "val": "0"
-                                }
-                            },
-                            "ProjectMissionDescription": {
-                                "val": "Funding is to reimburse the Department of Treasury for a cancelled account liability."
-                            },
-                            "AccomplishmentPlannedProgramList": {
-                                "AccomplishmentPlannedProgram": [
-                                    {
-                                        "Title": {
-                                            "val": "New Accomplishment\/Planned Program Entry"
-                                        },
-                                        "Accomplishment": {
-                                            "PriorYear": {
-                                                "Funding": {
-                                                    "val": "1.193"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "Funding is to reimburse Department of the Treasury for cancelled account liabilities."
-                                                }
-                                            }
-                                        },
-                                        "PlannedProgram": {
-                                            "CurrentYear": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "N\/A"
-                                                }
-                                            },
-                                            "BudgetYearOne": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                }
-                                            },
-                                            "BudgetYearOneBase": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "N\/A"
-                                                }
-                                            },
-                                            "BudgetYearOneOCO": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "N\/A"
-                                                }
-                                            }
-                                        }
-                                    }
-                                ]
-                            },
-                            "PerformanceMetrics": {
-                                "val": "Not applicable."
-                            }
+                        "BudgetYearOne": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "0.016"
                         }
                     },
-                    {
-                        "ProjectNumber": {
-                            "val": "9000"
-                        },
-                        "ProjectTitle": {
-                            "val": "Cancelled Account Adjustment"
-                        },
-                        "ProjectFunding": {
+                    "R2aExhibit": {
+                        "ProjectArticles": {
                             "AllPriorYears": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "PriorYear": {
-                                "val": "0.016"
+                                "val": "0"
                             },
                             "CurrentYear": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearOne": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearOneBase": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearTwo": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearThree": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearFour": {
-                                "val": "0.000"
+                                "val": "0"
                             },
                             "BudgetYearFive": {
-                                "val": "0.000"
-                            },
-                            "CostToComplete": {
-                                "val": "0.000"
-                            },
-                            "TotalCost": {
-                                "val": "0.016"
+                                "val": "0"
                             }
                         },
-                        "R2aExhibit": {
-                            "ProjectArticles": {
-                                "AllPriorYears": {
-                                    "val": "0"
-                                },
-                                "PriorYear": {
-                                    "val": "0"
-                                },
-                                "CurrentYear": {
-                                    "val": "0"
-                                },
-                                "BudgetYearOne": {
-                                    "val": "0"
-                                },
-                                "BudgetYearOneBase": {
-                                    "val": "0"
-                                },
-                                "BudgetYearTwo": {
-                                    "val": "0"
-                                },
-                                "BudgetYearThree": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFour": {
-                                    "val": "0"
-                                },
-                                "BudgetYearFive": {
-                                    "val": "0"
-                                }
-                            },
-                            "ProjectMissionDescription": {
-                                "val": "Funding is to reimburse the Department of Treasury for a cancelled account liability."
-                            },
-                            "AccomplishmentPlannedProgramList": {
-                                "AccomplishmentPlannedProgram": [
-                                    {
-                                        "Title": {
-                                            "val": "New Accomplishment\/Planned Program Entry"
-                                        },
-                                        "Accomplishment": {
-                                            "PriorYear": {
-                                                "Funding": {
-                                                    "val": "0.016"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "Funding is to reimburse the Department of Treasury for cancelled account liabilities."
-                                                }
+                        "ProjectMissionDescription": {
+                            "val": "Funding is to reimburse the Department of Treasury for a cancelled account liability."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "New Accomplishment\/Planned Program Entry"
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "0.016"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "Funding is to reimburse the Department of Treasury for cancelled account liabilities."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
                                             }
                                         },
-                                        "PlannedProgram": {
-                                            "CurrentYear": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "N\/A"
-                                                }
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.000"
                                             },
-                                            "BudgetYearOne": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                }
+                                            "Articles": {
+                                                "val": "0"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.000"
                                             },
-                                            "BudgetYearOneBase": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "N\/A"
-                                                }
+                                            "Articles": {
+                                                "val": "0"
                                             },
-                                            "BudgetYearOneOCO": {
-                                                "Funding": {
-                                                    "val": "0.000"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "N\/A"
-                                                }
+                                            "Text": {
+                                                "val": "N\/A"
+                                            }
+                                        },
+                                        "BudgetYearOneOCO": {
+                                            "Funding": {
+                                                "val": "0.000"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "N\/A"
                                             }
                                         }
                                     }
-                                ]
-                            },
-                            "PerformanceMetrics": {
-                                "val": "Not applicable."
-                            }
+                                }
+                            ]
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Not applicable."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }
