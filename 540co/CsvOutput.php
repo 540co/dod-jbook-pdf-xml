@@ -74,10 +74,13 @@ class Csv {
 
       foreach ($row as $k=>$v) {
         $valToWrite = $row[$k];
-        $valToWrite = str_replace('"','',$valToWrite);
+
+        $valToWrite = str_replace("\n\n",' ',$valToWrite);
+        $valToWrite = str_replace("\r\n",' ',$valToWrite);
         $valToWrite = str_replace("\n",' ',$valToWrite);
         $valToWrite = str_replace("\t",' ',$valToWrite);
         $valToWrite = str_replace("\r",' ',$valToWrite);
+        $valToWrite = str_replace('"','',$valToWrite);
 
         $rowString = $rowString.'"'.$valToWrite.'",';
       }
