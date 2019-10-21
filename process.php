@@ -169,7 +169,7 @@ function csvToZip($resourceType) {
       echo "[".($fileIdx+1)."/".$fileCount."]\n";
       echo "< Compressing $filePath>\n";
 
-      $zipFilename = substr($filePath,0,-5).'.json';
+      $zipFilename = substr($filePath,0,-5).'.zip';
       $zipCmd = 'zip '.$zipFilename.' '.$filePath;
       $rmCmd = 'rm '.$filePath;
 
