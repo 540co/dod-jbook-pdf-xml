@@ -20,19 +20,38 @@ The extract includes:
 ## What data / formats are available in the repo?
 
 ### PDF + ATTACHMENTS (xml, xls, etc)
-![0-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/docs/0-jbook-pdf)
+![0-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/docs/0-jbook-pdf.png)
 
- Included in the `0-jbook-pdf` folder is the PDF copy downloaded from the the DoD / Service budget sites and the extracted attachments (which is where the XML representation of the justificaton books are stored).
+Included in the `0-jbook-pdf` folder is the PDF copy downloaded from the the DoD / Service budget sites and the extracted attachments (which is where the XML representation of the justificaton books is stored).
 
-The URLs that were used for the download are included in a a JSON file at the root of the folder per year.
+The URLs that were used for the download are included in a a JSON file at the root of the `0-jbook-pdf` folder "per year".
 
-_For example, there is a file `[2020]_jbook_list.json` that includes the URL that was used to download the file._ 
+_For example, there is a file `[2020]_jbook_list.json` that includes the URL that was used to download the files for that year._ 
 
-> NOTE:  In some cases (mainly for the older files), the URLs are no longer valid since the sites where the PDFs are hosted have evolved over time.  Most of the older files were downloaded when first released, the the URL listed would have been the URL at that time.
+> NOTE:  In some cases (mainly for the older files), the URLs are no longer valid since the sites where the PDFs are hosted have evolved / changed over time.  Most of the older files were downloaded when first released and the URL listed would have been the URL at that time.
 
 ### JUSTIFICATION / MASTER JUSTIFICATION BOOK XML FILES
 
-All of the relevant JustificationBook / MasterJustificationBook XML files have been copied to a single folder `1-jbook-xml` prior to further processing.
+![1-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/docs/1-jbook-xml.png)
+
+All of the relevant *JustificationBook* / *MasterJustificationBook* XML files have been copied to a single folder `1-jbook-xml` prior to further processing.
+
+### JUSTIFICATION / MASTER JUSTIFICATION BOOK JSON FILES
+
+![2-jbook-json](https://github.com/540co/dod-jbook-pdf-xml/docs/2-jbook-json.png)
+
+This folder contains a JSON representation of each of the XML files contained in `1-jbook-pdf` following the conversion of the XML to JSON.
+
+### JSON PROCUREMENT-LINEITEMS -and- RDTE-PROGRAMELEMENTS
+
+![3-json-procurement-lineitems](https://github.com/540co/dod-jbook-pdf-xml/docs/3-json-procurement-lineitems.png)
+![3-json-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/docs/3-json-rdte-programelements.png)
+
+Each folder contains the "list" of PROCUREMENT line items / RDTE program elements, respectively.
+
+
+
+
 
 
 
