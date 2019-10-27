@@ -20,7 +20,7 @@ The extract includes:
 ## What data / formats are available in the repo?
 
 ### PDF + ATTACHMENTS (xml, xls, etc)
-![alt text](./0-jbook-pdf.png "0-jbook-pdf.png")
+![0-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/docs/0-jbook-pdf)
 
  Included in the `0-jbook-pdf` folder is the PDF copy downloaded from the the DoD / Service budget sites and the extracted attachments (which is where the XML representation of the justificaton books are stored).
 
