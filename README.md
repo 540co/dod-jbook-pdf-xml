@@ -164,22 +164,28 @@ $ php process.php --step 3-convert-xml-to-json
 During this step line items / program elements are extracted from the proper node in the Justification Book / Master Justification Book and copied to a single JSON file per line item / progrem element:
 
 **procurement-lineitems** in Justification Books
+
 `JustificationBook/LineItemList/LineItem`
 
 **procurement-lineitems** in Master Justification Books
+
 `MasterJustificationBook/JustificationBookGroupList/JustificationBookGroup/JustificationBookInfoList/JustificationBook/LineItemList/LineItem`
 
 **rdte-programelements** in Justification Books (2013 - 2016)
+
 `JustificationBook/R2ExhibitList/R2Exhibit`
 
 **rdte-programelements** in Master Justification Books (2013 - 2016)
+
 `MasterJustificationBook/JustificationBookGroupList/JustificationBookGroup/JustificationBookInfoList/JustificationBook/R2ExhibitList/R2Exhibit`
 
 **rdte-programelements** in Justification Books (2017 - current)
+
 `JustificationBook/R2ExhibitList/R2Exhibit`
 
 **rdte-programelements** in Master Justification Books (2017 - current)
-``MasterJustificationBook/JustificationBookGroupList/JustificationBookGroup/JustificationBookInfoList/JustificationBook/ProgramElementList/ProgramElement`
+
+`MasterJustificationBook/JustificationBookGroupList/JustificationBookGroup/JustificationBookInfoList/JustificationBook/ProgramElementList/ProgramElement`
 
 ```
 $ php process.php --step 4-process-json-docs
