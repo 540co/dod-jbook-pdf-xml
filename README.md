@@ -50,22 +50,44 @@ Each **line item** / **program element** is stored in a single unique file (1 fi
 ![3-json-procurement-lineitems](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/3-json-procurement-lineitems.png?raw=true)
 ![3-json-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/3-json-rdte-programelements.png?raw=true)
 
-### 
+### CSV PROCUREMENT-LINEITEMS -and- RDTE-PROGRAMELEMENTS
+Each folder contains the "list" of **PROCUREMENT line items** / **RDTE program elements**, respectively in **CSV format**.  
+
+The CSV conversion from JSON to CSV results in a "file" subject area within a **line item** / **program element** using the JSON structure as a guide of what can be "flattened" into rows and what requires a separate file to represent another list of rows. 
+
+Each CSV file is "zipped" due to file size.
+
+![4-csv-procurement-lineitems](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/4-csv-procurement-lineitems.png?raw=true)
+![4-csv-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/4-csv-rdte-programelements.png?raw=true)
+
+At the root of each folder is a README.md and ERD that shows the list of tables, columns and structure:
+
+#### CSV-PROCUREMENT-LINEITEMS
+`README.md`
+https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/README.md
+
+`ERD`
+(PDF) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.pdf
+(PNG) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.png
+(DOT) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.dot
+
+> The DOT file follows the GraphViz format (https://www.graphviz.org/) and is used to render the PDF / PNG file.
 
 
+#### CSV-RDTE-PROGRAMELEMENTS
+`README.md`
+https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/README.md
 
+`ERD`
+(PDF) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.pdf
+(PNG) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.png
+(DOT) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.dot
 
+> The DOT file follows the GraphViz format (https://www.graphviz.org/) and is used to render the PDF / PNG file.
 
+> NOTE:  Contained in each folder is also a `-j` zip file that contains a JSON representation of the data just prior to the CSV conversion.  This was mainly used for troubleshooting, but also may be helpful when importing the data in cases where a flattened JSON representation may be easies to parse / ingest than the CSV.
 
-
-
-
-
-
-
-
-
-
+<hr />
 ## What steps were taken to parse the Justification Books into the various formats?
 
 - Each PDF was downloaded and the XML files attached to the PDF were extracted
