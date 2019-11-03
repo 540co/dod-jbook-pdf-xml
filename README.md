@@ -64,9 +64,11 @@ At the root of each folder is a README.md and ERD that shows the list of tables,
 
 #### CSV-PROCUREMENT-LINEITEMS
 `README.md`
+
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/README.md
 
 `ERD`
+
 (PDF) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.pdf
 
 (PNG) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.png
@@ -78,9 +80,11 @@ https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineite
 
 #### CSV-RDTE-PROGRAMELEMENTS
 `README.md`
+
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/README.md
 
 `ERD`
+
 (PDF) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.pdf
 
 (PNG) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.png
