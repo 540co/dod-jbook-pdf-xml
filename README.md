@@ -32,20 +32,23 @@ _For example, there is a file `[2020]_jbook_list.json` that includes the URL tha
 
 ### JUSTIFICATION / MASTER JUSTIFICATION BOOK XML FILES
 
-![1-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/docs/1-jbook-xml.png)
+![1-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/0-jbook-pdf.png?raw=true)
+
+
 
 All of the relevant *JustificationBook* / *MasterJustificationBook* XML files have been copied to a single folder `1-jbook-xml` prior to further processing.
 
 ### JUSTIFICATION / MASTER JUSTIFICATION BOOK JSON FILES
 
-![2-jbook-json](https://github.com/540co/dod-jbook-pdf-xml/docs/2-jbook-json.png)
+![2-jbook-json](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/2-jbook-json.png?raw=true)
+
 
 This folder contains a JSON representation of each of the XML files contained in `1-jbook-pdf` following the conversion of the XML to JSON.
 
 ### JSON PROCUREMENT-LINEITEMS -and- RDTE-PROGRAMELEMENTS
 
-![3-json-procurement-lineitems](https://github.com/540co/dod-jbook-pdf-xml/docs/3-json-procurement-lineitems.png)
-![3-json-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/docs/3-json-rdte-programelements.png)
+![3-json-procurement-lineitems](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/3-json-procurement-lineitems.png?raw=true)
+![3-json-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/3-json-rdte-programelements.png?raw=true)
 
 Each folder contains the "list" of PROCUREMENT line items / RDTE program elements, respectively.
 
