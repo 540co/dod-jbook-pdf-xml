@@ -63,12 +63,11 @@ Each CSV file is "zipped" due to file size.
 At the root of each folder is a README.md and ERD that shows the list of tables, columns and structure:
 
 #### CSV-PROCUREMENT-LINEITEMS
-`README.md`
 
+##### README.md
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/README.md
 
-`ERD`
-
+##### ERD
 (PDF) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.pdf
 
 (PNG) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.png
@@ -79,12 +78,11 @@ https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineite
 
 
 #### CSV-RDTE-PROGRAMELEMENTS
-`README.md`
+##### README.md
 
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/README.md
 
-`ERD`
-
+##### ERD
 (PDF) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.pdf
 
 (PNG) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.png
