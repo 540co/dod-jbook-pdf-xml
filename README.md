@@ -111,7 +111,7 @@ To run `processs.php` you will need to have the following installed:
 - Prepare `[YEAR]_jbook_list.json` following the format of the other files.
 - From within the repo folder run `php process.php --step 0-download-jbooks --jbook-list [YEAR]_jbook_list.json`
 
-> 
+> NOTE:  When download XML files for the year, the entire folder is removed and recreated on each run of the script.  Therefore, if downloads are interrupted you will have to re-download the files to ensure all files are downloaded.
 
 
 
