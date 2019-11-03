@@ -89,7 +89,9 @@ https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelement
 
 > The DOT file follows the GraphViz format (https://www.graphviz.org/) and is used to render the PDF / PNG file.
 
-> NOTE:  Contained in each folder is also a `-j` zip file that contains a JSON representation of the data just prior to the CSV conversion.  This was mainly used for troubleshooting, but also may be helpful when importing the data in cases where a flattened JSON representation may be easies to parse / ingest than the CSV.
+
+###### NOTE
+Contained in each folder is also a `-j` zip file that contains a JSON representation of the data just prior to the CSV conversion.  This was mainly used for troubleshooting, but also may be helpful when importing the data in cases where a flattened JSON representation may be easies to parse / ingest than the CSV.
 
 
 
