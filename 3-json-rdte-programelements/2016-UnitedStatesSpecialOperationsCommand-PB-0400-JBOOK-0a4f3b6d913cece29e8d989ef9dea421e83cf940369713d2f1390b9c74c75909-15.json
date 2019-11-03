@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "1160489BB"
+        "ProgramElementNumber": {
+            "val": "1160489BB"
+        },
+        "ProgramElementTitle": {
+            "val": "Global Video Surveillance Activities"
+        },
+        "R1LineNumber": {
+            "val": "247"
+        },
+        "BudgetYear": {
+            "val": "2016"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2015-02"
+        },
+        "ServiceAgencyName": {
+            "val": "United States Special Operations Command"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "38.958"
             },
-            "ProgramElementTitle": {
-                "val": "Global Video Surveillance Activities"
+            "PriorYear": {
+                "val": "3.304"
             },
-            "R1LineNumber": {
-                "val": "247"
+            "CurrentYear": {
+                "val": "3.788"
             },
-            "BudgetYear": {
-                "val": "2016"
+            "BudgetYearOne": {
+                "val": "3.933"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "3.933"
             },
-            "SubmissionDate": {
-                "val": "2015-02"
+            "BudgetYearTwo": {
+                "val": "3.870"
             },
-            "ServiceAgencyName": {
-                "val": "United States Special Operations Command"
+            "BudgetYearThree": {
+                "val": "4.698"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFour": {
+                "val": "4.858"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
+            "BudgetYearFive": {
+                "val": "5.431"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
-                    "val": "38.958"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "This program element is part of the Military Intelligence Program.  Details are provided under separate cover.xxxxxxxxxxxx"
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "3.304"
                 },
+                "CurrentYear": {
+                    "val": "3.788"
+                },
+                "BudgetYearOne": {
+                    "val": "3.186"
+                },
+                "BudgetYearOneBase": {
+                    "val": "3.186"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "3.304"
                 },
@@ -61,150 +110,99 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "3.933"
-                },
-                "BudgetYearTwo": {
-                    "val": "3.870"
-                },
-                "BudgetYearThree": {
-                    "val": "4.698"
-                },
-                "BudgetYearFour": {
-                    "val": "4.858"
-                },
-                "BudgetYearFive": {
-                    "val": "5.431"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "This program element is part of the Military Intelligence Program.  Details are provided under separate cover.xxxxxxxxxxxx"
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.747"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.747"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "3.304"
-                    },
-                    "CurrentYear": {
-                        "val": "3.788"
-                    },
-                    "BudgetYearOne": {
-                        "val": "3.186"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "3.186"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "3.304"
-                    },
-                    "CurrentYear": {
-                        "val": "3.788"
-                    },
-                    "BudgetYearOne": {
-                        "val": "3.933"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "3.933"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "0.000"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.747"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.747"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustments"
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments"
+                            },
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "0.747"
                                 },
-                                "Funding": {
-                                    "BudgetYearOne": {
-                                        "val": "0.747"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "0.747"
-                                    }
+                                "BudgetYearOneBase": {
+                                    "val": "0.747"
                                 }
                             }
-                        ]
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "Funding:\n\nFY2014:  None.\n\nFY2015:  None.\n\nFY2016:  Net Increase of $0.747 million is due to a decrease of -$0.028 million for a Departmental economic assumption decrease and the details of a $0.775 million increase available under separate cover.\n\nSchedule:  None.\n\nTechnical:  None."
+                        }
+                    ]
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "S500C"
+            "SummaryExplanation": {
+                "val": "Funding:\n\nFY2014:  None.\n\nFY2015:  None.\n\nFY2016:  Net Increase of $0.747 million is due to a decrease of -$0.028 million for a Departmental economic assumption decrease and the details of a $0.775 million increase available under separate cover.\n\nSchedule:  None.\n\nTechnical:  None."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "S500C"
+                    },
+                    "ProjectTitle": {
+                        "val": "Global Video Surveillance Activities"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "38.958"
                         },
-                        "ProjectTitle": {
-                            "val": "Global Video Surveillance Activities"
+                        "PriorYear": {
+                            "val": "3.304"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "CurrentYear": {
+                            "val": "3.788"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "38.958"
-                            },
-                            "PriorYear": {
-                                "val": "3.304"
-                            },
-                            "CurrentYear": {
-                                "val": "3.788"
-                            },
-                            "BudgetYearOne": {
-                                "val": "3.933"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "3.933"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "3.870"
-                            },
-                            "BudgetYearThree": {
-                                "val": "4.698"
-                            },
-                            "BudgetYearFour": {
-                                "val": "4.858"
-                            },
-                            "BudgetYearFive": {
-                                "val": "5.431"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOne": {
+                            "val": "3.933"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "This program element is part of the Military Intelligence Program. Details are provided under separate cover."
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "3.933"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "3.870"
+                        },
+                        "BudgetYearThree": {
+                            "val": "4.698"
+                        },
+                        "BudgetYearFour": {
+                            "val": "4.858"
+                        },
+                        "BudgetYearFive": {
+                            "val": "5.431"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "This program element is part of the Military Intelligence Program. Details are provided under separate cover."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

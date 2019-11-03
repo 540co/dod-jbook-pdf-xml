@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "1160408BB"
+        "ProgramElementNumber": {
+            "val": "1160408BB"
+        },
+        "ProgramElementTitle": {
+            "val": "Operational Enhancements"
+        },
+        "R1LineNumber": {
+            "val": "242"
+        },
+        "BudgetYear": {
+            "val": "2016"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2015-02"
+        },
+        "ServiceAgencyName": {
+            "val": "United States Special Operations Command"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "667.189"
             },
-            "ProgramElementTitle": {
-                "val": "Operational Enhancements"
+            "PriorYear": {
+                "val": "42.492"
             },
-            "R1LineNumber": {
-                "val": "242"
+            "CurrentYear": {
+                "val": "81.253"
             },
-            "BudgetYear": {
-                "val": "2016"
+            "BudgetYearOne": {
+                "val": "63.008"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "63.008"
             },
-            "SubmissionDate": {
-                "val": "2015-02"
+            "BudgetYearTwo": {
+                "val": "61.153"
             },
-            "ServiceAgencyName": {
-                "val": "United States Special Operations Command"
+            "BudgetYearThree": {
+                "val": "67.037"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFour": {
+                "val": "68.514"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
+            "BudgetYearFive": {
+                "val": "69.704"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
-                    "val": "667.189"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "Details are provided under separate cover."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "42.492"
                 },
+                "CurrentYear": {
+                    "val": "75.253"
+                },
+                "BudgetYearOne": {
+                    "val": "63.128"
+                },
+                "BudgetYearOneBase": {
+                    "val": "63.128"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "42.492"
                 },
@@ -61,160 +110,109 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "63.008"
-                },
-                "BudgetYearTwo": {
-                    "val": "61.153"
-                },
-                "BudgetYearThree": {
-                    "val": "67.037"
-                },
-                "BudgetYearFour": {
-                    "val": "68.514"
-                },
-                "BudgetYearFive": {
-                    "val": "69.704"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "Details are provided under separate cover."
-            },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "42.492"
-                    },
-                    "CurrentYear": {
-                        "val": "75.253"
-                    },
-                    "BudgetYearOne": {
-                        "val": "63.128"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "63.128"
-                    }
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.000"
                 },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "42.492"
-                    },
-                    "CurrentYear": {
-                        "val": "81.253"
-                    },
-                    "BudgetYearOne": {
-                        "val": "63.008"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "63.008"
-                    }
+                "CurrentYear": {
+                    "val": "6.000"
                 },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "0.000"
-                    },
-                    "CurrentYear": {
-                        "val": "6.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-0.120"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-0.120"
-                    }
+                "BudgetYearOne": {
+                    "val": "-0.120"
                 },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustments"
-                                },
-                                "Funding": {
-                                    "BudgetYearOne": {
-                                        "val": "-0.120"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-0.120"
-                                    }
-                                }
-                            },
-                            {
-                                "Title": {
-                                    "val": "Overseas Contingency Operations"
-                                },
-                                "Funding": {
-                                    "CurrentYear": {
-                                        "val": "6.000"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "Funding:\n\nFY2014:  None.\n\nFY2015:  Details of $6.000 million increase of Overseas Contingency Operations funding available under separate cover.\n\nFY2016:  Details of $0.120 million decrease is available under separate cover.\n\nSchedule:  None.\n\nTechnical:  None."
+                "BudgetYearOneBase": {
+                    "val": "-0.120"
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "S500A"
-                        },
-                        "ProjectTitle": {
-                            "val": "Operational Enhancements"
-                        },
-                        "SpecialProject": {
-                            "val": "1"
-                        },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "667.189"
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments"
                             },
-                            "PriorYear": {
-                                "val": "42.492"
-                            },
-                            "CurrentYear": {
-                                "val": "81.253"
-                            },
-                            "BudgetYearOne": {
-                                "val": "63.008"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "63.008"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "61.153"
-                            },
-                            "BudgetYearThree": {
-                                "val": "67.037"
-                            },
-                            "BudgetYearFour": {
-                                "val": "68.514"
-                            },
-                            "BudgetYearFive": {
-                                "val": "69.704"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "-0.120"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "-0.120"
+                                }
                             }
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "Details are provided under separate cover."
+                        {
+                            "Title": {
+                                "val": "Overseas Contingency Operations"
+                            },
+                            "Funding": {
+                                "CurrentYear": {
+                                    "val": "6.000"
+                                }
                             }
                         }
-                    }
-                ]
+                    ]
+                }
+            },
+            "SummaryExplanation": {
+                "val": "Funding:\n\nFY2014:  None.\n\nFY2015:  Details of $6.000 million increase of Overseas Contingency Operations funding available under separate cover.\n\nFY2016:  Details of $0.120 million decrease is available under separate cover.\n\nSchedule:  None.\n\nTechnical:  None."
             }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "S500A"
+                    },
+                    "ProjectTitle": {
+                        "val": "Operational Enhancements"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "667.189"
+                        },
+                        "PriorYear": {
+                            "val": "42.492"
+                        },
+                        "CurrentYear": {
+                            "val": "81.253"
+                        },
+                        "BudgetYearOne": {
+                            "val": "63.008"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "63.008"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "61.153"
+                        },
+                        "BudgetYearThree": {
+                            "val": "67.037"
+                        },
+                        "BudgetYearFour": {
+                            "val": "68.514"
+                        },
+                        "BudgetYearFive": {
+                            "val": "69.704"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "Details are provided under separate cover."
+                        }
+                    }
+                }
+            ]
         }
     }
 }

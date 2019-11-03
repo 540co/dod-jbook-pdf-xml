@@ -12,42 +12,85 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "@format": "R2Long",
-            "ProgramElementNumber": {
-                "val": "0603765E"
+        "@format": "R2Long",
+        "ProgramElementNumber": {
+            "val": "0603765E"
+        },
+        "ProgramElementTitle": {
+            "val": "CLASSIFIED DARPA PROGRAMS"
+        },
+        "R1LineNumber": {
+            "val": "61"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "Defense Advanced Research Projects Agency"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "3"
+        },
+        "BudgetActivityTitle": {
+            "val": "Advanced Technology Development (ATD)"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "2.760"
             },
-            "ProgramElementTitle": {
-                "val": "CLASSIFIED DARPA PROGRAMS"
+            "CurrentYear": {
+                "val": "0.000"
             },
-            "R1LineNumber": {
-                "val": "61"
+            "BudgetYearOne": {
+                "val": "0.000"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOneBase": {
+                "val": "0.000"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "0.000"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearThree": {
+                "val": "0.000"
             },
-            "ServiceAgencyName": {
-                "val": "Defense Advanced Research Projects Agency"
+            "BudgetYearFour": {
+                "val": "0.000"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFive": {
+                "val": "0.000"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "This project funds classified DARPA programs that are reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "3.000"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
-            },
-            "BudgetActivityNumber": {
-                "val": "3"
-            },
-            "BudgetActivityTitle": {
-                "val": "Advanced Technology Development (ATD)"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "2.760"
                 },
@@ -59,199 +102,154 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "0.000"
+                }
+            },
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-0.240"
                 },
-                "BudgetYearTwo": {
+                "CurrentYear": {
                     "val": "0.000"
                 },
-                "BudgetYearThree": {
+                "BudgetYearOne": {
                     "val": "0.000"
                 },
-                "BudgetYearFour": {
-                    "val": "0.000"
-                },
-                "BudgetYearFive": {
+                "BudgetYearOneBase": {
                     "val": "0.000"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "This project funds classified DARPA programs that are reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-            },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
                     "PriorYear": {
-                        "val": "3.000"
+                        "val": "-0.004"
                     },
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
                     }
                 },
-                "CurrentPresidentBudget": {
+                "CongressionalDirectedReductions": {
                     "PriorYear": {
-                        "val": "2.760"
+                        "val": "-0.190"
                     },
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
                     }
                 },
-                "TotalAdjustments": {
+                "CongressionalRescissions": {
                     "PriorYear": {
-                        "val": "-0.240"
+                        "val": "0.000"
                     },
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
+                    }
+                },
+                "CongressionalAdds": {
+                    "PriorYear": {
                         "val": "0.000"
                     },
-                    "BudgetYearOneBase": {
+                    "CurrentYear": {
                         "val": "0.000"
                     }
                 },
-                "AdjustmentDetails": {
-                    "CongressionalGeneralReductions": {
-                        "PriorYear": {
-                            "val": "-0.004"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                "CongressionalDirectedTransfers": {
+                    "PriorYear": {
+                        "val": "0.000"
                     },
-                    "CongressionalDirectedReductions": {
-                        "PriorYear": {
-                            "val": "-0.190"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalRescissions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalAdds": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalDirectedTransfers": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "Reprogrammings": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "SBIRSTTRTransfer": {
-                        "PriorYear": {
-                            "val": "-0.046"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                    "CurrentYear": {
+                        "val": "0.000"
                     }
                 },
-                "SummaryExplanation": {
-                    "val": "FY 2013:  Decrease reflects Congressional reductions for Sections 3001 & 3004, sequestration adjustments,  and the SBIR\/STTR transfer."
+                "Reprogrammings": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
+                        "val": "-0.046"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "CLP-01"
+            "SummaryExplanation": {
+                "val": "FY 2013:  Decrease reflects Congressional reductions for Sections 3001 & 3004, sequestration adjustments,  and the SBIR\/STTR transfer."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "CLP-01"
+                    },
+                    "ProjectTitle": {
+                        "val": "CLASSIFIED DARPA PROGRAMS"
+                    },
+                    "SpecialProject": {
+                        "val": "0"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "2.760"
                         },
-                        "ProjectTitle": {
-                            "val": "CLASSIFIED DARPA PROGRAMS"
+                        "CurrentYear": {
+                            "val": "0.000"
                         },
-                        "SpecialProject": {
-                            "val": "0"
+                        "BudgetYearOne": {
+                            "val": "0.000"
                         },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "2.760"
-                            },
-                            "CurrentYear": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.000"
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "This project funds classified DARPA programs that are reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-                            },
-                            "AccomplishmentPlannedProgramList": {
-                                "AccomplishmentPlannedProgram": [
-                                    {
-                                        "Title": {
-                                            "val": "Classified DARPA Programs"
-                                        },
-                                        "Description": {
-                                            "val": "Classified DARPA Programs"
-                                        },
-                                        "Accomplishment": {
-                                            "PriorYear": {
-                                                "Funding": {
-                                                    "val": "2.760"
-                                                },
-                                                "Text": {
-                                                    "val": "Details will be provided under separate cover."
-                                                }
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "This project funds classified DARPA programs that are reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Classified DARPA Programs"
+                                    },
+                                    "Description": {
+                                        "val": "Classified DARPA Programs"
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "2.760"
+                                            },
+                                            "Text": {
+                                                "val": "Details will be provided under separate cover."
                                             }
                                         }
                                     }
-                                ]
-                            },
-                            "PerformanceMetrics": {
-                                "val": "Details will be provided under separate cover."
-                            }
+                                }
+                            ]
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Details will be provided under separate cover."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

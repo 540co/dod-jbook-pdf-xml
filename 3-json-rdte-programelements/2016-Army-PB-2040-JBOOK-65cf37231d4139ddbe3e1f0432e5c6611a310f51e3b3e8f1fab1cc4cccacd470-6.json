@@ -12,41 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0604328A"
+        "ProgramElementNumber": {
+            "val": "0604328A"
+        },
+        "ProgramElementTitle": {
+            "val": "TRACTOR CAGE"
+        },
+        "R1LineNumber": {
+            "val": "82"
+        },
+        "BudgetYear": {
+            "val": "2016"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2015-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Army"
+        },
+        "AppropriationCode": {
+            "val": "2040"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Army"
+        },
+        "BudgetActivityNumber": {
+            "val": "5"
+        },
+        "BudgetActivityTitle": {
+            "val": "System Development & Demonstration (SDD)"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "28.229"
             },
-            "ProgramElementTitle": {
-                "val": "TRACTOR CAGE"
+            "CurrentYear": {
+                "val": "19.929"
             },
-            "R1LineNumber": {
-                "val": "82"
+            "BudgetYearOne": {
+                "val": "15.138"
             },
-            "BudgetYear": {
-                "val": "2016"
+            "BudgetYearOneBase": {
+                "val": "15.138"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "16.512"
             },
-            "SubmissionDate": {
-                "val": "2015-02"
+            "BudgetYearThree": {
+                "val": "16.091"
             },
-            "ServiceAgencyName": {
-                "val": "Army"
+            "BudgetYearFour": {
+                "val": "16.309"
             },
-            "AppropriationCode": {
-                "val": "2040"
+            "BudgetYearFive": {
+                "val": "17.375"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Army"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityNumber": {
-                "val": "5"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementNote": {
+            "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+        },
+        "ProgramElementMissionDescription": {
+            "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "23.829"
+                },
+                "CurrentYear": {
+                    "val": "19.929"
+                },
+                "BudgetYearOne": {
+                    "val": "24.619"
+                },
+                "BudgetYearOneBase": {
+                    "val": "24.619"
+                }
             },
-            "BudgetActivityTitle": {
-                "val": "System Development & Demonstration (SDD)"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "28.229"
                 },
@@ -58,150 +110,96 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "15.138"
-                },
-                "BudgetYearTwo": {
-                    "val": "16.512"
-                },
-                "BudgetYearThree": {
-                    "val": "16.091"
-                },
-                "BudgetYearFour": {
-                    "val": "16.309"
-                },
-                "BudgetYearFive": {
-                    "val": "17.375"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementNote": {
-                "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "4.400"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "-9.481"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-9.481"
+                }
             },
-            "ProgramElementMissionDescription": {
-                "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
-            },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "23.829"
-                    },
-                    "CurrentYear": {
-                        "val": "19.929"
-                    },
-                    "BudgetYearOne": {
-                        "val": "24.619"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "24.619"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "28.229"
-                    },
-                    "CurrentYear": {
-                        "val": "19.929"
-                    },
-                    "BudgetYearOne": {
-                        "val": "15.138"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "15.138"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "4.400"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-9.481"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-9.481"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Adjustments to Budget Years"
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Adjustments to Budget Years"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "4.400"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "4.400"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "-9.481"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-9.481"
-                                    }
+                                "BudgetYearOne": {
+                                    "val": "-9.481"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "-9.481"
                                 }
                             }
-                        ]
-                    }
+                        }
+                    ]
                 }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "C71"
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "C71"
+                    },
+                    "ProjectTitle": {
+                        "val": "Tractor Cage"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "28.229"
                         },
-                        "ProjectTitle": {
-                            "val": "Tractor Cage"
+                        "CurrentYear": {
+                            "val": "19.929"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "BudgetYearOne": {
+                            "val": "15.138"
                         },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "28.229"
-                            },
-                            "CurrentYear": {
-                                "val": "19.929"
-                            },
-                            "BudgetYearOne": {
-                                "val": "15.138"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "15.138"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "16.512"
-                            },
-                            "BudgetYearThree": {
-                                "val": "16.091"
-                            },
-                            "BudgetYearFour": {
-                                "val": "16.309"
-                            },
-                            "BudgetYearFive": {
-                                "val": "17.375"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "15.138"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
-                            }
+                        "BudgetYearTwo": {
+                            "val": "16.512"
+                        },
+                        "BudgetYearThree": {
+                            "val": "16.091"
+                        },
+                        "BudgetYearFour": {
+                            "val": "16.309"
+                        },
+                        "BudgetYearFive": {
+                            "val": "17.375"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

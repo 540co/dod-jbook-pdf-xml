@@ -12,41 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0603906C"
+        "ProgramElementNumber": {
+            "val": "0603906C"
+        },
+        "ProgramElementTitle": {
+            "val": "Regarding Trench"
+        },
+        "R1LineItemNumber": {
+            "val": "94"
+        },
+        "BudgetYear": {
+            "val": "2014"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2013-04"
+        },
+        "ServiceAgencyName": {
+            "val": "Missile Defense Agency"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "4"
+        },
+        "BudgetActivityTitle": {
+            "val": "Advanced Component Development & Prototypes (ACD&P)"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "15.075"
             },
-            "ProgramElementTitle": {
-                "val": "Regarding Trench"
+            "CurrentYear": {
+                "val": "11.371"
             },
-            "R1LineItemNumber": {
-                "val": "94"
+            "BudgetYearOne": {
+                "val": "13.864"
             },
-            "BudgetYear": {
-                "val": "2014"
+            "BudgetYearOneBase": {
+                "val": "13.864"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "16.554"
             },
-            "SubmissionDate": {
-                "val": "2013-04"
+            "BudgetYearThree": {
+                "val": "10.116"
             },
-            "ServiceAgencyName": {
-                "val": "Missile Defense Agency"
+            "BudgetYearFour": {
+                "val": "9.550"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFive": {
+                "val": "9.864"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityNumber": {
-                "val": "4"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementNote": {
+            "val": "N\/A"
+        },
+        "ProgramElementMissionDescription": {
+            "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "15.775"
+                },
+                "CurrentYear": {
+                    "val": "11.371"
+                },
+                "BudgetYearOne": {
+                    "val": "10.369"
+                },
+                "BudgetYearOneBase": {
+                    "val": "10.369"
+                }
             },
-            "BudgetActivityTitle": {
-                "val": "Advanced Component Development & Prototypes (ACD&P)"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "15.075"
                 },
@@ -58,212 +110,158 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "13.864"
-                },
-                "BudgetYearTwo": {
-                    "val": "16.554"
-                },
-                "BudgetYearThree": {
-                    "val": "10.116"
-                },
-                "BudgetYearFour": {
-                    "val": "9.550"
-                },
-                "BudgetYearFive": {
-                    "val": "9.864"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementNote": {
-                "val": "N\/A"
-            },
-            "ProgramElementMissionDescription": {
-                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-            },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "15.775"
-                    },
-                    "CurrentYear": {
-                        "val": "11.371"
-                    },
-                    "BudgetYearOne": {
-                        "val": "10.369"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "10.369"
-                    }
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-0.700"
                 },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "15.075"
-                    },
-                    "CurrentYear": {
-                        "val": "11.371"
-                    },
-                    "BudgetYearOne": {
-                        "val": "13.864"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "13.864"
-                    }
+                "CurrentYear": {
+                    "val": "0.000"
                 },
-                "TotalAdjustments": {
+                "BudgetYearOne": {
+                    "val": "3.495"
+                },
+                "BudgetYearOneBase": {
+                    "val": "3.495"
+                }
+            },
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
                     "PriorYear": {
-                        "val": "-0.700"
+                        "val": "0.000"
                     },
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "3.495"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "3.495"
                     }
                 },
-                "AdjustmentDetails": {
-                    "CongressionalGeneralReductions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                "CongressionalDirectedReductions": {
+                    "PriorYear": {
+                        "val": "0.000"
                     },
-                    "CongressionalDirectedReductions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalRescissions": {
+                    "PriorYear": {
+                        "val": "0.000"
                     },
-                    "CongressionalRescissions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalAdds": {
+                    "PriorYear": {
+                        "val": "0.000"
                     },
-                    "CongressionalAdds": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalDirectedTransfers": {
+                    "PriorYear": {
+                        "val": "0.000"
                     },
-                    "CongressionalDirectedTransfers": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "Reprogrammings": {
+                    "PriorYear": {
+                        "val": "-0.224"
                     },
-                    "Reprogrammings": {
-                        "PriorYear": {
-                            "val": "-0.224"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
+                        "val": "-0.476"
                     },
-                    "SBIRSTTRTransfer": {
-                        "PriorYear": {
-                            "val": "-0.476"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustment"
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustment"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.000"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "3.495"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "3.495"
-                                    }
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "3.495"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "3.495"
                                 }
                             }
-                        ]
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "The FY 2014 adjustments reflect a realignment to Department of Defense priorities."
+                        }
+                    ]
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "MD35"
+            "SummaryExplanation": {
+                "val": "The FY 2014 adjustments reflect a realignment to Department of Defense priorities."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "MD35"
+                    },
+                    "ProjectTitle": {
+                        "val": "Regarding Trench"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "15.075"
                         },
-                        "ProjectTitle": {
-                            "val": "Regarding Trench"
+                        "CurrentYear": {
+                            "val": "11.371"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "BudgetYearOne": {
+                            "val": "13.864"
                         },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "15.075"
-                            },
-                            "CurrentYear": {
-                                "val": "11.371"
-                            },
-                            "BudgetYearOne": {
-                                "val": "13.864"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "13.864"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "16.554"
-                            },
-                            "BudgetYearThree": {
-                                "val": "10.116"
-                            },
-                            "BudgetYearFour": {
-                                "val": "9.550"
-                            },
-                            "BudgetYearFive": {
-                                "val": "9.864"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "13.864"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-                            }
+                        "BudgetYearTwo": {
+                            "val": "16.554"
+                        },
+                        "BudgetYearThree": {
+                            "val": "10.116"
+                        },
+                        "BudgetYearFour": {
+                            "val": "9.550"
+                        },
+                        "BudgetYearFive": {
+                            "val": "9.864"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

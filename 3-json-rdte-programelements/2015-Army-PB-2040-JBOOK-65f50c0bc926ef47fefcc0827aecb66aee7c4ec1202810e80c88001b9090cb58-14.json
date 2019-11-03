@@ -12,41 +12,90 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0203808A"
+        "ProgramElementNumber": {
+            "val": "0203808A"
+        },
+        "ProgramElementTitle": {
+            "val": "TRACTOR CARD"
+        },
+        "R1LineNumber": {
+            "val": "172"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "Army"
+        },
+        "AppropriationCode": {
+            "val": "2040"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Army"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "58.174"
             },
-            "ProgramElementTitle": {
-                "val": "TRACTOR CARD"
+            "CurrentYear": {
+                "val": "18.768"
             },
-            "R1LineNumber": {
-                "val": "172"
+            "BudgetYearOne": {
+                "val": "22.691"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOneBase": {
+                "val": "22.691"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "39.807"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearThree": {
+                "val": "30.708"
             },
-            "ServiceAgencyName": {
-                "val": "Army"
+            "BudgetYearFour": {
+                "val": "27.965"
             },
-            "AppropriationCode": {
-                "val": "2040"
+            "BudgetYearFive": {
+                "val": "17.144"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Army"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "The details for this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "63.243"
+                },
+                "CurrentYear": {
+                    "val": "18.778"
+                },
+                "BudgetYearOne": {
+                    "val": "19.834"
+                },
+                "BudgetYearOneBase": {
+                    "val": "19.834"
+                }
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "58.174"
                 },
@@ -58,251 +107,200 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "22.691"
-                },
-                "BudgetYearTwo": {
-                    "val": "39.807"
-                },
-                "BudgetYearThree": {
-                    "val": "30.708"
-                },
-                "BudgetYearFour": {
-                    "val": "27.965"
-                },
-                "BudgetYearFive": {
-                    "val": "17.144"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "The details for this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-5.069"
+                },
+                "CurrentYear": {
+                    "val": "-0.010"
+                },
+                "BudgetYearOne": {
+                    "val": "2.857"
+                },
+                "BudgetYearOneBase": {
+                    "val": "2.857"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "63.243"
-                    },
-                    "CurrentYear": {
-                        "val": "18.778"
-                    },
-                    "BudgetYearOne": {
-                        "val": "19.834"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "19.834"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "58.174"
-                    },
-                    "CurrentYear": {
-                        "val": "18.768"
-                    },
-                    "BudgetYearOne": {
-                        "val": "22.691"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "22.691"
-                    }
-                },
-                "TotalAdjustments": {
+            "AdjustmentDetails": {
+                "CongressionalDirectedReductions": {
                     "PriorYear": {
                         "val": "-5.069"
                     },
                     "CurrentYear": {
                         "val": "-0.010"
-                    },
-                    "BudgetYearOne": {
-                        "val": "2.857"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "2.857"
                     }
                 },
-                "AdjustmentDetails": {
-                    "CongressionalDirectedReductions": {
-                        "PriorYear": {
-                            "val": "-5.069"
-                        },
-                        "CurrentYear": {
-                            "val": "-0.010"
-                        }
-                    },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Adjustments to Budget Years"
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Adjustments to Budget Years"
+                            },
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "2.857"
                                 },
-                                "Funding": {
-                                    "BudgetYearOne": {
-                                        "val": "2.857"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "2.857"
-                                    }
+                                "BudgetYearOneBase": {
+                                    "val": "2.857"
                                 }
                             }
-                        ]
+                        }
+                    ]
+                }
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "DS1"
+                    },
+                    "ProjectTitle": {
+                        "val": "TRACTOR BARN"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "27.156"
+                        },
+                        "CurrentYear": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOne": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "27.156"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The details for this program are reported in accordance with Title 10, United States Code 119(a)(1)."
+                        },
+                        "OtherProgramFundingSummaryRemarks": {
+                            "val": "Not applicable"
+                        }
+                    }
+                },
+                {
+                    "ProjectNumber": {
+                        "val": "DS2"
+                    },
+                    "ProjectTitle": {
+                        "val": "Tractor Puma"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "14.622"
+                        },
+                        "CurrentYear": {
+                            "val": "1.516"
+                        },
+                        "BudgetYearOne": {
+                            "val": "10.968"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "10.968"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "23.138"
+                        },
+                        "BudgetYearThree": {
+                            "val": "14.361"
+                        },
+                        "BudgetYearFour": {
+                            "val": "12.532"
+                        },
+                        "BudgetYearFive": {
+                            "val": "1.432"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The details for this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+                        }
+                    }
+                },
+                {
+                    "ProjectNumber": {
+                        "val": "E11"
+                    },
+                    "ProjectTitle": {
+                        "val": "DELL"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "16.396"
+                        },
+                        "CurrentYear": {
+                            "val": "17.252"
+                        },
+                        "BudgetYearOne": {
+                            "val": "11.723"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "11.723"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "16.669"
+                        },
+                        "BudgetYearThree": {
+                            "val": "16.347"
+                        },
+                        "BudgetYearFour": {
+                            "val": "15.433"
+                        },
+                        "BudgetYearFive": {
+                            "val": "15.712"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The details for this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+                        }
                     }
                 }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "DS1"
-                        },
-                        "ProjectTitle": {
-                            "val": "TRACTOR BARN"
-                        },
-                        "SpecialProject": {
-                            "val": "1"
-                        },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "27.156"
-                            },
-                            "CurrentYear": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.000"
-                            },
-                            "CostToComplete": {
-                                "val": "0.000"
-                            },
-                            "TotalCost": {
-                                "val": "27.156"
-                            }
-                        },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "The details for this program are reported in accordance with Title 10, United States Code 119(a)(1)."
-                            },
-                            "OtherProgramFundingSummaryRemarks": {
-                                "val": "Not applicable"
-                            }
-                        }
-                    },
-                    {
-                        "ProjectNumber": {
-                            "val": "DS2"
-                        },
-                        "ProjectTitle": {
-                            "val": "Tractor Puma"
-                        },
-                        "SpecialProject": {
-                            "val": "1"
-                        },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "14.622"
-                            },
-                            "CurrentYear": {
-                                "val": "1.516"
-                            },
-                            "BudgetYearOne": {
-                                "val": "10.968"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "10.968"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "23.138"
-                            },
-                            "BudgetYearThree": {
-                                "val": "14.361"
-                            },
-                            "BudgetYearFour": {
-                                "val": "12.532"
-                            },
-                            "BudgetYearFive": {
-                                "val": "1.432"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
-                        },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "The details for this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
-                            }
-                        }
-                    },
-                    {
-                        "ProjectNumber": {
-                            "val": "E11"
-                        },
-                        "ProjectTitle": {
-                            "val": "DELL"
-                        },
-                        "SpecialProject": {
-                            "val": "1"
-                        },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "16.396"
-                            },
-                            "CurrentYear": {
-                                "val": "17.252"
-                            },
-                            "BudgetYearOne": {
-                                "val": "11.723"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "11.723"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "16.669"
-                            },
-                            "BudgetYearThree": {
-                                "val": "16.347"
-                            },
-                            "BudgetYearFour": {
-                                "val": "15.433"
-                            },
-                            "BudgetYearFive": {
-                                "val": "15.712"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
-                        },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "The details for this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
-                            }
-                        }
-                    }
-                ]
-            }
+            ]
         }
     }
 }

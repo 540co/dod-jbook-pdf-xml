@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0305124N"
+        "ProgramElementNumber": {
+            "val": "0305124N"
+        },
+        "ProgramElementTitle": {
+            "val": "Special Applications Program"
+        },
+        "R1LineNumber": {
+            "val": "148"
+        },
+        "BudgetYear": {
+            "val": "2016"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2015-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Navy"
+        },
+        "AppropriationCode": {
+            "val": "1319"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Navy"
+        },
+        "BudgetActivityNumber": {
+            "val": "5"
+        },
+        "BudgetActivityTitle": {
+            "val": "System Development & Demonstration (SDD)"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "0.000"
             },
-            "ProgramElementTitle": {
-                "val": "Special Applications Program"
+            "PriorYear": {
+                "val": "9.794"
             },
-            "R1LineNumber": {
-                "val": "148"
+            "CurrentYear": {
+                "val": "23.975"
             },
-            "BudgetYear": {
-                "val": "2016"
+            "BudgetYearOne": {
+                "val": "35.905"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "35.905"
             },
-            "SubmissionDate": {
-                "val": "2015-02"
+            "BudgetYearTwo": {
+                "val": "36.537"
             },
-            "ServiceAgencyName": {
-                "val": "Navy"
+            "BudgetYearThree": {
+                "val": "26.576"
             },
-            "AppropriationCode": {
-                "val": "1319"
+            "BudgetYearFour": {
+                "val": "27.617"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Navy"
+            "BudgetYearFive": {
+                "val": "28.675"
             },
-            "BudgetActivityNumber": {
-                "val": "5"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "System Development & Demonstration (SDD)"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
-                    "val": "0.000"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "Additional details with respect to this line item are held at a higher classification. This line item is reported to Congress via separate channels."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "22.800"
                 },
+                "CurrentYear": {
+                    "val": "23.975"
+                },
+                "BudgetYearOne": {
+                    "val": "47.451"
+                },
+                "BudgetYearOneBase": {
+                    "val": "47.451"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "9.794"
                 },
@@ -61,164 +110,113 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "35.905"
-                },
-                "BudgetYearTwo": {
-                    "val": "36.537"
-                },
-                "BudgetYearThree": {
-                    "val": "26.576"
-                },
-                "BudgetYearFour": {
-                    "val": "27.617"
-                },
-                "BudgetYearFive": {
-                    "val": "28.675"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "Additional details with respect to this line item are held at a higher classification. This line item is reported to Congress via separate channels."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-13.006"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "-11.546"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-11.546"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "22.800"
-                    },
-                    "CurrentYear": {
-                        "val": "23.975"
-                    },
-                    "BudgetYearOne": {
-                        "val": "47.451"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "47.451"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "9.794"
-                    },
-                    "CurrentYear": {
-                        "val": "23.975"
-                    },
-                    "BudgetYearOne": {
-                        "val": "35.905"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "35.905"
-                    }
-                },
-                "TotalAdjustments": {
+            "AdjustmentDetails": {
+                "Reprogrammings": {
                     "PriorYear": {
                         "val": "-13.006"
                     },
                     "CurrentYear": {
                         "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-11.546"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-11.546"
                     }
                 },
-                "AdjustmentDetails": {
-                    "Reprogrammings": {
-                        "PriorYear": {
-                            "val": "-13.006"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Rate\/Misc Adjustments"
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Rate\/Misc Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.000"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "-11.546"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-11.546"
-                                    }
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "-11.546"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "-11.546"
                                 }
                             }
-                        ]
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "Technical: Details held at higher classification.\nSchedule: Details held at higher classification."
+                        }
+                    ]
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "3103"
+            "SummaryExplanation": {
+                "val": "Technical: Details held at higher classification.\nSchedule: Details held at higher classification."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "3103"
+                    },
+                    "ProjectTitle": {
+                        "val": "Intelligence Engineering"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
                         },
-                        "ProjectTitle": {
-                            "val": "Intelligence Engineering"
+                        "PriorYear": {
+                            "val": "9.794"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "CurrentYear": {
+                            "val": "23.975"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "0.000"
-                            },
-                            "PriorYear": {
-                                "val": "9.794"
-                            },
-                            "CurrentYear": {
-                                "val": "23.975"
-                            },
-                            "BudgetYearOne": {
-                                "val": "35.905"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "35.905"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "36.537"
-                            },
-                            "BudgetYearThree": {
-                                "val": "26.576"
-                            },
-                            "BudgetYearFour": {
-                                "val": "27.617"
-                            },
-                            "BudgetYearFive": {
-                                "val": "28.675"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOne": {
+                            "val": "35.905"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "Additional details with respect to this line item are held at a higher classification. This line item is reported to Congress via separate channels."
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "35.905"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "36.537"
+                        },
+                        "BudgetYearThree": {
+                            "val": "26.576"
+                        },
+                        "BudgetYearFour": {
+                            "val": "27.617"
+                        },
+                        "BudgetYearFive": {
+                            "val": "28.675"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "Additional details with respect to this line item are held at a higher classification. This line item is reported to Congress via separate channels."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

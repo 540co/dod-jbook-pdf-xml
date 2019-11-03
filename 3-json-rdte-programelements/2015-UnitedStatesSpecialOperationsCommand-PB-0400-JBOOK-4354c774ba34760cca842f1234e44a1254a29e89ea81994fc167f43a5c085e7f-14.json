@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "1160408BB"
+        "ProgramElementNumber": {
+            "val": "1160408BB"
+        },
+        "ProgramElementTitle": {
+            "val": "Operational Enhancements"
+        },
+        "R1LineNumber": {
+            "val": "248"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "United States Special Operations Command"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "75.010"
             },
-            "ProgramElementTitle": {
-                "val": "Operational Enhancements"
+            "PriorYear": {
+                "val": "56.754"
             },
-            "R1LineNumber": {
-                "val": "248"
+            "CurrentYear": {
+                "val": "41.252"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOne": {
+                "val": "75.253"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "75.253"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearTwo": {
+                "val": "63.128"
             },
-            "ServiceAgencyName": {
-                "val": "United States Special Operations Command"
+            "BudgetYearThree": {
+                "val": "57.297"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFour": {
+                "val": "64.607"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
+            "BudgetYearFive": {
+                "val": "67.191"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
-                    "val": "75.010"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "Details are provided under separate cover."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "51.700"
                 },
+                "CurrentYear": {
+                    "val": "42.620"
+                },
+                "BudgetYearOne": {
+                    "val": "75.329"
+                },
+                "BudgetYearOneBase": {
+                    "val": "75.329"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "56.754"
                 },
@@ -61,178 +110,127 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "75.253"
-                },
-                "BudgetYearTwo": {
-                    "val": "63.128"
-                },
-                "BudgetYearThree": {
-                    "val": "57.297"
-                },
-                "BudgetYearFour": {
-                    "val": "64.607"
-                },
-                "BudgetYearFive": {
-                    "val": "67.191"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "Details are provided under separate cover."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "5.054"
+                },
+                "CurrentYear": {
+                    "val": "-1.368"
+                },
+                "BudgetYearOne": {
+                    "val": "-0.076"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-0.076"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
                     "PriorYear": {
-                        "val": "51.700"
-                    },
-                    "CurrentYear": {
-                        "val": "42.620"
-                    },
-                    "BudgetYearOne": {
-                        "val": "75.329"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "75.329"
+                        "val": "-5.933"
                     }
                 },
-                "CurrentPresidentBudget": {
+                "CongressionalRescissions": {
                     "PriorYear": {
-                        "val": "56.754"
-                    },
-                    "CurrentYear": {
-                        "val": "41.252"
-                    },
-                    "BudgetYearOne": {
-                        "val": "75.253"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "75.253"
+                        "val": "-0.083"
                     }
                 },
-                "TotalAdjustments": {
+                "CongressionalAdds": {
                     "PriorYear": {
-                        "val": "5.054"
+                        "val": "16.000"
+                    }
+                },
+                "Reprogrammings": {
+                    "PriorYear": {
+                        "val": "-3.415"
+                    }
+                },
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
+                        "val": "-1.515"
                     },
                     "CurrentYear": {
                         "val": "-1.368"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-0.076"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-0.076"
                     }
                 },
-                "AdjustmentDetails": {
-                    "CongressionalGeneralReductions": {
-                        "PriorYear": {
-                            "val": "-5.933"
-                        }
-                    },
-                    "CongressionalRescissions": {
-                        "PriorYear": {
-                            "val": "-0.083"
-                        }
-                    },
-                    "CongressionalAdds": {
-                        "PriorYear": {
-                            "val": "16.000"
-                        }
-                    },
-                    "Reprogrammings": {
-                        "PriorYear": {
-                            "val": "-3.415"
-                        }
-                    },
-                    "SBIRSTTRTransfer": {
-                        "PriorYear": {
-                            "val": "-1.515"
-                        },
-                        "CurrentYear": {
-                            "val": "-1.368"
-                        }
-                    },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustments"
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments"
+                            },
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "-0.076"
                                 },
-                                "Funding": {
-                                    "BudgetYearOne": {
-                                        "val": "-0.076"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-0.076"
-                                    }
+                                "BudgetYearOneBase": {
+                                    "val": "-0.076"
                                 }
                             }
-                        ]
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "Funding:\n\nFY2013:  Net increase of $5.054 million is due to sequestration reductions (-$5.933 million), congressional rescissions ($-0.083 million), an increase for a congressional add ($16.000 million), reprogrammings for higher command priorities (-$3.415 million), and a transfer of funds to Small Business Innovative Research (-$1.515 million).\n\nFY2014:  Decrease of $1.368 million is due to a transfer of funds to Small Business Innovative Research\/Small Business Technology Transfer programs.\n\nFY2015:  Decrease of -$0.076 million is due to realignment of funds to higher command priorities.\n\nSchedule:  None.\n\nTechnical:  None."
+                        }
+                    ]
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "S500A"
+            "SummaryExplanation": {
+                "val": "Funding:\n\nFY2013:  Net increase of $5.054 million is due to sequestration reductions (-$5.933 million), congressional rescissions ($-0.083 million), an increase for a congressional add ($16.000 million), reprogrammings for higher command priorities (-$3.415 million), and a transfer of funds to Small Business Innovative Research (-$1.515 million).\n\nFY2014:  Decrease of $1.368 million is due to a transfer of funds to Small Business Innovative Research\/Small Business Technology Transfer programs.\n\nFY2015:  Decrease of -$0.076 million is due to realignment of funds to higher command priorities.\n\nSchedule:  None.\n\nTechnical:  None."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "S500A"
+                    },
+                    "ProjectTitle": {
+                        "val": "Operational Enhancements"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "75.010"
                         },
-                        "ProjectTitle": {
-                            "val": "Operational Enhancements"
+                        "PriorYear": {
+                            "val": "56.754"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "CurrentYear": {
+                            "val": "41.252"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "75.010"
-                            },
-                            "PriorYear": {
-                                "val": "56.754"
-                            },
-                            "CurrentYear": {
-                                "val": "41.252"
-                            },
-                            "BudgetYearOne": {
-                                "val": "75.253"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "75.253"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "63.128"
-                            },
-                            "BudgetYearThree": {
-                                "val": "57.297"
-                            },
-                            "BudgetYearFour": {
-                                "val": "64.607"
-                            },
-                            "BudgetYearFive": {
-                                "val": "67.191"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOne": {
+                            "val": "75.253"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "Details are provided under separate cover."
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "75.253"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "63.128"
+                        },
+                        "BudgetYearThree": {
+                            "val": "57.297"
+                        },
+                        "BudgetYearFour": {
+                            "val": "64.607"
+                        },
+                        "BudgetYearFive": {
+                            "val": "67.191"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "Details are provided under separate cover."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

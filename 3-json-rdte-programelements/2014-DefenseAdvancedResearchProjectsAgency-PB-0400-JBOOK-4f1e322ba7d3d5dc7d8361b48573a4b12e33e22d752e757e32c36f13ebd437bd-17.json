@@ -12,42 +12,85 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "@format": "R2Long",
-            "ProgramElementNumber": {
-                "val": "0605502E"
+        "@format": "R2Long",
+        "ProgramElementNumber": {
+            "val": "0605502E"
+        },
+        "ProgramElementTitle": {
+            "val": "SMALL BUSINESS INNOVATION RESEARCH"
+        },
+        "R1LineItemNumber": {
+            "val": "156"
+        },
+        "BudgetYear": {
+            "val": "2014"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2013-04"
+        },
+        "ServiceAgencyName": {
+            "val": "Defense Advanced Research Projects Agency"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "6"
+        },
+        "BudgetActivityTitle": {
+            "val": "RDT&E Management Support"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "74.759"
             },
-            "ProgramElementTitle": {
-                "val": "SMALL BUSINESS INNOVATION RESEARCH"
+            "CurrentYear": {
+                "val": "0.000"
             },
-            "R1LineItemNumber": {
-                "val": "156"
+            "BudgetYearOne": {
+                "val": "0.000"
             },
-            "BudgetYear": {
-                "val": "2014"
+            "BudgetYearOneBase": {
+                "val": "0.000"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "0.000"
             },
-            "SubmissionDate": {
-                "val": "2013-04"
+            "BudgetYearThree": {
+                "val": "0.000"
             },
-            "ServiceAgencyName": {
-                "val": "Defense Advanced Research Projects Agency"
+            "BudgetYearFour": {
+                "val": "0.000"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFive": {
+                "val": "0.000"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "In accordance with Public Law No: 112-81 (National Defense Authorization Act) and Small Business Technology Transfer Program Reauthorization Act, the DARPA Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs are designed to provide small, high-tech businesses and academic institutions the opportunity to propose radical, innovative, high-risk approaches to address existing and emerging national security threats; thereby supporting DARPA's overall strategy to enable fundamental discoveries and technological breakthroughs that provide new military capabilities."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
-            },
-            "BudgetActivityNumber": {
-                "val": "6"
-            },
-            "BudgetActivityTitle": {
-                "val": "RDT&E Management Support"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "74.759"
                 },
@@ -59,202 +102,157 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "0.000"
+                }
+            },
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "74.759"
                 },
-                "BudgetYearTwo": {
+                "CurrentYear": {
                     "val": "0.000"
                 },
-                "BudgetYearThree": {
+                "BudgetYearOne": {
                     "val": "0.000"
                 },
-                "BudgetYearFour": {
-                    "val": "0.000"
-                },
-                "BudgetYearFive": {
+                "BudgetYearOneBase": {
                     "val": "0.000"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "In accordance with Public Law No: 112-81 (National Defense Authorization Act) and Small Business Technology Transfer Program Reauthorization Act, the DARPA Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs are designed to provide small, high-tech businesses and academic institutions the opportunity to propose radical, innovative, high-risk approaches to address existing and emerging national security threats; thereby supporting DARPA's overall strategy to enable fundamental discoveries and technological breakthroughs that provide new military capabilities."
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalDirectedReductions": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalRescissions": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalAdds": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "CongressionalDirectedTransfers": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "Reprogrammings": {
+                    "PriorYear": {
+                        "val": "0.000"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
+                        "val": "74.759"
+                    },
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.000"
+            "SummaryExplanation": {
+                "val": "FY 2012: Increase reflects SBIR\/STTR transfer."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "SB-01"
                     },
-                    "CurrentYear": {
-                        "val": "0.000"
+                    "ProjectTitle": {
+                        "val": "SMALL BUSINESS INNOVATION RESEARCH"
                     },
-                    "BudgetYearOne": {
-                        "val": "0.000"
+                    "SpecialProject": {
+                        "val": "0"
                     },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "74.759"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "74.759"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "CongressionalGeneralReductions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalDirectedReductions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalRescissions": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalAdds": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "CongressionalDirectedTransfers": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "Reprogrammings": {
-                        "PriorYear": {
-                            "val": "0.000"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "SBIRSTTRTransfer": {
+                    "ProjectFunding": {
                         "PriorYear": {
                             "val": "74.759"
                         },
                         "CurrentYear": {
                             "val": "0.000"
+                        },
+                        "BudgetYearOne": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
                         }
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "FY 2012: Increase reflects SBIR\/STTR transfer."
-                }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "SB-01"
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "In accordance with Public Law No: 112-81 (National Defense Authorization Act) and Small Business Technology Transfer Program Reauthorization Act, the DARPA Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs are designed to provide small, high-tech businesses and academic institutions the opportunity to propose radical, innovative, high-risk approaches to address existing and emerging national security threats; thereby supporting DARPA's overall strategy to enable fundamental discoveries and technological breakthroughs that provide new military capabilities."
                         },
-                        "ProjectTitle": {
-                            "val": "SMALL BUSINESS INNOVATION RESEARCH"
-                        },
-                        "SpecialProject": {
-                            "val": "0"
-                        },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "74.759"
-                            },
-                            "CurrentYear": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.000"
-                            }
-                        },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "In accordance with Public Law No: 112-81 (National Defense Authorization Act) and Small Business Technology Transfer Program Reauthorization Act, the DARPA Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs are designed to provide small, high-tech businesses and academic institutions the opportunity to propose radical, innovative, high-risk approaches to address existing and emerging national security threats; thereby supporting DARPA's overall strategy to enable fundamental discoveries and technological breakthroughs that provide new military capabilities."
-                            },
-                            "AccomplishmentPlannedProgramList": {
-                                "AccomplishmentPlannedProgram": [
-                                    {
-                                        "Title": {
-                                            "val": "Small Business Innovation Research"
-                                        },
-                                        "Description": {
-                                            "val": "Description: The DARPA Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs are designed to provide small, high-tech businesses and academic institutions the opportunity to propose radical, innovative, high-risk approaches to address existing and emerging national security threats; thereby supporting DARPA's overall strategy to enable fundamental discoveries and technological breakthroughs that provide new military capabilities."
-                                        },
-                                        "Accomplishment": {
-                                            "PriorYear": {
-                                                "Funding": {
-                                                    "val": "74.759"
-                                                },
-                                                "Text": {
-                                                    "val": "The DARPA SBIR and STTR programs were executed within OSD guidelines."
-                                                }
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Small Business Innovation Research"
+                                    },
+                                    "Description": {
+                                        "val": "Description: The DARPA Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) programs are designed to provide small, high-tech businesses and academic institutions the opportunity to propose radical, innovative, high-risk approaches to address existing and emerging national security threats; thereby supporting DARPA's overall strategy to enable fundamental discoveries and technological breakthroughs that provide new military capabilities."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "74.759"
+                                            },
+                                            "Text": {
+                                                "val": "The DARPA SBIR and STTR programs were executed within OSD guidelines."
                                             }
                                         }
                                     }
-                                ]
-                            },
-                            "AcquisitionStrategy": {
-                                "val": "N\/A"
-                            },
-                            "PerformanceMetrics": {
-                                "val": "Not applicable."
-                            }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "N\/A"
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Not applicable."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

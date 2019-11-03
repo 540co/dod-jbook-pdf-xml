@@ -12,41 +12,84 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0909999A"
+        "ProgramElementNumber": {
+            "val": "0909999A"
+        },
+        "ProgramElementTitle": {
+            "val": "Financing for Cancelled Account Adjustments"
+        },
+        "R1LineItemNumber": {
+            "val": "155"
+        },
+        "BudgetYear": {
+            "val": "2014"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2013-04"
+        },
+        "ServiceAgencyName": {
+            "val": "Army"
+        },
+        "AppropriationCode": {
+            "val": "2040"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Army"
+        },
+        "BudgetActivityNumber": {
+            "val": "6"
+        },
+        "BudgetActivityTitle": {
+            "val": "RDT&E Management Support"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "0.090"
             },
-            "ProgramElementTitle": {
-                "val": "Financing for Cancelled Account Adjustments"
+            "CurrentYear": {
+                "val": "0.000"
             },
-            "R1LineItemNumber": {
-                "val": "155"
+            "BudgetYearOne": {
+                "val": "0.000"
             },
-            "BudgetYear": {
-                "val": "2014"
+            "BudgetYearOneBase": {
+                "val": "0.000"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "0.000"
             },
-            "SubmissionDate": {
-                "val": "2013-04"
+            "BudgetYearThree": {
+                "val": "0.000"
             },
-            "ServiceAgencyName": {
-                "val": "Army"
+            "BudgetYearFour": {
+                "val": "0.000"
             },
-            "AppropriationCode": {
-                "val": "2040"
+            "BudgetYearFive": {
+                "val": "0.000"
+            }
+        },
+        "ProgramElementNote": {
+            "val": "Financing for Cancelled Account Adjustments."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Army"
-            },
-            "BudgetActivityNumber": {
-                "val": "6"
-            },
-            "BudgetActivityTitle": {
-                "val": "RDT&E Management Support"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "0.090"
                 },
@@ -58,157 +101,112 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "0.000"
+                }
+            },
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.090"
                 },
-                "BudgetYearTwo": {
+                "CurrentYear": {
                     "val": "0.000"
                 },
-                "BudgetYearThree": {
+                "BudgetYearOne": {
                     "val": "0.000"
                 },
-                "BudgetYearFour": {
-                    "val": "0.000"
-                },
-                "BudgetYearFive": {
+                "BudgetYearOneBase": {
                     "val": "0.000"
                 }
             },
-            "ProgramElementNote": {
-                "val": "Financing for Cancelled Account Adjustments."
-            },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.000"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "0.090"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "0.090"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustments 1"
-                                },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.090"
-                                    }
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments 1"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.090"
                                 }
                             }
-                        ]
-                    }
+                        }
+                    ]
                 }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "900"
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "900"
+                    },
+                    "ProjectTitle": {
+                        "val": "CLOSED ACCT ADJMT-M"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "0.090"
                         },
-                        "ProjectTitle": {
-                            "val": "CLOSED ACCT ADJMT-M"
+                        "CurrentYear": {
+                            "val": "0.000"
                         },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "0.090"
-                            },
-                            "CurrentYear": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.000"
-                            }
+                        "BudgetYearOne": {
+                            "val": "0.000"
                         },
-                        "R2aExhibit": {
-                            "ProjectNote": {
-                                "val": "Financing for Cancelled Account Adjustments."
-                            },
-                            "ProjectMissionDescription": {
-                                "val": "this program accomplishes closed account adjustments."
-                            },
-                            "AccomplishmentPlannedProgramList": {
-                                "AccomplishmentPlannedProgram": [
-                                    {
-                                        "Title": {
-                                            "val": "Closed Account Adjustments"
-                                        },
-                                        "Description": {
-                                            "val": "This program is for closed account adjustments"
-                                        },
-                                        "Accomplishment": {
-                                            "PriorYear": {
-                                                "Funding": {
-                                                    "val": "0.090"
-                                                },
-                                                "Articles": {
-                                                    "val": "0"
-                                                },
-                                                "Text": {
-                                                    "val": "This program is for closed account adjustments"
-                                                }
+                        "BudgetYearOneBase": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.000"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.000"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectNote": {
+                            "val": "Financing for Cancelled Account Adjustments."
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "this program accomplishes closed account adjustments."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Closed Account Adjustments"
+                                    },
+                                    "Description": {
+                                        "val": "This program is for closed account adjustments"
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "0.090"
+                                            },
+                                            "Articles": {
+                                                "val": "0"
+                                            },
+                                            "Text": {
+                                                "val": "This program is for closed account adjustments"
                                             }
                                         }
                                     }
-                                ]
-                            },
-                            "PerformanceMetrics": {
-                                "val": "Performance metrics used in the preparation of this justification material may be found in the FY 2010 Army Performance Budget Justification Book, dated May 2010."
-                            }
+                                }
+                            ]
+                        },
+                        "PerformanceMetrics": {
+                            "val": "Performance metrics used in the preparation of this justification material may be found in the FY 2010 Army Performance Budget Justification Book, dated May 2010."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }
