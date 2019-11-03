@@ -47,8 +47,7 @@ Each folder contains the "list" of **PROCUREMENT line items** / **RDTE program e
 
 Each **line item** / **program element** is stored in a single unique file (1 file per line item, 1 file per program element).
 
-![3-json-procurement-lineitems](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/3-json-procurement-lineitems.png?raw=true)
-![3-json-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/3-json-rdte-programelements.png?raw=true)
+![3-json](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/3-json.png?raw=true)
 
 ### CSV PROCUREMENT-LINEITEMS -and- RDTE-PROGRAMELEMENTS
 Each folder contains the "list" of **PROCUREMENT line items** / **RDTE program elements**, respectively in **CSV format**.  
@@ -57,8 +56,7 @@ The CSV conversion from JSON to CSV results in a "file" subject area within a **
 
 Each CSV file is "zipped" due to file size.
 
-![4-csv-procurement-lineitems](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/4-csv-procurement-lineitems.png?raw=true)
-![4-csv-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/4-csv-rdte-programelements.png?raw=true)
+![4-csv](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/4-csv.png?raw=true)
 
 At the root of each folder is a README.md and ERD that shows the list of tables, columns and structure.
 
@@ -100,7 +98,6 @@ https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelement
 The attached `process.php` includes all of the code used to processed the files (in coordination with a few libraries) and a flow of the steps is show in the diagram below:
 
 ![4-csv-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/dod-jbook-pdf-xml-json-csv.png?raw=true)
-
 
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/dod-jbook-pdf-xml-json-csv.pdf?raw=true
 
