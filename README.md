@@ -60,7 +60,7 @@ Each CSV file is "zipped" due to file size.
 ![4-csv-procurement-lineitems](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/4-csv-procurement-lineitems.png?raw=true)
 ![4-csv-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/4-csv-rdte-programelements.png?raw=true)
 
-At the root of each folder is a README.md and ERD that shows the list of tables, columns and structure:
+At the root of each folder is a README.md and ERD that shows the list of tables, columns and structure.
 
 #### CSV-PROCUREMENT-LINEITEMS
 
