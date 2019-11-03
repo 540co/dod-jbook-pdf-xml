@@ -103,39 +103,107 @@ The attached `process.php` includes all of the code used to processed the files 
 
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/dod-jbook-pdf-xml-json-csv.pdf?raw=true
 
-To run `processs.php` you will need to have the following installed:
+To run `processs.php` CLI you will need to have the following installed:
 
 - PHP 7.1.x
 - Graphviz (https://www.graphviz.org/)
 
-### Step 1: Download JBooks / Extract attachements
+> All test runs have been done on Mac OSX and/or AWS linux - and most likely will be incompatible with Windows during various steps.
 
-- Prepare `[YEAR]_jbook_list.json` following the format of the other files.
-- From within the repo folder run `php process.php --step 0-download-jbooks --jbook-list [YEAR]_jbook_list.json`
+### Step 0: Download JBooks / Extract attachements
 
-> NOTE:  When download XML files for the year, the entire folder is removed and recreated on each run of the script.  Therefore, if downloads are interrupted you will have to re-download the files to ensure all files are downloaded.
+- Prepare `[YEAR]_jbook_list.json` following the format of the other files and then run the CLI:
 
+```
+$ php process.php --step 0-download-jbooks --jbook-list [YEAR]_jbook_list.json
 
+```
 
-
-
-### Step 2
-
-### Step 3
-
-### Step 4
-
-### Step 5
-
-### Step 6
-
-### Step 7
+> When downloading XML files for the year, the entire folder is removed and recreated on each run of the script.  Therefore, if downloads are interrupted you will have to re-download the files to ensure all files are downloaded.
 
 
+### Step 1: Copy Jbooks to single folder
+
+```
+$ php process.php --step 1-copy-jbook-xml-to-single-folder
+
+```
+
+> When this step is run, the `1-json` folder will be automatically created.
 
 
+### Step 2: Analyze XML Jbooks to determine array paths
+
+This step is important to analyze all of the jbook xml files to determine the "lists" within the XML to allow for a consistent JSON conversion in which lists are properly converted to JSON arrays.
+
+This is important due to the fact this conversion is done without the XSD that defines the XML schema per year.
+
+The result of this process is a `jbookArrays.json` file that includes a list of all of the paths that should be arrays.
+
+```
+$ php process.php --step 2-determine-jbook-array-paths
+
+```
+
+> This step can take a long time depending on the spec of the machine (~12-24 hours).
+
+### Step 3: Convert XML Jbooks to JSON
+
+This step leverages the `jbookArrays.json` and converts each Jbook XML file into a JSON file and writes it to the `2-jbook-json` folder.
+
+```
+$ php process.php --step 3-convert-xml-to-json
+
+```
+
+> This step can take a long time depending on the spec of the machine (~12-24 hours). 
 
 
+### Step 4: Process Jbooks by copying out line items / program elements into a single file per line item / program element
 
+During this step line items / program elements are extracted from the proper node in the Justification Book / Master Justification Book and copied to a single JSON file per line item / progrem element:
 
+**procurement-lineitems** in Justification Books
+`JustificationBook/LineItemList/LineItem`
 
+**procurement-lineitems** in Master Justification Books
+`MasterJustificationBook/JustificationBookGroupList/JustificationBookGroup/JustificationBookInfoList/JustificationBook/LineItemList/LineItem`
+
+**rdte-programelements** in Justification Books (2013 - 2016)
+`JustificationBook/R2ExhibitList/R2Exhibit`
+
+**rdte-programelements** in Master Justification Books (2013 - 2016)
+`MasterJustificationBook/JustificationBookGroupList/JustificationBookGroup/JustificationBookInfoList/JustificationBook/R2ExhibitList/R2Exhibit`
+
+**rdte-programelements** in Justification Books (2017 - current)
+`JustificationBook/R2ExhibitList/R2Exhibit`
+
+**rdte-programelements** in Master Justification Books (2017 - current)
+``MasterJustificationBook/JustificationBookGroupList/JustificationBookGroup/JustificationBookInfoList/JustificationBook/ProgramElementList/ProgramElement`
+
+```
+$ php process.php --step 4-process-json-docs
+
+```
+
+### Step 5: Convert JSON files to CSV
+
+During this step, each JSON file is analyzed and flattened / converted to a collection of CSV files. 
+
+In addition, an ERD and README file is created dynamically based upon the data converted.
+
+```
+$ php process.php --step 5-json-to-csv --resource-type procurement-lineitems
+$ php process.php --step 5-json-to-csv --resource-type rdte-programelements
+
+```
+
+### Step 6: Zip CSV output
+
+During this step, the CSV files (and associated `-j` files) are compressed for each portability / storage in repos (such as Github).
+
+```
+$ php process.php --step 6-csv-to-zip --resource-type procurement-lineitems
+$ php process.php --step 6-csv-to-zip--resource-type rdte-programelements
+
+```
