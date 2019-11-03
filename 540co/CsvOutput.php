@@ -41,6 +41,8 @@ class Csv {
         }
       }
 
+
+
       $tables[$attributes['fullDisplayName']] = $rows;
 
     }
@@ -50,6 +52,8 @@ class Csv {
   }
 
   public function writeCsv($file, $rows) {
+
+    file_put_contents($file."-j.json", json_encode($rows,JSON_PRETTY_PRINT));
 
     $fileHandle = fopen($file, "w");
 
@@ -65,20 +69,24 @@ class Csv {
 
     fwrite($fileHandle, $headerRow."\n");
 
-    foreach ($rows as $row) {
+    foreach ($rows as $rowNum=>$row) {
       $rowString = '';
 
       foreach ($row as $k=>$v) {
         $valToWrite = $row[$k];
-        $valToWrite = str_replace('"','',$valToWrite);
+
+        $valToWrite = str_replace("\n\n",' ',$valToWrite);
+        $valToWrite = str_replace("\r\n",' ',$valToWrite);
         $valToWrite = str_replace("\n",' ',$valToWrite);
         $valToWrite = str_replace("\t",' ',$valToWrite);
         $valToWrite = str_replace("\r",' ',$valToWrite);
+        $valToWrite = str_replace('"','',$valToWrite);
 
         $rowString = $rowString.'"'.$valToWrite.'",';
       }
 
       $rowString = rtrim($rowString,",");
+      echo $file." -> ".$rowNum." -> ".strlen($rowString)."\n";
       fwrite($fileHandle, $rowString."\n");
     }
 

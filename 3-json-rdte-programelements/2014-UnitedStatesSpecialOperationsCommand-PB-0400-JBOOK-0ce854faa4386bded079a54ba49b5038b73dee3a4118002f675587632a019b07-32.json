@@ -12,41 +12,90 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "1160489BB"
+        "ProgramElementNumber": {
+            "val": "1160489BB"
+        },
+        "ProgramElementTitle": {
+            "val": "SOF Global Video Surveillance Activities"
+        },
+        "R1LineItemNumber": {
+            "val": "274"
+        },
+        "BudgetYear": {
+            "val": "2014"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2013-04"
+        },
+        "ServiceAgencyName": {
+            "val": "United States Special Operations Command"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "8.923"
             },
-            "ProgramElementTitle": {
-                "val": "SOF Global Video Surveillance Activities"
+            "CurrentYear": {
+                "val": "7.620"
             },
-            "R1LineItemNumber": {
-                "val": "274"
+            "BudgetYearOne": {
+                "val": "3.304"
             },
-            "BudgetYear": {
-                "val": "2014"
+            "BudgetYearOneBase": {
+                "val": "3.304"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "6.599"
             },
-            "SubmissionDate": {
-                "val": "2013-04"
+            "BudgetYearThree": {
+                "val": "5.959"
             },
-            "ServiceAgencyName": {
-                "val": "United States Special Operations Command"
+            "BudgetYearFour": {
+                "val": "5.632"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFive": {
+                "val": "5.750"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "Details provided under separate cover."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "8.923"
+                },
+                "CurrentYear": {
+                    "val": "7.620"
+                },
+                "BudgetYearOne": {
+                    "val": "5.793"
+                },
+                "BudgetYearOneBase": {
+                    "val": "5.793"
+                }
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "8.923"
                 },
@@ -58,144 +107,93 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "3.304"
-                },
-                "BudgetYearTwo": {
-                    "val": "6.599"
-                },
-                "BudgetYearThree": {
-                    "val": "5.959"
-                },
-                "BudgetYearFour": {
-                    "val": "5.632"
-                },
-                "BudgetYearFive": {
-                    "val": "5.750"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "Details provided under separate cover."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "-2.489"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-2.489"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "8.923"
-                    },
-                    "CurrentYear": {
-                        "val": "7.620"
-                    },
-                    "BudgetYearOne": {
-                        "val": "5.793"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "5.793"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "8.923"
-                    },
-                    "CurrentYear": {
-                        "val": "7.620"
-                    },
-                    "BudgetYearOne": {
-                        "val": "3.304"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "3.304"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "0.000"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-2.489"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-2.489"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Details provided under separate cover"
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Details provided under separate cover"
+                            },
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "-2.489"
                                 },
-                                "Funding": {
-                                    "BudgetYearOne": {
-                                        "val": "-2.489"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-2.489"
-                                    }
+                                "BudgetYearOneBase": {
+                                    "val": "-2.489"
                                 }
                             }
-                        ]
-                    }
+                        }
+                    ]
                 }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "S500C"
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "S500C"
+                    },
+                    "ProjectTitle": {
+                        "val": "SOF Global Video Surveillance Activities"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "8.923"
                         },
-                        "ProjectTitle": {
-                            "val": "SOF Global Video Surveillance Activities"
+                        "CurrentYear": {
+                            "val": "7.620"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "BudgetYearOne": {
+                            "val": "3.304"
                         },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "8.923"
-                            },
-                            "CurrentYear": {
-                                "val": "7.620"
-                            },
-                            "BudgetYearOne": {
-                                "val": "3.304"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "3.304"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "6.599"
-                            },
-                            "BudgetYearThree": {
-                                "val": "5.959"
-                            },
-                            "BudgetYearFour": {
-                                "val": "5.632"
-                            },
-                            "BudgetYearFive": {
-                                "val": "5.750"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "3.304"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "Details provided under separate cover."
-                            }
+                        "BudgetYearTwo": {
+                            "val": "6.599"
+                        },
+                        "BudgetYearThree": {
+                            "val": "5.959"
+                        },
+                        "BudgetYearFour": {
+                            "val": "5.632"
+                        },
+                        "BudgetYearFive": {
+                            "val": "5.750"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "Details provided under separate cover."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

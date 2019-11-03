@@ -12,41 +12,84 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0603130A"
+        "ProgramElementNumber": {
+            "val": "0603130A"
+        },
+        "ProgramElementTitle": {
+            "val": "TRACTOR NAIL"
+        },
+        "R1LineNumber": {
+            "val": "42"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "Army"
+        },
+        "AppropriationCode": {
+            "val": "2040"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Army"
+        },
+        "BudgetActivityNumber": {
+            "val": "3"
+        },
+        "BudgetActivityTitle": {
+            "val": "Advanced Technology Development (ATD)"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "3.207"
             },
-            "ProgramElementTitle": {
-                "val": "TRACTOR NAIL"
+            "CurrentYear": {
+                "val": "3.192"
             },
-            "R1LineNumber": {
-                "val": "42"
+            "BudgetYearOne": {
+                "val": "3.440"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOneBase": {
+                "val": "3.440"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "2.398"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearThree": {
+                "val": "2.357"
             },
-            "ServiceAgencyName": {
-                "val": "Army"
+            "BudgetYearFour": {
+                "val": "2.399"
             },
-            "AppropriationCode": {
-                "val": "2040"
+            "BudgetYearFive": {
+                "val": "2.415"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "3.487"
+                },
+                "CurrentYear": {
+                    "val": "3.194"
+                },
+                "BudgetYearOne": {
+                    "val": "3.440"
+                },
+                "BudgetYearOneBase": {
+                    "val": "3.440"
+                }
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Army"
-            },
-            "BudgetActivityNumber": {
-                "val": "3"
-            },
-            "BudgetActivityTitle": {
-                "val": "Advanced Technology Development (ATD)"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "3.207"
                 },
@@ -58,135 +101,90 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "3.440"
-                },
-                "BudgetYearTwo": {
-                    "val": "2.398"
-                },
-                "BudgetYearThree": {
-                    "val": "2.357"
-                },
-                "BudgetYearFour": {
-                    "val": "2.399"
-                },
-                "BudgetYearFive": {
-                    "val": "2.415"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-0.280"
+                },
+                "CurrentYear": {
+                    "val": "-0.002"
+                },
+                "BudgetYearOne": {
+                    "val": "0.000"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.000"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "3.487"
-                    },
-                    "CurrentYear": {
-                        "val": "3.194"
-                    },
-                    "BudgetYearOne": {
-                        "val": "3.440"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "3.440"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "3.207"
-                    },
-                    "CurrentYear": {
-                        "val": "3.192"
-                    },
-                    "BudgetYearOne": {
-                        "val": "3.440"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "3.440"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "-0.280"
-                    },
-                    "CurrentYear": {
-                        "val": "-0.002"
-                    },
-                    "BudgetYearOne": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "0.000"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Other Adjustments 1"
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Other Adjustments 1"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "-0.280"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "-0.280"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "-0.002"
-                                    }
+                                "CurrentYear": {
+                                    "val": "-0.002"
                                 }
                             }
-                        ]
-                    }
+                        }
+                    ]
                 }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "DS8"
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "DS8"
+                    },
+                    "ProjectTitle": {
+                        "val": "Tractor Nail"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "3.207"
                         },
-                        "ProjectTitle": {
-                            "val": "Tractor Nail"
+                        "CurrentYear": {
+                            "val": "3.192"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "BudgetYearOne": {
+                            "val": "3.440"
                         },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "3.207"
-                            },
-                            "CurrentYear": {
-                                "val": "3.192"
-                            },
-                            "BudgetYearOne": {
-                                "val": "3.440"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "3.440"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "2.398"
-                            },
-                            "BudgetYearThree": {
-                                "val": "2.357"
-                            },
-                            "BudgetYearFour": {
-                                "val": "2.399"
-                            },
-                            "BudgetYearFive": {
-                                "val": "2.415"
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "3.440"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)"
-                            },
-                            "OtherProgramFundingSummaryRemarks": {
-                                "val": "Not Applicable - SAP"
-                            }
+                        "BudgetYearTwo": {
+                            "val": "2.398"
+                        },
+                        "BudgetYearThree": {
+                            "val": "2.357"
+                        },
+                        "BudgetYearFour": {
+                            "val": "2.399"
+                        },
+                        "BudgetYearFive": {
+                            "val": "2.415"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The details of this program are reported in accordance with Title 10, United States Code, Section 119(a)(1)"
+                        },
+                        "OtherProgramFundingSummaryRemarks": {
+                            "val": "Not Applicable - SAP"
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

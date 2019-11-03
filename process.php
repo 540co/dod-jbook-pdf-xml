@@ -159,6 +159,27 @@ function csvToZip($resourceType) {
 
   }
 
+  $fileList = rglob($targetPaths[$resourceType].'/*.json');
+  sort($fileList);
+  $fileCount = count($fileList);
+
+  $rows = [];
+
+  foreach ($fileList as $fileIdx=>$filePath) {
+      echo "[".($fileIdx+1)."/".$fileCount."]\n";
+      echo "< Compressing $filePath>\n";
+
+      $zipFilename = substr($filePath,0,-5).'.zip';
+      $zipCmd = 'zip '.$zipFilename.' '.$filePath;
+      $rmCmd = 'rm '.$filePath;
+
+      echo "EXEC: ".$zipCmd."\n";
+      exec($zipCmd);
+      echo "EXEC: ".$rmCmd."\n";
+      exec($rmCmd);
+
+  }
+
 }
 
 function generateCsvDocs() {
@@ -345,6 +366,27 @@ function jsonToCsv($resourceType) {
         unset($tables[$v['parentTableName']][$v['parentRowIdx']][$v['parentColumnName']]);
     }
 
+    // Ensure [parentColumnName] is removed from ALL rows regardless of if it had a parent
+    // to ensure consistent columns
+    $listOfAllParentColumns = [];
+    foreach ($JSON_parentId_List as $k=>$v) {
+      if (!isset($listOfAllParentColumns[$v['parentTableName']])) {
+        $listOfAllParentColumns[$v['parentTableName']] = [];
+      }
+      $listOfAllParentColumns[$v['parentTableName']][] = $v['parentColumnName'];
+      $listOfAllParentColumns[$v['parentTableName']] = array_values(array_unique($listOfAllParentColumns[$v['parentTableName']]));
+    }
+
+    foreach ($listOfAllParentColumns as $tableName=>$parentColumnNames) {
+      foreach ($tables[$tableName] as $rowIdx=>$rowFieldVals) {
+        foreach ($parentColumnNames as $k=>$parentColumnName) {
+          if (isset($rowFieldVals[$parentColumnName])) {
+            unset($tables[$tableName][$rowIdx][$parentColumnName]);
+          }
+        }
+      }
+    }
+
     // Build parent / child relationship map
     $parentChildMap = [];
     $childParentMap = [];
@@ -367,8 +409,8 @@ function jsonToCsv($resourceType) {
     foreach ($tables as $tableName => $tableRows) {
         $schemaDetails[$tableName] = [];
 
-        if (strlen($tableName) > 250) {
-            $schemaDetails[$tableName]['filename'] = "~".substr($tableName,-250).".csv";
+        if (strlen($tableName) > 240) {
+            $schemaDetails[$tableName]['filename'] = "~".substr($tableName,-240).".csv";
         } else {
             $schemaDetails[$tableName]['filename'] = $tableName.".csv";
         }
@@ -460,27 +502,10 @@ function jsonToCsv($resourceType) {
     exec('dot -Tpng '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot -o '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.png');
     exec('dot -Tpdf '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot -o '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.pdf');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     echo "\n\n[done]\n";
     die;
 
 }
-
-
 
 function downloadJbooks($jbookList) {
     $targetPath = '0-jbook-pdf';
@@ -688,6 +713,16 @@ function processJsonDocs($rglobPattern='*.json') {
         // rdte-programelements in JBOOKS (2013-2016)
         if (isset($jbookDoc['JustificationBook']['R2ExhibitList']['R2Exhibit'])) {
             $recordType = 'rdte-programelements';
+
+            // Transform to get rid of outer ProgramElement object
+            $peList = [];
+            foreach ($jbookDoc['JustificationBook']['R2ExhibitList']['R2Exhibit'] as $pek=>$pev) {
+              $peList[$pek] = array_merge(
+                array('@monetaryUnit' => $pev['@monetaryUnit']),
+                $pev['ProgramElement']
+              );
+            }
+
             processJbookDocObj(
                 'jbook',
                 $jbookDoc['@filename'],
@@ -697,9 +732,10 @@ function processJsonDocs($rglobPattern='*.json') {
                 $jbookDoc,
                 $recordType,
                 $meta,
-                $jbookDoc['JustificationBook']['R2ExhibitList']['R2Exhibit'],
+                $peList,
                 $targetPaths[$recordType]
             );
+
         }
 
         // rdte-programelements in JBOOKS (2017-current)
@@ -717,7 +753,10 @@ function processJsonDocs($rglobPattern='*.json') {
                 $jbookDoc['JustificationBook']['ProgramElementList']['ProgramElement'],
                 $targetPaths[$recordType]
             );
+
         }
+
+
 
         // MASTER JBOOKS
         if (isset($jbookDoc['MasterJustificationBook']['JustificationBookGroupList']['JustificationBookGroup'])) {
@@ -744,9 +783,19 @@ function processJsonDocs($rglobPattern='*.json') {
                             );
                         }
 
-                        // rdte-programelements in MASTER JBOOKS (2013 - 2016)
+                        // rdte-programelements in MASTER JBOOKS (2013-2016)
                         if (isset($jbook['JustificationBook']['R2ExhibitList']['R2Exhibit'])) {
                             $recordType = 'rdte-programelements';
+
+                            // Transform to get rid of outer ProgramElement object
+                            $peList = [];
+                            foreach ($jbookDoc['JustificationBook']['R2ExhibitList']['R2Exhibit'] as $pek=>$pev) {
+                              $peList[$pek] = array_merge(
+                                array('@monetaryUnit' => $pev['@monetaryUnit']),
+                                $pev['ProgramElement']
+                              );
+                            }
+
                             processJbookDocObj(
                                 'masterjbook',
                                 $jbook['@filename'],
@@ -756,12 +805,12 @@ function processJsonDocs($rglobPattern='*.json') {
                                 $jbook,
                                 $recordType,
                                 $meta,
-                                $jbook['JustificationBook']['R2ExhibitList']['R2Exhibit'],
+                                $peList,
                                 $targetPaths[$recordType]
                             );
                         }
 
-                        // rdte-programelements in MASTER JBOOKS (2013 - 2016)
+                        // rdte-programelements in MASTER JBOOKS (2017-current)
                         if (isset($jbook['JustificationBook']['ProgramElementList']['ProgramElement'])) {
                             $recordType = 'rdte-programelements';
                             processJbookDocObj(
@@ -1033,8 +1082,6 @@ function convertXmlToJson($rglobPattern='*.xml') {
     echo "=========================================================\n";
 
     sleep(2);
-
-
 
     $fileList = rglob($sourcePath.'/'.$rglobPattern);
     sort($fileList);

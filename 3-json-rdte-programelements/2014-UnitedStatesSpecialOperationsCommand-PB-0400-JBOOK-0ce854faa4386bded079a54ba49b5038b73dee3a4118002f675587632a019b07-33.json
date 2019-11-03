@@ -12,41 +12,90 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "1160490BB"
+        "ProgramElementNumber": {
+            "val": "1160490BB"
+        },
+        "ProgramElementTitle": {
+            "val": "SOF Operational Enhancements Intelligence"
+        },
+        "R1LineItemNumber": {
+            "val": "275"
+        },
+        "BudgetYear": {
+            "val": "2014"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2013-04"
+        },
+        "ServiceAgencyName": {
+            "val": "United States Special Operations Command"
+        },
+        "AppropriationCode": {
+            "val": "0400"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Defense-Wide"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "8.479"
             },
-            "ProgramElementTitle": {
-                "val": "SOF Operational Enhancements Intelligence"
+            "CurrentYear": {
+                "val": "16.386"
             },
-            "R1LineItemNumber": {
-                "val": "275"
+            "BudgetYearOne": {
+                "val": "16.021"
             },
-            "BudgetYear": {
-                "val": "2014"
+            "BudgetYearOneBase": {
+                "val": "16.021"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearTwo": {
+                "val": "16.225"
             },
-            "SubmissionDate": {
-                "val": "2013-04"
+            "BudgetYearThree": {
+                "val": "15.225"
             },
-            "ServiceAgencyName": {
-                "val": "United States Special Operations Command"
+            "BudgetYearFour": {
+                "val": "16.387"
             },
-            "AppropriationCode": {
-                "val": "0400"
+            "BudgetYearFive": {
+                "val": "16.727"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Defense-Wide"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "Details provided under separate cover."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "9.473"
+                },
+                "CurrentYear": {
+                    "val": "16.386"
+                },
+                "BudgetYearOne": {
+                    "val": "17.634"
+                },
+                "BudgetYearOneBase": {
+                    "val": "17.634"
+                }
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "8.479"
                 },
@@ -58,149 +107,98 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "16.021"
-                },
-                "BudgetYearTwo": {
-                    "val": "16.225"
-                },
-                "BudgetYearThree": {
-                    "val": "15.225"
-                },
-                "BudgetYearFour": {
-                    "val": "16.387"
-                },
-                "BudgetYearFive": {
-                    "val": "16.727"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "Details provided under separate cover."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-0.994"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "-1.613"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-1.613"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "9.473"
-                    },
-                    "CurrentYear": {
-                        "val": "16.386"
-                    },
-                    "BudgetYearOne": {
-                        "val": "17.634"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "17.634"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "8.479"
-                    },
-                    "CurrentYear": {
-                        "val": "16.386"
-                    },
-                    "BudgetYearOne": {
-                        "val": "16.021"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "16.021"
-                    }
-                },
-                "TotalAdjustments": {
+            "AdjustmentDetails": {
+                "Reprogrammings": {
                     "PriorYear": {
                         "val": "-0.994"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "-1.613"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "-1.613"
                     }
                 },
-                "AdjustmentDetails": {
-                    "Reprogrammings": {
-                        "PriorYear": {
-                            "val": "-0.994"
-                        }
-                    },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Details provided under separate cover"
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Details provided under separate cover"
+                            },
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "-1.613"
                                 },
-                                "Funding": {
-                                    "BudgetYearOne": {
-                                        "val": "-1.613"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "-1.613"
-                                    }
+                                "BudgetYearOneBase": {
+                                    "val": "-1.613"
                                 }
                             }
-                        ]
-                    }
+                        }
+                    ]
                 }
-            },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "S500D"
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "S500D"
+                    },
+                    "ProjectTitle": {
+                        "val": "SOF Operational Enhancements Intelligence"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "8.479"
                         },
-                        "ProjectTitle": {
-                            "val": "SOF Operational Enhancements Intelligence"
+                        "CurrentYear": {
+                            "val": "16.386"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "BudgetYearOne": {
+                            "val": "16.021"
                         },
-                        "ProjectFunding": {
-                            "PriorYear": {
-                                "val": "8.479"
-                            },
-                            "CurrentYear": {
-                                "val": "16.386"
-                            },
-                            "BudgetYearOne": {
-                                "val": "16.021"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "16.021"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "16.225"
-                            },
-                            "BudgetYearThree": {
-                                "val": "15.225"
-                            },
-                            "BudgetYearFour": {
-                                "val": "16.387"
-                            },
-                            "BudgetYearFive": {
-                                "val": "16.727"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "16.021"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "Details provided under separate cover."
-                            }
+                        "BudgetYearTwo": {
+                            "val": "16.225"
+                        },
+                        "BudgetYearThree": {
+                            "val": "15.225"
+                        },
+                        "BudgetYearFour": {
+                            "val": "16.387"
+                        },
+                        "BudgetYearFive": {
+                            "val": "16.727"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "Details provided under separate cover."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

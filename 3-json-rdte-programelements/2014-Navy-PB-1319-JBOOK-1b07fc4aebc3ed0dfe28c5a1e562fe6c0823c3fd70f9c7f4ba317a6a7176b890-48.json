@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0305192N"
+        "ProgramElementNumber": {
+            "val": "0305192N"
+        },
+        "ProgramElementTitle": {
+            "val": "JT Military Intel Programs"
+        },
+        "R1LineItemNumber": {
+            "val": "207"
+        },
+        "BudgetYear": {
+            "val": "2014"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2013-04"
+        },
+        "ServiceAgencyName": {
+            "val": "Navy"
+        },
+        "AppropriationCode": {
+            "val": "1319"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Navy"
+        },
+        "BudgetActivityNumber": {
+            "val": "7"
+        },
+        "BudgetActivityTitle": {
+            "val": "Operational Systems Development"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "0.000"
             },
-            "ProgramElementTitle": {
-                "val": "JT Military Intel Programs"
+            "PriorYear": {
+                "val": "4.099"
             },
-            "R1LineItemNumber": {
-                "val": "207"
+            "CurrentYear": {
+                "val": "8.617"
             },
-            "BudgetYear": {
-                "val": "2014"
+            "BudgetYearOne": {
+                "val": "4.804"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "4.804"
             },
-            "SubmissionDate": {
-                "val": "2013-04"
+            "BudgetYearTwo": {
+                "val": "5.210"
             },
-            "ServiceAgencyName": {
-                "val": "Navy"
+            "BudgetYearThree": {
+                "val": "5.288"
             },
-            "AppropriationCode": {
-                "val": "1319"
+            "BudgetYearFour": {
+                "val": "5.354"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Navy"
+            "BudgetYearFive": {
+                "val": "5.426"
             },
-            "BudgetActivityNumber": {
-                "val": "7"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "Operational Systems Development"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
-                    "val": "0.000"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "The details of this program element are classified CONFIDENTIAL and are submitted annually to Congress in the classified budget justification books."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "4.099"
                 },
+                "CurrentYear": {
+                    "val": "8.617"
+                },
+                "BudgetYearOne": {
+                    "val": "3.782"
+                },
+                "BudgetYearOneBase": {
+                    "val": "3.782"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "4.099"
                 },
@@ -61,156 +110,105 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "4.804"
-                },
-                "BudgetYearTwo": {
-                    "val": "5.210"
-                },
-                "BudgetYearThree": {
-                    "val": "5.288"
-                },
-                "BudgetYearFour": {
-                    "val": "5.354"
-                },
-                "BudgetYearFive": {
-                    "val": "5.426"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "The details of this program element are classified CONFIDENTIAL and are submitted annually to Congress in the classified budget justification books."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.000"
+                },
+                "CurrentYear": {
+                    "val": "0.000"
+                },
+                "BudgetYearOne": {
+                    "val": "1.022"
+                },
+                "BudgetYearOneBase": {
+                    "val": "1.022"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "4.099"
-                    },
-                    "CurrentYear": {
-                        "val": "8.617"
-                    },
-                    "BudgetYearOne": {
-                        "val": "3.782"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "3.782"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "4.099"
-                    },
-                    "CurrentYear": {
-                        "val": "8.617"
-                    },
-                    "BudgetYearOne": {
-                        "val": "4.804"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "4.804"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "0.000"
-                    },
-                    "CurrentYear": {
-                        "val": "0.000"
-                    },
-                    "BudgetYearOne": {
-                        "val": "1.022"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "1.022"
-                    }
-                },
-                "AdjustmentDetails": {
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Rate\/Misc Adjustments"
+            "AdjustmentDetails": {
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Rate\/Misc Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.000"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "1.022"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "1.022"
-                                    }
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "1.022"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "1.022"
                                 }
                             }
-                        ]
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "Technical: Not applicable.\nSchedule: Not applicable."
+                        }
+                    ]
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "2295"
+            "SummaryExplanation": {
+                "val": "Technical: Not applicable.\nSchedule: Not applicable."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "2295"
+                    },
+                    "ProjectTitle": {
+                        "val": "JDISS\/LOCE Integration"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
                         },
-                        "ProjectTitle": {
-                            "val": "JDISS\/LOCE Integration"
+                        "PriorYear": {
+                            "val": "4.099"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "CurrentYear": {
+                            "val": "8.617"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "0.000"
-                            },
-                            "PriorYear": {
-                                "val": "4.099"
-                            },
-                            "CurrentYear": {
-                                "val": "8.617"
-                            },
-                            "BudgetYearOne": {
-                                "val": "4.804"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "4.804"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "5.210"
-                            },
-                            "BudgetYearThree": {
-                                "val": "5.288"
-                            },
-                            "BudgetYearFour": {
-                                "val": "5.354"
-                            },
-                            "BudgetYearFive": {
-                                "val": "5.426"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOne": {
+                            "val": "4.804"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "The details of this program element are classified CONFIDENTIAL and are submitted annually to Congress in the classified budget justification books."
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "4.804"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "5.210"
+                        },
+                        "BudgetYearThree": {
+                            "val": "5.288"
+                        },
+                        "BudgetYearFour": {
+                            "val": "5.354"
+                        },
+                        "BudgetYearFive": {
+                            "val": "5.426"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "The details of this program element are classified CONFIDENTIAL and are submitted annually to Congress in the classified budget justification books."
                         }
                     }
-                ]
-            }
+                }
+            ]
         }
     }
 }

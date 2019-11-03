@@ -12,44 +12,93 @@
     },
     "record": {
         "@monetaryUnit": "Millions",
-        "ProgramElement": {
-            "ProgramElementNumber": {
-                "val": "0603576N"
+        "ProgramElementNumber": {
+            "val": "0603576N"
+        },
+        "ProgramElementTitle": {
+            "val": "(U)CHALK EAGLE"
+        },
+        "R1LineNumber": {
+            "val": "46"
+        },
+        "BudgetYear": {
+            "val": "2015"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2014-03"
+        },
+        "ServiceAgencyName": {
+            "val": "Navy"
+        },
+        "AppropriationCode": {
+            "val": "1319"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Navy"
+        },
+        "BudgetActivityNumber": {
+            "val": "4"
+        },
+        "BudgetActivityTitle": {
+            "val": "Advanced Component Development & Prototypes (ACD&P)"
+        },
+        "ProgramElementFunding": {
+            "AllPriorYears": {
+                "val": "0.000"
             },
-            "ProgramElementTitle": {
-                "val": "(U)CHALK EAGLE"
+            "PriorYear": {
+                "val": "453.935"
             },
-            "R1LineNumber": {
-                "val": "46"
+            "CurrentYear": {
+                "val": "518.804"
             },
-            "BudgetYear": {
-                "val": "2015"
+            "BudgetYearOne": {
+                "val": "542.700"
             },
-            "BudgetCycle": {
-                "val": "PB"
+            "BudgetYearOneBase": {
+                "val": "542.700"
             },
-            "SubmissionDate": {
-                "val": "2014-03"
+            "BudgetYearTwo": {
+                "val": "430.379"
             },
-            "ServiceAgencyName": {
-                "val": "Navy"
+            "BudgetYearThree": {
+                "val": "217.513"
             },
-            "AppropriationCode": {
-                "val": "1319"
+            "BudgetYearFour": {
+                "val": "74.323"
             },
-            "AppropriationName": {
-                "val": "Research, Development, Test & Evaluation, Navy"
+            "BudgetYearFive": {
+                "val": "4.704"
             },
-            "BudgetActivityNumber": {
-                "val": "4"
+            "CostToComplete": {
+                "val": "Continuing"
             },
-            "BudgetActivityTitle": {
-                "val": "Advanced Component Development & Prototypes (ACD&P)"
-            },
-            "ProgramElementFunding": {
-                "AllPriorYears": {
-                    "val": "0.000"
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "509.988"
                 },
+                "CurrentYear": {
+                    "val": "519.140"
+                },
+                "BudgetYearOne": {
+                    "val": "495.196"
+                },
+                "BudgetYearOneBase": {
+                    "val": "495.196"
+                }
+            },
+            "CurrentPresidentBudget": {
                 "PriorYear": {
                     "val": "453.935"
                 },
@@ -61,264 +110,213 @@
                 },
                 "BudgetYearOneBase": {
                     "val": "542.700"
-                },
-                "BudgetYearTwo": {
-                    "val": "430.379"
-                },
-                "BudgetYearThree": {
-                    "val": "217.513"
-                },
-                "BudgetYearFour": {
-                    "val": "74.323"
-                },
-                "BudgetYearFive": {
-                    "val": "4.704"
-                },
-                "CostToComplete": {
-                    "val": "Continuing"
-                },
-                "TotalCost": {
-                    "val": "Continuing"
                 }
             },
-            "ProgramElementMissionDescription": {
-                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "-56.053"
+                },
+                "CurrentYear": {
+                    "val": "-0.336"
+                },
+                "BudgetYearOne": {
+                    "val": "47.504"
+                },
+                "BudgetYearOneBase": {
+                    "val": "47.504"
+                }
             },
-            "ChangeSummary": {
-                "PreviousPresidentBudget": {
-                    "PriorYear": {
-                        "val": "509.988"
-                    },
-                    "CurrentYear": {
-                        "val": "519.140"
-                    },
-                    "BudgetYearOne": {
-                        "val": "495.196"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "495.196"
-                    }
-                },
-                "CurrentPresidentBudget": {
-                    "PriorYear": {
-                        "val": "453.935"
-                    },
-                    "CurrentYear": {
-                        "val": "518.804"
-                    },
-                    "BudgetYearOne": {
-                        "val": "542.700"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "542.700"
-                    }
-                },
-                "TotalAdjustments": {
-                    "PriorYear": {
-                        "val": "-56.053"
-                    },
+            "AdjustmentDetails": {
+                "CongressionalGeneralReductions": {
                     "CurrentYear": {
                         "val": "-0.336"
-                    },
-                    "BudgetYearOne": {
-                        "val": "47.504"
-                    },
-                    "BudgetYearOneBase": {
-                        "val": "47.504"
                     }
                 },
-                "AdjustmentDetails": {
-                    "CongressionalGeneralReductions": {
-                        "CurrentYear": {
-                            "val": "-0.336"
-                        }
+                "CongressionalDirectedReductions": {
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "SBIRSTTRTransfer": {
+                    "PriorYear": {
+                        "val": "-6.632"
                     },
-                    "CongressionalDirectedReductions": {
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "SBIRSTTRTransfer": {
-                        "PriorYear": {
-                            "val": "-6.632"
-                        },
-                        "CurrentYear": {
-                            "val": "0.000"
-                        }
-                    },
-                    "OtherAdjustmentDetailList": {
-                        "OtherAdjustmentDetail": [
-                            {
-                                "Title": {
-                                    "val": "Program Adjustments"
-                                },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "7.832"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "7.832"
-                                    }
-                                }
+                    "CurrentYear": {
+                        "val": "0.000"
+                    }
+                },
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Program Adjustments"
                             },
-                            {
-                                "Title": {
-                                    "val": "Rate\/Misc Adjustments"
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.000"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "0.000"
-                                    },
-                                    "CurrentYear": {
-                                        "val": "0.000"
-                                    },
-                                    "BudgetYearOne": {
-                                        "val": "39.672"
-                                    },
-                                    "BudgetYearOneBase": {
-                                        "val": "39.672"
-                                    }
-                                }
-                            },
-                            {
-                                "Title": {
-                                    "val": "Congressional General Reductions Adjustments"
+                                "CurrentYear": {
+                                    "val": "0.000"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "-39.421"
-                                    }
-                                }
-                            },
-                            {
-                                "Title": {
-                                    "val": "Congressional Directed Reductions Adjustments"
+                                "BudgetYearOne": {
+                                    "val": "7.832"
                                 },
-                                "Funding": {
-                                    "PriorYear": {
-                                        "val": "-10.000"
-                                    }
+                                "BudgetYearOneBase": {
+                                    "val": "7.832"
                                 }
                             }
-                        ]
-                    }
-                },
-                "SummaryExplanation": {
-                    "val": "Technical: Not applicable.\nSchedule: Not applicable."
+                        },
+                        {
+                            "Title": {
+                                "val": "Rate\/Misc Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "0.000"
+                                },
+                                "CurrentYear": {
+                                    "val": "0.000"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "39.672"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "39.672"
+                                }
+                            }
+                        },
+                        {
+                            "Title": {
+                                "val": "Congressional General Reductions Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "-39.421"
+                                }
+                            }
+                        },
+                        {
+                            "Title": {
+                                "val": "Congressional Directed Reductions Adjustments"
+                            },
+                            "Funding": {
+                                "PriorYear": {
+                                    "val": "-10.000"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
-            "ProjectList": {
-                "Project": [
-                    {
-                        "ProjectNumber": {
-                            "val": "0000"
+            "SummaryExplanation": {
+                "val": "Technical: Not applicable.\nSchedule: Not applicable."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "0000"
+                    },
+                    "ProjectTitle": {
+                        "val": "UNDIST"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
                         },
-                        "ProjectTitle": {
-                            "val": "UNDIST"
+                        "PriorYear": {
+                            "val": "0.000"
                         },
-                        "SpecialProject": {
-                            "val": "1"
+                        "CurrentYear": {
+                            "val": "0.000"
                         },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "0.000"
-                            },
-                            "PriorYear": {
-                                "val": "0.000"
-                            },
-                            "CurrentYear": {
-                                "val": "0.000"
-                            },
-                            "BudgetYearOne": {
-                                "val": "0.289"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "0.289"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "0.153"
-                            },
-                            "BudgetYearThree": {
-                                "val": "0.067"
-                            },
-                            "BudgetYearFour": {
-                                "val": "0.018"
-                            },
-                            "BudgetYearFive": {
-                                "val": "0.002"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
+                        "BudgetYearOne": {
+                            "val": "0.289"
                         },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-                            }
+                        "BudgetYearOneBase": {
+                            "val": "0.289"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "0.153"
+                        },
+                        "BudgetYearThree": {
+                            "val": "0.067"
+                        },
+                        "BudgetYearFour": {
+                            "val": "0.018"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0.002"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
                         }
                     },
-                    {
-                        "ProjectNumber": {
-                            "val": "1578"
-                        },
-                        "ProjectTitle": {
-                            "val": "Chalk Eagle"
-                        },
-                        "SpecialProject": {
-                            "val": "1"
-                        },
-                        "ProjectFunding": {
-                            "AllPriorYears": {
-                                "val": "0.000"
-                            },
-                            "PriorYear": {
-                                "val": "453.935"
-                            },
-                            "CurrentYear": {
-                                "val": "518.804"
-                            },
-                            "BudgetYearOne": {
-                                "val": "542.411"
-                            },
-                            "BudgetYearOneBase": {
-                                "val": "542.411"
-                            },
-                            "BudgetYearTwo": {
-                                "val": "430.226"
-                            },
-                            "BudgetYearThree": {
-                                "val": "217.446"
-                            },
-                            "BudgetYearFour": {
-                                "val": "74.305"
-                            },
-                            "BudgetYearFive": {
-                                "val": "4.702"
-                            },
-                            "CostToComplete": {
-                                "val": "Continuing"
-                            },
-                            "TotalCost": {
-                                "val": "Continuing"
-                            }
-                        },
-                        "R2aExhibit": {
-                            "ProjectMissionDescription": {
-                                "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
-                            }
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
                         }
                     }
-                ]
-            }
+                },
+                {
+                    "ProjectNumber": {
+                        "val": "1578"
+                    },
+                    "ProjectTitle": {
+                        "val": "Chalk Eagle"
+                    },
+                    "SpecialProject": {
+                        "val": "1"
+                    },
+                    "ProjectFunding": {
+                        "AllPriorYears": {
+                            "val": "0.000"
+                        },
+                        "PriorYear": {
+                            "val": "453.935"
+                        },
+                        "CurrentYear": {
+                            "val": "518.804"
+                        },
+                        "BudgetYearOne": {
+                            "val": "542.411"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "542.411"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "430.226"
+                        },
+                        "BudgetYearThree": {
+                            "val": "217.446"
+                        },
+                        "BudgetYearFour": {
+                            "val": "74.305"
+                        },
+                        "BudgetYearFive": {
+                            "val": "4.702"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "This program is reported in accordance with Title 10, United States Code, Section 119(a)(1) in the Special Access Program Annual Report to Congress."
+                        }
+                    }
+                }
+            ]
         }
     }
 }
