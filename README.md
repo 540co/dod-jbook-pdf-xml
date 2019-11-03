@@ -33,7 +33,7 @@ _For example, there is a file `[2020]_jbook_list.json` that includes the URL tha
 ### JUSTIFICATION / MASTER JUSTIFICATION BOOK XML FILES
 All of the relevant *JustificationBook* / *MasterJustificationBook* XML files have been copied to a single folder `1-jbook-xml` prior to further processing.
 
-![1-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/1-jbook-pdf.png?raw=true)
+![1-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/1-jbook-xml.png?raw=true)
 
 
 ### JUSTIFICATION / MASTER JUSTIFICATION BOOK JSON FILES
