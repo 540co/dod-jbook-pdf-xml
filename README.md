@@ -68,7 +68,9 @@ https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineite
 
 `ERD`
 (PDF) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.pdf
+
 (PNG) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.png
+
 (DOT) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.dot
 
 > The DOT file follows the GraphViz format (https://www.graphviz.org/) and is used to render the PDF / PNG file.
@@ -80,7 +82,9 @@ https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelement
 
 `ERD`
 (PDF) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.pdf
+
 (PNG) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.png
+
 (DOT) https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.dot
 
 > The DOT file follows the GraphViz format (https://www.graphviz.org/) and is used to render the PDF / PNG file.
