@@ -20,7 +20,7 @@ The extract includes:
 ## What data / formats are available in the repo?
 
 ### PDF + ATTACHMENTS (xml, xls, etc)
-![0-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/docs/0-jbook-pdf.png)
+![0-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/0-jbook-pdf.png?raw=true)
 
 Included in the `0-jbook-pdf` folder is the PDF copy downloaded from the the DoD / Service budget sites and the extracted attachments (which is where the XML representation of the justificaton books is stored).
 
@@ -32,7 +32,7 @@ _For example, there is a file `[2020]_jbook_list.json` that includes the URL tha
 
 ### JUSTIFICATION / MASTER JUSTIFICATION BOOK XML FILES
 
-![1-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/0-jbook-pdf.png?raw=true)
+![1-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/1-jbook-pdf.png?raw=true)
 
 
 
