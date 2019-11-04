@@ -49,6 +49,37 @@ Each **line item** / **program element** is stored in a single unique file (1 fi
 
 ![3-json](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/3-json.png?raw=true)
 
+Each "extracted" line item / program element includes all of the relevant data in the jbook in addition to meta data about the  **Justification Book** / **Master Justification Book** it originated from:
+
+```
+
+{
+    "id": "2013-AirForce-PB-3010F-JBOOK-026f85e74aee51714fbee693317b5b3bce771c38d0fcd6c64630159e60da55da-0",
+    "meta": {
+        "filename": "2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL2-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml",
+        "doctype": "2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK",
+        "budget_year": "2013",
+        "budget_cycle": "PB",
+        "submission_date": "2012-02",
+        "service_agency_name": "Air Force",
+        "appropriation_code": "3010F",
+        "appropriation_name": "Aircraft Procurement, Air Force"
+    },
+    "record": {
+        "@quantityUnits": "Each",
+        "@quantityUnitName": "Each",
+        "@unitCostUnits": "Millions",
+        "@totalCostUnits": "Millions",
+        "LineItemNumber": {
+            "val": "32"
+        },
+        "LineItemTitle": {
+            "val": "B-2 Mods"
+            
+            ... etc... 
+
+```
+
 ### CSV PROCUREMENT-LINEITEMS -and- RDTE-PROGRAMELEMENTS
 Each folder contains the "list" of **PROCUREMENT line items** / **RDTE program elements**, respectively in **CSV format**.  
 
@@ -149,36 +180,48 @@ $ php process.php --step 1-copy-jbook-xml-to-single-folder
 > When this step is run, the `1-jbook-xml` folder will be automatically created and the relevant XML files in `0-jbook-pdf` will be copied to `1-jbook-xml`
 
 
-### Step 2: Analyze XML Jbooks to determine array paths
+### [step 2] Analyze XML Jbooks to determine array paths
 
-This step is important to analyze all of the jbook xml files to determine the "lists" within the XML to allow for a consistent JSON conversion in which lists are properly converted to JSON arrays.
+This step is important to ensure a proper conversion from XML -> JSON -> CSV in light of the fact the XSD schema is not publicly provided. 
 
-This is important due to the fact this conversion is done without the XSD that defines the XML schema per year.
+The `process.php` will load each XML jbook into memory and analyze to determine all of the possible "lists" within the XML - and stores the relevant details in `jbookArrays.json` (including additional tracking data per file).
 
-The result of this process is a `jbookArrays.json` file that includes a list of all of the paths that should be arrays.
+This file is then used in step 3 to ensure a conisistent conversion per jbook.
 
 ```
+
 $ php process.php --step 2-determine-jbook-array-paths
 
 ```
 
 > This step can take a long time depending on the spec of the machine (~12-24 hours).
 
-### Step 3: Convert XML Jbooks to JSON
 
-This step leverages the `jbookArrays.json` and converts each Jbook XML file into a JSON file and writes it to the `2-jbook-json` folder.
+### [step 3] Convert XML Jbooks to JSON
+
+This step leverages the `jbookArrays.json` from step 2 and converts each **Justification Book** / **Master Justification Book** XML file into a JSON file and writes it to the `2-jbook-json` folder.
 
 ```
+
 $ php process.php --step 3-convert-xml-to-json
 
 ```
 
-> This step can take a long time depending on the spec of the machine (~12-24 hours). 
+> This step can take a long time depending on the spec of the machine (~12-24 hours).  
+
+#### NOTE
+If you just need to convert a "partial" set of files from XML to JSON, you can use `--rglob-pattern` to only include a subset of files.
+
+``` 
+
+$ php process.php --step 3-convert-xml-to-json --rglob 2021*.xml
+
+```
 
 
 ### Step 4: Process Jbooks by copying out line items / program elements into a single file per line item / program element
 
-During this step line items / program elements are extracted from the proper node in the Justification Book / Master Justification Book and copied to a single JSON file per line item / progrem element:
+During this step line items / program elements are extracted from the proper node in the **Justification Book** / **Master Justification Book** and copied to a single JSON file per line item / progrem element:
 
 **procurement-lineitems** in Justification Books
 
@@ -205,28 +248,34 @@ During this step line items / program elements are extracted from the proper nod
 `MasterJustificationBook/JustificationBookGroupList/JustificationBookGroup/JustificationBookInfoList/JustificationBook/ProgramElementList/ProgramElement`
 
 ```
+
 $ php process.php --step 4-process-json-docs
 
 ```
 
+
 ### Step 5: Convert JSON files to CSV
 
-During this step, each JSON file is analyzed and flattened / converted to a collection of CSV files. 
+During this step, each JSON file is analyzed and flattened / converted to a collection of CSV files.
 
-In addition, an ERD and README file is created dynamically based upon the data converted.
+In addition, an `ERD` and `README.md` file is created dynamically based upon the data converted.
 
 ```
+
 $ php process.php --step 5-json-to-csv --resource-type procurement-lineitems
 $ php process.php --step 5-json-to-csv --resource-type rdte-programelements
+
 
 ```
 
 ### Step 6: Zip CSV output
 
-During this step, the CSV files (and associated `-j` files) are compressed for each portability / storage in repos (such as Github).
+During this step, the CSV files (and associated `-j` files) are compressed for portability / storage in repos (such as Github).
 
 ```
+
 $ php process.php --step 6-csv-to-zip --resource-type procurement-lineitems
 $ php process.php --step 6-csv-to-zip--resource-type rdte-programelements
+
 
 ```
