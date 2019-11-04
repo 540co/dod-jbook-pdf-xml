@@ -152,9 +152,11 @@ https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/dod-jbook-pdf-xml-js
 To run `processs.php` CLI you will need to have the following installed:
 
 - PHP 7.1.x
-- Graphviz (https://www.graphviz.org/)
+- PDFtk CLI (within PDFtk Free) - https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+- QPDF - http://qpdf.sourceforge.net/
+- Graphviz - https://www.graphviz.org/ (used to dynamically build ERD) 
 
-> All test runs have been done on Mac OSX and/or AWS linux - and most likely will be incompatible with Windows during various steps.
+> All extracts have been done on Mac OSX and/or AWS linux - and most likely will be incompatible with Windows during various steps.
 
 ### [step 0] Download JBooks / Extract attachements
 
