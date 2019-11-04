@@ -137,7 +137,7 @@ Contained in each folder is also a `*-j` zip file that contains a JSON represent
 ---
 
 
-## How were the file processed?
+## How were the files processed?
 
 The attached `process.php` includes all of the code used to process the files (in coordination with a few libraries which are also included in the repo).
 
