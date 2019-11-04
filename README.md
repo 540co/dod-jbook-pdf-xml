@@ -108,9 +108,13 @@ Contained in each folder is also a `*-j` zip file that contains a JSON represent
 
 ## How were the file processed?
 
-The attached `process.php` includes all of the code used to processed the files (in coordination with a few libraries) and a flow of the steps is show in the diagram below:
+The attached `process.php` includes all of the code used to process the files (in coordination with a few libraries which are also included in the repo).
+
+This diagram highlights the overall flow of the processing steps:
 
 ![4-csv-rdte-programelements](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/dod-jbook-pdf-xml-json-csv.png?raw=true)
+
+(PDF VERSION OF DIAGRAM)
 
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/dod-jbook-pdf-xml-json-csv.pdf?raw=true
 
