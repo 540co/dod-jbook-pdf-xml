@@ -125,26 +125,28 @@ To run `processs.php` CLI you will need to have the following installed:
 
 > All test runs have been done on Mac OSX and/or AWS linux - and most likely will be incompatible with Windows during various steps.
 
-### [Step 0]: Download JBooks / Extract attachements
+### [step 0] Download JBooks / Extract attachements
 
 - Prepare `[YEAR]_jbook_list.json` following the format of the other files and then run the CLI:
 
 ```
+
 $ php process.php --step 0-download-jbooks --jbook-list [YEAR]_jbook_list.json
 
 ```
 
-> When downloading XML files for the year, the entire folder is removed and recreated on each run of the script.  Therefore, if downloads are interrupted you will have to re-download the files to ensure all files are downloaded.
+> When downloading XML files for the year, the entire `0-jbook-pdf` folder is removed and recreated on each run of the script.  Therefore, if downloads are interrupted you will have to re-download the files to ensure all files are downloaded.
 
 
-### Step 1: Copy Jbooks to single folder
+### [step 1] Copy Jbooks to single folder
 
 ```
+
 $ php process.php --step 1-copy-jbook-xml-to-single-folder
 
 ```
 
-> When this step is run, the `1-json` folder will be automatically created.
+> When this step is run, the `1-jbook-xml` folder will be automatically created and the relevant XML files in `0-jbook-pdf` will be copied to `1-jbook-xml`
 
 
 ### Step 2: Analyze XML Jbooks to determine array paths
