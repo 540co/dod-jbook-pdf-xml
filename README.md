@@ -54,11 +54,14 @@ Each folder contains the "list" of **PROCUREMENT line items** / **RDTE program e
 
 The CSV conversion from JSON to CSV results in a "file" per subject area within a **line item** / **program element** using the JSON structure as a guide of what can be "flattened" into rows and what requires a separate file to represent another list of rows. 
 
-Each CSV file is "zipped" due to file size.
+Within each folder is a `README.md` and `ERD` that shows the list of tables, columns and structure.
+
+"Root" represents the highest level subject area - and all other subject areas are structured under root (see ERD for structural details).
+
+NOTE:  Each CSV file is "zipped" due to file size.
 
 ![4-csv](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/4-csv.png?raw=true)
 
-At the root of each folder is a README.md and ERD that shows the list of tables, columns and structure.
 
 #### CSV-PROCUREMENT-LINEITEMS
 
@@ -97,8 +100,10 @@ https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelement
 
 
 ###### NOTE
-Contained in each folder is also a `-j` zip file that contains a JSON representation of the data just prior to the CSV conversion.  This was mainly used for troubleshooting, but also may be helpful when importing the data in cases where a flattened JSON representation may be easies to parse / ingest than the CSV.
+Contained in each folder is also a `*-j` zip file that contains a JSON representation of the data just prior to the CSV conversion.  This was mainly used for troubleshooting, but also may be helpful when importing the data in cases where a flattened JSON representation may be easier to parse / ingest / review than the CSV.
 
+
+---
 
 
 ## How were the file processed?
