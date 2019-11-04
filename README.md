@@ -125,7 +125,7 @@ To run `processs.php` CLI you will need to have the following installed:
 
 > All test runs have been done on Mac OSX and/or AWS linux - and most likely will be incompatible with Windows during various steps.
 
-### Step 0: Download JBooks / Extract attachements
+### [Step 0]: Download JBooks / Extract attachements
 
 - Prepare `[YEAR]_jbook_list.json` following the format of the other files and then run the CLI:
 
