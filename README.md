@@ -221,7 +221,7 @@ $ php process.php --step 3-convert-xml-to-json --rglob 2021*.xml
 ```
 
 
-### Step 4: Process Jbooks by copying out line items / program elements into a single file per line item / program element
+### [step 4] Process Jbooks by copying out line items / program elements into a single file per line item / program element
 
 During this step line items / program elements are extracted from the proper node in the **Justification Book** / **Master Justification Book** and copied to a single JSON file per line item / progrem element:
 
@@ -256,7 +256,7 @@ $ php process.php --step 4-process-json-docs
 ```
 
 
-### Step 5: Convert JSON files to CSV
+### [step 5] Convert JSON files to CSV
 
 During this step, each JSON file is analyzed and flattened / converted to a collection of CSV files.
 
@@ -270,7 +270,7 @@ $ php process.php --step 5-json-to-csv --resource-type rdte-programelements
 
 ```
 
-### Step 6: Zip CSV output
+### [step 6] Zip CSV output
 
 During this step, the CSV files (and associated `-j` files) are compressed for portability / storage in repos (such as Github).
 
