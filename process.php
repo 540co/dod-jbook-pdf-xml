@@ -522,7 +522,7 @@ function downloadJbooks($jbookList) {
     $targetPathYear = $currentDirectory.'/'.$targetPath.'/'.$tocFileSegments[0];
 
     echo "<Removing folder in prep for download: $targetPathYear>\n";
-    sleep(20);
+    sleep(2);
     $rmCmd = 'rm -Rf '.$targetPathYear;
     exec($rmCmd);
 
@@ -538,6 +538,12 @@ function downloadJbooks($jbookList) {
             echo "=========================================================\n";
             echo "<Creating folder $folder>\n";
             mkdir($folder,0755,TRUE);
+
+            if (strlen($pdf_url) == 0) {
+              echo "<SKIPPING: $pdf_url => $folder>\n";
+
+              continue;
+            }
 
             echo "<DOWNLOAD: $pdf_url => $folder>\n";
             $pathinfo = pathinfo($pdf_url);
@@ -563,7 +569,8 @@ function downloadJbooks($jbookList) {
             // extract attachments from PDF
             chdir($folder);
 
-            foreach (glob('*.[pP][dD][fF]') as $filename) {
+            //foreach (glob('*.[pP][dD][fF]') as $filename) {
+            foreach (glob('*') as $filename) {
                 echo "<Extracting attachments from $folder/$filename>\n";
                 exec('qpdf --decrypt "'.$filename.'" "d_'.$filename.'"');
                 exec('rm "'.$filename.'"');
@@ -576,7 +583,7 @@ function downloadJbooks($jbookList) {
                 echo "<Unzipping $filename>\n";
                 exec('unzip "'.$filename.'" -d "./'.$filename.'_unzipped"');
             }
-
+        
             chdir($targetPathYear);
 
             echo "=========================================================\n";

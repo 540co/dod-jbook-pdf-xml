@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jb:JustificationBook xmlns:jb="http://www.dtic.mil/comptroller/xml/schema/022009/jb" targetSchemaVersion="1.0">
+    <jb:Title>Justification Book</jb:Title>
+    <jb:BudgetYear>2021</jb:BudgetYear>
+    <jb:BudgetCycle>PB</jb:BudgetCycle>
+    <jb:SubmissionDate>2020-02</jb:SubmissionDate>
+    <jb:ServiceAgencyName>Defense Technical Information Center</jb:ServiceAgencyName>
+    <jb:AppropriationCode>0400</jb:AppropriationCode>
+    <jb:AppropriationName>Research, Development, Test &amp; Evaluation, Defense-Wide</jb:AppropriationName>
+    <jb:CoverPage/>
+    <jb:ExternalDocuments>
+        <jb:UserR1Doc>
+            <jb:Title>Comptroller Exhibit R-1</jb:Title>
+            <jb:FileName>R1 as of 09 January 2020 Line Numbers changed_DTIC#XzEXi.pdf</jb:FileName>
+        </jb:UserR1Doc>
+    </jb:ExternalDocuments>
+    <jb:DocumentAssemblyOptions>
+        <jb:ForceEvenPages>true</jb:ForceEvenPages>
+        <jb:WorkFlowStatus>FINAL</jb:WorkFlowStatus>
+        <jb:VolumeTitleAggregation>Title(s) undefined</jb:VolumeTitleAggregation>
+        <jb:GenerateProgramElementTocByTitle>true</jb:GenerateProgramElementTocByTitle>
+        <jb:GenerateProgramElementTocByBA>true</jb:GenerateProgramElementTocByBA>
+        <jb:IncludeTableOfVolumes>true</jb:IncludeTableOfVolumes>
+    </jb:DocumentAssemblyOptions>
+    <r2:ProgramElementList xmlns:r2="http://www.dtic.mil/comptroller/xml/schema/022009/r2" targetSchemaVersion="1.0">
+        <r2:ProgramElement monetaryUnit="Millions">
+            <r2:ProgramElementNumber>0605801KA</r2:ProgramElementNumber>
+            <r2:ProgramElementTitle>Defense Technical Information Center</r2:ProgramElementTitle>
+            <r2:R1LineNumber>170</r2:R1LineNumber>
+            <r2:BudgetYear>2021</r2:BudgetYear>
+            <r2:BudgetCycle>PB</r2:BudgetCycle>
+            <r2:SubmissionDate>2020-02</r2:SubmissionDate>
+            <r2:ServiceAgencyName>Defense Technical Information Center</r2:ServiceAgencyName>
+            <r2:AppropriationCode>0400</r2:AppropriationCode>
+            <r2:AppropriationName>Research, Development, Test &amp; Evaluation, Defense-Wide</r2:AppropriationName>
+            <r2:BudgetActivityNumber>6</r2:BudgetActivityNumber>
+            <r2:BudgetActivityTitle>RDT&amp;E Management Support</r2:BudgetActivityTitle>
+            <r2:ProgramElementFunding>
+                <r2:AllPriorYears>262.894</r2:AllPriorYears>
+                <r2:PriorYear>56.853</r2:PriorYear>
+                <r2:CurrentYear>57.716</r2:CurrentYear>
+                <r2:BudgetYearOne>59.369</r2:BudgetYearOne>
+                <r2:BudgetYearOneBase>59.369</r2:BudgetYearOneBase>
+                <r2:BudgetYearTwo>61.308</r2:BudgetYearTwo>
+                <r2:BudgetYearThree>62.408</r2:BudgetYearThree>
+                <r2:BudgetYearFour>64.328</r2:BudgetYearFour>
+                <r2:BudgetYearFive>65.691</r2:BudgetYearFive>
+                <r2:CostToComplete>Continuing</r2:CostToComplete>
+                <r2:TotalCost>Continuing</r2:TotalCost>
+            </r2:ProgramElementFunding>
+            <r2:ProgramElementMissionDescription>The Defense Technical Information Center’s (DTIC) unique mission is to aggregate and fuse science and technology data to provide rapid, accurate, and reliable knowledge to researchers and developers of the next generation of technologies needed to assure our national security.  DTIC, a DoD Field Activity under the authority, direction and control of the Under Secretary of Defense for Research and Engineering (USD(R&amp;E)), is the DoD’s singular executive agent and designated source for DoD-funded scientific, technical, engineering, and industry-related information.  DTIC provides USD(R&amp;E) the capability to develop and deliver new information products and tools to share knowledge and enhance decision making.
+
+This Program Element (PE) provides for DTIC mission operations, which are focused on three core efforts:  Collection, Dissemination, and Information Analysis Centers (IACs): 
+1)  Collect, curate, and preserve science and technical information resulting from DoD’s $14B annual investment.  Build upon past work to avoid costly and time-delaying rework. 
+2)  Share and disseminate information as required by statute; provide access to more than 4.4 Million technical records.  Provide DoD users improved situational awareness.  Simplify and reduce expertise needed to discover the most relevant of information - provide role based content, research results, budget investment, where work is being done, by who, and what level of maturity.  
+3)  Operate the DoD Information Analysis Centers (IACs), centered on Defense Systems; Cyber Security and Information Systems; and Homeland Defense and Security.  The IACs provide the Department with an R&amp;D contracting vehicle to support PEO and PM insertion of technical innovation into systems of record.
+
+Other priority DTIC mission activities are described below:
+1)  Foster collaboration across communities, researchers, warfighters, industry, academia, Federal agencies, and Allies.  Increase collaboration between S&amp;T/RDT&amp;E and warfighters.
+2)  Ensure information protection, document marking, authenticate and validate users, enforce access controls.
+3)  Develop and manage DoD’s Science Technology Information Policy (STIP).
+4)  Agile software development, secure (cyber), and host applications supporting R&amp;E initiatives and activities.
+5)  Maintain compliance with existing public law, regulations, and guidelines.
+6)  Implement congressionally-mandated programs, as directed within the FY 2019 National Defense Authorization Act (NDAA):
+- Innovators Information Repository (IIR):  increase awareness of Small Business Innovation Research (SBIR)/ Small Business Technology Transfer (STTR) and other small business innovative technology capability and improve transition to systems of record.  DTIC is creating a database with reports, proposals, and vendor information.
+- Global Research Watch (GRW) Program:  provide decision quality analysis of open source information.  The Strategic Intelligence &amp; Analysis Cell (SIAC) program is evaluating potential algorithms that will analyze journal literature and other open source information from both allies and competitors.  DTIC will manage and host in the cloud a tool based on promising algorithms.
+- Datasets and Data Repositories:  establish database of datasets created during research activities to support reuse; encourage data management planning with each research project.  DTIC is creating a dataset directory to direct users to organizations holding relevant datasets.
+
+In support of these mission operations, DTIC purchases space and critical shared services (e.g., human resources (HR); financial management; contracting; common-use IT services and security; communications; and civilian payroll services) from expert and efficient DoD service-providers.
+
+DTIC MISSION RESULTS
+
+The Department invests over $90 Billion annually in Research, Development, Test and Evaluation (RDT&amp;E) needed to protect and defend our nation.  DTIC preserves the fruits of these costly labors for reuse across the enterprise.  As an efficient and cost-effective steward of technical information, DTIC collects data and provides answers to researchers seeking state-of-the-art data relevant to their projects.  Through this interchange of information, DTIC accelerates innovation and prevents duplication of experiments, tests, and prototyping activities because researchers can build on what has been done or choose other paths if prior research resulted in a dead end. Using DTIC-created forums, researchers, Warfighters, and industry partners can also rapidly collaborate and connect across the DoD research and engineering (R&amp;E) enterprise.  Finally, DTIC provides a department-level map of R&amp;D activity.  This map gives decision-makers insight into current and past research, highlighting where progress is being made and by whom.  Through the preservation and sharing of the results of billions of dollars of past DoD investments, DTIC increases the return on past investments and accelerates current efforts, saving the Department precious time and dollars.  Through its collaboration tools and outreach to the R&amp;E community, DTIC connects researchers across the lab enterprise, to include researchers and engineers, Warfighters and DoD’s industry partners.
+
+DTIC's Information Analysis Centers (IACs) drive innovation and technological development by anticipating and responding to the information needs of the defense and broader community.  The IAC Program Management Office (IAC PMO) provides core funding, management and oversight of three IACs, which are chartered by DoD to collect, research, analyze, and disseminate scientific and technical information in specialized fields to DoD researchers and acquisition professionals.  In addition, the IAC PMO manages several multiple award contracts to make possible new research that builds on prior investments and incorporates the innovations of government, industry, and academia.  For the last several years, competition inherent in the IAC model has produced savings of 10-16% under projected costs, while still delivering vetted technical expertise to address DoD’s complex challenges.  Providing DoD labs and program managers access to thousands of industry subject matter experts, the IACs performed $2 Billion of customer-funded research and analysis in FY 2019.  The results of the work are a rich source of new material in DTIC's technical repositories and are available to users across the Department.  The IAC approach was identified as a "best practice" by the Director of Defense Pricing and Contracting and the then-Acting Assistant Secretary of Defense for Research and Engineering in a July 2018 memo wherein they recommended use of the IAC contracts across DoD as "vehicles of first choice."
+
+NATIONAL DEFENSE STRATEGY
+
+The DTIC and IAC mission operations described above are focused on actively supporting USD(R&amp;E) efforts in generating decisive and sustained U.S. military advantages through the pursuit of three distinct lines of effort, as outlined in the 2018 National Defense Strategy (NDS):  
+
+1)  Rebuild military readiness as we build a more lethal Joint Force:  Develop and implement machine learning and semantic language algorithms to simplify discovery of relevant information – reduce search time and user expertise, provide tailored and actionable results, provide ability for S&amp;T communities to collaborate with stakeholders and partners.
+2)  Strengthen alliances as we attract new partners:  Modernize user validation technology, implement White House directed Controlled Unclassified Information (CUI) markings while continuing to support legacy distribution code marking, support White House Open Science mandate and provide information to allies while preventing release of sensitive documents and data. 
+3)  Reform the Department’s business practices for greater performance and affordability:  Increase ability and reduce time and cost to respond to current and future R&amp;E support needs.  Migrate application hosting to the cloud; develop modular components; leverage Open Source, commercial, and Small Business Innovative Research (SBIR) technology; leverage the Information Analysis Center contracting model.</r2:ProgramElementMissionDescription>
+            <r2:ChangeSummary>
+                <r2:PreviousPresidentBudget>
+                    <r2:PriorYear>56.853</r2:PriorYear>
+                    <r2:CurrentYear>57.716</r2:CurrentYear>
+                    <r2:BudgetYearOne>59.778</r2:BudgetYearOne>
+                    <r2:BudgetYearOneBase>59.778</r2:BudgetYearOneBase>
+                </r2:PreviousPresidentBudget>
+                <r2:CurrentPresidentBudget>
+                    <r2:PriorYear>56.853</r2:PriorYear>
+                    <r2:CurrentYear>57.716</r2:CurrentYear>
+                    <r2:BudgetYearOne>59.369</r2:BudgetYearOne>
+                    <r2:BudgetYearOneBase>59.369</r2:BudgetYearOneBase>
+                </r2:CurrentPresidentBudget>
+                <r2:TotalAdjustments>
+                    <r2:PriorYear>0.000</r2:PriorYear>
+                    <r2:CurrentYear>0.000</r2:CurrentYear>
+                    <r2:BudgetYearOne>-0.409</r2:BudgetYearOne>
+                    <r2:BudgetYearOneBase>-0.409</r2:BudgetYearOneBase>
+                </r2:TotalAdjustments>
+                <r2:AdjustmentDetails>
+                    <r2:CongressionalGeneralReductions>
+                        <r2:PriorYear>0.000</r2:PriorYear>
+                    </r2:CongressionalGeneralReductions>
+                    <r2:CongressionalDirectedReductions>
+                        <r2:PriorYear>0.000</r2:PriorYear>
+                    </r2:CongressionalDirectedReductions>
+                    <r2:OtherAdjustmentDetailList>
+                        <r2:OtherAdjustmentDetail>
+                            <r2:Title>Program Changes</r2:Title>
+                            <r2:Funding>
+                                <r2:BudgetYearOne>-0.409</r2:BudgetYearOne>
+                                <r2:BudgetYearOneBase>-0.409</r2:BudgetYearOneBase>
+                            </r2:Funding>
+                        </r2:OtherAdjustmentDetail>
+                    </r2:OtherAdjustmentDetailList>
+                </r2:AdjustmentDetails>
+                <r2:SummaryExplanation>Program Change:  The FY 2021 Base program reduction (-$0.409 Million), as compared to the Previous President’s Budget FY 2021 Base, reflects a net change resulting from the following adjustments:  
+
+1)	A Defense-wide Review (DWR) program adjustment (decrease) of $0.100 Million to reduce cost and manage risk of DTIC Public Internet materials.
+2)	A Defense-wide Review (DWR) program adjustment (decrease) of $0.446 Million as part of the Fourth Estate Network Optimization (4ENO) effort.  Funds are realigned to the Defense Information Systems Agency (DISA).
+3)	Miscellaneous adjustments related to economic assumptions, inflation, and civilian payroll pricing.
+
+FY 2021 Service Requirements Review Board (SRRB) Reduction:  The FY 2021 Base program includes a $0.740 Million reduction in accordance with the Department’s recent service contract downsizing effort.
+
+The FY 2021 Base program also includes a $0.032 Million reduction attributable to Fourth Estate Information Technology (4E IT) Reform savings.</r2:SummaryExplanation>
+            </r2:ChangeSummary>
+            <r2:ProjectList>
+                <r2:Project>
+                    <r2:ProjectNumber>001</r2:ProjectNumber>
+                    <r2:ProjectTitle>Defense Technical Information Center</r2:ProjectTitle>
+                    <r2:SpecialProject>0</r2:SpecialProject>
+                    <r2:ProjectFunding>
+                        <r2:AllPriorYears>233.523</r2:AllPriorYears>
+                        <r2:PriorYear>51.837</r2:PriorYear>
+                        <r2:CurrentYear>52.700</r2:CurrentYear>
+                        <r2:BudgetYearOne>54.353</r2:BudgetYearOne>
+                        <r2:BudgetYearOneBase>54.353</r2:BudgetYearOneBase>
+                        <r2:BudgetYearTwo>56.292</r2:BudgetYearTwo>
+                        <r2:BudgetYearThree>57.392</r2:BudgetYearThree>
+                        <r2:BudgetYearFour>59.312</r2:BudgetYearFour>
+                        <r2:BudgetYearFive>60.675</r2:BudgetYearFive>
+                        <r2:CostToComplete>Continuing</r2:CostToComplete>
+                        <r2:TotalCost>Continuing</r2:TotalCost>
+                    </r2:ProjectFunding>
+                    <r2:R2aExhibit>
+                        <r2:ProjectMissionDescription>DTIC is responsible for developing, coordinating and enabling a strong scientific and technical information (STINFO) program for the Office of the Under Secretary of Defense for Research and Engineering (OUSD(R&amp;E)) and the DoD scientific and technical (S&amp;T) enterprise.  In this role, DTIC sets policy for scientific and technical information (STI) exchanges for the research and engineering (R&amp;E) community.  DTIC’s goal is to maximize the availability and use of technical information and products resulting from Defense-funded technical activities while ensuring restrictions to safeguard national security, export control, and intellectual property rights.  The Department conducts science and technology research via the following means:  60+ labs, Federally Funded Research and Development Centers (FFRDCs), DTIC’s Information Analysis Centers (IACs), and other contracts and grants.  DTIC’s information assets, tools and community interaction capabilities foster innovation, competition and identification of solutions in an access-controlled environment.
+
+Within this budget project, DTIC’s organizational efforts are focused on the Collection and Dissemination core mission areas, along with the following critical activities:
+1) Search:  Develop new algorithms and tailored search mechanisms that enable our users to quickly discover useful information and to ensure we present the most relevant information.  Semantic (machine learning) mapping of information for comprehensive and precise data retrieval--built on DTIC’s custom thesaurus (for use by DoD and Allied partners).  Expand and enhance our data collections to improve the quality and completeness of the data. 
+2) Collaboration:  Provide customized collaboration platforms and tools for the DoD science and technology community to work together on investments that efficiently deliver solutions to the Warfighter.
+3) Access Identity:  Strengthen methods of user authentication through the use of public key infrastructure (PKI) tokens, biometrics and other methods to grant access to recognized, trusted and authorized users.  Protect intellectual property (IP) and industry proprietary data assets entrusted to DTIC’s stewardship (protect information access).
+4) Data Fusion/Analysis:  Gather information from multiple data sources and provide knowledge products that fuse the disparate data sets into a single view of the life cycle of research.  Present an overarching picture of research investment that enables decision-makers to link multiple efforts with integrated capabilities (employ resources to highest priority efforts and coordinate efforts across Services).  
+5) Cyber Security:  Continue to leverage state-of-the art technologies, processes and practices designed to protect DTIC networks, computers, programs and data from attack, damage or unauthorized access.
+6) Data Center Optimization/Cloud:  Migrate services to cloud providers to improve availability, survivability, and mission flexibility; to reduce time to deliver new capabilities; to save costs; and to enhance cyber security.
+7) Mobile and Emerging Technology:  Ensure DTIC products, tools and interfaces are compatible with, and actively support customer/user (DOD, industry partners, academic researchers) devices, operating systems, and browsers.  
+8) Controlled Unclassified Information (CUI):  An ongoing effort to standardize the way the Executive Branch handles unclassified information under a new document-marking framework. 
+9) Public Access/Open Science (for articles and digital data):  Acquire and disseminate DoD-funded, openly published journal articles, increasing access and encouraging innovation.  Develop a catalog of digital datasets supporting the conclusions of journal articles.
+10) FY 2019 NDAA Section 202 and Section 905 new mission activities:  Dataset management, the Global Research Watch (GRW) program, and Innovators Information Repository (IIR).  
+
+SUPPORTING USER COMMUNITIES
+
+DTIC supports user communities on the network where they work, i.e., NIPRNet, SIPRNet, and the public internet, and uniquely provides access controls within unclassified and classified material to protect intellectual property in our search, distribution, and collaboration tools.
+
+- DoD’s RDT&amp;E Enterprise:  As a Field Activity to the Office of the Under Secretary of Defense for Research and Engineering (OUSD(R&amp;E)), DTIC’s priority is the RDT&amp;E enterprise, hosting information assets and tools on the NIPRNet, the primary network for the community.
+
+- Warfighter:  Improving coordination between the acquisition enterprise and warfighter communities, DTIC hosts a subset of information assets and tools on the SIPRNet.  DTIC is actively working to expand the availability of science and technology (S&amp;T) information, to include Independent Research and Development (IR&amp;D), on the SIPRNet.  DTIC continues its efforts to establish parity of information and capabilities on applications hosted on both NIPRNet and SIPRNet platforms.
+
+- Industry, Academia, and Citizen Science via Public Internet:  Engaging industry outside the NIPRNet firewall to support acquisition improvement initiatives and encourage the introduction of innovation, DTIC hosts unclassified public information and tools accessible to all users on the Internet.  DTIC provides public access to DoD-funded journal articles and research data, and increases outreach to industry through DTIC’s Defense Innovation Marketplace.
+
+SUMMARY
+
+DTIC provides interactive tools and advanced tailored search engines to leadership, scientists and engineers, PMs and PEOs, warfighters and budget analysts.  Furthermore, DTIC protects and preserves DoD’s multi-billion dollar investment in research, which empowers the acquisition enterprise through innovative tools, information systems, and decision support capabilities. The efficiency benefits can be enormous.  Each 1 percent increase in the reuse of S&amp;T efforts produces over $100 Million in savings that can be redirected.  Those savings come from elimination of inefficient redundancy (and unnecessary delays), increased community interaction, and ultimately, a more capable military.  DTIC is uniquely positioned to support and to ensure the value of DoD’s R&amp;D portfolio is fully realized.</r2:ProjectMissionDescription>
+                        <r2:AccomplishmentPlannedProgramList>
+                            <r2:AccomplishmentPlannedProgram>
+                                <r2:Title>Defense Technical Information Center</r2:Title>
+                                <r2:Accomplishment>
+                                    <r2:PriorYear>
+                                        <r2:Funding>51.837</r2:Funding>
+                                        <r2:Text>The FY 2019 National Defense Authorization Act (NDAA) directs DTIC to implement the following programs on behalf of the Department:  Innovators Data Base, Global Research Watch Program, and Datasets and Data Repositories.
+-- Submit an action plan to OSD and the Congress in support of FY 2019 NDAA directives.
+-- Investigate and consider implementing technologies and tools; develop the necessary partnerships with the Services and DoD Agencies.
+- Deliver the next generation Search and Discovery capability, allowing customers to gain intricate knowledge of DTIC data and collections, the ability to use that data in a variety of ways, and to analyze that data through a single user-oriented solution.
+-- Collapse multiple user interfaces that are used to access the same data sets into a consolidated user interface that has multiple functionalities.
+-- Continue the effort to expose MarkLogic functionalities in this next generation Search and Discovery user interface.
+-- Enhance the user’s ability to package relevant information generated through search and discovery for their use in research papers, presentations, and analysis and decision tools.
+-- Continue to encourage DoD adaptation and use of persistent open source identifiers, such as Open Researcher and Contributor ID (ORCID), in order to build complete author profiles and establish links to the author’s technical documents contained within the collection.
+-- Improve relevance of user search and discovery results, including use of semantic technologies to pre-process metatag/label/categorize material and to expand user search terms at runtime in order to help users--who are not experts--locate information to answer questions.
+- Investigate innovative commercial technologies needed to field mobile capabilities in support of user devices (desktops, laptops, tablets, etc.), operating systems, and browsers.
+-- Enhance current products and services to incorporate mobile technologies, such as responsive designs and mobile application integration. 
+- Continue to develop Access and Identity Management technologies to further protect DTIC data and enhance visibility of a user’s path through DTIC products and services.
+-- Initiate implementation of a commercial off-the-shelf access and identity management system that replaces the current DTIC Registration system on both NIPR and SIPR.
+- Enable the defense community to locate the most relevant technical information by leveraging the Master Data Repository (MDR) solution. 	
+-- Complete effort to surface richer metadata describing DTIC Technical Reports. 
+-- Complete effort to feed richer metadata describing DTIC Technical Reports to public search sites. 
+-- Initiate effort to surface richer metadata describing Information Analysis Center (IAC) Technical Reports.
+- Continue to broaden and expand DTIC collections to include material from the Department’s Rapid Fielding and Prototyping communities, which fall under the Research, Development, Test, and Evaluation (RDT&amp;E) Budget Activity (BA) 4, Advanced Component Development and Prototypes (ACD&amp;P).
+-- Continue to develop, build and foster collaboration, partnerships, and business relationships with leadership elements from within these communities.
+- Continue consolidation efforts/plans for one primary interface with collection products/tools on the Defense Logistics Agency (DLA) server; begin the integration of the Unified Research &amp; Engineering Database (URED) into DTIC’s Enterprise Content Management System (ECMS).  DoD-funded research documents may be submitted for inclusion into DTIC using the ECMS, a secure online platform.
+-- Update Communities of Interest (COI) of both main and sub-area data fields within the (legacy) URED Input application (in case URED integration into ECMS is not completed in ample time, by the annual start of the URED Defense-wide Data Call’s official reporting period).
+- Continue supporting efforts to incorporate system enhancements on the DoD Grant Awards System in FY 2019 to reflect increased attention on grants data and possible changes to DoD requirements/policies--as received by the Product Owner/OUSD(R&amp;E).
+- Expand usage of DTIC auto-indexing (MetaTagger) to other DoD components and Federal partners.
+- Collaborate with the DoD Intelligence community and other OSD representatives on policy and implementation of the new Controlled Unclassified Information (CUI) federal marking regulations, as DoD rewrites the guidance for marking DoD documents.
+-- Create requirements for changes to DTIC systems in support of the new CUI Framework.
+- Support DoD’s public access effort; conduct outreach and educate intramural and extramural researchers on the requirement to submit journal articles to DTIC.
+-- Establish a pilot project to accept submissions of data management plans (DMPs) for DoD-funded research programs.
+-- Initiate an independent study and develop a prototype to examine options for the management of digitally formatted scientific datasets for internal DoD use.
+-- Initiate development of a catalog/locator of DoD-funded data sets using discovery and descriptive metadata.
+-- Integrate the search and display features of existing DTIC products with public access materials.
+-- Examine the feasibility of integrating other federal agency submission flows for publications, metadata and/or data sets in order to reduce the burden of multi-funded researchers, and aid in compliance measures.
+-- Extend existing collaborations with other federal agencies to comply with public access requirements.
+- Expand customer outreach efforts to the R&amp;E community.
+-- Build and foster relationships to further enable scientific collaboration by researchers, scientist, and engineers across the services. 
+-- Further engage Communities of Interest (COIs), DoD Labs, Combatant Commands (CCMDs), and service schools for DTIC growth opportunities.
+-- Continue to reach out to industry partners in order to share both information and DoD customer requirements. 
+-- Seek out new opportunities supporting collaboration.
+- Achieve and maintain SIPRNet parity in the DTIC Information Technology (IT) environment for core products.
+-- Complete implementation of technical processes that apply enhancements to NIPR and SIPR simultaneously.
+-- Ensure the DTIC Information Technology (IT) infrastructure and equipment can fully provide DTIC’s capabilities equally to users on SIPRNet and NIPRNet.
+- Establish baseline to develop a fully functional IT Continuity of Operations (COOP) capability for DTIC’s unclassified infrastructure.
+-- Achieve Full Operational Capability (FOC) for reliable data management to include data backup and restoral of DTIC information.
+-- Complete an approved and executable IT COOP plan; plan and design SIPRNet COOP infrastructure.
+-- Fully integrate efforts with concurrent Cloud services planning to provide required infrastructure to support and sustain the future COOP environment.
+-- Complete the design and implementation of the cyber security architecture; implement Risk Management Framework (RMF) continuous monitoring for full COOP capabilities.
+- Continue the migration of DTIC’s information systems and services to Cloud based infrastructure.
+-- Align with DoD cloud efforts; leverage enterprise-wide solutions, platforms, and contract vehicles.
+-- Complete the migration of DTIC’s public infrastructure to Cloud environments as planned, allowing DTIC staff to focus on more complex activities, and improving IT infrastructure availability.
+-- DTIC will have an approved Authority To Operate (ATO) with a continuously monitored Risk Management Framework (RMF) for its Cloud-based IT infrastructure, strengthening its Cyber security posture.
+-- Implement Cloud based identity management system enhancements and actionable user metrics.
+-- Complete the establishment of well-defined processes and procedures for operating in the Cloud environments.
+-- Establish DTIC contracts and service level agreements with selected Cloud Service Providers (CSP).
+- Continue to publish the R&amp;E Journal at the CUI and Classified levels in order to share information throughout the R&amp;E community.
+-- Expand marketing and awareness of the Journal; seek out a broader pool of article contributors and peer reviewers to highlight the work of DoD researchers.
+-- Publish supplemental and special edition issues.
+-- Initiate development of a Portfolio of DoD Journals on DTIC sites to enhance collaboration, synergy, and knowledge development.</r2:Text>
+                                    </r2:PriorYear>
+                                </r2:Accomplishment>
+                                <r2:PlannedProgram>
+                                    <r2:CurrentYear>
+                                        <r2:Funding>52.700</r2:Funding>
+                                        <r2:Text>- Implement improved search features for geolocation, visualization and graphing, and search of multimedia to give users and researchers the capability for broader discovery and ability to follow the research from funding to completion. 
+- Improve search and discovery efficiency and accuracy through implementation of machine learning including tagging of all documents and search using semantic key word expansion, thus reducing user expertise needed to find the most relevant information.
+- Advance mobile capabilities; refine application development and delivery for the most dynamic services requiring frequent updates.  
+-- Field DTIC tools compatible with mobile platforms used by the customer base.
+-- Enhance security through continuous updates needed to maintain currency with mobile devices and technologies.
+- Deploy a Commercial-off-the-Shelf (CoTS) user Access and Identity Management tool, replacing a custom in-house application.
+-- Improve user access and cyber security; enable new identity mechanisms supporting mobile devices and emerging identity tokens.
+-- Improve the customer experience for access and registration through the implementation of self-service trouble shooting, Frequently Asked Questions (FAQs), and visual aids regarding the process of credentialing and seamless registration.
+- Continue maturation of DTIC’s Data Warehouse (i.e., the Master Data Repository, or MDR).
+-- Complete effort to surface richer metadata describing Information Analysis Center (IAC) Technical Reports (TRs).
+-- Establish links across data, enabling integrated displays of project, organization, topic, and user data.
+-- Integrate budget data into DTIC’s Data Warehouse to enable increased search capability.
+-- Evaluate out-of-the-box advanced security and compatibility with Controlled Unclassified Information (CUI) policies and off-the-shelf Access and Identity Management System.
+- Implement internal interfaces for the DTIC staff to test the system, manage content, and assist users.
+- Expand DTIC collections; develop requirements for a submission compliance tool to assist in ensuring all relevant information is being collected, and made available to the DoD community.
+-- Continue consolidation efforts/plans for one primary interface with collection products/tools on the Defense Logistics Agency (DLA) server--proceed with the integration of Unified Research &amp; Engineering Database (URED) into DTIC’s common submission system (i.e., the Enterprise Content Management System, or ECMS).
+-- Continue supporting efforts to incorporate system enhancements on the DoD Grant Awards System to reflect increased attention on grants data and possible changes to DoD requirements/policies, as received by the Product Owner/USD(R&amp;E).
+-- Research and provide recommendations on technologies as a means to maintain traceability of documents disseminated by DTIC (e.g., blockchain).  Provide the ability to trace what happened to the information once it leaves the DTIC network.
+-- Implement the capability to provide reference links within and across documents/datasets/metadata to allow users to view information in a more meaningful way.
+-- Implement a pilot to maintain document authenticity and integrity after dissemination beyond the DTIC environment.
+-- Implement and deploy Document Similarity capability to further combat Fraud, Waste and Abuse (FW&amp;A); strengthen FW&amp;A detection capabilities.
+- Collaborate with the DoD Intelligence community and other OSD representatives on policy and implementation of the new Controlled Unclassified Information (CUI) federal marking regulations, as DoD coordinates the guidance for marking DoD documents.
+-- Upon release of OSD guidance/policies, initiate implementation of CUI changes to DTIC systems.
+- Support DoD’s public access effort; conduct outreach and educate intramural and extramural researchers on the requirement to submit journal articles, data management plans, and datasets to DTIC.
+-- Implement an automatic authentication method for contractors/grantees journal article input.
+-- Begin to accept voluntary input of metadata pointing to datasets for internal DoD use.
+-- Create a Data Management Plan building tool for documentation of planning for storage and preservation of data sets throughout the research life cycle, to lessen the burden of compliance for intramural and extramural researchers, including the flexibility for different templates for different subject areas.
+- Expand R&amp;E engagement and outreach to the Research and Engineering customer base. 
+- Continue efforts to achieve SIPRNet parity for core products.
+- Implement failover capabilities of core applications for IT Continuity of Operations (COOP) support systems using common security, authentication, and identity management solutions.
+-- Fully implement COOP failover with cloud services as the primary, where appropriate.
+-- Explore dynamic failover capabilities, load balancing, and high availability models for COOP support.
+- Support DoD Cloud Computing Strategy by fostering adoption of Cloud Computing by completing migration of NIPRNet/SIPRNet hosting environments.
+-- Optimize Data Center consolidation compliance by leveraging technologies within new Cloud Service Provider environments. 
+-- Implement container images or similar technologies to further efficiencies deploying applications between development and staging environments.
+- The FY 2019 National Defense Authorization Act (NDAA) directs DTIC to implement the following programs on behalf of the Department:  Innovators Information Repository (IIR), Global Research Watch (GRW) Program, and Datasets and Data Repositories.
+- Deploy the Initial Operating Capability (IOC) for the Innovators Information Repository (IIR), which will include the following:
+-- Search and visualization of Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) contract awards allowing an IIR user to see responses to DoD needs.
+-- Capability to view all prior contract awards by year and see full company contact information with web address.
+-- Provide access to Company Commercialization Reports (CCRs) which present detail on actual matured products available for acquisition.
+-- Initiate the revision of DoD 3200.14 requiring the use of the IIR to determine whether technology exists or is in development before Department organizations initiate a Request for Information (RFI) or Request for Proposal (RFP).
+- Mature the Global Research Watch (GRW) Program.
+-- Add collections to the GRW tools on NIPR with data from the Small Business Innovation Research (SBIR) Office, Strategic Intelligence Analysis Cell (SIAC), AFWERX, and others.
+-- Explore partnering with SIAC to host commercial analytics and horizon scanning GRW tools at DTIC/on DTIC cloud environment.
+-- Partner with SIAC to pilot the GRW tools for storing and serving large volumes of data to commercial analytics and horizon scanning tools.
+-- Enhance technology scouting/trip reporting capability to include offline submission form that enables global technology scouts to complete reports in the field without a connection to a DoD network.
+-- Expand the search capabilities on data within the GRW tools. 
+-- Continue partnership with the Office of Naval Research (ONR) to incorporate additional basic and applied research activities and capabilities of foreign nations, to include both allies and competitors, in areas of military interest.
+- Expand Datasets and Data Repositories; create a DoD Research Data Catalog, which is searchable as part of the R&amp;E Gateway search.
+-- Develop requirements for a compliance tool for use in analyzing when a journal article or data set submission is expected, identifying potential gaps in what DTIC has received.
+-- Work with DoD Labs to point to the location their datasets are hosted.
+-- Link datasets to Technical Reports and Unified Research and Engineering Database (URED) projects to enable users to follow a research projects work in progress to the various results of the research.   
+-- Working within the Department’s direction, continue to mature selected implementing technologies and tools; continue to develop the necessary partnerships with the Services and DoD Agencies.
+- Continue to publish the Journal of DoD Research and Engineering (JDRE), which presents DoD’s best opportunity for the best scientists and researchers in the DoD to publish their work, in a protected environment, to the larger S&amp;T community for the purpose of creating increased visibility, opportunity to be peer reviewed, opportunity to do peer reviewing. 
+-- Continue to publish the JDRE at the CUI and Classified levels in order to share information throughout the R&amp;E community.
+-- Support the Communities of Interest (CoIs) and increase visibility into the Department’s best research on Microelectronics, Advanced Electronics, Hypersonics, and Cyber with the publication of supplemental and special edition issues.
+- Implement the DISA-sponsored and managed Interactive Customer Evaluation (ICE) system for the DTIC Research and Reference the Access and Identity Management Customer Service Desks to gain specific customer feedback on DTIC products and services, which may be addressed immediately or translated to future requirements to improve overall value of DTIC services.</r2:Text>
+                                    </r2:CurrentYear>
+                                    <r2:BudgetYearOne>
+                                        <r2:Funding>54.353</r2:Funding>
+                                    </r2:BudgetYearOne>
+                                    <r2:BudgetYearOneBase>
+                                        <r2:Funding>54.353</r2:Funding>
+                                        <r2:Text>- Provide users with the ability to analyze search results using visual and graphical displays.  
+- Support mobile device access to DTIC products and services.
+- Utilize commercial tools to upgrade Access and Identity Management on the DTIC secret network (SIPRNet).
+-- Simplify user access, enhance cyber security, and support new ways for users to access securely.
+- Continue integration of the common submission system and the Data Warehouse to bypass and decommission legacy databases.
+-- Initiate development of an Application Programming Interface (API) for organizations to pull data from the Data Warehouse; explore federated searches to the warehouse.
+- Increase collection capacity by 25 percent, increasing the ability to add new technical reports into the DTIC Collection for use by DoD and partners.
+-- Automate standard data fields, saving user time with collection submissions, by incorporating a unique identifier for authors through the use of the ORCID tool.  This will result in a better search experience for DTIC customers.
+-- Incorporate unique identifiers for documents (DOI) with collection submissions to create a persistent link for consistency and increased accuracy in the search experience.
+- Collaborate with the DoD Intelligence community and other OSD representatives on policy and implementation of the new Controlled Unclassified Information (CUI) federal marking regulations, as DoD coordinates the guidance for marking DoD documents.
+-- Upon release of OSD guidance/policies, initiate implementation of CUI changes to DTIC systems.
+- Support DoD’s public access effort; conduct outreach and educate intramural and extramural researchers on the requirement to submit journal articles, data management plans, and datasets to DTIC.
+-- Create a compliance tool for use in analyzing when a journal article or data set is expected, identifying potential gaps in what DTIC has received.
+-- Integrate the work flows between DTIC’s technical reports collection and PubDefense for public access materials, so each system feeds into the other.
+- Continue R&amp;E engagement and outreach by meeting with DoD labs, conducting site visits to R&amp;E organizations, and attending conferences to further extend the use of DTIC resources.
+- Deliver information on Warfighter networks to improve access and engagement with the R&amp;E community.
+- Improve IT Continuity of Operations (COOP) capabilities to provide critical information to customers during a crisis.
+-- Implement dynamic failover capabilities for critical applications that demand high availability and performance.
+-- Develop operations framework to minimize workload for ad hoc implementation of essential services in COOP environments.
+- Migrate 90% of traditional data center computing/storage capabilities with cloud services for more agile operations; complete IT modernization goal to migrate all mission applications within three years.
+- The National Defense Authorization Act (NDAA-19) Programs include:  Innovators Information Repository (IIR), Global Research Watch (GRW) Program, and Datasets and Data Repositories.
+- Expand the Innovators Information Repository (IIR).
+-- Explore, in partnership with Services and CCMDs, the development of a capability for companies, academia, and startups to submit portfolios of innovation activities and company information.
+-- Complete the revision of DoD 3200.14 requiring the use of the IIR to determine whether technology exists or is in development before Department organizations initiate a Request for Information (RFI) or Request for Proposal (RFP).
+-- Partner with Services and DoD Agencies to identify a strategy to address classification due to compilation of information.
+- Expand the Global Research Watch (GRW) Program.
+-- Explore language identification and translation capabilities of foreign research literature to facilitate the comparative analysis of foreign nations in relations to the research capabilities of the United States.
+-- Expand the GRW tools on the secret network.
+-- Partner with the Services, DoD Agencies, and Intelligence Communities to identify and incorporate Classified foreign research and technologies. 
+- Expand the Department’s Datasets and Data Repositories.
+-- Migrate dataset input capability to DTIC enterprise input system to reduce software maintenance costs.
+-- Address datasets requiring applications for use.
+-- Work with basic research areas to help determine data exchange standards, dissemination protocols, inter-operability, reusability, and administration requirements. 
+-- Continue partnering efforts with DoD Labs to point users to their dataset hosting location.
+-- Investigate automated processes to help evaluate the sensitivity of datasets, and apply appropriate security controls. 
+- Continue to publish the Journal of DoD Research and Engineering (JDRE) two times each year, and seek opportunities for special editions.
+-- Manage peer reviewers from across entire R&amp;E community; manage vetting of restricted and classified articles submitted from across the entire R&amp;E community.
+- Implement customer satisfaction benchmarks based on results and feedback from the Interactive Customer Evaluation (ICE).</r2:Text>
+                                    </r2:BudgetYearOneBase>
+                                    <r2:AppChangeSummary>In the FY 2018 President’s Budget, the Department recapitalized DTIC across the FYDP.  The $1.653 Million increment in the current FY 2021 PB builds upon FY 2018-20 activities and progress towards meeting urgent operational mission requirements:
+
+- Improvements to DoD search tools.
+- Identity management and information protection.
+- Re-establishment of an IT COOP.
+- Parity of services on SIPRNet.
+- Migration to cloud services.
+- Support of Public Access/citizen science.
+- Address technology shortfalls in user interface and the continuing migration of users to mobile devices.
+- The Department’s implementation of Controlled Unclassified Information (CUI) marking.
+- Implement, expand, and mature programs directed by the National Defense Authorization Act (NDAA-19), to include:  Innovators Information Repository (IRR), Global Research Watch (GRW) Program, and Datasets and Data Repositories.
+
+DTIC's investment in new tools and capabilities will address customer needs and underwrite the innovation necessary to support DoD’s enduring mission to provide combat-ready military forces to deter war and protect the security of our nation.</r2:AppChangeSummary>
+                                </r2:PlannedProgram>
+                            </r2:AccomplishmentPlannedProgram>
+                        </r2:AccomplishmentPlannedProgramList>
+                    </r2:R2aExhibit>
+                </r2:Project>
+                <r2:Project>
+                    <r2:ProjectNumber>002</r2:ProjectNumber>
+                    <r2:ProjectTitle>Information Analysis Centers</r2:ProjectTitle>
+                    <r2:SpecialProject>0</r2:SpecialProject>
+                    <r2:ProjectFunding>
+                        <r2:AllPriorYears>29.371</r2:AllPriorYears>
+                        <r2:PriorYear>5.016</r2:PriorYear>
+                        <r2:CurrentYear>5.016</r2:CurrentYear>
+                        <r2:BudgetYearOne>5.016</r2:BudgetYearOne>
+                        <r2:BudgetYearOneBase>5.016</r2:BudgetYearOneBase>
+                        <r2:BudgetYearTwo>5.016</r2:BudgetYearTwo>
+                        <r2:BudgetYearThree>5.016</r2:BudgetYearThree>
+                        <r2:BudgetYearFour>5.016</r2:BudgetYearFour>
+                        <r2:BudgetYearFive>5.016</r2:BudgetYearFive>
+                        <r2:CostToComplete>Continuing</r2:CostToComplete>
+                        <r2:TotalCost>Continuing</r2:TotalCost>
+                    </r2:ProjectFunding>
+                    <r2:R2aExhibit>
+                        <r2:ProjectMissionDescription>DoD Information Analysis Centers (IACs), established under DoD Instruction 3200.14, serve as a vital resource in providing timely, relevant information directly to users when and where it is needed.  IACs serve as a bridge between the warfighter and the Acquisition/Research community, providing essential technical analysis and data support to a diverse customer base, to include the Combatant Commands (CCMDs), the Office of the Secretary of Defense, Defense Agencies, and the Military Services.  IACs actively partner and collaborate with Defense Research and Engineering (R&amp;E) focus groups and communities of interest in areas of specialized fields or specific technologies.  The IACs create and maintain comprehensive knowledge analysis centers that include historical, technical, scientific, and other data and information collected worldwide. They are staffed with scientists, engineers and information specialists to provide research and analysis to customers with diverse, complex and challenging requirements.  IAC operations, in concert with 2018 National Defense Strategy objectives, directly support the warfighter, and play an ongoing and critical role in solving key CCMD operational issues such as cyber security, unmanned aerial vehicle visual/audible signature reduction, and improvements to the ballistic resistance of body armor.
+
+The IAC Program Management Office at DTIC performs contract acquisition, program management, and operational support for IAC contract operations and the technical information that is generated as a result of research and studies. In a time of shrinking budgets and increasing responsibility, IACs are a valuable resource for accessing scientific and technical information culled from efforts to solve new and historic challenges.  Direct IAC customer support activities, such as Task Order processing, Basic Center of Operations (BCO) support, Defense Finance and Accounting Service (DFAS) activities, contracting/acquisition related activities, etc., are funded in part through partnerships with the Defense R&amp;E community and the annual collection of customer reimbursements for their share of direct costs, in accordance with the IAC Reimbursable Review Board (IRRB) recommendations.  This represents the maximum cost-sharing with IAC customers allowable, per guidance from the OSD Office of General Counsel. Annual IAC efforts and accomplishments are dependent on the level of participation and collaboration by the R&amp;E community at large.</r2:ProjectMissionDescription>
+                        <r2:AccomplishmentPlannedProgramList>
+                            <r2:AccomplishmentPlannedProgram>
+                                <r2:Title>Information Analysis Centers</r2:Title>
+                                <r2:Accomplishment>
+                                    <r2:PriorYear>
+                                        <r2:Funding>5.016</r2:Funding>
+                                        <r2:Text>- Support the DTIC mission to provide technical reports to DoD.
+- Provide administrative and operational oversight of basic core contract activities for DoD IACs to collect, analyze, synthesize and disseminate worldwide scientific and technical information (STI) in support of DoD's critical technologies and the warfighter.
+- Respond to technical inquiries (average 400 per month) and provide in-depth science and technology (S&amp;T) analysis; create and provide STI results via IAC websites; capture STI products from new/on-going analysis tasks; and support the exchange of information among members of the operational and technical communities.
+- Manage and support Technical Area Tasks (TATs) ordered by the DoD and non-DoD customers; provide program strategy and ensure alignment with Department goals/direction.
+- Begin making new Task Order awards to the IAC MAC contract (awarded in September 2018) from Homeland Defense, Defense Systems, and Cyber Systems contacts; close these contracts to new awards while continuing work on existing Task Orders.
+- Award the Record Digitization small business contract ($4 Million) for the purpose of digitizing over 1 million hardcopy, microfiche, and microfilm technical documents for preservation and ease of discovery.</r2:Text>
+                                    </r2:PriorYear>
+                                </r2:Accomplishment>
+                                <r2:PlannedProgram>
+                                    <r2:CurrentYear>
+                                        <r2:Funding>5.016</r2:Funding>
+                                        <r2:Text>- Collect and provide a minimum of 10,000 new technical reports to DTIC for DoD use.
+- Provide administrative and operational oversight of basic core contract activities for DoD IACs to collect, analyze, synthesize and disseminate worldwide scientific and technical information (STI) in support of DoD's critical technologies and the warfighter.
+- Answer approximately 3,600 technical inquiries with timely and in-depth science and technology (S&amp;T) analysis; create and provide STI results via three IAC websites; capture STI products from new/on-going analysis tasks; and support the exchange of information among members of the operational and technical communities.
+- Award, manage and support at least 50 new Task Orders requested by DoD customers; provide program strategy and ensure alignment with Department goals/direction.
+- Assess first year of the new indefinite-delivery/indefinite-quantity (IDIQ), the IAC multiple award contract (MAC), and its usage; adjust processes as necessary.
+- Provide acquisition services to new DoD customers, ensuring that new users exceed departing customers, and support research in new technologies as needed to align to USD(R&amp;E) priorities.
+- Award a consolidated contract for the operation of the program’s three Basic Centers of Operation (Cyber, Defense systems, Homeland Defense), consolidating three current small business contracts into one at a value of $99 million.</r2:Text>
+                                    </r2:CurrentYear>
+                                    <r2:BudgetYearOne>
+                                        <r2:Funding>5.016</r2:Funding>
+                                    </r2:BudgetYearOne>
+                                    <r2:BudgetYearOneBase>
+                                        <r2:Funding>5.016</r2:Funding>
+                                        <r2:Text>- Collect and provide a minimum of 12,000 new technical reports to DTIC for DoD use, increasing collection efforts over the previous year.
+- Answer approximately 3,600 technical inquiries with timely and in-depth science and technology (S&amp;T) analysis; create and provide STI results via three IAC websites; capture STI products from new/on-going analysis tasks; and support the exchange of information among members of the operational and technical communities.
+- Award, manage and support at least 50 new Technical Area Tasks (TATs) ordered by the DoD and non-DoD customers; provide program strategy and ensure alignment with Department goals/direction.
+- Assess second year of the usage of the IDIQ, the IAC MAC; adjust processes as necessary.
+- Provide acquisition services to new DoD customers, ensuring that new users exceed departing customers, and support research in new technologies as needed to align to USD(R&amp;E) priorities.
+- Increase the number of registered users of the IAC program by at least 1,500.</r2:Text>
+                                    </r2:BudgetYearOneBase>
+                                    <r2:AppChangeSummary>- There is no change in the FY 2021 Base, as compared to the FY 2020 Base.</r2:AppChangeSummary>
+                                </r2:PlannedProgram>
+                            </r2:AccomplishmentPlannedProgram>
+                        </r2:AccomplishmentPlannedProgramList>
+                    </r2:R2aExhibit>
+                </r2:Project>
+            </r2:ProjectList>
+        </r2:ProgramElement>
+        <r2:ProgramElement monetaryUnit="Millions" format="R2Long">
+            <r2:ProgramElementNumber>0605998KA</r2:ProgramElementNumber>
+            <r2:ProgramElementTitle>Management HQ - Defense Technical Information Center (DTIC)</r2:ProgramElementTitle>
+            <r2:R1LineNumber>174</r2:R1LineNumber>
+            <r2:BudgetYear>2021</r2:BudgetYear>
+            <r2:BudgetCycle>PB</r2:BudgetCycle>
+            <r2:SubmissionDate>2020-02</r2:SubmissionDate>
+            <r2:ServiceAgencyName>Defense Technical Information Center</r2:ServiceAgencyName>
+            <r2:AppropriationCode>0400</r2:AppropriationCode>
+            <r2:AppropriationName>Research, Development, Test &amp; Evaluation, Defense-Wide</r2:AppropriationName>
+            <r2:BudgetActivityNumber>6</r2:BudgetActivityNumber>
+            <r2:BudgetActivityTitle>RDT&amp;E Management Support</r2:BudgetActivityTitle>
+            <r2:ProgramElementFunding>
+                <r2:AllPriorYears>8.587</r2:AllPriorYears>
+                <r2:PriorYear>4.124</r2:PriorYear>
+                <r2:CurrentYear>3.027</r2:CurrentYear>
+                <r2:BudgetYearOne>2.837</r2:BudgetYearOne>
+                <r2:BudgetYearOneBase>2.837</r2:BudgetYearOneBase>
+                <r2:BudgetYearTwo>3.504</r2:BudgetYearTwo>
+                <r2:BudgetYearThree>3.438</r2:BudgetYearThree>
+                <r2:BudgetYearFour>3.526</r2:BudgetYearFour>
+                <r2:BudgetYearFive>3.600</r2:BudgetYearFive>
+                <r2:CostToComplete>Continuing</r2:CostToComplete>
+                <r2:TotalCost>Continuing</r2:TotalCost>
+            </r2:ProgramElementFunding>
+            <r2:ChangeSummary>
+                <r2:PreviousPresidentBudget>
+                    <r2:PriorYear>4.124</r2:PriorYear>
+                    <r2:CurrentYear>3.027</r2:CurrentYear>
+                    <r2:BudgetYearOne>2.779</r2:BudgetYearOne>
+                    <r2:BudgetYearOneBase>2.779</r2:BudgetYearOneBase>
+                </r2:PreviousPresidentBudget>
+                <r2:CurrentPresidentBudget>
+                    <r2:PriorYear>4.124</r2:PriorYear>
+                    <r2:CurrentYear>3.027</r2:CurrentYear>
+                    <r2:BudgetYearOne>2.837</r2:BudgetYearOne>
+                    <r2:BudgetYearOneBase>2.837</r2:BudgetYearOneBase>
+                </r2:CurrentPresidentBudget>
+                <r2:TotalAdjustments>
+                    <r2:PriorYear>0.000</r2:PriorYear>
+                    <r2:CurrentYear>0.000</r2:CurrentYear>
+                    <r2:BudgetYearOne>0.058</r2:BudgetYearOne>
+                    <r2:BudgetYearOneBase>0.058</r2:BudgetYearOneBase>
+                </r2:TotalAdjustments>
+                <r2:AdjustmentDetails>
+                    <r2:OtherAdjustmentDetailList>
+                        <r2:OtherAdjustmentDetail>
+                            <r2:Title>Program Changes</r2:Title>
+                            <r2:Funding>
+                                <r2:BudgetYearOne>0.058</r2:BudgetYearOne>
+                                <r2:BudgetYearOneBase>0.058</r2:BudgetYearOneBase>
+                            </r2:Funding>
+                        </r2:OtherAdjustmentDetail>
+                    </r2:OtherAdjustmentDetailList>
+                </r2:AdjustmentDetails>
+                <r2:SummaryExplanation>Program Change:  In comparing the Current President’s Budget FY 2021 Base program against the Previous President’s Budget FY 2021 PB Base, there is a nominal increase of $0.058 Million.  This reflects a payroll expense adjustment associated with civilian manpower.</r2:SummaryExplanation>
+            </r2:ChangeSummary>
+            <r2:ProjectList>
+                <r2:Project>
+                    <r2:ProjectNumber>001</r2:ProjectNumber>
+                    <r2:ProjectTitle>Management HQ - Defense Technical Information Center (DTIC)</r2:ProjectTitle>
+                    <r2:SpecialProject>0</r2:SpecialProject>
+                    <r2:ProjectFunding>
+                        <r2:AllPriorYears>8.587</r2:AllPriorYears>
+                        <r2:PriorYear>4.124</r2:PriorYear>
+                        <r2:CurrentYear>3.027</r2:CurrentYear>
+                        <r2:BudgetYearOne>2.837</r2:BudgetYearOne>
+                        <r2:BudgetYearOneBase>2.837</r2:BudgetYearOneBase>
+                        <r2:BudgetYearTwo>3.504</r2:BudgetYearTwo>
+                        <r2:BudgetYearThree>3.438</r2:BudgetYearThree>
+                        <r2:BudgetYearFour>3.526</r2:BudgetYearFour>
+                        <r2:BudgetYearFive>3.600</r2:BudgetYearFive>
+                        <r2:CostToComplete>Continuing</r2:CostToComplete>
+                        <r2:TotalCost>Continuing</r2:TotalCost>
+                    </r2:ProjectFunding>
+                    <r2:R2aExhibit>
+                        <r2:ProjectMissionDescription>This program element (PE) provides funding for the Management Headquarters (HQ) element of the Defense Technical Information Center (DTIC), a DoD Field Activity assigned to the Under Secretary of Defense for Research and Engineering (USD(R&amp;E)).  The PE supports personnel compensation for HQ-assigned civilians, along with related administrative support costs.  DTIC’s second RDT&amp;E PE, established in FY 2017, is designed to track activities deemed as headquarters functions, with no operational efficiencies or enhancement to mission.
+
+The PE supports the following HQ functions and mission essential activities critical to the success of DTIC’s business operations, and mandated by law or regulation: 
+- Activity leadership, strategic planning, and Front Office support staff.
+-- The front office staff represents a small component of this PE.  Most of the specialized functions and skill-sets described below are centralized activities within the PE, yet support the larger organization and its employees.  These activities were consolidated as a means to improve efficiencies throughout DTIC, and are essential to the operation of DTIC’s primary PE 0605801KA.
+-- Reductions to DTIC’s MHA staffing levels continue, reducing civilian full time equivalents (FTEs) below FY 2020 levels. 
+- Financial Management and Comptroller.  Provides integrated resource management at the Agency level to obtain, control, and execute budget and manpower authorities to support the organization's mission requirements.  Develops and prepares agency budget documents and exhibits for submission to both OSD and Congress.
+-- Accounting support to DTIC’s mission operations; partners with the Defense Finance and Accounting Service to present accurate financial reporting and Fund Balance with Treasury. 
+-- Financial Improvement and Audit Remediation (FIAR) activities and oversight in compliance with the Department’s audit goals, objectives, and milestones.
+- Human Resources (HR) Liaison Support.  Provides the DTIC enterprise with payroll processing and “Hire to Retire” mission support; oversees and organizes employee training, professional development, and staff certification programs (e.g., Acquisition, Financial Management, and IT programs).
+-- Coordinates recruitment placement and classification action for the mission areas; liaison to the Defense Finance and Accounting Service for HR servicing and the Defense Logistics Agency (DLA) for Equal Employment Opportunity (EEO) program maintenance.
+- Mandatory Records Management compliance activities and administration programs.
+- Chief Information Officer (CIO).  Collects, analyzes, and reports information necessary to effectively and efficiently manage enterprise IT resources; CIO functions are performed in compliance with DoD-CIO guidance, instructions and mandates.</r2:ProjectMissionDescription>
+                        <r2:AccomplishmentPlannedProgramList>
+                            <r2:AccomplishmentPlannedProgram>
+                                <r2:Title>Management HQ - Defense Technical Information Center</r2:Title>
+                                <r2:Accomplishment>
+                                    <r2:PriorYear>
+                                        <r2:Funding>4.124</r2:Funding>
+                                        <r2:Text>- Execute the program, activities and functions as described above in Section A, Mission Description of PE 0605998KA.</r2:Text>
+                                    </r2:PriorYear>
+                                </r2:Accomplishment>
+                                <r2:PlannedProgram>
+                                    <r2:CurrentYear>
+                                        <r2:Funding>3.027</r2:Funding>
+                                        <r2:Text>- Execute the program, activities and functions as described above in Section A, Mission Description of PE 0605998KA.</r2:Text>
+                                    </r2:CurrentYear>
+                                    <r2:BudgetYearOne>
+                                        <r2:Funding>2.837</r2:Funding>
+                                    </r2:BudgetYearOne>
+                                    <r2:BudgetYearOneBase>
+                                        <r2:Funding>2.837</r2:Funding>
+                                        <r2:Text>- Execute the program, activities and functions as described above in Section A, Mission Description of PE 0605998KA.</r2:Text>
+                                    </r2:BudgetYearOneBase>
+                                    <r2:AppChangeSummary>The change between FY 2020 and the FY 2021 Base (a net decrease of $0.190 Million in FY 2021) reflects a net reduction in the number of civilian authorizations assigned to the Management Headquarters element of DTIC.</r2:AppChangeSummary>
+                                </r2:PlannedProgram>
+                            </r2:AccomplishmentPlannedProgram>
+                        </r2:AccomplishmentPlannedProgramList>
+                    </r2:R2aExhibit>
+                </r2:Project>
+            </r2:ProjectList>
+        </r2:ProgramElement>
+    </r2:ProgramElementList>
+</jb:JustificationBook>
