@@ -14,6 +14,7 @@ The extract includes **Master Justification Books** and **Justification Books** 
 - 2018 base / amended budget
 - 2019 base budget
 - 2020 base / amended
+- 2021 base
 
 > Unfort, prior to 2013, there were no machine readable files attached to the justification books to extract data from.
 
@@ -24,7 +25,7 @@ Included in the `0-jbook-pdf` folder are the **PDF** files downloaded from the t
 
 The URLs that were used for the download are included in a JSON file at the root of the `0-jbook-pdf` folder "per year".
 
-_For example, there is a file `[2020]_jbook_list.json` that includes the URL that was used to download the files for that year._ 
+_For example, there is a file `[2020]_jbook_list.json` that includes the URL that was used to download the files for that year._
 
 ![0-jbook-pdf](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/0-jbook-pdf.png?raw=true)
 
@@ -37,7 +38,7 @@ All of the relevant **JustificationBook** / **MasterJustificationBook** XML file
 
 
 ### JUSTIFICATION / MASTER JUSTIFICATION BOOK JSON FILES
-This folder contains a **JSON representation** of each of the XML files contained in `1-jbook-pdf` **following a conversion of the XML to JSON**. 
+This folder contains a **JSON representation** of each of the XML files contained in `1-jbook-pdf` **following a conversion of the XML to JSON**.
 
 ![2-jbook-json](https://github.com/540co/dod-jbook-pdf-xml/blob/master/docs/2-jbook-json.png?raw=true)
 
@@ -75,15 +76,15 @@ Each "extracted" line item / program element includes all of the relevant data i
         },
         "LineItemTitle": {
             "val": "B-2 Mods"
-            
-            ... etc... 
+
+            ... etc...
 
 ```
 
 ### CSV PROCUREMENT-LINEITEMS -and- RDTE-PROGRAMELEMENTS
 Each folder contains the "list" of **PROCUREMENT line items** / **RDTE program elements**, respectively in **CSV format**.  
 
-The CSV conversion from JSON to CSV results in a "file" per subject area within a **line item** / **program element** using the JSON structure as a guide of what can be "flattened" into rows and what requires a separate file to represent another list of rows. 
+The CSV conversion from JSON to CSV results in a "file" per subject area within a **line item** / **program element** using the JSON structure as a guide of what can be "flattened" into rows and what requires a separate file to represent another list of rows.
 
 Within each folder is a `README.md` and `ERD` that shows the list of tables, columns and structure.
 
@@ -100,13 +101,13 @@ NOTE:  Each CSV file is "zipped" due to file size.
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/README.md
 
 ##### ERD
-(PDF) 
+(PDF)
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.pdf
 
-(PNG) 
+(PNG)
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.png
 
-(DOT) 
+(DOT)
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-procurement-lineitems/procurement-lineitems.dot
 
 > The DOT file follows the GraphViz format (https://www.graphviz.org/) and is used to render the PDF / PNG file.
@@ -121,10 +122,10 @@ https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelement
 (PDF)
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.pdf
 
-(PNG) 
+(PNG)
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.png
 
-(DOT) 
+(DOT)
 https://github.com/540co/dod-jbook-pdf-xml/blob/master/4-csv-rdte-programelements/rdte-programelements.dot
 
 > The DOT file follows the GraphViz format (https://www.graphviz.org/) and is used to render the PDF / PNG file.
@@ -154,7 +155,7 @@ To run `processs.php` CLI you will need to have the following installed:
 - PHP 7.1.x
 - PDFtk CLI (within PDFtk Free) - https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
 - QPDF - http://qpdf.sourceforge.net/
-- Graphviz - https://www.graphviz.org/ (used to dynamically build ERD) 
+- Graphviz - https://www.graphviz.org/ (used to dynamically build ERD)
 
 > All extracts have been done on Mac OSX and/or AWS linux - and most likely will be incompatible with Windows during various steps.
 
@@ -184,7 +185,7 @@ $ php process.php --step 1-copy-jbook-xml-to-single-folder
 
 ### [step 2] Analyze XML Jbooks to determine array paths
 
-This step is important to ensure a proper conversion from XML -> JSON -> CSV in light of the fact the XSD schema is not publicly provided. 
+This step is important to ensure a proper conversion from XML -> JSON -> CSV in light of the fact the XSD schema is not publicly provided.
 
 The `process.php` will load each XML jbook into memory and analyze to determine all of the possible "lists" within the XML - and stores the relevant details in `jbookArrays.json` (including additional tracking data per file).
 
@@ -214,7 +215,7 @@ $ php process.php --step 3-convert-xml-to-json
 #### NOTE
 If you just need to convert a "partial" set of files from XML to JSON, you can use `--rglob-pattern` to only include a subset of files.
 
-``` 
+```
 
 $ php process.php --step 3-convert-xml-to-json --rglob 2021*.xml
 
