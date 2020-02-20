@@ -189,7 +189,7 @@ This step is important to ensure a proper conversion from XML -> JSON -> CSV in 
 
 The `process.php` will load each XML jbook into memory and analyze to determine all of the possible "lists" within the XML - and stores the relevant details in `jbookArrays.json` (including additional tracking data per file).
 
-This file is then used in step 3 to ensure a conisistent conversion per jbook.
+This file is then used in step 3 to ensure a consistent conversion per jbook.
 
 ```
 
@@ -217,7 +217,7 @@ If you just need to convert a "partial" set of files from XML to JSON, you can u
 
 ```
 
-$ php process.php --step 3-convert-xml-to-json --rglob 2021*.xml
+$ php process.php --step 3-convert-xml-to-json --rglob-pattern 2021*.xml
 
 ```
 
