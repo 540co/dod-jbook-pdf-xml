@@ -118,6 +118,19 @@ switch ($options['step']) {
 
     break;
 
+    case '6-profile-csv':
+        echo "=========================================================\n";
+        echo "[6-profile-csv]\n";
+        echo "=========================================================\n";
+        if (
+          $options['resource-type'] == 'procurement-lineitems' ||
+          $options['resource-type'] == 'rdte-programelements')
+        {
+          profileCsv($options['resource-type']);
+        }
+
+    break;
+
     case '6-csv-to-zip':
         echo "=========================================================\n";
         echo "[6-csv-to-zip]\n";
@@ -132,6 +145,136 @@ switch ($options['step']) {
     break;
 
 }
+
+function profileCsv($resourceType) {
+
+  $sourcePaths = [];
+  $sourcePaths['procurement-lineitems'] = './4-csv-procurement-lineitems';
+  $sourcePaths['rdte-programelements'] = './4-csv-rdte-programelements';
+
+  $schemaDetails = json_decode(file_get_contents($sourcePaths[$resourceType]."/".$resourceType.".json"), TRUE);
+
+  $budgetYears = [];
+  echo "Determining total list of budget years\n";
+  foreach ($schemaDetails as $k=>$v) {
+    echo ".";
+    $fileName = $v['filename'];
+    $rows = json_decode(file_get_contents($sourcePaths[$resourceType]."/".$fileName."-j.json"), TRUE);
+
+
+    foreach ($rows as $rk=>$rv) {
+      $budgetYears[] = $rv['@BUDGET_YEAR'];
+    }
+
+    $budgetYears = array_values(array_unique($budgetYears));
+    sort($budgetYears);
+
+  }
+  echo "\n";
+
+  echo "Init profile object\n";
+  $profile = [];
+  $profileYearsInit = [];
+  foreach ($budgetYears as $v) {
+    $profileYearsInit[$v] = false;
+  }
+
+  foreach ($schemaDetails as $k=>$v) {
+    foreach ($v['columns'] as $kc=>$vc) {
+      $profile[$k][$vc] = $profileYearsInit;
+    }
+  }
+
+
+  echo "Analyzing columns per file\n";
+  foreach ($schemaDetails as $k=>$v) {
+    $tableName = $k;
+    $fileName = $v['filename'];
+    echo "\n".$fileName."=>\n";
+    $rows = json_decode(file_get_contents($sourcePaths[$resourceType]."/".$fileName."-j.json"), TRUE);
+
+    foreach ($rows as $rk=>$rv) {
+      echo "[".$rk."]";
+      $budgetYear = $rv['@BUDGET_YEAR'];
+
+
+      foreach ($v['columns'] as $ck=>$cv) {
+        if (strlen($rv[$cv]) > 0) {
+          $profile[$tableName][$cv][$budgetYear] = true;
+        }
+      }
+
+    }
+
+  }
+
+  echo "Write profle\n";
+  $csvRows = [];
+  foreach ($profile as $tableName=>$columns) {
+    foreach ($columns as $column=>$years) {
+      $csvRow = [];
+      $csvRow['tableName'] = $tableName;
+      $csvRow['columnName'] = $column;
+      foreach ($years as $year=>$yearFlag) {
+        $csvRow[$year] = ($yearFlag) ? 'X' : '';
+      }
+      $csvRows[] = $csvRow;
+    }
+  }
+
+  $profileFile = fopen($sourcePaths[$resourceType]."/profile.csv", "w");
+
+  fwrite($profileFile, implode(',',array_keys($csvRows[0])));
+  fwrite($profileFile,"\n");
+  
+  foreach ($csvRows as $k=>$v) {
+    fwrite($profileFile, implode(',',$v));
+    fwrite($profileFile,"\n");
+  }
+
+  fclose($profileFile);
+
+
+
+
+
+
+
+
+
+
+
+
+  //var_dump($schemaDetails);
+
+
+}
+
+function loadCsv($file) {
+    $csvrows = array();
+
+    $header = null;
+    $handle = fopen($file, "r");
+
+    while(($row = fgetcsv($handle)) !== false){
+
+        if ($header === null) {
+            $header = $row;
+            continue;
+        }
+
+        for($i = 0; $i<count($row); $i++){
+            $newRow[$header[$i]] = $row[$i];
+        }
+
+        $csvrows[] = $newRow;
+    }
+
+    return $csvrows;
+}
+
+
+
 
 function csvToZip($resourceType) {
   $targetPaths = [];
