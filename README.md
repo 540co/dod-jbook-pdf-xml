@@ -224,7 +224,7 @@ $ php process.php --step 3-convert-xml-to-json --rglob-pattern 2021*.xml
 
 ### [step 4] Process Jbooks by copying out line items / program elements into a single file per line item / program element
 
-During this step line items / program elements are extracted from the proper node in the **Justification Book** / **Master Justification Book** and copied to a single JSON file per line item / progrem element:
+During this step line items / program elements are extracted from the proper node in the **Justification Book** / **Master Justification Book** and copied to a single JSON file per line item / program element:
 
 **procurement-lineitems** in Justification Books
 
