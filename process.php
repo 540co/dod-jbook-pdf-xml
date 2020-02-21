@@ -497,6 +497,9 @@ function jsonToCsv($resourceType) {
 
     $digraph[] = "}";
 
+    echo "<Writing SchemaDetails.json>\n";
+    file_put_contents($targetPaths[$sourceIdx].'/'.$sourceIdx.'.json', json_encode($schemaDetails, JSON_PRETTY_PRINT));
+
     echo "<Writing ERD for $sourceIdx>\n";
     file_put_contents($targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot',implode($digraph,"\n"));
     exec('dot -Tpng '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.dot -o '.$targetPaths[$sourceIdx].'/'.$sourceIdx.'.png');
@@ -583,7 +586,7 @@ function downloadJbooks($jbookList) {
                 echo "<Unzipping $filename>\n";
                 exec('unzip "'.$filename.'" -d "./'.$filename.'_unzipped"');
             }
-        
+
             chdir($targetPathYear);
 
             echo "=========================================================\n";

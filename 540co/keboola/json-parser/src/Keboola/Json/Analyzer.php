@@ -59,10 +59,10 @@ class Analyzer
      * @return bool|null|string
      * @throws JsonParserException
      */
-    
+
     public function analyze($fileName, $recordId, array $data, $type)
-    {   
-  
+    {
+
         if ($this->isAnalyzed($type) || empty($data)) {
             return false;
         }
@@ -72,12 +72,12 @@ class Analyzer
             : ($this->rowsAnalyzed[$type] + count($data));
 
         $rowType = $this->getStruct()->getArrayType($type);
-    
+
         foreach ($data as $rowIdx=>$row) {
-            
+
             // ** ADDED TO INJECT A UNIQUE ROWID BASED UPON ROOT ID
             // ----
-            
+
             if (isset($row->meta->filename)) {
                 echo "{FILENAME: ".$row->meta->filename."}\n";
                 $fileName = $row->meta->filename;
@@ -88,16 +88,19 @@ class Analyzer
                 $recordId = $row->id;
             }
 
+            $filenameSegments = explode("-",$fileName);
+            $budgetYear = $filenameSegments[0];
+
+            $row->{'@BUDGET_YEAR'} = $budgetYear;
             $row->{'@SOURCE_FILENAME'} = $fileName;
             $row->{'@RECORDID'} = hash('sha256',$recordId);
             $row->{'@ROWID'} = $this->createPrimaryKey($rowIdx,$row);
 
-            echo "[$type][".$rowIdx."][".$recordId."][".$fileName."]\n";
-           
-           
+            echo "[$type][".$rowIdx."][".$recordId."][".$fileName."][".$budgetYear."]\n";
 
             // ----
-            
+
+
             $newType = $this->analyzeRow($fileName, $recordId, $row, $type);
             if (!is_null($rowType)
                 && $newType != $rowType
@@ -112,28 +115,28 @@ class Analyzer
 
         return $rowType;
     }
-    
+
     // Added - @540CO
     private function createPrimaryKey($rownum,$row) {
         return $rownum.'-'.hash('sha256',random_bytes(200));
         /*
         $row = json_decode(json_encode($row), true);
         $stopFields = ['JSON_parentId'];
-    
+
         $stringToHash = $rownum;
-    
+
         foreach ($row as $fieldkey=>$fieldval) {
           if (!in_array($fieldkey,$stopFields)) {
             $stringToHash .= hash('sha256',json_encode($fieldval));
           }
         }
-        
+
         //return $rownum.'-'.$stringToHash;
         return $rownum.'-'.hash('sha256',$stringToHash);
         */
       }
 
-  
+
     protected function analyzeRow($fileName, $recordId, $row, $type)
     {
         // Current row's structure
