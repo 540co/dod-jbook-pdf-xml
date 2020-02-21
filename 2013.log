@@ -1,0 +1,1203 @@
+
+
+=========================================================
+[3-convert-xml-to-json]
+=========================================================
+<Loading and merging all jbookArrayPaths into a single list>
+|MasterJustificationBook|2013|2014|2015|2016|2017|2018|2019|2020|2021|
+|JustificationBook|2013|2014|2015|2016|2017|2018|2019|2020|2021|
+<arrayPaths count = 1260>
+<last updated = 2020-02-20T01:57:11+00:00>
+=========================================================
+----------------------
+[1/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 2532513
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = efdbc1a8257a29bc83b13a3d5513a077722a4e37cdf5292a15ae39d35916bf22
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+----------------------
+<NOTICE: XML->JSON file exists - created 2020-02-20T04:46:41+00:00>
+<SKIPPING XML->JSON: xml has already been converted since last jbookArrayPaths update>
+----------------------
+[2/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 14283421
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = ed84e6b5b483910c63aae03b170d3f06fccc1c2982c3d344410bc1cde5b6285b
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL1-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.json>
+----------------------
+[3/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL2-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 8858176
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 026f85e74aee51714fbee693317b5b3bce771c38d0fcd6c64630159e60da55da
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL2-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL2-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.json>
+----------------------
+[4/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL2-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 14170855
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = c1565c6016dbc77df550ad1af27e02f3a3f3b3aa4dd6e4acb0f4d6556e49e0dd
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL2-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_AIRCRAFT_VOL2-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.json>
+----------------------
+[5/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_AMMUNITION-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 1019857
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = d5a26f899f6dc4ea5a04d28c22aa0089f2e3a4c6eaf05ebe36176602792e0abd
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_AMMUNITION-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_AMMUNITION-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.json>
+----------------------
+[6/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_AMMUNITION-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 1274289
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 989f1f110320ec76525b06c9763b4dbf61ba5eac5154301eff01a6a336ab37c8
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_AMMUNITION-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_AMMUNITION-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.json>
+----------------------
+[7/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_MISSILE-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 2034880
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 2c4a85dae3012ce0ce29a39a3fb32032f34ec9dd494b6782b3bffb0b4b0fd6ef
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_MISSILE-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_MISSILE-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.json>
+----------------------
+[8/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_MISSILE-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 2542589
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = b42057e840222ef67c2b010eecb1eded41c45014d3536bfe7f9492f6da4c2444
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_MISSILE-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_MISSILE-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.json>
+----------------------
+[9/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_OTHER-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 5892444
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 9b875245f238b4934ab028688b5e76948aad5a545cc5c688799227225a123822
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_OTHER-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_OTHER-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.json>
+----------------------
+[10/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-AIRFORCE_OTHER-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 7313034
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 14173d27b79a2ead9f5728e792c1b158a0be1debb819410d8e4486088dd7312d
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-AIRFORCE_OTHER-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-AIRFORCE_OTHER-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.json>
+----------------------
+[11/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-ARMY_AIRCRAFT-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 8814268
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 5a6b2df3b5e70fda2a7dcef3777cabcbc3ff2b42765c522c8d458edac263f861
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-ARMY_AIRCRAFT-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-ARMY_AIRCRAFT-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[12/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-ARMY_AMMO-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 5108201
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 3bb10be1588a1b499fe53957b5ca22f16924823a511414fc006f22eac067ae29
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-ARMY_AMMO-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-ARMY_AMMO-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[13/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-ARMY_MISSLE-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 1925123
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = ef41f4f11bf2d279491217990c7a49cc59ea189d22374926fb32942b4fff15d2
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-ARMY_MISSLE-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-ARMY_MISSLE-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[14/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-ARMY_OTHER_1-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 1713143
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 0b8569cb2cb1406097f1edb3e4d9e8403c20f8113f5571fe8c7d6f2436a0e5f9
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-ARMY_OTHER_1-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-ARMY_OTHER_1-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[15/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-ARMY_OTHER_2-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 5497540
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = cc9695d60b5fe928ad9562452e9bf0d47c5ba710e2b1722959acda9f63636f74
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-ARMY_OTHER_2-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-ARMY_OTHER_2-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[16/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-ARMY_OTHER_3-4-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 5872532
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = ad034678542a08789b199729d1b6061ecd5465de18f0d19c1f3d01a322b4c4d1
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-ARMY_OTHER_3-4-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-ARMY_OTHER_3-4-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[17/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-ARMY_WTCV-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 5190956
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 5498d6b8a26483b39d9d24762ec1cf29452d9b0ffe99c850035de9bbc2f4e213
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-ARMY_WTCV-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-ARMY_WTCV-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[18/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_CBDP-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.zzz_unzipped-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.xml
+FILESIZE = 1707206
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = e5fdc278c6f94ba241fa22c9107e132a801fa4606fadd1a676e1a52f9c445d55
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_CBDP-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.zzz_unzipped-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_CBDP-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.zzz_unzipped-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.json>
+----------------------
+[19/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DCAA-JustificationBook_Defense_Contract_Audit_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Contract_Audit_Agency_PB_2013.xml
+FILESIZE = 12105
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 3fde6f11cc2e588c718893dd1a9fa7bb184873bc73f7efe8dc6c5445e41f0344
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DCAA-JustificationBook_Defense_Contract_Audit_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Contract_Audit_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DCAA-JustificationBook_Defense_Contract_Audit_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Contract_Audit_Agency_PB_2013.json>
+----------------------
+[20/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DCMA-JustificationBook_Defense_Contract_Management_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Contract_Management_Agency_PB_2013.xml
+FILESIZE = 10805
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 1d98122d1d8b2443d2351b9c0cdef59512db5fce0d5cc011a6fe052a3d3b8e1c
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DCMA-JustificationBook_Defense_Contract_Management_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Contract_Management_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DCMA-JustificationBook_Defense_Contract_Management_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Contract_Management_Agency_PB_2013.json>
+----------------------
+[21/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DHRA-JustificationBook_DoD_Human_Resources_Activity_PB_2013.zzz_unzipped-JustificationBook_DoD_Human_Resources_Activity_PB_2013.xml
+FILESIZE = 34385
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = e43f866e6669d20f7bb3055ddb9f1af4b5e7ffe7907e7d8498244090941311d0
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DHRA-JustificationBook_DoD_Human_Resources_Activity_PB_2013.zzz_unzipped-JustificationBook_DoD_Human_Resources_Activity_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DHRA-JustificationBook_DoD_Human_Resources_Activity_PB_2013.zzz_unzipped-JustificationBook_DoD_Human_Resources_Activity_PB_2013.json>
+----------------------
+[22/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DISA-JustificationBook_Defense_Information_Systems_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Information_Systems_Agency_PB_2013.xml
+FILESIZE = 698670
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 0803b46a25fc0db89dc5efc90928118c3ac7db52b907850cc616caa59edf9bcc
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DISA-JustificationBook_Defense_Information_Systems_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Information_Systems_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DISA-JustificationBook_Defense_Information_Systems_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Information_Systems_Agency_PB_2013.json>
+----------------------
+[23/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DLA-JustificationBook_Defense_Logistics_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Logistics_Agency_PB_2013.xml
+FILESIZE = 31603
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = d86f100179316d7fc3a20b922d2250e68908b904afb2c805b42583e008ff40ba
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DLA-JustificationBook_Defense_Logistics_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Logistics_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DLA-JustificationBook_Defense_Logistics_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Logistics_Agency_PB_2013.json>
+----------------------
+[24/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DMACT-JustificationBook_Defense_Media_Activity_PB_2013.zzz_unzipped-JustificationBook_Defense_Media_Activity_PB_2013.xml
+FILESIZE = 39197
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 2896f7b8f7491f712c391fcd8e1aef385d69b348fd3449a45cf7bb0a121edd3e
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DMACT-JustificationBook_Defense_Media_Activity_PB_2013.zzz_unzipped-JustificationBook_Defense_Media_Activity_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DMACT-JustificationBook_Defense_Media_Activity_PB_2013.zzz_unzipped-JustificationBook_Defense_Media_Activity_PB_2013.json>
+----------------------
+[25/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DSCA-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.xml
+FILESIZE = 5309
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = e5e9d1a00d92b48f4a83d68e1fbc0acde4cb4e6f74138efbbb13776c2cde66f9
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DSCA-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DSCA-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.json>
+----------------------
+[26/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DSS-JustificationBook_Defense_Security_Service_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Service_PB_2013.xml
+FILESIZE = 8530
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 4681d85441d7eda5bd325643cc21674c649a491e5eb1ed85bae1722f460a3139
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DSS-JustificationBook_Defense_Security_Service_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Service_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DSS-JustificationBook_Defense_Security_Service_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Service_PB_2013.json>
+----------------------
+[27/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DTRA-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.xml
+FILESIZE = 107555
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 4d4a0a8edd049066a2ea7c5edfcbcfb19cb7b499e675f9d0477f55175c410463
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DTRA-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DTRA-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.json>
+----------------------
+[28/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DTSA-JustificationBook_Defense_Technology_Security_Administration_PB_2013.zzz_unzipped-JustificationBook_Defense_Technology_Security_Administration_PB_2013.xml
+FILESIZE = 25660
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = f54b23da5de8cd6118b6cc1fea0b33e555fe17505b7358209b49a1b618b4bb8a
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DTSA-JustificationBook_Defense_Technology_Security_Administration_PB_2013.zzz_unzipped-JustificationBook_Defense_Technology_Security_Administration_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DTSA-JustificationBook_Defense_Technology_Security_Administration_PB_2013.zzz_unzipped-JustificationBook_Defense_Technology_Security_Administration_PB_2013.json>
+----------------------
+[29/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_DoDEA-JustificationBook_Department_of_Defense_Education_Activity_PB_2013.zzz_unzipped-JustificationBook_Department_of_Defense_Education_Activity_PB_2013.xml
+FILESIZE = 8044
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = b51e86a91dee8ceaa33c12cd7687b3d9355723b1817abcda59ef0ebe82bafde1
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_DoDEA-JustificationBook_Department_of_Defense_Education_Activity_PB_2013.zzz_unzipped-JustificationBook_Department_of_Defense_Education_Activity_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_DoDEA-JustificationBook_Department_of_Defense_Education_Activity_PB_2013.zzz_unzipped-JustificationBook_Department_of_Defense_Education_Activity_PB_2013.json>
+----------------------
+[30/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_JUONF-JustificationBook_Joint_Urgent_Operational_Needs_Fund_PB_2013.zzz_unzipped-JustificationBook_Joint_Urgent_Operational_Needs_Fund_PB_2013.xml
+FILESIZE = 7411
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = c26b0f17792df81c06db90fc5cac0cf6be614f7ae6af8f10ad5558188dc8d235
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_JUONF-JustificationBook_Joint_Urgent_Operational_Needs_Fund_PB_2013.zzz_unzipped-JustificationBook_Joint_Urgent_Operational_Needs_Fund_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_JUONF-JustificationBook_Joint_Urgent_Operational_Needs_Fund_PB_2013.zzz_unzipped-JustificationBook_Joint_Urgent_Operational_Needs_Fund_PB_2013.json>
+----------------------
+[31/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_MDA-JustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-JustificationBook_Missile_Defense_Agency_PB_2013.xml
+FILESIZE = 286249
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 55b9da08172eadbeb762311ae2ef4e77ebe0868050f56331060d80fda9b1442e
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_MDA-JustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-JustificationBook_Missile_Defense_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_MDA-JustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-JustificationBook_Missile_Defense_Agency_PB_2013.json>
+----------------------
+[32/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_MDA-MasterJustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-MasterJustificationBook_Missile_Defense_Agency_PB_2013.xml
+FILESIZE = 359815
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = ca83f9bc127bd765255a6d98ba19674332081a94f86deb9a3013ed5b8bc44551
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_MDA-MasterJustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-MasterJustificationBook_Missile_Defense_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_MDA-MasterJustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-MasterJustificationBook_Missile_Defense_Agency_PB_2013.json>
+----------------------
+[33/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_ODP-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.xml
+FILESIZE = 90490
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = e18ed7827ae45d6ae556d6b9a0d55c60b55c19d29f70b56f3ea583768a32026d
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_ODP-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_ODP-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.json>
+----------------------
+[34/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_OSD-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.xml
+FILESIZE = 320526
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 976d5ee98fbe11021008215906412e6361df73a9c5a83def447a88ad3ba84eb1
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_OSD-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_OSD-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.json>
+----------------------
+[35/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_SOCOM-JustificationBook_United_States_Special_Operations_Command_PB_2013.zzz_unzipped-JustificationBook_United_States_Special_Operations_Command_PB_2013.xml
+FILESIZE = 1706652
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 4b374810ce7bdd2bf175b981b77b5800cc6dcb829ba74c4ab3a9c48df1e2bd72
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_SOCOM-JustificationBook_United_States_Special_Operations_Command_PB_2013.zzz_unzipped-JustificationBook_United_States_Special_Operations_Command_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_SOCOM-JustificationBook_United_States_Special_Operations_Command_PB_2013.zzz_unzipped-JustificationBook_United_States_Special_Operations_Command_PB_2013.json>
+----------------------
+[36/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_TJS-JustificationBook_The_Joint_Staff_PB_2013.zzz_unzipped-JustificationBook_The_Joint_Staff_PB_2013.xml
+FILESIZE = 16581
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 231d6a8c1d94c53681148c27324d1835adf37c1205e35c71ede87e4eb77eb927
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_TJS-JustificationBook_The_Joint_Staff_PB_2013.zzz_unzipped-JustificationBook_The_Joint_Staff_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_TJS-JustificationBook_The_Joint_Staff_PB_2013.zzz_unzipped-JustificationBook_The_Joint_Staff_PB_2013.json>
+----------------------
+[37/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_VOL1-MasterJustificationBook_Defense-Wide_PB_2013.zzz_unzipped-MasterJustificationBook_Defense-Wide_PB_2013.xml
+FILESIZE = 6024366
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 29c09dbd490e042b021759ec062a786fc02d37fe5e06d637bb11e237b8d3042a
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_VOL1-MasterJustificationBook_Defense-Wide_PB_2013.zzz_unzipped-MasterJustificationBook_Defense-Wide_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_VOL1-MasterJustificationBook_Defense-Wide_PB_2013.zzz_unzipped-MasterJustificationBook_Defense-Wide_PB_2013.json>
+----------------------
+[38/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-DEFENSE_WHS-JustificationBook_Washington_Headquarters_Service_PB_2013.zzz_unzipped-JustificationBook_Washington_Headquarters_Service_PB_2013.xml
+FILESIZE = 51416
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 45c15676c9ae7391fc8ca9ae61c708f26f6c19a330eee74e3a72163ee00396b1
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-DEFENSE_WHS-JustificationBook_Washington_Headquarters_Service_PB_2013.zzz_unzipped-JustificationBook_Washington_Headquarters_Service_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-DEFENSE_WHS-JustificationBook_Washington_Headquarters_Service_PB_2013.zzz_unzipped-JustificationBook_Washington_Headquarters_Service_PB_2013.json>
+----------------------
+[39/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA1-4-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 1508027
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = f00659382d7d50a50b68c2e457e08100c916a10baa44665abe9e2a387e1acd93
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA1-4-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA1-4-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[40/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA1-4-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 14270382
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 710b1ce7367c92807458711466dc54e94b0879d490d163cfdd530bb8390d139b
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA1-4-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA1-4-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[41/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA5-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 8655014
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 079fae24b45adcfb0824144529e5c8fe661acb8119225cf91039ff56a04c02dc
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA5-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA5-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[42/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA5-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 14270382
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 710b1ce7367c92807458711466dc54e94b0879d490d163cfdd530bb8390d139b
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA5-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA5-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[43/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA6-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 29489
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = d8450a3e0126a02554604481798ec7e1372e54fd5d16342136c4a3a122abd643
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA6-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA6-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[44/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA6-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 14270382
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 710b1ce7367c92807458711466dc54e94b0879d490d163cfdd530bb8390d139b
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA6-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA6-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[45/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA7-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 1171706
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 78795066ff59f4ea1c8618fac9176cb4c9bd1b3bc1ce7bf29ec8f875b8524423
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA7-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA7-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[46/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA7-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 14270382
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 710b1ce7367c92807458711466dc54e94b0879d490d163cfdd530bb8390d139b
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA7-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AIRCRAFT_BA7-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[47/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL1-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 2697424
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 6d8a33049cc105b19e73d81bda64693830e35a6e3d0845651184ae438bb17e80
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL1-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL1-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[48/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL1-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 6285355
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 956289b18ee4b3583d56677a0b509faeb5a14f586189f2b7e748675de997a640
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL1-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL1-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[49/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL2-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 2423072
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = e483113fc9c2da885e11999b2830e1700be3ed6730d7190ea4791788d471517f
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL2-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL2-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[50/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL2-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 6285355
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 956289b18ee4b3583d56677a0b509faeb5a14f586189f2b7e748675de997a640
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL2-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_AMMUNITION_VOL2-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[51/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_MARINECORPS-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 3665855
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 3f781f73615298d725019964548a88bf4a352f9478fbc1bd2ba7b47bd6727e69
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_MARINECORPS-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_MARINECORPS-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[52/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_MARINECORPS-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 4494622
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = b8e7d99ae907eaabbc1ad013d0efd4335bb7263c57b6ae2a5f7a29d2de4531dc
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_MARINECORPS-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_MARINECORPS-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[53/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA1-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 4099025
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 91f6a54900a50357b6d33a020e632faf25fb0196090bcb9922e4d9f978d8adce
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA1-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA1-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[54/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA1-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 20064838
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 9a7747d5f4d4b8a238ddf3fa059adfc6f2028501a00031822884118df76ed71c
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA1-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA1-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[55/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA2-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 7063417
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 68b9b36a863c515c82a0f83e9f936794ca1bf117c0c146c5866c77c555a33fa8
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA2-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA2-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[56/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA2-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 20064838
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 9a7747d5f4d4b8a238ddf3fa059adfc6f2028501a00031822884118df76ed71c
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA2-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA2-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[57/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA3-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 1011435
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = e56e77c7eb46d50ccfecc494710a819249169342cdb54824c692c350e6b8d690
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA3-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA3-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[58/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA3-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 20064838
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 9a7747d5f4d4b8a238ddf3fa059adfc6f2028501a00031822884118df76ed71c
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA3-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA3-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[59/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA4-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 1253388
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = e38c73c95301f5b2b93137aba4ddbe830472ef3dd17d655012757283a0bbd8c3
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA4-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA4-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[60/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA4-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 20064838
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 9a7747d5f4d4b8a238ddf3fa059adfc6f2028501a00031822884118df76ed71c
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA4-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA4-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[61/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA5_8-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 2679633
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 0e4237e0c3b974ece90c2da96a97d5137e79604fc78f12269b89cb46857b1db9
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA5_8-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA5_8-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[62/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA5_8-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 20064838
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 9a7747d5f4d4b8a238ddf3fa059adfc6f2028501a00031822884118df76ed71c
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA5_8-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_OTHER_BA5_8-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[63/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_WEAPONS-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 2361064
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 275b67f9157356a488bacf74146fbce7242b719bcc47d8f5f56b8a7417c3c8f1
+@doctype = 2013-BASE_PROCUREMENT-JUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_WEAPONS-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_WEAPONS-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[64/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_PROCUREMENT-2013-NAVY_WEAPONS-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 2914451
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 7e7f5284aa452ff39ce1a19dff1f8da9ec57f499238ba01fdcffcfb0c5b9b64c
+@doctype = 2013-BASE_PROCUREMENT-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_PROCUREMENT-2013-NAVY_WEAPONS-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_PROCUREMENT-2013-NAVY_WEAPONS-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[65/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-AIRFORCE_V1-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 1586439
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 377b08f9b6ad0c8e03508d84a92d7e7ff6081551af158104713b4287966f44ff
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-AIRFORCE_V1-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-AIRFORCE_V1-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.json>
+----------------------
+[66/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-AIRFORCE_V1-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 1903940
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = b8a5e405e9ecf0b1ba95a444077c8cd4e0728277681fdf73c9128b8dca77c412
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-AIRFORCE_V1-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-AIRFORCE_V1-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.json>
+----------------------
+[67/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-AIRFORCE_V2-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 3677203
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 4a6b2db1776c67824d8e0b04b6ee6763481137e9675bf7c49c116bfadff91297
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-AIRFORCE_V2-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-AIRFORCE_V2-JustificationBook_Air_Force_PB_2013.zzz_unzipped-JustificationBook_Air_Force_PB_2013.json>
+----------------------
+[68/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-AIRFORCE_V2-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 4556070
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = ad1af1f817a62206da7d859b4a6e4e3f500cb59233ded6fc7db2e1517e1f8801
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-AIRFORCE_V2-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-AIRFORCE_V2-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.json>
+----------------------
+[69/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-AIRFORCE_V3A-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 6481078
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 7788efe7d8f237dc7e3e0d8a7e871fa423ebc79bc35bcad4ef66505d2bdf55df
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-AIRFORCE_V3A-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-AIRFORCE_V3A-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.json>
+----------------------
+[70/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-AIRFORCE_V3B-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+FILESIZE = 6481078
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 7788efe7d8f237dc7e3e0d8a7e871fa423ebc79bc35bcad4ef66505d2bdf55df
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-AIRFORCE_V3B-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-AIRFORCE_V3B-MasterJustificationBook_Air_Force_PB_2013.zzz_unzipped-MasterJustificationBook_Air_Force_PB_2013.json>
+----------------------
+[71/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-ARMY_BA1-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 566388
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = c6afa14c3e7beaab071a54b65eb38fe98aecd353a3eb4a91a153c1243653d1a2
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-ARMY_BA1-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-ARMY_BA1-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[72/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-ARMY_BA2-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 1017575
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 2921b5d02ad714bc60f48c1a986e67f1d69b25f20f7ec99e5a2d69a0793d594e
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-ARMY_BA2-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-ARMY_BA2-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[73/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-ARMY_BA3-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 819943
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 09da9fa3c7c5ed6862cbc1427d6c0a1002f1049f8f98a6cdd5d6e13e6aeed77f
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-ARMY_BA3-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-ARMY_BA3-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[74/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-ARMY_BA4-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 1539680
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 2daf64639968a8a70889e620b12447d9978b87c6b03f00e6ccbf3ac4bdc646a2
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-ARMY_BA4-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-ARMY_BA4-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[75/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-ARMY_BA5A-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 4377218
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 98eb728d0e99fcfffc442f450d0b306cb1af99bba8d76e1a9eaf8af0ae775ac5
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-ARMY_BA5A-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-ARMY_BA5A-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[76/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-ARMY_BA5B-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 4377218
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 98eb728d0e99fcfffc442f450d0b306cb1af99bba8d76e1a9eaf8af0ae775ac5
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-ARMY_BA5B-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-ARMY_BA5B-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[77/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-ARMY_BA6-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 880763
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = e93e19eff902d1d3e2347f5e05793fde0b2342e07bf0351c51f0816cb63f49c2
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-ARMY_BA6-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-ARMY_BA6-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[78/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-ARMY_BA7-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+FILESIZE = 1537284
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 85f34fdb9deb942fdc97ae03bf8c8807ef911fe71a12e94856398e40d65ff50c
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-ARMY_BA7-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-ARMY_BA7-JustificationBook_Army_PB_2013.zzz_unzipped-JustificationBook_Army_PB_2013.json>
+----------------------
+[79/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-CBDP-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.zzz_unzipped-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.xml
+FILESIZE = 2359600
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 908c0aae422559f597b8c3ad7c4d30416c5174cc57f7540e6323b6530556c470
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-CBDP-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.zzz_unzipped-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-CBDP-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.zzz_unzipped-JustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.json>
+----------------------
+[80/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-CBDP-MasterJustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.zzz_unzipped-MasterJustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.xml
+FILESIZE = 2891202
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = a2510da98b1a8c9354fded843469d363e554eb6fd5456e373b578ebdd752e0b9
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-CBDP-MasterJustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.zzz_unzipped-MasterJustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-CBDP-MasterJustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.zzz_unzipped-MasterJustificationBook_Chemical_and_Biological_Defense_Program_PB_2013.json>
+----------------------
+[81/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DARPA-JustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.xml
+FILESIZE = 1214794
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 0f168e203357b6e707f37d44d24cb0dd09665ef27cce9fe757a3634e68fc67d3
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DARPA-JustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DARPA-JustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.json>
+----------------------
+[82/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DARPA-MasterJustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.zzz_unzipped-MasterJustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.xml
+FILESIZE = 1378202
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 9798bcc091c94ec53a3df4f80d97c10fd228af307b1b373b4e9c1402370bb1c8
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DARPA-MasterJustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.zzz_unzipped-MasterJustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DARPA-MasterJustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.zzz_unzipped-MasterJustificationBook_Defense_Advanced_Research_Projects_Agency_PB_2013.json>
+----------------------
+[83/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DCMA-JustificationBook_Defense_Contract_Management_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Contract_Management_Agency_PB_2013.xml
+FILESIZE = 42729
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = ff753bc3d9ba1627fdb9df8148542d8d150d11210fc95153a724b3ed65326029
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DCMA-JustificationBook_Defense_Contract_Management_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Contract_Management_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DCMA-JustificationBook_Defense_Contract_Management_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Contract_Management_Agency_PB_2013.json>
+----------------------
+[84/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DHRA-JustificationBook_DoD_Human_Resources_Activity_PB_2013.zzz_unzipped-JustificationBook_DoD_Human_Resources_Activity_PB_2013.xml
+FILESIZE = 109397
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = d684b99d74f16451356f9d26788fc3a914dc0767854aefb1eec79b419b901e3b
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DHRA-JustificationBook_DoD_Human_Resources_Activity_PB_2013.zzz_unzipped-JustificationBook_DoD_Human_Resources_Activity_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DHRA-JustificationBook_DoD_Human_Resources_Activity_PB_2013.zzz_unzipped-JustificationBook_DoD_Human_Resources_Activity_PB_2013.json>
+----------------------
+[85/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DISA-JustificationBook_Defense_Information_Systems_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Information_Systems_Agency_PB_2013.xml
+FILESIZE = 895009
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 26b6bf5530e75d1a7c201ed2eaa2b89ed9790d8efc0d4ea84dd85218b7fd56f7
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DISA-JustificationBook_Defense_Information_Systems_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Information_Systems_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DISA-JustificationBook_Defense_Information_Systems_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Information_Systems_Agency_PB_2013.json>
+----------------------
+[86/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DLA-JustificationBook_Defense_Logistics_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Logistics_Agency_PB_2013.xml
+FILESIZE = 422300
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = f892a6bccbd8d489bfcb632ef9e2b9ed2a7125ca9675116fbd92948af54c27d6
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DLA-JustificationBook_Defense_Logistics_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Logistics_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DLA-JustificationBook_Defense_Logistics_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Logistics_Agency_PB_2013.json>
+----------------------
+[87/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DSCA-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.xml
+FILESIZE = 58772
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 505cde2db3dc29a61e2f800aec282bdb9031bca13a7fc34061356667bd892e98
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DSCA-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DSCA-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Cooperation_Agency_PB_2013.json>
+----------------------
+[88/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DSS-JustificationBook_Defense_Security_Service_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Service_PB_2013.xml
+FILESIZE = 20207
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = d04e09f71f5af12688cbaf0f6bb3f207e5674ab5f6c51f4d9a4851ee449eb42a
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DSS-JustificationBook_Defense_Security_Service_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Service_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DSS-JustificationBook_Defense_Security_Service_PB_2013.zzz_unzipped-JustificationBook_Defense_Security_Service_PB_2013.json>
+----------------------
+[89/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DTIC-JustificationBook_Defense_Technical_Information_Center_PB_2013.zzz_unzipped-JustificationBook_Defense_Technical_Information_Center_PB_2013.xml
+FILESIZE = 48285
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = f6253d611a669a807e5ca980dc6fcddeef9674f2c840dbf2774bb83166e04e96
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DTIC-JustificationBook_Defense_Technical_Information_Center_PB_2013.zzz_unzipped-JustificationBook_Defense_Technical_Information_Center_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DTIC-JustificationBook_Defense_Technical_Information_Center_PB_2013.zzz_unzipped-JustificationBook_Defense_Technical_Information_Center_PB_2013.json>
+----------------------
+[90/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-DTRA-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.xml
+FILESIZE = 332203
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 55e47e4dd9bd12525d19c70669eb20e49514ec508f3de6ae1ea2637b60c2ccaf
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-DTRA-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-DTRA-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.zzz_unzipped-JustificationBook_Defense_Threat_Reduction_Agency_PB_2013.json>
+----------------------
+[91/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-MDA-JustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-JustificationBook_Missile_Defense_Agency_PB_2013.xml
+FILESIZE = 4820541
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 27ef979666011c981d9aa926627db7bf041f4cc0cd813930eca3c62a146da861
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-MDA-JustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-JustificationBook_Missile_Defense_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-MDA-JustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-JustificationBook_Missile_Defense_Agency_PB_2013.json>
+----------------------
+[92/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-MDA-MasterJustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-MasterJustificationBook_Missile_Defense_Agency_PB_2013.xml
+FILESIZE = 5938584
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 30a590354ce2bb38faaff471597bdd2cae7d185179cfa3560e1bdc3d5cb486ed
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-MDA-MasterJustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-MasterJustificationBook_Missile_Defense_Agency_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-MDA-MasterJustificationBook_Missile_Defense_Agency_PB_2013.zzz_unzipped-MasterJustificationBook_Missile_Defense_Agency_PB_2013.json>
+----------------------
+[93/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA1_3-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 1403782
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = f00b4e139e86ddb671e2711948fb7c245a966e9c18238247cbe6807debcda27d
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA1_3-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA1_3-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[94/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA1_3-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 19560262
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 641465274f4496ab79253d062973b889aca3ea4135482eec3dc1453795e8c9c4
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA1_3-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA1_3-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[95/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA4-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 6258996
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 3fc75a52bfa5f2f9d1812854a6959bbcde7a7f9167a01c400d44b4c8ef8de448
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA4-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA4-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[96/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA4-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 19560262
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 641465274f4496ab79253d062973b889aca3ea4135482eec3dc1453795e8c9c4
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA4-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA4-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[97/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA5-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 9161447
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = ca8d7aab8115d666bf4323dd3f5e1a22e96100440e301ad32967025342563e69
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA5-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA5-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[98/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA5-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 11431032
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 3d6381609fef7582abf96a29ed9583a4172a48080287556f3bb9c3f6e1817395
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA5-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA5-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[99/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA6-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 789038
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 48114bd2cd1904e5e443aed2d5cbd99a85d9a99dcaf4891238c75190bcd2e66d
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA6-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA6-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[100/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA6-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 19560262
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 641465274f4496ab79253d062973b889aca3ea4135482eec3dc1453795e8c9c4
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA6-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA6-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[101/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA7-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+FILESIZE = 7477398
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = e2d6419a2262cbb578f139cafa35ec13cfc6cf034f4193c0e6c1aa65ff2d19d6
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA7-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA7-JustificationBook_Navy_PB_2013.zzz_unzipped-JustificationBook_Navy_PB_2013.json>
+----------------------
+[102/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-NAVY_BA7-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+FILESIZE = 19560262
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 641465274f4496ab79253d062973b889aca3ea4135482eec3dc1453795e8c9c4
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-NAVY_BA7-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-NAVY_BA7-MasterJustificationBook_Navy_PB_2013.zzz_unzipped-MasterJustificationBook_Navy_PB_2013.json>
+----------------------
+[103/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-OSD-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.xml
+FILESIZE = 3403014
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 838ac659d31fe54b5b8e1c350e7a7f75dc1ba679829ceab74a8635eefe657844
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-OSD-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-OSD-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-JustificationBook_Office_of_Secretary_Of_Defense_PB_2013.json>
+----------------------
+[104/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-OSD-MasterJustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-MasterJustificationBook_Office_of_Secretary_Of_Defense_PB_2013.xml
+FILESIZE = 3909854
+YEAR = 2013
+JBOOK_TYPE = MasterJustificationBook
+@recordid = 28920f953d18852dad3d6e4ba58112464c906989e37fc9b8d708e58113eacba4
+@doctype = 2013-BASE_RDTE-MASTERJUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-OSD-MasterJustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-MasterJustificationBook_Office_of_Secretary_Of_Defense_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-OSD-MasterJustificationBook_Office_of_Secretary_Of_Defense_PB_2013.zzz_unzipped-MasterJustificationBook_Office_of_Secretary_Of_Defense_PB_2013.json>
+----------------------
+[105/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-OTE-JustificationBook_Operational_Test_and_Evaluation,_Defense_PB_2013.zzz_unzipped-JustificationBook_Operational_Test_and_Evaluation,_Defense_PB_2013.xml
+FILESIZE = 90212
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = db516fc6c0cd047828e13a3e0d5e8e647cd7be1aa230bac1e16e44e4ceaf8ed4
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-OTE-JustificationBook_Operational_Test_and_Evaluation,_Defense_PB_2013.zzz_unzipped-JustificationBook_Operational_Test_and_Evaluation,_Defense_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-OTE-JustificationBook_Operational_Test_and_Evaluation,_Defense_PB_2013.zzz_unzipped-JustificationBook_Operational_Test_and_Evaluation,_Defense_PB_2013.json>
+----------------------
+[106/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-SOCOM-JustificationBook_United_States_Special_Operations_Command_PB_2013.zzz_unzipped-JustificationBook_United_States_Special_Operations_Command_PB_2013.xml
+FILESIZE = 809612
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 71657ad63f5d6418ee45d88418bf5ffa1e395bec1b06bb80b1420068aa122cf1
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-SOCOM-JustificationBook_United_States_Special_Operations_Command_PB_2013.zzz_unzipped-JustificationBook_United_States_Special_Operations_Command_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-SOCOM-JustificationBook_United_States_Special_Operations_Command_PB_2013.zzz_unzipped-JustificationBook_United_States_Special_Operations_Command_PB_2013.json>
+----------------------
+[107/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-TJS-JustificationBook_The_Joint_Staff_PB_2013.zzz_unzipped-JustificationBook_The_Joint_Staff_PB_2013.xml
+FILESIZE = 159862
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 3099f8cb3d0698e37b34a289699aa73584a320dc08db5cf5e6ccf4fbb1b20d80
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-TJS-JustificationBook_The_Joint_Staff_PB_2013.zzz_unzipped-JustificationBook_The_Joint_Staff_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-TJS-JustificationBook_The_Joint_Staff_PB_2013.zzz_unzipped-JustificationBook_The_Joint_Staff_PB_2013.json>
+----------------------
+[108/108]
+FILEPATH = ./1-jbook-xml/2013-BASE_RDTE-2013-WHS-JustificationBook_Washington_Headquarters_Service_PB_2013.zzz_unzipped-JustificationBook_Washington_Headquarters_Service_PB_2013.xml
+FILESIZE = 17916
+YEAR = 2013
+JBOOK_TYPE = JustificationBook
+@recordid = 2db834e198c3724093d9f6c7eeccc594559b07d6f82552d2355c0fca28cce8f7
+@doctype = 2013-BASE_RDTE-JUSTIFICATIONBOOK
+@filename = 2013-BASE_RDTE-2013-WHS-JustificationBook_Washington_Headquarters_Service_PB_2013.zzz_unzipped-JustificationBook_Washington_Headquarters_Service_PB_2013.xml
+----------------------
+<Writing ./2-jbook-json/2013-BASE_RDTE-2013-WHS-JustificationBook_Washington_Headquarters_Service_PB_2013.zzz_unzipped-JustificationBook_Washington_Headquarters_Service_PB_2013.json>
+
+
+[done]

@@ -1,0 +1,723 @@
+{
+    "@recordid": "271b301f3ec800339ad7c56a17d465c1068d3f74025b9e23677c6b94de0d4651",
+    "@doctype": "2021-BASE_PROCUREMENT-JUSTIFICATIONBOOK",
+    "@filename": "2021-BASE_PROCUREMENT-2021-DEFENSE_DTRA-U_PROCUREMENT_JustificationBook_Defense_Threat_Reduction_Agency_PB_2021.zzz_unzipped-U_PROCUREMENT_JustificationBook_Defense_Threat_Reduction_Agency_PB_2021.xml",
+    "JustificationBook": {
+        "@targetSchemaVersion": "1.0",
+        "Title": {
+            "val": "Justification Book"
+        },
+        "BudgetYear": {
+            "val": "2021"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2020-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Defense Threat Reduction Agency"
+        },
+        "AppropriationCode": {
+            "val": "0300D"
+        },
+        "AppropriationName": {
+            "val": "Procurement, Defense-Wide"
+        },
+        "CoverPage": [],
+        "ExternalDocuments": {
+            "IntroductionDoc": {
+                "Title": {
+                    "val": "Introduction and Explanation of Contents"
+                },
+                "FileName": {
+                    "val": "FY21 PB Overview_DTRA#Ezr#u.pdf"
+                }
+            },
+            "UserP1Doc": {
+                "Title": {
+                    "val": "Comptroller Exhibit P-1"
+                },
+                "FileName": {
+                    "val": "P-1 REPORT as of 21 Jan 2020_DTRA#doP9H.pdf"
+                }
+            }
+        },
+        "DocumentAssemblyOptions": {
+            "ForceEvenPages": {
+                "val": "true"
+            },
+            "WorkFlowStatus": {
+                "val": "DRAFT"
+            },
+            "VolumeTitleAggregation": {
+                "val": "Title(s) undefined"
+            },
+            "GenerateLineItemTocByTitle": {
+                "val": "true"
+            },
+            "GenerateLineItemTocByBA": {
+                "val": "true"
+            },
+            "IncludeTableOfVolumes": {
+                "val": "true"
+            }
+        },
+        "LineItemList": {
+            "LineItem": [
+                {
+                    "@quantityUnits": "Each",
+                    "@quantityUnitName": "Each",
+                    "@unitCostUnits": "Millions",
+                    "@totalCostUnits": "Millions",
+                    "@manufacturerRateUnits": "Monthly",
+                    "@combinedP5Flag": "false",
+                    "LineItemNumber": {
+                        "val": "20"
+                    },
+                    "LineItemTitle": {
+                        "val": "Vehicles"
+                    },
+                    "P1LineNumber": {
+                        "val": "28"
+                    },
+                    "BudgetYear": {
+                        "val": "2021"
+                    },
+                    "BudgetCycle": {
+                        "val": "PB"
+                    },
+                    "SubmissionDate": {
+                        "val": "2020-02"
+                    },
+                    "ServiceAgencyName": {
+                        "val": "Defense Threat Reduction Agency"
+                    },
+                    "AppropriationNumber": {
+                        "val": "0300D"
+                    },
+                    "AppropriationTitle": {
+                        "val": "Procurement, Defense-Wide"
+                    },
+                    "BudgetActivityNumber": {
+                        "val": "1"
+                    },
+                    "BudgetActivityTitle": {
+                        "val": "Major Equipment"
+                    },
+                    "BudgetSubActivityNumber": {
+                        "val": "23"
+                    },
+                    "BudgetSubActivityTitle": {
+                        "val": "Major Equipment, Defense Threat Reduction Agency"
+                    },
+                    "ResourceSummary": {
+                        "TotalCost": {
+                            "AllPriorYears": {
+                                "val": "2.271"
+                            },
+                            "PriorYear": {
+                                "val": "0.207"
+                            },
+                            "CurrentYear": {
+                                "val": "0.211"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0.215"
+                            },
+                            "BudgetYearOne": {
+                                "val": "0.215"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "0.219"
+                            },
+                            "BudgetYearThree": {
+                                "val": "0.24"
+                            },
+                            "BudgetYearFour": {
+                                "val": "0.28"
+                            },
+                            "BudgetYearFive": {
+                                "val": "0.286"
+                            },
+                            "Continuing": {
+                                "val": "true"
+                            }
+                        },
+                        "NetProcurementP1": {
+                            "AllPriorYears": {
+                                "val": "2.271"
+                            },
+                            "PriorYear": {
+                                "val": "0.207"
+                            },
+                            "CurrentYear": {
+                                "val": "0.211"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0.215"
+                            },
+                            "BudgetYearOne": {
+                                "val": "0.215"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "0.219"
+                            },
+                            "BudgetYearThree": {
+                                "val": "0.24"
+                            },
+                            "BudgetYearFour": {
+                                "val": "0.28"
+                            },
+                            "BudgetYearFive": {
+                                "val": "0.286"
+                            },
+                            "Continuing": {
+                                "val": "true"
+                            }
+                        },
+                        "TotalObligationAuthority": {
+                            "AllPriorYears": {
+                                "val": "2.271"
+                            },
+                            "PriorYear": {
+                                "val": "0.207"
+                            },
+                            "CurrentYear": {
+                                "val": "0.211"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0.215"
+                            },
+                            "BudgetYearOne": {
+                                "val": "0.215"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "0.219"
+                            },
+                            "BudgetYearThree": {
+                                "val": "0.24"
+                            },
+                            "BudgetYearFour": {
+                                "val": "0.28"
+                            },
+                            "BudgetYearFive": {
+                                "val": "0.286"
+                            },
+                            "Continuing": {
+                                "val": "true"
+                            }
+                        }
+                    },
+                    "Code": {
+                        "val": "A"
+                    },
+                    "Description": {
+                        "val": "The Defense Threat Reduction Agency (DTRA) continues to expand its support to counter and deter Weapons of Mass Destruction and Improvised Threat Networks.  The FY 2021 budget supports the procurement and life-cycle replacement of DTRA's fleet of aged agency owned non-tactical vehicles located in the continental United States (CONUS) and overseas (OCONUS), purchased through the General Services Administration and approved acquisition sources that provide a vehicle program which ensures uniform serviceability to all areas, to include tractors, and other specialized industrial trucks powered by electric motors or internal combustion engines.  These vehicles are heavily operated in rocky unpaved terrain resulting in shortened life-cycles and increased maintenance volume."
+                    },
+                    "Justification": {
+                        "val": "FY 2021 funding for this budget line item provides for life-cycle replacement of the fleet-aged, agency owned non-tactical vehicles.  Budget estimate assumes procurement of five (5) agency owned vehicles with specific requirements based on factors such as terrain, special support requirements and location.  Life-cycle requirements are based on General Services Administration guidelines for fleet management and vehicle maintenance."
+                    },
+                    "DocumentAssemblyOptions": {
+                        "p40AItemScheduleSetting": {
+                            "val": "item"
+                        }
+                    }
+                },
+                {
+                    "@quantityUnits": "Each",
+                    "@quantityUnitName": "Each",
+                    "@unitCostUnits": "Millions",
+                    "@totalCostUnits": "Millions",
+                    "@manufacturerRateUnits": "Monthly",
+                    "@combinedP5Flag": "false",
+                    "LineItemNumber": {
+                        "val": "30"
+                    },
+                    "LineItemTitle": {
+                        "val": "Other Major Equipment"
+                    },
+                    "P1LineNumber": {
+                        "val": "29"
+                    },
+                    "BudgetYear": {
+                        "val": "2021"
+                    },
+                    "BudgetCycle": {
+                        "val": "PB"
+                    },
+                    "SubmissionDate": {
+                        "val": "2020-02"
+                    },
+                    "ServiceAgencyName": {
+                        "val": "Defense Threat Reduction Agency"
+                    },
+                    "AppropriationNumber": {
+                        "val": "0300D"
+                    },
+                    "AppropriationTitle": {
+                        "val": "Procurement, Defense-Wide"
+                    },
+                    "BudgetActivityNumber": {
+                        "val": "1"
+                    },
+                    "BudgetActivityTitle": {
+                        "val": "Major Equipment"
+                    },
+                    "BudgetSubActivityNumber": {
+                        "val": "23"
+                    },
+                    "BudgetSubActivityTitle": {
+                        "val": "Major Equipment, Defense Threat Reduction Agency"
+                    },
+                    "ResourceSummary": {
+                        "TotalCost": {
+                            "AllPriorYears": {
+                                "val": "82.413"
+                            },
+                            "PriorYear": {
+                                "val": "5.592"
+                            },
+                            "CurrentYear": {
+                                "val": "11.521"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "9.994"
+                            },
+                            "BudgetYearOne": {
+                                "val": "9.994"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "10.263"
+                            },
+                            "BudgetYearThree": {
+                                "val": "10.437"
+                            },
+                            "BudgetYearFour": {
+                                "val": "5.216"
+                            },
+                            "BudgetYearFive": {
+                                "val": "5.291"
+                            },
+                            "Continuing": {
+                                "val": "true"
+                            }
+                        },
+                        "NetProcurementP1": {
+                            "AllPriorYears": {
+                                "val": "82.413"
+                            },
+                            "PriorYear": {
+                                "val": "5.592"
+                            },
+                            "CurrentYear": {
+                                "val": "11.521"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "9.994"
+                            },
+                            "BudgetYearOne": {
+                                "val": "9.994"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "10.263"
+                            },
+                            "BudgetYearThree": {
+                                "val": "10.437"
+                            },
+                            "BudgetYearFour": {
+                                "val": "5.216"
+                            },
+                            "BudgetYearFive": {
+                                "val": "5.291"
+                            },
+                            "Continuing": {
+                                "val": "true"
+                            }
+                        },
+                        "TotalObligationAuthority": {
+                            "AllPriorYears": {
+                                "val": "82.413"
+                            },
+                            "PriorYear": {
+                                "val": "5.592"
+                            },
+                            "CurrentYear": {
+                                "val": "11.521"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "9.994"
+                            },
+                            "BudgetYearOne": {
+                                "val": "9.994"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "10.263"
+                            },
+                            "BudgetYearThree": {
+                                "val": "10.437"
+                            },
+                            "BudgetYearFour": {
+                                "val": "5.216"
+                            },
+                            "BudgetYearFive": {
+                                "val": "5.291"
+                            },
+                            "Continuing": {
+                                "val": "true"
+                            }
+                        }
+                    },
+                    "Code": {
+                        "val": "A"
+                    },
+                    "Description": {
+                        "val": "The Other Major Equipment Procurement Program supports the following mission requirements:\n- Stand-alone low visibility gamma\/neutron wide-area detection system, designed to improve the concealability of the existing Multi-Platform System via miniaturization and modularization;\n- Comprehensive Nuclear-Test-Ban Treaty's International Monitoring System and replacement components to support the operations of the Nuclear Arms Control Technology;\n(NACT) program and the U.S. Government's nonproliferation objectives related to implementation, compliance, monitoring and inspections for nuclear arms control activities;\n- Virtualization of the Defense Stockpile Management System (DSMS);  \n- Materials Handling Equipment (MHE) supports missions in the United States and overseas. MHE refers to various equipment for handling supplies with greater ease and economy, to include but not limited to forklifts.  The equipment is operated on rocky and unpaved terrain, resulting in shortened life-cycles and increased maintenance; \n- The Other Major Equipment Procurement Program also supports the backend IT infrastructure supporting DTRA's systems, capabilities and security posture."
+                    },
+                    "Justification": {
+                        "val": "The FY 2019 funding of $5.592 million resourced the following new and continuing efforts:\n-  Purchased Information Operations Computer Network Defense system equipment, giving DTRA a greater capability to execute cyber vulnerability scanning tools for Balanced Survivability Assessments.\n-  Continued the first phase to support the one-time replacement of DTRA's cable plant infrastructure started in FY 2018.\n-  Enhanced the DTRA Experimentation Laboratory supporting Technical Reachback.\n-  Continued Defense Stockpile Management System (DSMS) lifecycle replacement of the primary Defense Integration and Management of Nuclear Data Services (DIAMONDS) enterprise server equipment.\n-  Continued support to the Nuclear Arms Control Technology (NACT) program to meet on-going operational responsibilities in support of the Comprehensive Nuclear-Test-Ban Treaty's International Monitoring System and the U.S. Government's nonproliferation objectives related to implementation, compliance, monitoring, and inspection for nuclear arms control activities.\n-   Purchased an additional three (3) Orca systems to provide Weapons of Mass Destruction (WMD) search teams a low visibility gamma\/neutron wide-area detection system, designed to improve the concealability of the existing Multi-Platform System via miniaturization and modularization. This is a life-cycle replacement of the existing Multi-Platform System.\n\nThe FY 2020 budget of $11.521 million funds the following new and continuing efforts:\n-  Purchase an additional eighteen (18) Orca systems to provide WMD search teams a low visibility gamma\/neutron wide-area detection system, designed to improve the concealability of the existing Multi-Platform System via miniaturization and modularization. This is a life-cycle replacement of the existing Multi-Platform System. \n-  One-time purchase of two (2) BLACK RHINO Next Generation deployable toolkits designed to provide a lightweight flyaway\/portable kit configured with high-end systems pre-loaded with next generation Cybersecurity technologies and software designed to conduct Balanced Survivability Assessments of Military and Federal installations.\n-  Continue DSMS lifecycle replacement of the primary DIAMONDS enterprise server equipment.\n-  Continue support to the NACT program to meet on-going operational responsibilities to operate, maintain, and recapitalize U.S. International Monitoring System stations in support of the United States and Department of Defense objectives and the Comprehensive Nuclear-Test-Ban Treaty objectives related to implementation, monitoring, and verification for nuclear arms control activities.\n-  Purchase Materials Handling Equipment (MHE) in support of missions in the U.S. and overseas. Equipment consists of mechanical devices for handling of supplies with greater ease and economy. MHE includes various equipment, including forklifts, tractors, and other specialized industrial trucks powered by electric motors or internal combustion engines.  This could be operated in rocky, unpaved terrain and warehouse environments resulting in shortened life-cycles and increased volume for maintenance.\n\nThe FY 2021 budget of $9.994 million will fund the following new and continuing efforts:\n-  Continue support to the NACT program to meet on-going operational responsibilities for the recapitalization of the U.S. International Monitoring System stations in support of the United States and Department of Defense objectives and the Comprehensive Nuclear-Test-Ban Treaty objectives related to implementation, monitoring, and verification for nuclear arms control activities.\n-  Perform technical refresh of backend Information Technology infrastructure supporting DTRA's mission critical systems and capabilities. \n-  Purchase an additional eighteen (18) Orca systems to provide WMD search teams a low visibility gamma\/neutron wide-area detection system, designed to improve the concealability of the existing Multi-Platform System via miniaturization and modularization. This is a life-cycle replacement of the existing Multi-Platform System.\n-  Replace primary DSMS core systems at DTRA Ft Belvoir and DTRA Kirtland AFB.  This replacement of core systems includes the procurement of twenty-four (24) high end components for the complete, across-the-board, virtualization of the DSMS."
+                    },
+                    "ItemExhibitList": {
+                        "P40AItemGroup": [
+                            {
+                                "Name": {
+                                    "val": "Mission Management"
+                                },
+                                "CategoryList": {
+                                    "Category": [
+                                        {
+                                            "Name": {
+                                                "val": "Mission Management"
+                                            },
+                                            "ItemList": {
+                                                "Item": [
+                                                    {
+                                                        "Name": {
+                                                            "val": "Mission Management"
+                                                        },
+                                                        "ResourceSummary": {
+                                                            "TotalCost": {
+                                                                "AllPriorYears": {
+                                                                    "val": "18.857"
+                                                                },
+                                                                "PriorYear": {
+                                                                    "val": "3.734"
+                                                                },
+                                                                "CurrentYear": {
+                                                                    "val": "8.272"
+                                                                },
+                                                                "BudgetYearOneBase": {
+                                                                    "val": "8.337"
+                                                                },
+                                                                "BudgetYearOne": {
+                                                                    "val": "8.337"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "CategorySubtotal": {
+                                                "TotalCost": {
+                                                    "AllPriorYears": {
+                                                        "val": "18.857"
+                                                    },
+                                                    "PriorYear": {
+                                                        "val": "3.734"
+                                                    },
+                                                    "CurrentYear": {
+                                                        "val": "8.272"
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "val": "8.337"
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "val": "8.337"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "Remarks": {
+                                    "val": "The FY 2021 request supports the following mission critical programs:\n-  Nuclear Arms Control Technology (NACT): Provides for recapitalization of components of the International Monitoring System stations managed by the NACT program in support of the United States and Department of Defense objectives and the Comprehensive Nuclear-Test-Ban Treaty.\n-  Stockpile Logistics: Provides lifecycle replacement of the primary Defense Integration and Management of Nuclear Data Services (DIAMONDS) enterprise server equipment.\n-  Nimble Elder: Supports the purchase of (18) Orca systems to provide the Weapons of Mass Destruction search teams a low visibility gamma\/neutron wide-area detection system to improve their concealability and life cycle replacement of the existing Multi-Platform System via miniaturization and modularization."
+                                },
+                                "TotalCost": {
+                                    "TotalCost": {
+                                        "AllPriorYears": {
+                                            "val": "18.857"
+                                        },
+                                        "PriorYear": {
+                                            "val": "3.734"
+                                        },
+                                        "CurrentYear": {
+                                            "val": "8.272"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "8.337"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "8.337"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "Name": {
+                                    "val": "Infrastructure"
+                                },
+                                "CategoryList": {
+                                    "Category": [
+                                        {
+                                            "Name": {
+                                                "val": "Infrastructure"
+                                            },
+                                            "ItemList": {
+                                                "Item": [
+                                                    {
+                                                        "Name": {
+                                                            "val": "Infrastructure"
+                                                        },
+                                                        "ResourceSummary": {
+                                                            "TotalCost": {
+                                                                "AllPriorYears": {
+                                                                    "val": "63.556"
+                                                                },
+                                                                "PriorYear": {
+                                                                    "val": "1.858"
+                                                                },
+                                                                "CurrentYear": {
+                                                                    "val": "3.249"
+                                                                },
+                                                                "BudgetYearOneBase": {
+                                                                    "val": "1.657"
+                                                                },
+                                                                "BudgetYearOne": {
+                                                                    "val": "1.657"
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "CategorySubtotal": {
+                                                "TotalCost": {
+                                                    "AllPriorYears": {
+                                                        "val": "63.556"
+                                                    },
+                                                    "PriorYear": {
+                                                        "val": "1.858"
+                                                    },
+                                                    "CurrentYear": {
+                                                        "val": "3.249"
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "val": "1.657"
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "val": "1.657"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "Remarks": {
+                                    "val": "The FY 2021 request supports DTRA's Information Technology Infrastructure, including technical refresh of backend mission critical systems and capabilities and enhanced security features. \n\nThe net decrease of $1.592 million from FY 2020 to FY2021 is based on the following:\n\nAn increase of $1.495 million to resource DTRA's Information Technology Infrastructure, including technical refresh and enhanced security features. \nA decrease of $3.087 million in infrastructure that included a one-time purchase in FY 2020 of two (2) BLACK RHINO Cyber Assessment tool kits."
+                                },
+                                "TotalCost": {
+                                    "TotalCost": {
+                                        "AllPriorYears": {
+                                            "val": "63.556"
+                                        },
+                                        "PriorYear": {
+                                            "val": "1.858"
+                                        },
+                                        "CurrentYear": {
+                                            "val": "3.249"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "1.657"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "1.657"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "DocumentAssemblyOptions": {
+                        "p40AItemScheduleSetting": {
+                            "val": "item"
+                        }
+                    }
+                },
+                {
+                    "@quantityUnits": "Each",
+                    "@quantityUnitName": "Each",
+                    "@unitCostUnits": "Millions",
+                    "@totalCostUnits": "Millions",
+                    "LineItemNumber": {
+                        "val": "40"
+                    },
+                    "LineItemTitle": {
+                        "val": "Counter Improvised Threat Technologies"
+                    },
+                    "P1LineNumber": {
+                        "val": "30"
+                    },
+                    "BudgetYear": {
+                        "val": "2021"
+                    },
+                    "BudgetCycle": {
+                        "val": "PB"
+                    },
+                    "SubmissionDate": {
+                        "val": "2020-02"
+                    },
+                    "ServiceAgencyName": {
+                        "val": "Defense Threat Reduction Agency"
+                    },
+                    "AppropriationNumber": {
+                        "val": "0300D"
+                    },
+                    "AppropriationTitle": {
+                        "val": "Procurement, Defense-Wide"
+                    },
+                    "BudgetActivityNumber": {
+                        "val": "1"
+                    },
+                    "BudgetActivityTitle": {
+                        "val": "Major Equipment"
+                    },
+                    "BudgetSubActivityNumber": {
+                        "val": "23"
+                    },
+                    "BudgetSubActivityTitle": {
+                        "val": "Major Equipment, Defense Threat Reduction Agency"
+                    },
+                    "ResourceSummary": {
+                        "TotalCost": {
+                            "AllPriorYears": {
+                                "val": "5.2"
+                            },
+                            "PriorYear": {
+                                "val": "5.534"
+                            },
+                            "CurrentYear": {
+                                "val": "4.59"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneOCO": {
+                                "val": "2.54"
+                            },
+                            "BudgetYearOne": {
+                                "val": "2.54"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "2.579"
+                            },
+                            "BudgetYearThree": {
+                                "val": "3.503"
+                            },
+                            "BudgetYearFour": {
+                                "val": "3.587"
+                            },
+                            "BudgetYearFive": {
+                                "val": "3.659"
+                            },
+                            "Continuing": {
+                                "val": "true"
+                            }
+                        },
+                        "NetProcurementP1": {
+                            "AllPriorYears": {
+                                "val": "5.2"
+                            },
+                            "PriorYear": {
+                                "val": "5.534"
+                            },
+                            "CurrentYear": {
+                                "val": "4.59"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneOCO": {
+                                "val": "2.54"
+                            },
+                            "BudgetYearOne": {
+                                "val": "2.54"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "2.579"
+                            },
+                            "BudgetYearThree": {
+                                "val": "3.503"
+                            },
+                            "BudgetYearFour": {
+                                "val": "3.587"
+                            },
+                            "BudgetYearFive": {
+                                "val": "3.659"
+                            },
+                            "Continuing": {
+                                "val": "true"
+                            }
+                        },
+                        "TotalObligationAuthority": {
+                            "AllPriorYears": {
+                                "val": "5.2"
+                            },
+                            "PriorYear": {
+                                "val": "5.534"
+                            },
+                            "CurrentYear": {
+                                "val": "4.59"
+                            },
+                            "BudgetYearOneBase": {
+                                "val": "0"
+                            },
+                            "BudgetYearOneOCO": {
+                                "val": "2.54"
+                            },
+                            "BudgetYearOne": {
+                                "val": "2.54"
+                            },
+                            "BudgetYearTwo": {
+                                "val": "2.579"
+                            },
+                            "BudgetYearThree": {
+                                "val": "3.503"
+                            },
+                            "BudgetYearFour": {
+                                "val": "3.587"
+                            },
+                            "BudgetYearFive": {
+                                "val": "3.659"
+                            },
+                            "Continuing": {
+                                "val": "true"
+                            }
+                        }
+                    },
+                    "Description": {
+                        "val": "FY 2019 funding totals include $5.534 million appropriated for Overseas Contingency Operations (OCO).\nFY 2020 funding totals include $4.590 million for OCO.\nFY 2021 funding totals include $2.540 million for OCO. \n\nThe Defense Threat Reduction Agency (DTRA) counter and deter threat network mission applies the tactics, tools and techniques honed in the counter terrorist fight to counter Chinese, Russian, Iranian, North Korean and their proxy threat networks while maintaining pressure on Violent Extremist Organizations (VEOs).  DTRA accomplishes this mission by procuring items to support the following:\n\n-  Sustaining an advanced information technology and fusion infrastructure that enables a threat awareness and understanding capability;\n-  Providing expeditionary, forward-deployed operations, intelligence, training, and advisory capabilities with reach back support; enabling rapid and innovative counter-improvised threat solution development and delivery;\n-  Supporting Military Departments\/Services' pre-deployment training and Combatant Commanders' priority training-exercise support requirements;\n-  Leveraging broad Communities of Action that include DoD, other U.S. Government departments and agencies, key coalition allies and partners, academia, and the private sector to employ their capabilities, expertise, access and authorities to counter threat networks and their use and facilitation of improvised weapons."
+                    },
+                    "Justification": {
+                        "val": "The FY 2019 Overseas Contingency Operations (OCO) funding of $5.534 million resourced the following new and continuing efforts:\n-  In support of contingency operations in Iraq and Afghanistan, provided U.S. Joint Force Combatant Commanders with an awareness and understanding of the threat as well as the resources needed to support other contingencies including those with the mission to defeat the Islamic State of Iraq and Syria (ISIS). \n-  The provision of technologies to defeat improvised threats such as: advanced wireless signals and compatible electronic countermeasures for improvised explosive device defeat\/neutralization; miniaturized and integrated sensors; handheld detectors; and the procurement of mission-critical support items and information technology capabilities in support the DoD's goal to rapidly close the gap between the enemy's innovation cycles and the preparedness and operational capabilities of deploying and deployed U.S. Joint Forces.\n \nThe FY 2020 OCO funding of $4.590 million funds the following efforts:\n-  Lifecycle replacement and additional procurement of Joint Expeditionary Kits (JEKs) used by forward-deployed troops operating in austere locations around the globe. These kits support combat operations by equipping troops with a self-contained analytical tool kit that extends DTRA's combat support and intelligence analysis capabilities into forward operating locations.  These locations have minimal or no existing communications infrastructure or tactical intelligence support. \n-  Lifecycle replacement of a high-performance computing platform (primary system and disaster recovery fail-over system) that supports warfighter capabilities for use by Combatant Commands, Theater Special Operations Commands, forward-deployed combat troops, and mission partners in the DoD, Intelligence Community, Services, Homeland Security, and Law Enforcement community.\n\nThe FY 2021 OCO budget of $2.540 million will fund the lifecycle replacement of seven (7) JEKs (one third of existing kits are replaced each year under a three-year lifecycle replacement plan) and procurement of two (2) additional JEKs to support additional requirements, for a total of nine (9) JEKs. JEKs are used by forward-deployed troops operating in austere locations around the globe. These JEKs support combat operations by equipping troops with a self-contained analytical tool kit that extends DTRA's combat support and intelligence analysis capabilities into forward operating locations. These locations have minimal or no existing communications infrastructure or tactical intelligence support. The three-year lifecycle management\/replacement plan is required because these kits operate in sub-optimal conditions in forward-deployed locations and are subject to accelerated operational wear and failure in the field.  \n\nThe decrease from FY 2020 to FY 2021 is due to revalidation of procurement requirements."
+                    },
+                    "DocumentAssemblyOptions": {
+                        "p40AItemScheduleSetting": {
+                            "val": "item"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
