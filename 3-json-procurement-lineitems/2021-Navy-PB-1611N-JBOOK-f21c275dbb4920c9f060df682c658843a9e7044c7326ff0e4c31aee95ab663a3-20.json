@@ -1,0 +1,958 @@
+{
+    "id": "2021-Navy-PB-1611N-JBOOK-f21c275dbb4920c9f060df682c658843a9e7044c7326ff0e4c31aee95ab663a3-20",
+    "meta": {
+        "filename": "2021-BASE_PROCUREMENT-2021-NAVY_SHIPBUILDINGANDCOVERSION-U_PROCUREMENT_JustificationBook_Navy_PB_2021.zzz_unzipped-U_PROCUREMENT_JustificationBook_Navy_PB_2021.xml",
+        "doctype": "2021-BASE_PROCUREMENT-JUSTIFICATIONBOOK",
+        "budget_year": "2021",
+        "budget_cycle": "PB",
+        "submission_date": "2020-02",
+        "service_agency_name": "Navy",
+        "appropriation_code": "1611N",
+        "appropriation_name": "Shipbuilding and Conversion, Navy"
+    },
+    "record": {
+        "@quantityUnits": "Each",
+        "@unitCostUnits": "Millions",
+        "@totalCostUnits": "Millions",
+        "@manufacturerRateUnits": "Yearly",
+        "@suppressAdvanceProcurementP40": "true",
+        "@suppressOutfittingDeliveryBY2ToBY5": "true",
+        "LineItemNumber": {
+            "val": "5139"
+        },
+        "LineItemTitle": {
+            "val": "LCAC SLEP"
+        },
+        "P1LineNumber": {
+            "val": "27"
+        },
+        "BudgetYear": {
+            "val": "2021"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2020-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Navy"
+        },
+        "AppropriationNumber": {
+            "val": "1611N"
+        },
+        "AppropriationTitle": {
+            "val": "Shipbuilding and Conversion, Navy"
+        },
+        "BudgetActivityNumber": {
+            "val": "5"
+        },
+        "BudgetActivityTitle": {
+            "val": "Auxiliaries, Craft, and Prior-Year Program Costs"
+        },
+        "BudgetSubActivityNumber": {
+            "val": "1"
+        },
+        "BudgetSubActivityTitle": {
+            "val": "Auxiliaries, Craft and Prior Yr Program Cost"
+        },
+        "ResourceSummary": {
+            "Quantity": {
+                "AllPriorYears": {
+                    "val": "67"
+                },
+                "BudgetYearOneBase": {
+                    "val": "3"
+                },
+                "BudgetYearOne": {
+                    "val": "3"
+                },
+                "BudgetYearTwo": {
+                    "val": "3"
+                },
+                "BudgetYearThree": {
+                    "val": "3"
+                },
+                "Total": {
+                    "val": "76"
+                }
+            },
+            "TotalCost": {
+                "AllPriorYears": {
+                    "val": "1418.444"
+                },
+                "PriorYear": {
+                    "val": "0"
+                },
+                "CurrentYear": {
+                    "val": "0"
+                },
+                "BudgetYearOneBase": {
+                    "val": "56.461"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "0"
+                },
+                "BudgetYearOne": {
+                    "val": "56.461"
+                },
+                "BudgetYearTwo": {
+                    "val": "52.271"
+                },
+                "BudgetYearThree": {
+                    "val": "53.307"
+                },
+                "BudgetYearFour": {
+                    "val": "0"
+                },
+                "BudgetYearFive": {
+                    "val": "0"
+                },
+                "Total": {
+                    "val": "1580.483"
+                }
+            },
+            "UnitCost": {
+                "AllPriorYears": {
+                    "val": "21.171"
+                },
+                "BudgetYearOneBase": {
+                    "val": "18.82"
+                },
+                "BudgetYearOne": {
+                    "val": "18.82"
+                },
+                "BudgetYearTwo": {
+                    "val": "17.424"
+                },
+                "BudgetYearThree": {
+                    "val": "17.769"
+                },
+                "Total": {
+                    "val": "20.796"
+                }
+            },
+            "PYAdvanceProcurement": {
+                "AllPriorYears": {
+                    "val": "27.9"
+                },
+                "Total": {
+                    "val": "27.9"
+                }
+            },
+            "LessCostToComplete": {
+                "AllPriorYears": {
+                    "val": "14"
+                },
+                "Total": {
+                    "val": "14"
+                }
+            },
+            "LessSubsequentYearFullFunding": {
+                "AllPriorYears": {
+                    "val": "1.774"
+                },
+                "Total": {
+                    "val": "1.774"
+                }
+            },
+            "NetProcurementP1": {
+                "AllPriorYears": {
+                    "val": "1353.47"
+                },
+                "PriorYear": {
+                    "val": "0"
+                },
+                "CurrentYear": {
+                    "val": "0"
+                },
+                "BudgetYearOneBase": {
+                    "val": "56.461"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "0"
+                },
+                "BudgetYearOne": {
+                    "val": "56.461"
+                },
+                "BudgetYearTwo": {
+                    "val": "52.271"
+                },
+                "BudgetYearThree": {
+                    "val": "53.307"
+                },
+                "BudgetYearFour": {
+                    "val": "0"
+                },
+                "BudgetYearFive": {
+                    "val": "0"
+                },
+                "Total": {
+                    "val": "1515.509"
+                }
+            },
+            "PlusSubsequentYearFullFunding": {
+                "AllPriorYears": {
+                    "val": "1.774"
+                },
+                "Total": {
+                    "val": "1.774"
+                }
+            },
+            "FullFundingTOA": {
+                "AllPriorYears": {
+                    "val": "1355.244"
+                },
+                "BudgetYearOneBase": {
+                    "val": "56.461"
+                },
+                "BudgetYearOne": {
+                    "val": "56.461"
+                },
+                "BudgetYearTwo": {
+                    "val": "52.271"
+                },
+                "BudgetYearThree": {
+                    "val": "53.307"
+                },
+                "Total": {
+                    "val": "1517.283"
+                }
+            },
+            "CYAdvanceProcurement": {
+                "AllPriorYears": {
+                    "val": "27.9"
+                },
+                "Total": {
+                    "val": "27.9"
+                }
+            },
+            "PlusCostToComplete": {
+                "AllPriorYears": {
+                    "val": "14"
+                },
+                "Total": {
+                    "val": "14"
+                }
+            },
+            "TotalObligationAuthority": {
+                "AllPriorYears": {
+                    "val": "1418.444"
+                },
+                "PriorYear": {
+                    "val": "0"
+                },
+                "CurrentYear": {
+                    "val": "0"
+                },
+                "BudgetYearOneBase": {
+                    "val": "56.461"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "0"
+                },
+                "BudgetYearOne": {
+                    "val": "56.461"
+                },
+                "BudgetYearTwo": {
+                    "val": "52.271"
+                },
+                "BudgetYearThree": {
+                    "val": "53.307"
+                },
+                "BudgetYearFour": {
+                    "val": "0"
+                },
+                "BudgetYearFive": {
+                    "val": "0"
+                },
+                "Total": {
+                    "val": "1580.483"
+                }
+            },
+            "OtherResourceSummaryEntryList": {
+                "OtherResourceSummaryEntry": [
+                    {
+                        "@LessOrPlus": "Less",
+                        "Name": {
+                            "val": "Less Hurricane"
+                        },
+                        "Cost": {
+                            "AllPriorYears": {
+                                "val": "19.8"
+                            },
+                            "Total": {
+                                "val": "19.8"
+                            }
+                        }
+                    },
+                    {
+                        "@LessOrPlus": "Less",
+                        "Name": {
+                            "val": "Less Transfer"
+                        },
+                        "Cost": {
+                            "AllPriorYears": {
+                                "val": "1.5"
+                            },
+                            "Total": {
+                                "val": "1.5"
+                            }
+                        }
+                    },
+                    {
+                        "@LessOrPlus": "Plus",
+                        "Name": {
+                            "val": "Plus Transfer"
+                        },
+                        "Cost": {
+                            "AllPriorYears": {
+                                "val": "1.5"
+                            },
+                            "Total": {
+                                "val": "1.5"
+                            }
+                        }
+                    },
+                    {
+                        "@LessOrPlus": "Plus",
+                        "Name": {
+                            "val": "Plus Hurricane"
+                        },
+                        "Cost": {
+                            "AllPriorYears": {
+                                "val": "19.8"
+                            },
+                            "Total": {
+                                "val": "19.8"
+                            }
+                        }
+                    }
+                ]
+            },
+            "PlusOutfittingAndPostDelivery": {
+                "AllPriorYears": {
+                    "val": "13.045"
+                },
+                "PriorYear": {
+                    "val": "0.238"
+                },
+                "CurrentYear": {
+                    "val": "0.634"
+                },
+                "BudgetYearOneBase": {
+                    "val": "0.3"
+                },
+                "BudgetYearOne": {
+                    "val": "0.3"
+                },
+                "Total": {
+                    "val": "14.217"
+                }
+            },
+            "AllLineItemsTotal": {
+                "AllPriorYears": {
+                    "val": "1431.489"
+                },
+                "PriorYear": {
+                    "val": "0.238"
+                },
+                "CurrentYear": {
+                    "val": "0.634"
+                },
+                "BudgetYearOneBase": {
+                    "val": "56.761"
+                },
+                "BudgetYearOne": {
+                    "val": "56.761"
+                },
+                "BudgetYearTwo": {
+                    "val": "52.271"
+                },
+                "BudgetYearThree": {
+                    "val": "53.307"
+                },
+                "Total": {
+                    "val": "1594.7"
+                }
+            }
+        },
+        "Code": {
+            "val": "A"
+        },
+        "Description": {
+            "val": "Landing Craft, Air Cushion (LCAC) transports weapon systems, equipment, cargo and personnel of the assault elements of the Marine Air\/Ground Task Force from ship to shore and across the beach. The LCAC Service Life Extension Program (SLEP) and LCAC Extended Service Life Extension Program (E-SLEP) extends the craft service life past the original twenty years.\n\nThe LCAC SLEP program incorporates the following modifications and enhancements: upgrade from the TF40B engines to the ETF40B engines; repair corrosion damage; replace obsolete electronics; upgrade C4N suite; and replace deep skirt.\n\nThe LCAC E-SLEP program incorporates the following modifications and enhancements: repairs corrosion damage; replaces obsolete electronics, upgrades C4N including cyber hardening; and replace the deep skirt."
+        },
+        "Justification": {
+            "val": "The Prior Years column reflects the $2.000 million FY 2013 reduction to the LCAC SLEP program."
+        },
+        "ShipsExhibitList": {
+            "P5ShipClass": {
+                "Characteristics": {
+                    "ShipOne": {
+                        "Header": {
+                            "val": "Air Cushion"
+                        },
+                        "OverallLength": {
+                            "val": "91.8 ft (on cushion)"
+                        },
+                        "Beam": {
+                            "val": "49.2 ft (on cushion)"
+                        },
+                        "Displacement": {
+                            "val": "106 tons"
+                        },
+                        "Draft": {
+                            "val": "None (air cushion)"
+                        }
+                    }
+                },
+                "ContractList": {
+                    "Contract": [
+                        {
+                            "@isSignificant": "true",
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC SLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "86"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "Tecnico"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2017"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2018-09"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2019-01"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2020-04"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2020-05"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2021-04"
+                                }
+                            }
+                        },
+                        {
+                            "@isSignificant": "true",
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC SLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "87"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "Tecnico"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2017"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2018-09"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2019-06"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2020-09"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2020-10"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2021-09"
+                                }
+                            }
+                        },
+                        {
+                            "@isSignificant": "true",
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC SLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "77"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "Tecnico"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2017"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2018-09"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2019-11"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2021-02"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2021-03"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2022-02"
+                                }
+                            }
+                        },
+                        {
+                            "@isSignificant": "true",
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC ESLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "40"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "TBD"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2021"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2020-11"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2021-05"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2023-05"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2023-06"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2024-05"
+                                }
+                            }
+                        },
+                        {
+                            "@isSignificant": "true",
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC ESLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "41"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "TBD"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2021"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2020-11"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2021-05"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2023-05"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2023-06"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2024-05"
+                                }
+                            }
+                        },
+                        {
+                            "@isSignificant": "true",
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC ESLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "45"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "TBD"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2021"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2020-11"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2021-11"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2023-07"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2023-08"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2024-07"
+                                }
+                            }
+                        },
+                        {
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC ESLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "TBD"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "TBD"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2022"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2022-01"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2022-04"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2023-12"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2024-01"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2024-12"
+                                }
+                            }
+                        },
+                        {
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC ESLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "TBD"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "TBD"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2022"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2022-01"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2022-05"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2024-01"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2024-02"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2025-01"
+                                }
+                            }
+                        },
+                        {
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC ESLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "TBD"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "TBD"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2022"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2022-01"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2022-11"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2024-07"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2024-08"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2025-07"
+                                }
+                            }
+                        },
+                        {
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC ESLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "TBD"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "TBD"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2023"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2023-01"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2023-04"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2024-12"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2025-01"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2025-12"
+                                }
+                            }
+                        },
+                        {
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC ESLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "TBD"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "TBD"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2023"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2023-01"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2023-05"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2025-01"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2025-02"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2026-01"
+                                }
+                            }
+                        },
+                        {
+                            "HullList": {
+                                "Hull": {
+                                    "ShipType": {
+                                        "val": "LCAC ESLEP"
+                                    },
+                                    "HullNumber": {
+                                        "val": "TBD"
+                                    }
+                                }
+                            },
+                            "ContractData": {
+                                "Shipbuilder": {
+                                    "val": "TBD"
+                                },
+                                "FiscalYearAuthorized": {
+                                    "val": "2023"
+                                },
+                                "ContractAwardDate": {
+                                    "val": "2023-01"
+                                },
+                                "ConstructionStartDate": {
+                                    "val": "2023-11"
+                                },
+                                "DeliveryDate": {
+                                    "val": "2025-07"
+                                },
+                                "CompletionOfFittingOutDate": {
+                                    "val": "2025-08"
+                                },
+                                "ObligationWorkLimitingDate": {
+                                    "val": "2026-07"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "CostElementCategories": {
+                    "PlanCosts": {
+                        "CategorySubtotal": {
+                            "Quantity": {
+                                "PriorYearThree": {
+                                    "val": "3"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "3"
+                                }
+                            }
+                        }
+                    },
+                    "BasicConstructionConversion": {
+                        "CategorySubtotal": {
+                            "TotalCost": {
+                                "PriorYearThree": {
+                                    "val": "35.925"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "30.216"
+                                }
+                            }
+                        }
+                    },
+                    "Electronics": {
+                        "CategorySubtotal": {
+                            "TotalCost": {
+                                "PriorYearThree": {
+                                    "val": "6.542"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "2.225"
+                                }
+                            }
+                        }
+                    },
+                    "HME": {
+                        "CategorySubtotal": {
+                            "TotalCost": {
+                                "PriorYearThree": {
+                                    "val": "33.85"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "17.515"
+                                }
+                            }
+                        }
+                    },
+                    "OtherCost": {
+                        "CategorySubtotal": {
+                            "TotalCost": {
+                                "PriorYearThree": {
+                                    "val": "3.983"
+                                },
+                                "BudgetYearOne": {
+                                    "val": "6.505"
+                                }
+                            }
+                        }
+                    }
+                },
+                "CostElementCategoriesTotal": {
+                    "PriorYearThree": {
+                        "val": "80.3"
+                    },
+                    "BudgetYearOne": {
+                        "val": "56.461"
+                    }
+                },
+                "NetP1Funding": {
+                    "PriorYearThree": {
+                        "val": "80.3"
+                    },
+                    "BudgetYearOne": {
+                        "val": "56.461"
+                    }
+                },
+                "Remarks": {
+                    "val": "FY17 is the last year of LCAC SLEP and FY21 is the first year of LCAC E-SLEP.  LCAC E-SLEPs are structured to cost effectively gain more service life out of existing legacy LCACs."
+                },
+                "DesignSchedule": {
+                    "RequestForProposals": {
+                        "Initial": {
+                            "Start": {
+                                "val": "2020-05"
+                            },
+                            "Complete": {
+                                "val": "2020-08"
+                            }
+                        }
+                    },
+                    "DesignAgent": {
+                        "val": "Landing Craft Planning Yard"
+                    }
+                },
+                "ClassificationOfCostEstimate": {
+                    "val": "N\/A"
+                },
+                "BudgetYearsForPDF": {
+                    "BudgetYear": [
+                        {
+                            "@P8AandP35": "true",
+                            "val": "2017"
+                        },
+                        {
+                            "val": "2021"
+                        }
+                    ]
+                }
+            }
+        },
+        "DocumentAssemblyOptions": {
+            "p40AItemScheduleSetting": {
+                "val": "total"
+            }
+        }
+    }
+}

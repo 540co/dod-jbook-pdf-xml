@@ -1,0 +1,2843 @@
+{
+    "id": "2021-Army-PB-2040-JBOOK-d8713ddd10925d15b69b0c017cea88e1459918ba08a62001b97d5fe661a3844f-8",
+    "meta": {
+        "filename": "2021-BASE_RDTE-2021-ARMY_BA5C-U_RDTE_JustificationBook_Army_PB_2021.zzz_unzipped-U_RDTE_JustificationBook_Army_PB_2021.xml",
+        "doctype": "2021-BASE_RDTE-JUSTIFICATIONBOOK",
+        "budget_year": "2021",
+        "budget_cycle": "PB",
+        "submission_date": "2020-02",
+        "service_agency_name": "Army",
+        "appropriation_code": "2040",
+        "appropriation_name": "Research, Development, Test & Evaluation, Army"
+    },
+    "record": {
+        "@monetaryUnit": "Millions",
+        "ProgramElementNumber": {
+            "val": "0605031A"
+        },
+        "ProgramElementTitle": {
+            "val": "Joint Tactical Network (JTN)"
+        },
+        "R1LineNumber": {
+            "val": "155"
+        },
+        "BudgetYear": {
+            "val": "2021"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2020-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Army"
+        },
+        "AppropriationCode": {
+            "val": "2040"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Army"
+        },
+        "BudgetActivityNumber": {
+            "val": "5"
+        },
+        "BudgetActivityTitle": {
+            "val": "System Development & Demonstration (SDD)"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "42.134"
+            },
+            "CurrentYear": {
+                "val": "40.808"
+            },
+            "BudgetYearOne": {
+                "val": "31.696"
+            },
+            "BudgetYearOneBase": {
+                "val": "31.696"
+            },
+            "BudgetYearTwo": {
+                "val": "25.319"
+            },
+            "BudgetYearThree": {
+                "val": "24.979"
+            },
+            "BudgetYearFour": {
+                "val": "25.097"
+            },
+            "BudgetYearFive": {
+                "val": "25.225"
+            },
+            "CostToComplete": {
+                "val": "Continuing"
+            },
+            "TotalCost": {
+                "val": "Continuing"
+            }
+        },
+        "ProgramElementNote": {
+            "val": "Responsibility for the development and sustainment of JENM was assigned to the PM Joint Tactical Networks (JTN) by the Joint Tactical Networking Center (JTNC) Acquisition Decision Memorandum (ADM) of 20 Jan 2014. The Army Program Executive Office (PEO) Command Control Communications Tactical (C3T) Memos of 25 Jun 2015 transferred all program, development, and configuration control of JENM by Product Manager (PdM) JENM under PM JTN to PdM Tactical Cyber Network Operations (TCNO) under PM Tactical Network (formally PM WIN-T) when Army became the Lead Service for JENM under the ADM's provisions.\n\nJoint Enterprise Network Manager (JENM) is funded using a Joint budget strategy. Each Military Department (MILDEP) budgets for approximately one-third of the total program RDT&E requirements for joint efforts. Fiscal Year (FY) 2019 to FY 2020 funding reflects the full JENM requirement with the consolidated funding from the other Services, while FY 2021 and beyond reflects the Army one-third portion of total program RDT&E funds. Out-year funding is programmed in PE 0605031A by the Army, PE 0605031N by the Navy and PE 0605031F by the Air Force. USMC funding will be provided on an annual basis via Military Interdepartmental Purchase Request (MIPR). Prior to submission of the President's Budget, the funding is consolidated in PE 0605031A via RMD for execution.\n\nJENM, funded in project EF5, is a software only program."
+        },
+        "ProgramElementMissionDescription": {
+            "val": "EF5 project: This funding line supports the Army Network Modernization Strategy LOE 1, Unified Network. Efforts are aligned to support the Network-Cross Functional Team capability set approach to achieve the network modernization strategy.\n\nThe Joint Enterprise Network Manager (JENM) software provides a single, converged network management tool allowing the Warfighter to plan, configure, load, and manage the Joint Services' Tactical Radios and their networks in the field - a capability not available in legacy planning systems. JENM configures several types of tactical radios, such as the ManPack and Rifleman, enabling them to utilize Mobile Ad Hoc Networking (MANET) and other waveforms to include: TrellisWare Scalable Manet (TSM), Warrior Robust Enhanced Network (WREN), Mobile User Objective System (MUOS) waveform, Satellite Communications (SATCOM) Demand Assigned Multiple Access (DAMA), Integrated Waveform (IW), and Single Channel Ground and Airborne Radio System (SINCGARS) waveform. Using its Over-the-Air-Management (OTAM) functionality, JENM provides the Commander the ability to quickly reconfigure critical networks. JENM enhances the S6's ability to conduct Course of Action (COA) Analysis and the Military Decision Making Process (MDMP), providing commanders critical information regarding their ability to communicate. \n\nFY 2021 radio planner prototyping efforts will design, engineer, integrate and test of planning and management capabilities for the Tactical Radio network in support of the TrellisWare Scalable Manet (TSM), and the Warrior Robust Enhanced Network (WREN) waveforms. Support to align with the Unified Network Operations (UNO) vision to provide further integration of the Integrated Tactical Network (ITN) and Network Management of its emerging systems to enable Soldiers the ability to effectively manage the ITN. The radio planner prototyping efforts will also support the completion of MUOS waveform planning simplification and rapid provisioning of MUOS end-user terminals, as well as HF Waveform planning in support of HF modernization.\n\nJENM planning applications and radio planner prototyping efforts are deployed on, and critically tied to the Ruggedized Application Platform - Tactical Radios (RAP-TR) hardware from Division to the Company level.\n\nEX6 project: The Waveforms program supports the Army Network Modernization Strategy Line of Effort 1, Unified Network.  These efforts are aligned to the Army's Tactical Network Capability Set development and fielding plans.\n\nThe Waveforms project is focused on efforts to improve transport technologies necessary to support the overall connectivity of the Integrated Tactical Network (ITN).  The effort focuses on development and assessment to achieve improved performance, network simplification, improved spectrum efficiency and improved Electronic Warfare (EW)\/Cyber resistance.  This project will conduct viability assessment of Commercial Off-The-Shelf (COTS)\/Non-Developmental Item (NDI) waveforms, run analysis and system engineering activities for DoD Services as Army Lead Service Activity for Ground\/ Line of Sight (LoS) waveforms, work with industry partners in pursuit of alternative waveforms and software technologies, and continue development and\/or integration efforts of Broadcast Waveforms (i.e. SINCGARS), ANWfs (i.e. Warrior Robust Enhanced Network (WREN)), and Radio Services (i.e. Enterprise Over The Air Management (eOTAM)) in support of Army Network Modernization, and agile mission support initiatives.\n\nFY 2021 Base RDT&E dollars, in the amount of $20.978 million, will fund software development efforts of legacy and next generation Government waveforms and applications. FY 2021 dollars will also fund system and architectural engineering for ANWf radio communications technologies, to include cyber and electronic warfare, as well as evaluation and assessment activities for waveform and application solutions in support of Network-Cross Functional Team's (N-CFT) Capability Set (CS) for the Unified Network Line of Effort (LOE)."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "41.92"
+                },
+                "CurrentYear": {
+                    "val": "40.808"
+                },
+                "BudgetYearOne": {
+                    "val": "26.63"
+                },
+                "BudgetYearOneBase": {
+                    "val": "26.63"
+                }
+            },
+            "CurrentPresidentBudget": {
+                "PriorYear": {
+                    "val": "42.134"
+                },
+                "CurrentYear": {
+                    "val": "40.808"
+                },
+                "BudgetYearOne": {
+                    "val": "31.696"
+                },
+                "BudgetYearOneBase": {
+                    "val": "31.696"
+                }
+            },
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0.214"
+                },
+                "CurrentYear": {
+                    "val": "0"
+                },
+                "BudgetYearOne": {
+                    "val": "5.066"
+                },
+                "BudgetYearOneBase": {
+                    "val": "5.066"
+                }
+            },
+            "AdjustmentDetails": {
+                "Reprogrammings": {
+                    "PriorYear": {
+                        "val": "0.214"
+                    }
+                },
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Adjustments to Budget Years"
+                            },
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "5.066"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "5.066"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "EF5"
+                    },
+                    "ProjectTitle": {
+                        "val": "Joint Tactical Network  (JTN)"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "12.484"
+                        },
+                        "CurrentYear": {
+                            "val": "15.324"
+                        },
+                        "BudgetYearOne": {
+                            "val": "10.718"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "10.718"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "4.302"
+                        },
+                        "BudgetYearThree": {
+                            "val": "4.156"
+                        },
+                        "BudgetYearFour": {
+                            "val": "4.074"
+                        },
+                        "BudgetYearFive": {
+                            "val": "4.196"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectNote": {
+                            "val": "Joint Enterprise Network Manager (JENM) is funded using a Joint budget strategy. Each Military Department (MILDEP) budgets for approximately one-third of the total program RDT&E requirements for joint efforts. Fiscal Year (FY) 2019 to FY 2020 funding reflects the full JENM requirement with the consolidated funding from the other Services, while FY 2021 and beyond reflects the Army one-third portion of total program RDT&E funds. Out-year funding is programmed in PE 0605031A by the Army, PE 0605031N by the Navy and PE 0605031F by the Air Force. USMC funding will be provided on an annual basis via Military Interdepartmental Purchase Request (MIPR). Prior to submission of the President's Budget, the funding is consolidated in PE 0605031A via RMD for execution."
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "EF5 project: This funding line supports the Army Network Modernization Strategy LOE 1, Unified Network. Efforts are aligned to support the Network-Cross Functional Team capability set approach to achieve the network modernization strategy.\n\nThe Joint Enterprise Network Manager (JENM) software provides a single, converged network management tool allowing the Warfighter to plan, configure, load, and manage the Joint Services' Tactical Radios and their networks in the field - a capability not available in legacy planning systems. JENM configures several types of tactical radios, such as the ManPack and Rifleman, enabling them to utilize Mobile Ad Hoc Networking (MANET) and other waveforms to include: TrellisWare Scalable Manet (TSM), Warrior Robust Enhanced Network (WREN), Mobile User Objective System (MUOS) waveform, Satellite Communications (SATCOM) Demand Assigned Multiple Access (DAMA), Integrated Waveform (IW), and Single Channel Ground and Airborne Radio System (SINCGARS) waveform. Using its Over-the-Air-Management (OTAM) functionality, JENM provides the Commander the ability to quickly reconfigure critical networks. JENM enhances the S6's ability to conduct Course of Action (COA) Analysis and the Military Decision Making Process (MDMP), providing commanders critical information regarding their ability to communicate. \n\nFY 2021 radio planner prototyping efforts will design, engineer, integrate and test of planning and management capabilities for the Tactical Radio network in support of the TrellisWare Scalable Manet (TSM), and the Warrior Robust Enhanced Network (WREN) waveforms. Support to align with the Unified Network Operations (UNO) vision to provide further integration of the Integrated Tactical Network (ITN) and Network Management of its emerging systems to enable Soldiers the ability to effectively manage the ITN. The radio planner prototyping efforts will also support the completion of MUOS waveform planning simplification and rapid provisioning of MUOS end-user terminals, as well as HF Waveform planning in support of HF modernization.\n\nJENM planning applications and radio planner prototyping efforts are deployed on, and critically tied to the Ruggedized Application Platform - Tactical Radios (RAP-TR) hardware from Division to the Company level."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "JENM Program Office Support"
+                                    },
+                                    "Description": {
+                                        "val": "Program Management Office support in the development of the JENM system."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "2.537"
+                                            },
+                                            "Text": {
+                                                "val": "JENM supported systems design, engineering, and integration of mid and lower tier radio planning and management application for the SDR network. JENM provided support to the Unit Task Reorganization (UTR) systems integration effort to enable the S-6 to quickly transform the tactical network based upon the Commander?s intent and associated mission analysis.  JENM also worked to extend our Over-The-Air-Management (OTAM) capabilities to the mounted\/ tablet based environment through our participation with Dynamic Network Connectivity development.  JENM supported MUOS support for US Navy Digital Modular Radio (DMR) enhancements, Airborne Radio Communications (ARC) 210\/231, USMC and USAF 117G MUOS, as well as full threshold requirement support for HMS Manpack and Leader Radios. Began development in support of the AMF airborne radio, and the integration of USMC terrestrial based waveform planning and management capability. JENM continued to support modifications to MUOS, SINCGARS, DAMA SATCOM, and Integrated Waveforms.\n\nThe Army developed a prototype that planned, managed, and provisioned capabilities for simplified workflow based planning solutions to rapidly meet emerging capability requirements stemming from Network Cross Functional Team (CFT) initiatives and directed requirements."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "2.253"
+                                            },
+                                            "Text": {
+                                                "val": "Program Office funding will continue support JENM design, engineering, integration and test of mid and lower tier planning and management application for the Tactical Radio network.  Support to align with the Unified Network Operations (UNO) vision to provide further integration of the lower and mid-tier Network Management with that of PM TN to enable Soldiers the ability to manage the entire, consolidated, tactical network.  JENM will also work to extend our Over-The-Air-Management (OTAM) capabilities to the mounted\/ tablet based environment through our participation with Dynamic Network Connectivity development.  Program Office Support funding will also support completion of MUOS support for US Navy Digital Modular Radio (DMR) enhancements, Airborne Radio Communications (ARC) 210\/231, USMC and USAF 117G MUOS, as well as full threshold requirement support for HMS Manpack and Leader Radios. Continued development in support of the AMF airborne radio, and the integration of USMC terrestrial based waveform planning and management capability. JENM will also manage the completion of deferred Army program requirements.\n\nJENM Program Office Support will support the completion of JENM v3.4 Transitioning to Sustainment in addition to JENM v3.5 development, which include complete MUOS simplification, Upgrades to JENM Public Key Infrastructure (PKI) Certificate Management, and Cyber Enhancements."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "2.228"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "2.228"
+                                            },
+                                            "Text": {
+                                                "val": "The JENM program office funding will continue support to JENM design, engineering, integration and test of planning and management capabilities for the Tactical Radio network. The JENM program office supports the Unified Network Operations (UNO) vision, integrating lower and mid-tier Network Management capabilities to enable Soldiers to manage their entire consolidated tactical network. Program office funding will also support completion of MUOS waveform planning simplification and rapid provisioning of MUOS end-user terminals."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "In FY 2021, the program office support funding is decreasing from FY 2020 to FY 2021 to complete JENM v3.5 development and Transition to Sustainment (T2S). \nIn FY 2021, the program office will support JENM v3.5 development which includes completing simplification of MUOS, upgrading JENM Public Key Infrastructure (PKI) Certificate Management, and Cyber Enhancements."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "JENM Development"
+                                    },
+                                    "Description": {
+                                        "val": "JENM provides consolidated communications planning, network configuration, network activation, position reporting, fault management, security management, and network health and status reporting needed to establish and maintain a mobile wireless network comprised of JTN network waveforms. JENM interfaces with other external network managers, mission planning systems, network planning systems, key management systems, and spectrum planning systems. JENM is considered a mission essential system. JENM is also considered a critical element within the Ruggedized Application Platform ? Tactical Radios (RAP-TR) hardware configuration management tool kit."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "9.352"
+                                            },
+                                            "Text": {
+                                                "val": "JENM supported systems design, engineering, and integration of mid and lower tier radio planning and management application for the Tactical Radio network. JENM provided support to the Unit Task Reorganization (UTR) systems integration effort to enable the S-6 to quickly transform the tactical network based upon the Commander?s intent and associated mission analysis.  JENM supported MUOS support for US Navy Digital Modular Radio (DMR) enhancements, Airborne Radio Communications (ARC) 210\/231, USMC and USAF 117G MUOS, as well as full threshold requirement support for HMS Manpack and Leader Radios. JENM continued to support modifications to MUOS, SINCGARS, DAMA SATCOM, and Integrated Waveforms. JENM v3.4 supported the MUOS MOTE, which led to Navy's Commander Operational Test and Evaluation Force (COMOPTEVFOR) issuing a suitable, effective, and survivable rating leading to a full operational capability (FOC) decision. \n\nThe Army developed a prototype that planned, managed, and provisioned capabilities for simplified workflow based planning solutions to rapidly meet emerging capability requirements stemming from Network Cross Functional Team (CFT) initiatives and directed requirements."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "11.995"
+                                            },
+                                            "Text": {
+                                                "val": "JENM will support systems design, engineering, and integration of mid and lower tier radio planning and management application for the Tactical Radio network. JENM will provide support to the Unit Task Reorganization (UTR) systems integration effort to enable the S-6 to quickly transform the tactical network based upon the Commander?s intent and associated mission analysis.  JENM will also work to extend our Over-The-Air-Management (OTAM) capabilities to the mounted\/ tablet based environment through our participation with Dynamic Network Connectivity development.  JENM will support completion of MUOS support for US Navy Digital Modular Radio (DMR) enhancements, Airborne Radio Communications (ARC) 210\/231, USMC and USAF 117G MUOS, as well as full threshold requirement support for HMS Manpack and Leader Radios. Begin development in support of the AMF airborne radio, and the integration of USMC terrestrial based waveform planning and management capability. JENM will continue to support modifications to the SRW, MUOS, SINCGARS, SATCOM, and Integrated Waveforms.  JENM will also manage the completion of deferred program requirements.\n\nJENM Program Office Support will support the completion of JENM v3.4 Transitioning to Sustainment in addition to JENM v3.5 development, which include complete MUOS simplification, Upgrades to JENM Public Key Infrastructure (PKI) Certificate Management, and Cyber Enhancements."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "7.912"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "7.912"
+                                            },
+                                            "Text": {
+                                                "val": "Development funding will continue design, engineering, integration and test of planning and management application for the Tactical Radio network. Support to align with Army Network Modernization to provide further integration of the lower and mid-tier Network Management with that of PM TN to enable Soldiers the ability to manage the entire, consolidated, tactical network. Development funding will also support completion of MUOS waveform planning simplification and rapid provisioning of MUOS end-user terminals. \n\nRadio planner prototyping efforts will design, engineer, integrate and test of planning and management capabilities for the Tactical Radio network in support of the TrellisWare Scalable Manet (TSM), and the Warrior Robust Enhanced Network (WREN) waveforms. Support to align with the Unified Network Operations (UNO) vision to provide further integration of the Integrated Tactical Network (ITN) and Network Management of its emerging systems to enable Soldiers the ability to effectively manage the ITN. The radio planner prototyping efforts will also support the completion of MUOS waveform planning simplification and rapid provisioning of MUOS end-user terminals, as well as HF Waveform planning in support of HF modernization.\n\nJENM planning applications and radio planner prototyping efforts are deployed on, and critically tied to the RAP-TR hardware from Division to the Company level.\n\nThe Army will continue a prototyping effort that will plan, manage, and provision capabilities for simplified workflow based planning solutions to rapidly meet emerging capability requirements stemming from Network Cross Functional Team (CFT) initiatives and directed requirements."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "JENM development funding is decreasing from FY 2020 to FY 2021 due to scheduled completion of JENM v3.5 development and its T2S. In FY 2021, JENM v3.5 development completes MUOS Simplification, upgrades JENM Public Key Infrastructure (PKI) Certificate Management, and provides Cyber Enhancements."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Test and Evaluation"
+                                    },
+                                    "Description": {
+                                        "val": "Test and Evaluation of JENM"
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "0.595"
+                                            },
+                                            "Text": {
+                                                "val": "JENM provided direct support to the FY19 Developmental and Operational Test to MUOS Multiservice Operational Test and Evaluation (MOT&E)2. Conducted Functional Qualification Test (FQT) of the JENM v3.4 baseline. Executed quarterly Regression Tests (RT) against the JENM v3.5 development baseline.\n\nThe Army executed user demonstrations and system integration testing of the prototype."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.38"
+                                            },
+                                            "Text": {
+                                                "val": "JENM will provide direct support to the FY 2020 Developmental and Operational Test (DT\/OT) of the PdM HMS Leader radio. JENM will undergo an Operational Test (OT) assessment to ensure it continues to meet the needs of today?s Soldiers. JENM will undergo a formal qualification test."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.578"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.578"
+                                            },
+                                            "Text": {
+                                                "val": "JENM will undergo quarterly Regression Tests (RT) against the JENM v3.5 development baseline. Functional Quality Testing (FQT) will also be performed. The Army prototyping effort will support test assessments and evaluations."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "JENM Test and Evaluation funding is decreasing from FY 2020 to FY 2021 due to final development and T2S of JENM v3.5."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "FY 2020 SBIR\/STTR Transfer"
+                                    },
+                                    "Description": {
+                                        "val": "Funding transferred in accordance with Title 15 USC ?638"
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.696"
+                                            },
+                                            "Text": {
+                                                "val": "Funding transferred in accordance with Title 15 USC ?638"
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "Funding transferred in accordance with Title 15 USC ?638"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "OtherProgramFundingSummaryList": {
+                            "OtherProgramFundingSummary": [
+                                {
+                                    "LineItem": {
+                                        "val": "0605031N"
+                                    },
+                                    "Title": {
+                                        "val": "0605031N; JTN, RDTE,N"
+                                    },
+                                    "Funding": {
+                                        "PriorYear": {
+                                            "val": "2.617"
+                                        },
+                                        "CurrentYear": {
+                                            "val": "2.677"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "2.705"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "2.705"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "1.747"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "Continuing"
+                                        },
+                                        "TotalCost": {
+                                            "val": "Continuing"
+                                        }
+                                    }
+                                },
+                                {
+                                    "LineItem": {
+                                        "val": "0605031F"
+                                    },
+                                    "Title": {
+                                        "val": "0605031F; JTNC, RDTE,F"
+                                    },
+                                    "Funding": {
+                                        "PriorYear": {
+                                            "val": "3.735"
+                                        },
+                                        "CurrentYear": {
+                                            "val": "3.798"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "3.844"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "3.844"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "3.91"
+                                        },
+                                        "BudgetYearThree": {
+                                            "val": "3.979"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "Continuing"
+                                        },
+                                        "TotalCost": {
+                                            "val": "Continuing"
+                                        }
+                                    }
+                                },
+                                {
+                                    "LineItem": {
+                                        "val": "B99318"
+                                    },
+                                    "Title": {
+                                        "val": "Joint Network Management System"
+                                    },
+                                    "Funding": {
+                                        "BudgetYearOne": {
+                                            "val": "3.904"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "3.904"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "1.724"
+                                        },
+                                        "BudgetYearThree": {
+                                            "val": "1.928"
+                                        },
+                                        "BudgetYearFour": {
+                                            "val": "1.998"
+                                        },
+                                        "BudgetYearFive": {
+                                            "val": "2.073"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "Continuing"
+                                        },
+                                        "TotalCost": {
+                                            "val": "Continuing"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "OtherProgramFundingSummaryRemarks": {
+                            "val": "PE 0605031A contains only the JTN (PdM Waveforms and PdM TCNO (JENM)) RDTE funding.\n\nJoint Enterprise Network Manager (JENM) is funded using a Joint budget strategy. Each Military Department (MILDEP) budgets for approximately one-third of the total program RDT&E requirements for joint efforts. Fiscal Year (FY) 2019 to FY 2020 funding reflects the full JENM requirement with the consolidated funding from the other Services, while FY 2021 and beyond reflects the Army one-third portion of total program RDT&E funds. Out-year funding is programmed in PE 0605031A by the Army, PE 0605031N by the Navy and PE 0605031F by the Air Force. USMC funding will be provided on an annual basis via Military Interdepartmental Purchase Request (MIPR). Prior to submission of the President's Budget, the funding is consolidated in PE 0605031A via RMD for execution.\n\nJENM and baseline planning applications are deployed on the RAP-TR hardware from Division to the Company level. The RAP-TR hardware and JENM Logistics & Training capabilities are captured under the Joint Network Management System OPA-2 line (JNMS B99318) FY21 and out."
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "Joint Tactical Network Center (JTNC) Acquisition Decision Memorandum (ADM) (July 2012) (JENM Supporting Role). Per the December 2014 Joint Tactical Network(JTN) Select Acquisition Report (SAR), JTN was 90% expended and changed to inactive. Defense Acquisition Management Information Retrieval (DAMIR) reflected the inactive status on 3 June 2015 JTN APB (13 October 2015) (JENM Supporting Role).\n\nProduct Manager Tactical Cyber & Network Operations (TCNO) manages a Government Owned, Government Operated (GOGO) Software Development & Integration Facility which employs competitive contracting strategies for software development & sustainment of the network manager components to ensure warfighter access to the best technology and innovative capabilities while addressing emerging threats and future requirements via an affordable, operationally effective, and timely framework.\n\nThe Army will continue a prototyping effort that will plan, manage, and provision capabilities for simplified workflow based planning solutions to rapidly meet emerging capability requirements stemming from Network Cross Functional Team (CFT) initiatives and directed requirements.\n\nJENM will support the completion of JENM v3.5 development, which include complete MUOS simplification, upgrades to JENM Public Key Infrastructure (PKI) certificate management, and cyber enhancements."
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Management Services"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "JENM Program Management Support"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SSC PACIFIC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "San Diego, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.836"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "1.37"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-11"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "1.417"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-11"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "1.359"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "1.359"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "4.982"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "JENM Program Management Support"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "G2 Software Systems"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "San Diego, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "1.19"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "1.167"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-11"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.87"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-11"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.869"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.869"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "4.096"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "FY 2020 SBIR\/STTR Transfer"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.696"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.696"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Product Development"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "JENM NMRIL Development"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SSC PACIFIC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "San Diego, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "11.687"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "3.682"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-12"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "4.95"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-11"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "2.744"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "2.744"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "JENM NMRIL Development SSA"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "G2 Software Systems"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "San Diego, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.992"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "2.345"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-01"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "2.362"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-12"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "1.775"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "1.775"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "7.474"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "JENM Radio Planning and Management Enhancement"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Harris, CodeMettle"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Aberdeen, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "3.64"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "1.795"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-01"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "3.107"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-02"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "2.538"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "2.538"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "11.080"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "JENM NMRIL Development CIT"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "BOOZ ALLEN HAMILTON INC."
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "San Diego, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.875"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "1.1"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-01"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "1.409"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-02"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.855"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.855"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "FY 2019 SBIR\/STTR Transfer"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.43"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.430"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Test and Evaluation"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "JENM v3.4 System Engineering and Test"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SSC PACIFIC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "San Diego, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "2.297"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.206"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-10"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "JENM v3.5 System Engineering and Test"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "NM RIL"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "San Diego, CA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "3.178"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.389"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-10"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.513"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-11"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.578"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.578"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "4.658"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "R4Exhibit": {
+                        "ScheduleProfile": [
+                            {
+                                "ImageFileName": {
+                                    "val": "5_EF5_0.png"
+                                }
+                            },
+                            {
+                                "ImageFileName": {
+                                    "val": "5_EF5_1.png"
+                                }
+                            }
+                        ]
+                    },
+                    "R4aExhibit": {
+                        "ScheduleDetailList": {
+                            "ScheduleDetail": [
+                                {
+                                    "EventTitle": {
+                                        "val": "JENM v3.5 Software Development and Release"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2018"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Next Generation Planner v1.0"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2018"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2019"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "JENM ATO"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2019"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2019"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Next Generation Planner v1.1"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "3"
+                                            },
+                                            "Year": {
+                                                "val": "2019"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "3"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "MUOS MOT&E 1"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2019"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2019"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Next Generation Planner v1.2"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "JENM v3.4 Transition to Sustainment"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "3"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "3"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Manpack OT"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Next Generation Planner v1.3"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Next Generation Planner v1.4"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Next Generation Planner v1.5"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2024"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "JENM v3.5 Transition to Sustainment"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Next Generation Planner v1.6"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2024"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Next Generation Planner v1.7"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2026"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ProjectNumber": {
+                        "val": "EX6"
+                    },
+                    "ProjectTitle": {
+                        "val": "Waveforms"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "29.65"
+                        },
+                        "CurrentYear": {
+                            "val": "25.484"
+                        },
+                        "BudgetYearOne": {
+                            "val": "20.978"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "20.978"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "21.017"
+                        },
+                        "BudgetYearThree": {
+                            "val": "20.823"
+                        },
+                        "BudgetYearFour": {
+                            "val": "21.023"
+                        },
+                        "BudgetYearFive": {
+                            "val": "21.029"
+                        },
+                        "CostToComplete": {
+                            "val": "Continuing"
+                        },
+                        "TotalCost": {
+                            "val": "Continuing"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectNote": {
+                            "val": "In FY 2021, $0.178 million in Reimbursable Manpower for this line has been realigned from reimbursable civilian funding to direct Operations and Maintenance (O&M).  Program support costs have been accurately updated to reflect the realignments."
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "This funding line supports the Army Network Modernization Strategy Line Of Effort (LOE) 1, Unified Network. Efforts are aligned to support the Network-Cross Functional Team's capability set approach to achieve the network modernization strategy.\n\nProduct Manager (PdM) Waveforms provides the transport technologies necessary to support the overall connectivity of the Unified Network.  PdM Waveforms' technology assessments, integration, and configuration management enable seamless updates and fluid communication between echelons of the Unified Network.\n\nPdM Waveforms delivers, maintains, and upgrades portable, interoperable, Mobile Ad-hoc Networking (MANET) waveforms, Advanced Networking Waveforms (ANWf), and network enterprise services to enhance tactical warfighting capabilities. PdM Waveforms provides the Integrated Tactical Network (ITN) with a suite of waveforms and network services that are: (1) Interoperable - used by all Services; (2) Capable of operating on a variety of hardware platforms, both Program of Record and non-developmental commercial radios; (3) Secure - meet all Department of Defense and US Government information assurance requirements; (4) Operationally relevant - quickly and effectively meet evolving network mission requirements of Combatant Commanders and the Services; and (5) Affordable - drive down procurement and support costs via a robust, competitive market which adheres to open government standards.  \n\nPdM Waveforms will remain agile to accommodate emerging warfighter needs by refocusing effort strategies to address the following:\n\n- Perform standardized viability assessment of ANWf in support of the ITN and future capability sets to proactively ensure waveform performance, in advance of formal ITN experimentation and fielding activities\n\n- Execute WF analysis and system engineering activities for DoD as Lead Service Activity for Ground\/Line of Sight (LoS) Waveforms (currently TSM, Warrior Robust Enhanced Network Narrowband(WREN NB), and Single Channel Ground and Airborne Radio System (SINCGARS)) in accordance with (IAW) Deputy Secretary of Defense memo for Enhancing DOD's Joint Tactical Networks and Datalink Modernization, 29 March 2019\n\n- Work with industry partners in pursuit of alternative waveforms and software technologies to meet LOE 1, fill identified capability gaps, and modernize\/evolve the network IAW Capability Set goals over time\n\n- Continue development and\/or integration efforts of Broadcast Waveforms (i.e. Single Channel Ground and Airborne Radio System (SINCGARS), Warrior Robust Enhanced Network (WREN NB)), Advanced Networking Waveforms (ANWf), and Radio Services (i.e. Enterprise Over The Air Management (eOTAM)) in support of Army Network Modernization, and agile mission support initiatives\n\nFY 2021 Base RDT&E dollars, in the amount of $20.978 million, will fund software development efforts of legacy and next generation Government waveforms and applications. FY 2021 dollars will also fund system and architectural engineering for ANWf radio communications technologies, to include cyber and electronic warfare, as well as evaluation and assessment activities for waveform and application solutions in support of Network-Cross Functional Team's (N-CFT) Capability Set (CS) for the Unified Network Line of Effort (LOE)."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Program Management Office Support"
+                                    },
+                                    "Description": {
+                                        "val": "Provides Program Management Office (PMO) support for Waveforms enhancements."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "3.383"
+                                            },
+                                            "Text": {
+                                                "val": "Continue program management support for PdM Waveforms."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "3.138"
+                                            },
+                                            "Text": {
+                                                "val": "Program Management support for PdM Waveforms."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "2.879"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "2.879"
+                                            },
+                                            "Text": {
+                                                "val": "Continue Program Management support for PdM Waveforms, including contractors."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "Decrease due to award of competitive small business management contract and realignment from reimbursable civilian funding to direct OMA."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Waveforms Software Development"
+                                    },
+                                    "Description": {
+                                        "val": "Software Development efforts within PdM Waveforms are focused on the following:\n\n1.Cyber Electro-Magnetic Activities (CEMA)\nCEMA activities focus on impacting the adversary's ability to communicate while protecting and hardening Army capabilities and systems to prevent the adversary from doing the same. PdM manages and executes CEMA activities (i.e. Cybersecurity, Intrusion Detection, Intrusion Prevention, Electronic Warfare (EW), and Spectrum Management) in support of Capability Sets and Army Network Modernization to include:\n   \nCap Set 21 - Increasing EW resilience and network \"fail-over\" options (Primary, Alternate, Contingency, Emergency (PACE))\nCap Set 23 - Refinement of Mesh Network (e.g. MANET) for all ITN formations and Broadcast WF (e.g. SINCGARS) and anti-jam improvements\nCap Set 25 - Identify and assess technologies for Automated PACE implementation\n\n2. SINCGARS\n- Development of a Frequency Hopping (FH)3 mode that will address the adversary's near and mid-term Electronic Attack (EA)\/Electronic Warfare (EW) capabilities which will be integrated into Capability Set (CS) 21\n- Develop and provide a fully open development environment to government and vendors to help ensure standardization, interoperability, and provide the means to identify and mitigate porting issues and realize cost efficiencies \n- Develop requirements and advanced Waveform\/Transportation Security (TRANSEC) capabilities to combat predicted threats in anticipation of next generation Single Channel Ground and Airborne Radio System (SINCGARS) (FH4) capability\n- Development of a new MIL-STD to accurately and completely define SINCGARS for NATO and coalition interoperability\n- Development of a NATO Standardized Agreement (STANAG) defining the SINCGARS interoperability mode FH2\/Cipher Text (CT)2 for use by NATO and ABCANZ partners\n- Development of NATO Narrowband (NB) and standards documentation\n\n3. Radio Services and applications that enable NSA certified key and radio configuration management over the air (OTA) while reducing network overhead and providing user-simplified\/standardized radio network configuration tools that support the Unified Network Line of Effort (LOE) for CSs through 2028\n\n4.  Enterprise Over the Air Management (eOTAM) 2.0 will reduce OTA profile for bandwidth limited waveforms, upgrade security to meet current NSA policy for new products, and add radio health status and control capabilities needed for COTS products.  eOTAM will be converged with the Black Sails suite of radio\/network configuration and control tools.\n\n5.  Development and integration of Warrior Robust Enhanced Network Narrowband (WREN NB) (formerly known as Soldier Radio Waveform (SRW)) Narrowband will allow for increased scalability, range, and communications in congested and contested environments, in both Very High Frequency (VHF) and Ultra High Frequency (UHF) bands. WREN NB will provide robust communications capabilities with smaller bandwidth requirements in support of the Network Resiliency and Hardened Radio Capabilities identified in the CSs' Unified Network LOE in FY 2021-2025.\n\n6.  Integration of Dynamic Spectrum Access (DSA) into waveforms will support the Warfighter by providing more efficient use of the limited spectrum resources, increasing spectrum availability in a congested Electromagnetic Environment (EME). The Army is in need of a  DSA capability that can react to the theater changes in near real-time communication networks. The DSA technology will allow Army networks to automatically adjust frequency based on geographical location to fit within spectrum allocations as the Army moves and fights in tactical theaters."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "21.1"
+                                            },
+                                            "Text": {
+                                                "val": "- Mitigate CEMA threats\n- Mitigate interference affects & coordinated EW and communications threats for SINCGARS\/WREN\n- Develop EW Enabled cyber capabilities"
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "12.34"
+                                            },
+                                            "Text": {
+                                                "val": "Continue to mitigate Cyber Electro-Magnetic Activities (CEMA) threats for Single Channel Ground and Airborne Radio System (SINCGARS)\/Warrior Robust Enhanced Network (WREN), mitigate interference effects & coordinated Electronic Warfare (EW) and communications threats, and develop EW Enabled cyber capabilities."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "9.758"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "9.758"
+                                            },
+                                            "Text": {
+                                                "val": "- Mitigate CEMA threats for SINCGARS\/WREN, mitigate interference effects & coordinated EW and communications threats, and develop EW enabled cyber capabilities\n- Work with Industry Partners to assess, analyze, and vet Advanced Networking Waveforms (ANWf) in support of the Integrated Tactical Network (ITN) and future capability set (CS)\n- Radio Service capability to simplify the unified network\n- Single Channel Ground and Airborne Radio System (SINCGARS)\/ Warrior Robust Enhanced Network (WREN NB) will be integrated into ITN\/CS 21\n- Continue to assess and analyze ANWf in a contested and congested environment to fulfill the capability gap identified by the Network-Cross Functional Team (N-CFT)"
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "Decrease due to shifting focus from government developed waveforms to commercial centric waveforms, aligns with Army Network Modernization and N-CFT initiatives\/requirements."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Waveforms Software Support and System Engineering"
+                                    },
+                                    "Description": {
+                                        "val": "PdM Waveforms software support and systems engineering for waveforms and network manager applications provide the following:\n      - Work with Industry Partners to assess, analyze, and vet ANWf for viability and readiness of technology in support of the ITN and future CS\n     -  Provide waveform and radio services engineering support in development of ITN, N-CFT, and CS' requirements and architectures; identify and develop use cases and topologies for viability and readiness assessments \n      - Integration of Black Sails tools into Army architectures and radio networks\n     - Manage waveform development, schedules, risk registry, and configuration control in support of ITN experimentation and system fieldings\n     - Provide necessary assistance and oversight to Waveforms product specific engineering\n     - Support DoD and Services in the utilization of Ground\/Line of Sight (LoS) waveforms as Lead Service activity\n     - Support Joint and Industry partners in the design, implementation, and testing of current and future SINCGARS modes\n     - Support NATO and ABCANZ partners in ensuring interoperability with the US; development of NATO Narrowband solution"
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "2.524"
+                                            },
+                                            "Text": {
+                                                "val": "Continue software support and systems engineering efforts as described above in support of PdM Waveforms."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "2.912"
+                                            },
+                                            "Text": {
+                                                "val": "Continue software support and systems engineering efforts as described above in support of PdM Waveforms."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "4.047"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "4.047"
+                                            },
+                                            "Text": {
+                                                "val": "Continue software support and systems engineering efforts as described above in support of PdM Waveforms."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "Increase due to new focus on commercial waveforms vetting analysis and characterization, which require additional resources to conduct viability assessment and working with vendors."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Waveforms Testing and Evaluation"
+                                    },
+                                    "Description": {
+                                        "val": "PdM Waveforms performs Testing and Evaluation on Government developed waveforms and radio service technologies including Single Channel Ground and Airborne Radio System (SINCGARS), Enterprise Over the Air Management (eOTAM), and upon transition Warrior Robust Enhanced Network Narrowband (WREN NB). Advanced Networking Waveforms (ANWf) assessments support inclusion and\/or movement of vendor technologies into Army experimentation and Capability Sets (CSs).\n\n- Test and Evaluation includes compatibility\/interoperability, performance, Electronic Warfare (EW)\/Cyber Electromagnetic Activities (CEMA)\n- Viability and Readiness Assessments include:\n\n       *Assess Internal Research and Development (IRAD) readiness for consideration into Army architectures\n       *Assess Technology Readiness Level (TRL) of waveforms to determine appropriate insertion and movement through Acquisition Milestones (MS) or procurement activities\n       *Assess performance and behavior of waveform against topologies, architectures, and operational use cases as defined by N-CFT and fielding activities\n       *Electronic Warfare (EW) and Cyber in support of Integrated Tactical Network (ITN)"
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "2.643"
+                                            },
+                                            "Text": {
+                                                "val": "Continue testing and evaluation procedures for waveforms code development and defect fixes to insure tactical waveforms meet warfighter requirements."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "7.094"
+                                            },
+                                            "Text": {
+                                                "val": "Conduct testing and evaluation procedures for continued code development and detect fixes of Government-owned waveforms and perform evaluation and characteristics analysis of commercial waveforms for potential Government utilization to meet warfighter requirements."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "4.294"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "4.294"
+                                            },
+                                            "Text": {
+                                                "val": "Conduct testing and evaluation procedures for continued code development and detect fixes of Government-owned waveforms and perform evaluation and characteristics analysis of commercial waveforms for potential Government utilization to meet warfighter requirements."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "Decrease due to performing evaluation and characteristics analysis of Advance Networking Wavforms"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "PdM Waveforms is responsible for common core activities including developing and updating legacy waveforms and analyzing Advance Networking Waveforms (ANWf) that operate on multiple radios sets and in all operational environments that support network-centric operational warfare.  Waveform developments (upgrading, developing, and maintaining) will generally be procured through full and open contract competitions.\n\nBeginning in FY19, while maintaining legacy networking waveforms, PdM Waveforms implemented a pivoting strategy which focuses on vetting and analyzing ANWf. The Product Office has established working relationships with Industry Partners within the waveform market. The strategy consists of conducting initial analysis of commercial waveforms, documenting vulnerabilities, identifying implementation strategies, and making recommendations to senior leadership on potential Army use cases."
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Management Services"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Program Management Support - CORE"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "CORE"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.455"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.455"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Program Management Support - Matrix"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "C5ISR Center"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.761"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "2.052"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-01"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "1.295"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-01"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "1.099"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "1.099"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Program Management Support - MITRE"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "MITRE"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Aberdeen, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.561"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.561"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Program Management Support - SETA"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SEV1-Tech"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Woodbridge, VA"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "2.788"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "1.331"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2018-11"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "1.843"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-11"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "1.78"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "1.78"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-11"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Product Development"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Software Development- SRW\/WREN"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Harris"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Rochester, NY"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.997"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.997"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Development- SRW"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.92"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.920"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Development - WNW"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SSC Atlantic"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Charleston, SC"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.567"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.567"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Development - C5ISR Center"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "C5ISR Center"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "7.124"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "10.262"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "9.619"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "6.893"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "6.893"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Development - Technical\/Coding (MA-IDIQ)"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPAF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "MA - IDIQ"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various Locations"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "12.434"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "5.224"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "2.721"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "2.865"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "2.865"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Development - SSC LANT"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SSC LANT"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Charleston, SC"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "1.253"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.287"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Support - WREN NB"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "C5ISR Center"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "5.327"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "5.327"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Support"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Software Support - SRW\/WREN"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "C5ISR Center"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.947"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.947"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Support - SRW"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Harris"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Rochester, NY"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.306"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.306"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Support - WNW"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SSC LANT"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Charleston, SC"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.614"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.614"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Support - WNW"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.862"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.862"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Systems Engineering - MITRE"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "MITRE"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.459"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.351"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Systems Engineering - SSC LANT"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SSC LANT"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Charleston, SC"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "1.479"
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.6"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.3"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.3"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Software Support - WREN NB"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "C5ISR Center"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "2.173"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "2.312"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "3.747"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "3.747"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Test and Evaluation"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Test and Evaluation Support (SRW RIL)"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "C5ISR Center"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.146"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.146"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Test and Evaluation Support (WNW RIL)"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SSC Atlantic"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Charleston, SC"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.347"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.347"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Test and Evaluation - C5ISR Center"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "C5ISR Center"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "2.052"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "2.153"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "6.594"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "3.794"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "3.794"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Test and Evaluation - SSC LANT"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "SSC LANT"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Charleston, SC"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.438"
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.438"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Test and Evaluation - NATO"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "RAND"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Arlington, VA"
+                                                },
+                                                "Cost": {
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.49"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.5"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.5"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.5"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "R4Exhibit": {
+                        "ScheduleProfile": [
+                            {
+                                "ImageFileName": {
+                                    "val": "5_EX6_0.png"
+                                }
+                            },
+                            {
+                                "ImageFileName": {
+                                    "val": "5_EX6_1.png"
+                                }
+                            }
+                        ]
+                    },
+                    "R4aExhibit": {
+                        "ScheduleDetailList": {
+                            "ScheduleDetail": [
+                                {
+                                    "EventTitle": {
+                                        "val": "SINCGARS Waveforms 3.1"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "SINCGARS Waveforms FH4 Development"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "3"
+                                            },
+                                            "Year": {
+                                                "val": "2024"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "SINCGARS Waveforms 4.0"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Warrior Robust Enhanced Network Narrowband  (WREN NB) C5ISR Transition"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Warrior Robust Enhanced Network Narrowband (WREN NB) A"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Warrior Robust Enhanced Network Narrowband (WREN NB) B"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2024"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2024"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Enterprise Over The Air Management (eOTAM) 2.0"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Enterprise Over The Air Management (eOTAM) 2.1"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Enterprise Over The Air Management (eOTAM) 2.2"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Enterprise Over The Air Management (eOTAM) 2.3"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2024"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2024"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Enterprise Over The Air Management (eOTAM) 2.4"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Dynamic Spectrum Access (DSA)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Dynamic Spectrum Access (DSA)Release 1"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Dynamic Spectrum Access (DSA) Release 2"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Dynamic Spectrum Access (DSA) Release 3"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2024"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2024"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Dynamic Spectrum Access (DSA) Release 4"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Advanced Networking Waveforms (ANWf) Analysis"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2026"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "MA\/IDIQ - Contract Award"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2018"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2028"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

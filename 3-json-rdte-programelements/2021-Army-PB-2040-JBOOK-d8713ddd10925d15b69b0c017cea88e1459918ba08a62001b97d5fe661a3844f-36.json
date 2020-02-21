@@ -1,0 +1,2237 @@
+{
+    "id": "2021-Army-PB-2040-JBOOK-d8713ddd10925d15b69b0c017cea88e1459918ba08a62001b97d5fe661a3844f-36",
+    "meta": {
+        "filename": "2021-BASE_RDTE-2021-ARMY_BA5C-U_RDTE_JustificationBook_Army_PB_2021.zzz_unzipped-U_RDTE_JustificationBook_Army_PB_2021.xml",
+        "doctype": "2021-BASE_RDTE-JUSTIFICATIONBOOK",
+        "budget_year": "2021",
+        "budget_cycle": "PB",
+        "submission_date": "2020-02",
+        "service_agency_name": "Army",
+        "appropriation_code": "2040",
+        "appropriation_name": "Research, Development, Test & Evaluation, Army"
+    },
+    "record": {
+        "@monetaryUnit": "Millions",
+        "ProgramElementNumber": {
+            "val": "0304270A"
+        },
+        "ProgramElementTitle": {
+            "val": "Electronic Warfare Development"
+        },
+        "R1LineNumber": {
+            "val": "183"
+        },
+        "BudgetYear": {
+            "val": "2021"
+        },
+        "BudgetCycle": {
+            "val": "PB"
+        },
+        "SubmissionDate": {
+            "val": "2020-02"
+        },
+        "ServiceAgencyName": {
+            "val": "Army"
+        },
+        "AppropriationCode": {
+            "val": "2040"
+        },
+        "AppropriationName": {
+            "val": "Research, Development, Test & Evaluation, Army"
+        },
+        "BudgetActivityNumber": {
+            "val": "5"
+        },
+        "BudgetActivityTitle": {
+            "val": "System Development & Demonstration (SDD)"
+        },
+        "ProgramElementFunding": {
+            "PriorYear": {
+                "val": "8.922"
+            },
+            "CurrentYear": {
+                "val": "18.432"
+            },
+            "BudgetYearOne": {
+                "val": "59.755"
+            },
+            "BudgetYearOneBase": {
+                "val": "55.855"
+            },
+            "BudgetYearOneOCO": {
+                "val": "3.9"
+            },
+            "BudgetYearTwo": {
+                "val": "66.861"
+            },
+            "BudgetYearThree": {
+                "val": "36.853"
+            },
+            "BudgetYearFour": {
+                "val": "28.210"
+            },
+            "BudgetYearFive": {
+                "val": "15.819"
+            },
+            "CostToComplete": {
+                "val": "0.000"
+            },
+            "TotalCost": {
+                "val": "234.852"
+            }
+        },
+        "ProgramElementMissionDescription": {
+            "val": "This Program Element encompasses engineering and manufacturing development for tactical Electronic Warfare (EW) terrestrial (ground) employment applications. The systems under this program provide the Army with the capability to detect, identify, locate, collect\/process, report, and engage (disrupt, degrade or deny) hostile forces to prevent their effective use of communications & non-communications networks, counter-mortar\/counter-battery radars, surveillance radars, electronically fused munitions and other enemy threats using the Electro-Magnetic Spectrum (EMS).\n\nProject EW5 provides for Prophet Enhanced, the current system under the Prophet Ground acquisition program. Its primary mission is to provide 24-hour Situation Development and Information Superiority to the supported maneuver brigade enabling the most effective engagement of enemy forces. Prophet Enhanced provides a modular, scalable, open architecture based system solution optimized for ease of use in a variety of configurations.\n\nProject EW6 provides for the Army Reprogramming Analysis Team (ARAT), a Department of the Army established project to develop techniques, methods, tools and architecture to reprogram mission software embedded in Army EW systems, Force Protection Systems (FPS), and Target Sensing Systems (TSS) in response to changes in threat signatures.  ARAT Research and Development enables continuous development of: 1) automated threat analysis tools to rapidly detect (flag) threat changes within intelligence systems, 2) tools to minimize the time to develop EW Mission Software and Products (MSP) for both air and ground EW systems, 3) tools and technology to minimize the time required to test and validate MSPs, 4) improved communications conduits to transmit mission software changes to field users, and 5) enhanced mission-software uploading tools. These efforts allow for rapid threat analysis, simulation, mission software development, distribution and uploading of mission software changes directly to the supported Soldier in the field.  The ARAT project will develop, test and equip an Army-wide infrastructure capable of rapidly reprogramming electronic combat software embedded in offensive and defensive weapon systems.\n\nProject FJ5 is a New Start for this Program Element in FY 2021 that provides for follow on development of the Terrestrial Layer System (TLS), an effort that initiates in FY 2020 (funded with PE 0604021A \/ AW7). TLS will provide Signals Intelligence (SIGINT), Electronic Warfare (EW), and Cyber-enabling integrated solution to support Multi Domain Battle capability gaps and provide Force Protection, Situational Development, and Information Superiority to the maneuver forces.\n\nFY 2021 funds Electronic Warfare (EW) Development for Prophet Enhanced efforts (Project EW5), the Army Reprogramming Analysis Team (ARAT) efforts (Project EW6) and Terrestrial Layer System efforts (Project FJ5)."
+        },
+        "ChangeSummary": {
+            "PreviousPresidentBudget": {
+                "PriorYear": {
+                    "val": "8.922"
+                },
+                "CurrentYear": {
+                    "val": "22.875"
+                },
+                "BudgetYearOne": {
+                    "val": "56.417"
+                },
+                "BudgetYearOneBase": {
+                    "val": "56.417"
+                }
+            },
+            "CurrentPresidentBudget": {
+                "PriorYear": {
+                    "val": "8.922"
+                },
+                "CurrentYear": {
+                    "val": "18.432"
+                },
+                "BudgetYearOne": {
+                    "val": "59.755"
+                },
+                "BudgetYearOneBase": {
+                    "val": "55.855"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "3.9"
+                }
+            },
+            "TotalAdjustments": {
+                "PriorYear": {
+                    "val": "0"
+                },
+                "CurrentYear": {
+                    "val": "-4.443"
+                },
+                "BudgetYearOne": {
+                    "val": "3.338"
+                },
+                "BudgetYearOneBase": {
+                    "val": "-0.562"
+                },
+                "BudgetYearOneOCO": {
+                    "val": "3.9"
+                }
+            },
+            "AdjustmentDetails": {
+                "CongressionalDirectedReductions": {
+                    "CurrentYear": {
+                        "val": "-4.443"
+                    }
+                },
+                "OtherAdjustmentDetailList": {
+                    "OtherAdjustmentDetail": [
+                        {
+                            "Title": {
+                                "val": "Adjustments to Budget Years"
+                            },
+                            "Funding": {
+                                "BudgetYearOne": {
+                                    "val": "3.338"
+                                },
+                                "BudgetYearOneBase": {
+                                    "val": "-0.562"
+                                },
+                                "BudgetYearOneOCO": {
+                                    "val": "3.9"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "SummaryExplanation": {
+                "val": "FY 2021 increase of $3.9 million OCO increase for development and integration of Theater Specific Signals of Interest (SOI) into the Prophet Enhanced system (Project EW5)."
+            }
+        },
+        "ProjectList": {
+            "Project": [
+                {
+                    "ProjectNumber": {
+                        "val": "EW5"
+                    },
+                    "ProjectTitle": {
+                        "val": "Electronic Warfare Development - MIP"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "1.881"
+                        },
+                        "CurrentYear": {
+                            "val": "11.001"
+                        },
+                        "BudgetYearOne": {
+                            "val": "12.597"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "8.697"
+                        },
+                        "BudgetYearOneOCO": {
+                            "val": "3.9"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "6.212"
+                        },
+                        "BudgetYearThree": {
+                            "val": "6.286"
+                        },
+                        "BudgetYearFour": {
+                            "val": "6.352"
+                        },
+                        "BudgetYearFive": {
+                            "val": "5.654"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "49.983"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectMissionDescription": {
+                            "val": "Prophet Enhanced is the current system under the Prophet Ground acquisition program.  Funds provide for development and integration of Technical Insertion upgrades for Next Generation Signals and state-of-the-art Signals Intelligence (SIGINT) exploitation techniques to increase the capabilities of the Prophet Enhanced and maintain operational relevance.  The Prophet Enhanced is the tactical commander's organic ground-based SIGINT\/Electronic Warfare system for the Multi-Function Teams (MfTs) organic to the Brigade Combat Teams (BCTs) and Expeditionary-Military Intelligence Brigades (E-MIBs).  Its primary mission is to provide 24-hour Situation Development and Information Superiority to the supported maneuver brigade to enable the most effective engagement of enemy forces.  Prophet Enhanced provides a modular, scalable, open architecture-based system solution optimized for ease of use in a variety of configurations.  It also incorporates product modification, integration, evaluation and demonstration events of equipment for rapid integration of Technical Insertions (TI) and product development to ensure operational relevance.\n\nJustification:\nFY 2021 Base funding in the amount of $8.697 million will support continuing non-recurring engineering development and evaluation including, but not limited to; enhancements to Prophet Enhanced Signals of Interest (SOI) baseline to support the National Defense Strategy that is Near Peer focused, integration of Intelligence Community (IC) SOI libraries, development of digital receiver upgrades, development of training systems and environments, development of the Technical Data Package (TDP), improvements to Enhanced Signal Processing (ESP) capabilities and Communications kits, and Customer Testing.\n\nFY 2021 OCO funding in the amount of $3.900 million will support the development, integration and testing\/accreditation of new, Theater Specific, signal capabilities to ensure that Prophet keeps pace with the constantly changing signal environment and to ensure that Prophet maintains its operational relevance against key enemy threats."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Program Management"
+                                    },
+                                    "Description": {
+                                        "val": "Engineering, technical and programmatic oversight of the development of next generation signals."
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.45"
+                                            },
+                                            "Text": {
+                                                "val": "Funds will provide for matrix and contractor system engineering and program management support for the Prophet program."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.45"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.45"
+                                            },
+                                            "Text": {
+                                                "val": "Funds will provide for matrix and contractor system engineering and program management support for the Prophet program."
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Signal of Interest upgrades"
+                                    },
+                                    "Description": {
+                                        "val": "The Signal Environment that Prophet Systems exploit is constantly contested with evolving threats.  This environment creates gaps in Prophet?s ability to collect and exploit these signals.  Prophet must integrate the latest emerging Intelligence Community (IC) and commercial solutions upgrades to remain relevant against these numerous, key, and high-priority emerging threats."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "1.881"
+                                            },
+                                            "Text": {
+                                                "val": "Continuing development of Next Generation SIGINT capabilities to include, but not limited to upgrades to incorporate the National Intelligence Community architecture, numerous key Redhawk, X-Midas and Salvage software applications and integration of the Enhanced Signal Processing (ESP) kit into the Prophet Enhanced system.  The software applications and ESP kits address signal exploitation gaps in Prophet?s ability to exploit key tactical Near Peer signals and emerging signal threats."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "4.024"
+                                            },
+                                            "Text": {
+                                                "val": "Continuing, but not limited to development of Next Generation SIGINT capabilities into the Prophet SIGINT Software (PS2). The new signals and libraries of signals address key exploitation gaps in the Prophet system's ability to collect against key tactical near peer signals and emerging threats."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "8.647"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "4.747"
+                                            },
+                                            "Text": {
+                                                "val": "Continuing, but not limited to development and evaluation of Next Generation SIGINT capabilities into the Prophet SIGINT Software (PS2). The new signals and libraries of signals address key exploitation gaps in the Prophet system's ability to collect against key tactical near peer signals and emerging threats."
+                                            }
+                                        },
+                                        "BudgetYearOneOCO": {
+                                            "Funding": {
+                                                "val": "3.9"
+                                            },
+                                            "Text": {
+                                                "val": "Continuing, but not limited to development and evaluation of Next Generation SIGINT capabilities into the Prophet SIGINT Software (PS2) and increased signal processing capabilities for the Enhanced Signals Processing (ESP) kit baseline. The new signals and libraries of signals address key exploitation gaps in the Prophet system's ability to collect against key tactical near peer signals and emerging threats."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "Previously Signals of Interest had to integrated one at a time; increased funding in FY 2021 allows for the integration \"libraries\" of high priority Signals of Interest (SOI), which is a more economical means of increasing the number of signals the Prophet Enhanced system can exploit and enables the Prophet Enhanced system to exploit more near peer and emerging threat signal types."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Proficiency Trainer and Target Signature Arrays"
+                                    },
+                                    "Description": {
+                                        "val": "The Proficiency Trainer and Target Signature Arrays are required to conduct training to sustain operator proficiency on the Prophet Enhanced at the unit level after the system has been fielded and post New Equipment Training (NET) training."
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "2"
+                                            },
+                                            "Text": {
+                                                "val": "Continued development of Intelligence and Electronic Warfare Tactical Proficiency Trainer and Target Signature Arrays (IEWTPT\/TSA) training systems."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "IEWTPT was an one year developmental effort, funding is not required in FY 2021"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Enhanced Signal Processing and Line of Sight Testing"
+                                    },
+                                    "Description": {
+                                        "val": "Testing required of the Enhanced Signal Processing kit and Line of Sight Communications kit onto the Prophet Enhanced system."
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "1.044"
+                                            },
+                                            "Text": {
+                                                "val": "Funds provide for, but are not limited to release testing of the system-level Prophet System Software (PS2) to include accreditation and productization of all New Technical Insertion (TI) capabilities.  The final release software version is fielded to all the Prophet Systems to upgrade capabilities against Peer Near Peer and emerging threats."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.2"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.2"
+                                            },
+                                            "Text": {
+                                                "val": "Combined testing of the Enhanced Signal Processing kit and Line of Sight Communication kit."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "Majority of testing was completed in the first year, FY 2020."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Enhanced Signal Processing Integration & Development"
+                                    },
+                                    "Description": {
+                                        "val": "Effort to integrate the Enhanced Signal Processing kit into the Prophet Enhanced system."
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "3.483"
+                                            },
+                                            "Text": {
+                                                "val": "Non-recurring engineering included but not limited to integrate the Enhanced Signal Processing kit onto the Prophet Enhanced system."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.55"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.55"
+                                            },
+                                            "Text": {
+                                                "val": "Development and evaluation of the Enhanced Signal Processing capability."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "Majority of effort was completed in FY 2020."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Customer Testing"
+                                    },
+                                    "Description": {
+                                        "val": "Customer Testing of the Prophet Enhanced system as a result of changes to the baseline."
+                                    },
+                                    "PlannedProgram": {
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "0.785"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "0.785"
+                                            },
+                                            "Text": {
+                                                "val": "Customer Testing of the Prophet System baseline after transition to sustainment to support and maintain the PE System Full Material Release"
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2021 is the first year of the Customer Testing effort"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Technical Data Package"
+                                    },
+                                    "Description": {
+                                        "val": "Technical Data Package (TDP) for Prophet Enhanced, to be used for sustainment support as well as for follow on systems"
+                                    },
+                                    "PlannedProgram": {
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "1.965"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "1.965"
+                                            },
+                                            "Text": {
+                                                "val": "Develop Technical Data Package (TDP) for Prophet Enhanced"
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2021 is the first year required for funding"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "OtherProgramFundingSummaryList": {
+                            "OtherProgramFundingSummary": [
+                                {
+                                    "LineItem": {
+                                        "val": "BZ9753"
+                                    },
+                                    "Title": {
+                                        "val": "Prophet Enhanced Modifications (MIP)"
+                                    },
+                                    "Funding": {
+                                        "PriorYear": {
+                                            "val": "45.022"
+                                        },
+                                        "CurrentYear": {
+                                            "val": "57.103"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "78.529"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "17.079"
+                                        },
+                                        "BudgetYearOneOCO": {
+                                            "val": "61.45"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "Continuing"
+                                        },
+                                        "TotalCost": {
+                                            "val": "Continuing"
+                                        }
+                                    }
+                                },
+                                {
+                                    "LineItem": {
+                                        "val": "BZ9751"
+                                    },
+                                    "Title": {
+                                        "val": "SPECIAL PURPOSE SYSTEMS (MIP)"
+                                    },
+                                    "Funding": {
+                                        "PriorYear": {
+                                            "val": "4.162"
+                                        },
+                                        "CurrentYear": {
+                                            "val": "4"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "11.479"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "11.479"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "4.091"
+                                        },
+                                        "BudgetYearThree": {
+                                            "val": "4.141"
+                                        },
+                                        "BudgetYearFour": {
+                                            "val": "4.19"
+                                        },
+                                        "BudgetYearFive": {
+                                            "val": "6.718"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "Continuing"
+                                        },
+                                        "TotalCost": {
+                                            "val": "Continuing"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "The Prophet Research and Development (R&D) Acquisition Strategy is structured to maintain operational relevancy of Prophet Enhanced systems in a dynamic threat environment while reducing risk and streamlining business and engineering processes. Contracting activities are to maintain SIGINT relevance and complete Technical Insertion (TI) to Prophet Enhanced systems to pursue the latest Signals of Interest and design against obsolescence. The Technical Insertion (TI) contract supports R&D and other developmental work."
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Management Services"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Program Management"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "PM Electronic Warfare & Cyber"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "1.611"
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.45"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-12"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.45"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.45"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-12"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Product Development"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Signals of Interst Upgrade"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "SS"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "GD Mission Systems"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Scottsdale, AZ"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "2.212"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "1.881"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2019-01"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "4.024"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-01"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "8.647"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "4.747"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneOCO": {
+                                                        "Amount": {
+                                                            "val": "3.9"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Trainer\/TSA"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "SS"
+                                                },
+                                                "ContractType": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "GD Mission Systems and Various Supporting Organizations"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Scottsdale, AZ"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "2"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "2.000"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Enhanced Signal Processing Integration, Development & Evaluation"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "SS"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "GD Mission Systems"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Scottsdale, AZ"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "3.483"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-01"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.55"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.55"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Support"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Technical Data Package"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "SS"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "GD Mission Systems"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Scottsdale, AZ"
+                                                },
+                                                "Cost": {
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "1.965"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "1.965"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-03"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "1.965"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Test and Evaluation"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Enhanced Signal Processing and Line of Sight Testing"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Army Test & Evaluation Command"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Ft. Huachuca, AZ"
+                                                },
+                                                "Cost": {
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "1.044"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-03"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.2"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.2"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-12"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "1.244"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Customer Testing"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "Army Test & Evaluation Command"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.785"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.785"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-01"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "0.785"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "R4Exhibit": {
+                        "ScheduleProfile": [
+                            {
+                                "ImageFileName": {
+                                    "val": "5_EW5_0.png"
+                                }
+                            }
+                        ]
+                    },
+                    "R4aExhibit": {
+                        "ScheduleDetailList": {
+                            "ScheduleDetail": [
+                                {
+                                    "EventTitle": {
+                                        "val": "Prophet Technical Insertion (TI)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2008"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Customer Testing  (2021)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Customer Testing  (2023)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Customer Testing  (2025)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Prophet Modification of Legacy Systems"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "3"
+                                            },
+                                            "Year": {
+                                                "val": "2017"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Prophet Modification of Legacy Systems - Fielding"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2018"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "ProjectNumber": {
+                        "val": "EW6"
+                    },
+                    "ProjectTitle": {
+                        "val": "ARAT-TSS - MIP"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "7.041"
+                        },
+                        "CurrentYear": {
+                            "val": "7.431"
+                        },
+                        "BudgetYearOne": {
+                            "val": "9.053"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "9.053"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "9.399"
+                        },
+                        "BudgetYearThree": {
+                            "val": "9.587"
+                        },
+                        "BudgetYearFour": {
+                            "val": "9.768"
+                        },
+                        "BudgetYearFive": {
+                            "val": "10.165"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "62.444"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectNote": {
+                            "val": "The Army Reprogramming Analysis Team (ARAT) is a Department of the Army established program to develop techniques, methods, tools, and architecture to rapidly reprogram mission software embedded in Army Electronic Warfare (EW) Force Protection Systems (FPS) in response to changes in threat signatures. The regulatory guidance directing this mission is contained in Army Regulation (AR) 525-15, AR 525-22, and AR 95-1. The ARAT develops integrated technical solutions required to counter increasingly sophisticated EW Signal threats to US Forces. The ARAT mission software reprogramming infrastructure supports the Army Campaign Plan to provide the Regionally Aligned Forces tactical Commander timely rapid-reprogramming capability of EW systems with mission software.  The ARAT mission responsibility is to develop and distribute Mission Software and Products to forward deployed combat forces. ARAT identifies and analyzes worldwide threat signature changes which affect EW systems; determines the impact of observed Signal Intelligence (SIGINT) signature changes; rapidly develops new mission software to adapt friendly systems to detect and defeat enemy threats to U.S. Army ground and air platforms; disseminates the Mission Software and Products to forward deployed forces, and provides government developed tools and software to upload new mission software into the affected EW systems."
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "Current military operations are conducted in a rapidly changing threat environment, where Improvised Explosive Devices (IEDs), Infra Red (IR) man-portable air defense systems (MANPADS) seekers, radar guided surface-to-air-missiles (SAM), laser guided weapons, anti-helicopter mines, and targeting sensors are proliferating and evolving. Integrated solutions are required to counter increasingly sophisticated EW threats.  The ARAT reprogramming infrastructure supports the tactical Commander by providing timely rapid reprogramming of mission software and information dissemination for Army supported, Joint and allied services.  ARAT supports integrated reprogramming of target acquisition, target engagement, vehicle survivability, and Aircraft Survivability Equipment (ASE). ARAT rapid-reprogramming infrastructure supports tactical requirements for deployed aircraft and ground-based (e.g. Counter Radio-Controlled Improvised Explosive Device (CREW)) survivability systems. ARAT identifies and analyzes threat signature changes which affect EW systems; determines the impact of observed signature changes; develops new mission software to adapt the system to the changes; disseminates the mission software; and provides methods to upload the new mission software into the affected EW systems. Each element within the ARAT infrastructure plays a specific role within the program's rapid reprogramming process, providing the Soldier with the capability to install mission and target identification software at the lowest possible level, thus maximizing flexibility for tactical commanders. ARAT participates in the operational and developmental test design of Army EW systems, and supports Joint Service Reprogramming Exercises in all theaters. ARAT Research and Development enables continuous development of: 1) automated threat analysis tools to rapidly detect (flag) threat changes within the intelligence system, 2) tools to minimize the time to develop Mission Software and Products (MSP), 3) tools and technology to minimize the time required to test and validate MSPs, 4) improved communications conduits to rapidly transmit mission software to upload into supported EW systems. These efforts allow for rapid threat analysis, threat modeling and simulation, mission software development and testing, distribution and uploading of mission software directly to the supported Soldier in the field."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Keeping Pace with the Enemy and Technology"
+                                    },
+                                    "Description": {
+                                        "val": "This effort focuses on developing a capability for the Government to rapidly develop and distribute organic mission software solutions for multiple EW systems.  The Army must continually modernize and enhance software tools, hardware modernization, and processes counter enemy technology.  ARAT EW6 Military Intelligence Program (MIP) executes Research, Development, Test, and Evaluation (RDTE) funding to provide an organic Army capability for this organization to rapidly develop, test and distribute mission software solutions for forward deployed combat forces."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "3.722"
+                                            },
+                                            "Text": {
+                                                "val": "This FY effort will capitalize on accomplishments in FY 2018 and will continue to enhance: 1) Intelligence data requirements to support MSP development for EO\/UV\/IR spectrums and other multi-spectral sensors for aviation and non-aviation EW systems, 2) Government organic knowledge and application-base enabling reprogramming of future systems, 3)USG capability for the reprogramming of multi-spectral EW systems."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "4.424"
+                                            },
+                                            "Text": {
+                                                "val": "ARAT's FY 2020 plan will continue to focus on the rapid development, testing, and distribution of mission software for regions worldwide. In support of Air Mission software development, ARAT will continue automating threat simulation development, Radio Frequency automated signal generation, automating threat analysis tools, developing a universal mission software generation tool, and software hardening capability."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "4.703"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "4.703"
+                                            },
+                                            "Text": {
+                                                "val": "ARAT's FY 2021 base plan to keep pace with enemy and technology will focus on gaining a decisive edge on emerging enemy technologies that are evolving rapidly.  With the Army's shift to focus on peer and near peer adversaries ARAT must enhance it's ability to rapidly detect a changed or new threat,  analyze the threat, develop a rapid mission software solution to detect and defeat the threat, and rapidly distribute the mission software to forward deployed combat forces."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2021increased from FY 2020 in support focusing more on enhancing the Air and Ground lab infrastructure to include modernization of threat detection and threat analysis.  ARAT must enhance its Air and Ground laboratories to rapidly adapt to emerging and changing threats.  Modernizing the infrastructure is imperative to rapidly create mission software solutions that detect and defeat increasingly sophisticated enemy weapon systems."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Infrastructure Improvements Multispectral"
+                                    },
+                                    "Description": {
+                                        "val": "This effort focuses on enhancing the Army's Multispectral Missile Warning System (MWS) software sustainment infrastructure.  With the worldwide proliferation of MANPADS the Army must have the capability to rapidly analyze and develop mission software solutions that detect and counter MANPADS to defend Army Aviation platforms against this lethal threat."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "1.104"
+                                            },
+                                            "Text": {
+                                                "val": "Will continue to conduct infrastructure enhancements for an OFP software development environment to enable the USG to develop and deploy an OFP environment for MWS. Continue evaluation of data and conduct analysis requirements for MANPADS characterization and enhance the organic government analysis and sustainment process to support OFPs and subsequently adapt MWSs to new threats. Enhance government organic capability, thereby decreasing the risk that systems cannot be readily adapted to changing threats."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.893"
+                                            },
+                                            "Text": {
+                                                "val": "ARAT will continue to enhance Multispectral Mission Software development, testing, and distribution infrastructure.  ARAT will continue modernization of the multispectral software development environment as well as automation of threat analysis tools and multispectral simulation capabilities."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "1.087"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "1.087"
+                                            },
+                                            "Text": {
+                                                "val": "The FY 2021 plan includes modernization of the infrastructure automated testing of mission software.  ARAT will continue to focus on enhancing software tools that aid in speeding up testing time of mission software.  Mission software must be rigorously tested and validated prior to release to forward deployed combat forces.  ARAT performs testing of thousands of test points within a mission software file.  Due to the sophistication of emerging threat weapon systems ARAT will increase the amount of test points required to validate the release of mission software.  ARAT will need to continue enhancing it's infrastructure  to rapidly develop and test mission software.  ARAT has procured new threat simulators that require software to allow the simulators to replicate enemy weapon system radars.  Simulation software allows ARAT to replicate sophisticated enemy radar systems that are required to conduct laboratory testing of mission software."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2021 increased from FY 2020 in support of more enhancing on the Air and Ground lab infrastructure to include modernization of threat detection and threat analysis.  ARAT must enhance its Air and Ground laboratories to rapidly adapt to emerging and changing threats.  Modernizing the infrastructure is imperative to rapidly create mission software solutions that detect and defeat increasingly sophisticated enemy weapon systems."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Infrastructure Improvement Radio Frequency General"
+                                    },
+                                    "Description": {
+                                        "val": "This effort focuses on enhancing the Army's Radio Frequency (RF) EW system Mission Software and Products (MSP) development and distribution infrastructure.  The Army must fight in a contested and congested EW environment.  Mission software solutions to defend against RF threats must be rapidly developed, tested, and distributed to Soldiers on an ever changing battlefield."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "1.349"
+                                            },
+                                            "Text": {
+                                                "val": "Further augment the ARAT communications architecture to enhance the rapid secure transmission of mission software changes to EW systems, with emphasis on remote user and highly mobile Soldier connectivity. Will continue to enhance the USG integrated EW development and test environment to ensure Mission Software and threat countermeasure integration on the respective EW platform."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "1.263"
+                                            },
+                                            "Text": {
+                                                "val": "In support of Ground Electronic Warfare Radio Frequency Mission Software development, ARAT will develop modernization efforts for the automated testing of mission software, develop laboratory environmental models that replicate actual physical and climatic environments worldwide, and optimize threat automation tools.  Additionally, ARAT will create a software tool that will control various versions of Radio Frequency (RF) simulators and RF Signal Generators."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "1.386"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "1.386"
+                                            },
+                                            "Text": {
+                                                "val": "ARAT FY 2021 base plan is enhance the Radio Frequency infrastructure.  Intended efforts include designing and developing software that emulates radar components to reduce dependency on aging antennas and aircraft processors that are in low inventory across the Army.  Emulated aircraft components reduces the maintenance requirement to repair or replace actual aircraft hardware in the ARAT laboratories.  Additionally, ARAT will continue enhancing automated testing of mission software.  Automated testing decreases the time it takes to validate mission software by utilizing software tools to execute the testing in lieu of having engineers perform the testing functions.  ARAT will continue to enhance the Ground Electronic Warfare (Grew) mission software development and testing infrastructure.  Grew efforts will include software emulation of operational environments where Grew systems will operate worldwide.  The emulation software will allow ARAT to create realistic environments in a laboratory.  Realistic environments include the physical and climatological components of where the GrEW systems may operate.  Having the capability to model environments in a laboratory provides the ability to rapidly test and validate mission software in lieu of lengthy field testing."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2021 increased from FY 2020 in support of enhancing the Radio Frequency infrastructure."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Threat Flagging and Mission Data Set Reprogramming Tool Development"
+                                    },
+                                    "Description": {
+                                        "val": "This effort focuses on enhancing the Army's capability to monitor changes in enemy EW systems that affect system performance of Army detection, declaration, and countermeasure EW systems onboard.  The enemy is continuously developing or modifying it's EW systems.  For Army platforms to have protection against enemy systems it must have a robust capability to immediately detect changes in threat system performance and rapidly develop, test, and distribute a mission software solution that counters the threat.  This effort will enhance the Army's capability bridge detection of a change in enemy threat and the rapid development of MSP."
+                                    },
+                                    "Accomplishment": {
+                                        "PriorYear": {
+                                            "Funding": {
+                                                "val": "0.866"
+                                            },
+                                            "Text": {
+                                                "val": "Continue to enhance spiral applications for ARAT internal system specific threat flagging, threat analysis, mission software generation and testing processes. Will conduct spiral enhancement of threat flagging (threat performance change detection) and intelligence analytical tools, based on supported systems performance criteria, to rapidly identify and counter emerging and changing threats that adversely affect the performance of the EW systems. Will continue to enhance mission software development, testing and validation tools to decrease time from threat-change detection to the distribution of MSP in order to increase the accuracy and fidelity of threat identification, and reduce the engineering involvement\/workload associated with the manually intensive analysis and MSP development processes. Will continue to enhance software tools that enhance a data support infrastructure that employs the EWIR database."
+                                            }
+                                        }
+                                    },
+                                    "PlannedProgram": {
+                                        "CurrentYear": {
+                                            "Funding": {
+                                                "val": "0.851"
+                                            },
+                                            "Text": {
+                                                "val": "ARAT will continue the design and development of the modernized Threat Change Detection (TCD) tool.  This tool will provide the enhanced ability for the Army to rapidly detect and analyze National level captured signal intelligence parametric data.  The TCD tool will utilize analytical tools to assess the change in threat emitters and to prioritize the lethality of a threat change and its impact to US Forces.  Additionally, ARAT will continue with modernization efforts of the mission software generation tools and hardware infrastructure.  Planned FY 2020 effort will include the creation of a Universal Mission Data Set Generation (UMG) tool.  The UMG tool will consolidate the current multiple Mission Data Set Generation tools into a single tool.  The benefit of a single tool will enhance the Mission Software development process by reducing the sustainment of 5 Generation tools into a single Generation tool."
+                                            }
+                                        },
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "1.877"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "1.877"
+                                            },
+                                            "Text": {
+                                                "val": "The FY 2021 Base Plan is to enhance ARAT's ability to rapidly detect threat changes worldwide.  Additionally, design and develop software tools that provide the capability to enhance the accuracy and speed of mission software development and testing for Electronic Warfare systems.  Planned efforts include enhancing ARAT's Threat Detection and Threat Analysis capability.  Enhancing Threat Detection will provide ARAT with the ability to rapidly detect changes in known threats, assess the impact of the change in threat, develop a mission software solution to detect and defeat the threat, and distribute the new mission software to forward deployed forces.  ARAT will continue to focus RDT&E efforts on enhancing the mission software development and testing infrastructure."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "The FY 2020 to FY 2021 increase is $1.026M.  This increase is priority based due to available funding in FY 2021.  Planned efforts in FY 2021 are discussed in the FY 2021 Base Plans."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "The efforts to be funded in this project will require a combination of systems specific and high-tech knowledge. The contractual services portion for the project will be obtained from both the Communications-Electronics Command (CECOM) Software Engineering Center (SEC) competitive omnibus and the Research, Development and Engineering Command (RDECOM) and the Defense Technical Intelligence Center (DTIC) high tech contracts."
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Management Services"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Program Management"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "CECOM SEC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Aberdeen Proving Ground, MD"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "9.387"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.161"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.182"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-03"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.188"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.188"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-03"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Product Development"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "USG Labor"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "CECOM SEC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various Locations"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "3.111"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.372"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.383"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "1.19"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "1.19"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "5.056"
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "Name": {
+                                                    "val": "Travel"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "CECOM SEC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various Locations"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "0.838"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "0.08"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "0.084"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "0.088"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "0.088"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "1.090"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Support"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Development Support"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "Various"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "CECOM SEC, RDECOM, DTIC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "Various Locations"
+                                                },
+                                                "Cost": {
+                                                    "TotalPreviousYears": {
+                                                        "val": "34.726"
+                                                    },
+                                                    "PriorYear": {
+                                                        "Amount": {
+                                                            "val": "6.428"
+                                                        }
+                                                    },
+                                                    "CurrentYear": {
+                                                        "Amount": {
+                                                            "val": "6.782"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-03"
+                                                        }
+                                                    },
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "7.587"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "7.587"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2020-03"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TargetValue": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "R4Exhibit": {
+                        "ScheduleProfile": [
+                            {
+                                "ImageFileName": {
+                                    "val": "5_EW6_0.png"
+                                }
+                            }
+                        ]
+                    },
+                    "R4aExhibit": {
+                        "ScheduleDetailList": {
+                            "ScheduleDetail": [
+                                {
+                                    "EventTitle": {
+                                        "val": "Software Development Enhancement Support (see notes in Schedule Detail)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2015"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "ScheduleDetailNote": {
+                            "val": "- Software Test Automation\n- Threat Analysis Data Evaluation Tool\n- Enhance Data Distribution"
+                        }
+                    }
+                },
+                {
+                    "ProjectNumber": {
+                        "val": "FJ5"
+                    },
+                    "ProjectTitle": {
+                        "val": "Terrestrial Layer System (MIP)"
+                    },
+                    "ProjectFunding": {
+                        "PriorYear": {
+                            "val": "0"
+                        },
+                        "CurrentYear": {
+                            "val": "0"
+                        },
+                        "BudgetYearOne": {
+                            "val": "38.105"
+                        },
+                        "BudgetYearOneBase": {
+                            "val": "38.105"
+                        },
+                        "BudgetYearTwo": {
+                            "val": "51.25"
+                        },
+                        "BudgetYearThree": {
+                            "val": "20.98"
+                        },
+                        "BudgetYearFour": {
+                            "val": "12.09"
+                        },
+                        "BudgetYearFive": {
+                            "val": "0"
+                        },
+                        "CostToComplete": {
+                            "val": "0.000"
+                        },
+                        "TotalCost": {
+                            "val": "122.425"
+                        }
+                    },
+                    "R2aExhibit": {
+                        "ProjectNote": {
+                            "val": "This is a new start in FY2021.\n\nTerrestrial Layer System (TLS) is a new start effort in FY 2020, and FJ5 is a New Start Project in FY2021."
+                        },
+                        "ProjectMissionDescription": {
+                            "val": "Terrestrial Layer System (TLS) is a new start effort in FY 2020, and FJ5 is a New Start Project in FY2021. TLS provides Army maneuver forces integrated full spectrum Signals Intelligence (SIGINT), Electronic Warfare (EW), and Cyber-enabling non-kinetic offensive operation options to Brigade Combat Team (BCT) and Expeditionary-Military Intelligence Brigade (EMIB) commanders. TLS' information Superiority provides Indications and Warnings, Force Protection and Situational Awareness to influence the commander's decision cycle, improve targeting timeliness and accuracy, and provide the maneuver commander with electronic attack and offensive cyber warfare options to deny, degrade, disrupt, or otherwise manipulate the targeted force. TLS employs technologically advanced systems with a modular open-system approach for multiple configurations that can be efficiently sustained and effectively upgraded to provide capabilities against changing near peer and emerging threats to address multi-domain capability gaps.\n\nJustification:\nFY 2021 Base funding in the amount of $38.105 million funds system level prototyping, platform integration and testing efforts."
+                        },
+                        "AccomplishmentPlannedProgramList": {
+                            "AccomplishmentPlannedProgram": [
+                                {
+                                    "Title": {
+                                        "val": "Technical \/ Program Management"
+                                    },
+                                    "Description": {
+                                        "val": "Funds will provide for technical engineering and program management."
+                                    },
+                                    "PlannedProgram": {
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "7.318"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "7.318"
+                                            },
+                                            "Text": {
+                                                "val": "FY 2021 technical engineering and program management support for TLS."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2021 is the first year of funding for the project."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Platform Integration and System Development"
+                                    },
+                                    "Description": {
+                                        "val": "Development of System Level Prototypes and integration of TLS mission equipment onto vehicle platform(s)."
+                                    },
+                                    "PlannedProgram": {
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "28.036"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "28.036"
+                                            },
+                                            "Text": {
+                                                "val": "Development of System Level Prototypes and integration of TLS mission equipment onto vehicle platform(s)."
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2021 is the first year of funding for the Program Element and the effort."
+                                        }
+                                    }
+                                },
+                                {
+                                    "Title": {
+                                        "val": "Test Events"
+                                    },
+                                    "Description": {
+                                        "val": "System and Operational test events"
+                                    },
+                                    "PlannedProgram": {
+                                        "BudgetYearOne": {
+                                            "Funding": {
+                                                "val": "2.751"
+                                            }
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "Funding": {
+                                                "val": "2.751"
+                                            },
+                                            "Text": {
+                                                "val": "Testing of TLS system"
+                                            }
+                                        },
+                                        "AppChangeSummary": {
+                                            "val": "FY 2021 is the first year of funding for the Program Element and the effort"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "OtherProgramFundingSummaryList": {
+                            "OtherProgramFundingSummary": [
+                                {
+                                    "LineItem": {
+                                        "val": "B97600"
+                                    },
+                                    "Title": {
+                                        "val": "TERRESTRIAL LAYER SYSTEMS (TLS) (MIP)"
+                                    },
+                                    "Funding": {
+                                        "BudgetYearOne": {
+                                            "val": "8.081"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "8.081"
+                                        },
+                                        "BudgetYearTwo": {
+                                            "val": "39.71"
+                                        },
+                                        "BudgetYearThree": {
+                                            "val": "88.133"
+                                        },
+                                        "BudgetYearFour": {
+                                            "val": "167.066"
+                                        },
+                                        "BudgetYearFive": {
+                                            "val": "186.448"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "0.000"
+                                        },
+                                        "TotalCost": {
+                                            "val": "489.438"
+                                        }
+                                    }
+                                },
+                                {
+                                    "LineItem": {
+                                        "val": "0604021A"
+                                    },
+                                    "Title": {
+                                        "val": "Electronic Warfare Technology Maturation (MIP)"
+                                    },
+                                    "Funding": {
+                                        "CurrentYear": {
+                                            "val": "23.043"
+                                        },
+                                        "BudgetYearOne": {
+                                            "val": "22.84"
+                                        },
+                                        "BudgetYearOneBase": {
+                                            "val": "22.84"
+                                        },
+                                        "CostToComplete": {
+                                            "val": "0.000"
+                                        },
+                                        "TotalCost": {
+                                            "val": "45.883"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "AcquisitionStrategy": {
+                            "val": "A competitive acquisition approach is planned for TLS development. The TLS program will use a tailored acquisition approach to rapidly deliver an integrated ground intelligence, electronic warfare and cyber capability on multiple platform types to align with maneuver forces. The TLS program will leverage authorities to accelerate delivery through rapid prototyping or rapid fielding approaches."
+                        }
+                    },
+                    "R3Exhibit": {
+                        "CostCategoryGroupList": {
+                            "CostCategoryGroup": [
+                                {
+                                    "Name": {
+                                        "val": "Management Services"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Technical \/ Program Management"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "7.318"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "7.318"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-02"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "Continuing"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "Continuing"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Product Development"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Vehicle Integration and System Development"
+                                                },
+                                                "ContractMethod": {
+                                                    "val": "C"
+                                                },
+                                                "ContractType": {
+                                                    "val": "CPFF"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "TBD"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "TBD"
+                                                },
+                                                "Cost": {
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "28.036"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "28.036"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-03"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "28.036"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Name": {
+                                        "val": "Test and Evaluation"
+                                    },
+                                    "CostCategoryItemList": {
+                                        "CostCategoryItem": [
+                                            {
+                                                "Name": {
+                                                    "val": "Test Events"
+                                                },
+                                                "FundingVehicle": {
+                                                    "val": "MIPR"
+                                                },
+                                                "PerformingActivity": {
+                                                    "val": "ATEC"
+                                                },
+                                                "PerformingActivityLocation": {
+                                                    "val": "APG, MD"
+                                                },
+                                                "Cost": {
+                                                    "BudgetYearOne": {
+                                                        "Amount": {
+                                                            "val": "2.751"
+                                                        }
+                                                    },
+                                                    "BudgetYearOneBase": {
+                                                        "Amount": {
+                                                            "val": "2.751"
+                                                        },
+                                                        "AwardDate": {
+                                                            "val": "2021-03"
+                                                        }
+                                                    },
+                                                    "CostToComplete": {
+                                                        "val": "0.000"
+                                                    },
+                                                    "TotalCost": {
+                                                        "val": "2.751"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "R4Exhibit": {
+                        "ScheduleProfile": [
+                            {
+                                "ImageFileName": {
+                                    "val": "5_FJ5_0.png"
+                                }
+                            },
+                            {
+                                "ImageFileName": {
+                                    "val": "5_FJ5_1.png"
+                                }
+                            }
+                        ]
+                    },
+                    "R4aExhibit": {
+                        "ScheduleDetailList": {
+                            "ScheduleDetail": [
+                                {
+                                    "EventTitle": {
+                                        "val": "Milestone A"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Component Engineering and Prototyping"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "3"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Developmental Testing (A)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2020"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Developmental Testing (B)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Milestone B (Transition from BA 4 to BA 5 RDT&E)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Integration & Evaluation on Platform 1"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Developmental Testing (C)"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "3"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Milestone C \/ Production Decision"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Component Procurement"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Production on Platform 1"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "2"
+                                            },
+                                            "Year": {
+                                                "val": "2025"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Limited User Testing of TLS on Platform 1"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "First Unit Equipped with TLS on Platform 1"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Iterative Prototyping"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2022"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2027"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "Integration & Evaluation on Platform 2"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "4"
+                                            },
+                                            "Year": {
+                                                "val": "2021"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "EventTitle": {
+                                        "val": "TLS Production on Platform 2"
+                                    },
+                                    "Schedule": {
+                                        "Start": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2023"
+                                            }
+                                        },
+                                        "End": {
+                                            "Quarter": {
+                                                "val": "1"
+                                            },
+                                            "Year": {
+                                                "val": "2027"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
