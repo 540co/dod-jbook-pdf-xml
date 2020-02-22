@@ -197,7 +197,6 @@ function profileCsv($resourceType) {
       echo "[".$rk."]";
       $budgetYear = $rv['@BUDGET_YEAR'];
 
-
       foreach ($v['columns'] as $ck=>$cv) {
         if (strlen($rv[$cv]) > 0) {
           $profile[$tableName][$cv][$budgetYear] = true;
@@ -226,7 +225,7 @@ function profileCsv($resourceType) {
 
   fwrite($profileFile, implode(',',array_keys($csvRows[0])));
   fwrite($profileFile,"\n");
-  
+
   foreach ($csvRows as $k=>$v) {
     fwrite($profileFile, implode(',',$v));
     fwrite($profileFile,"\n");
@@ -497,16 +496,55 @@ function jsonToCsv($resourceType) {
 
     }
 
+    file_put_contents($targetPaths[$sourceIdx]."/JSON_parentId_List.json", json_encode($JSON_parentId_List, JSON_PRETTY_PRINT));
+
     // Transform $tables
+    $parentToChildColumnNames = [];
+
     foreach ($JSON_parentId_List as $k=>$v) {
+
         // Add @PARENTROWID to child row
         $tables[$v['childTableName']][$v['childRowIdx']]['@PARENTROWID'] = $v['parentRowId'];
+
         // Add @PARENT to child row
         $tables[$v['childTableName']][$v['childRowIdx']]['@PARENT'] = $v['parentTableName'];
-        // Remove JSON_parentId from child row
-        unset($tables[$v['childTableName']][$v['childRowIdx']]['JSON_parentId']);
+
+        // Change name of JSON_parentID to '_CHILDID'
+        $tables[$v['childTableName']][$v['childRowIdx']]['_@CHILDID'] =
+          $tables[$v['childTableName']][$v['childRowIdx']]['JSON_parentId'];
+
+        //unset($tables[$v['childTableName']][$v['childRowIdx']]['JSON_parentId']);
+
         // Remove [parentColumnName] from parent row
-        unset($tables[$v['parentTableName']][$v['parentRowIdx']][$v['parentColumnName']]);
+        // Change name of `parentColumnName` to `_parentColumnName`
+        $tables[$v['parentTableName']][$v['parentRowIdx']]['_@'.$v['childTableName']] =
+          $tables[$v['parentTableName']][$v['parentRowIdx']][$v['parentColumnName']];
+
+          if (!(isset($parentToChildColumnNames[$v['parentTableName']]))) {
+            $parentToChildColumnNames[$v['parentTableName']] =[];
+          }
+          $parentToChildColumnNames[$v['parentTableName']][] = '_@'.$v['childTableName'];
+          $parentToChildColumnNames[$v['parentTableName']] = array_values(array_unique($parentToChildColumnNames[$v['parentTableName']]));
+
+        //unset($tables[$v['parentTableName']][$v['parentRowIdx']][$v['parentColumnName']]);
+
+    }
+    echo "\n";
+
+    foreach ($parentToChildColumnNames as $tableName=>$parentColumnNames) {
+      foreach ($tables[$tableName] as $rowIdx=>$rowFieldVals) {
+        foreach ($parentColumnNames as $k=>$parentColumnName) {
+          if (!(isset($rowFieldVals[$parentColumnName]))) {
+            $tables[$tableName][$rowIdx][$parentColumnName] = '';
+            echo "[$tableName][$rowIdx][$parentColumnName]+";
+          }
+        }
+      }
+    }
+
+    foreach ($JSON_parentId_List as $k=>$v) {
+      unset($tables[$v['childTableName']][$v['childRowIdx']]['JSON_parentId']);
+      unset($tables[$v['parentTableName']][$v['parentRowIdx']][$v['parentColumnName']]);
     }
 
     // Ensure [parentColumnName] is removed from ALL rows regardless of if it had a parent
@@ -530,6 +568,7 @@ function jsonToCsv($resourceType) {
       }
     }
 
+
     // Build parent / child relationship map
     $parentChildMap = [];
     $childParentMap = [];
@@ -546,6 +585,8 @@ function jsonToCsv($resourceType) {
         $childParentMap[$v['childTableName']][] = $v['parentTableName'];
         $childParentMap[$v['childTableName']] = array_values(array_unique($childParentMap[$v['childTableName']]));
     }
+
+
 
     // Generate schema details prior to writing to disk
     $schemaDetails = [];

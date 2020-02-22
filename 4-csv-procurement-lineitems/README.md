@@ -1,11 +1,11 @@
-_Generated on 2020-02-21T06:41:00+0000_
+_Generated on 2020-02-22T10:25:45+0000_
 
 
 ##root
 ```
 filename => root.csv
 # of rows => 14645
-# of rows => 1076
+# of rows => 1107
 ```
 | Column |
 |--------|
@@ -1085,12 +1085,43 @@ filename => root.csv
 | @SOURCE\_FILENAME |
 | @RECORDID |
 | @ROWID |
+| \_@root.record.ItemExhibitList.P40AItemGroup |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup |
+| \_@root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement |
+| \_@root.record.ItemExhibitList.P5Item |
+| \_@root.record.OtherRelatedProgramElementList.ProgramElementNumber |
+| \_@root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement |
+| \_@root.record.ComponentSplit.ComponentList.Component |
+| \_@root.record.ResourceSummary.OtherResourceSummaryEntryList.OtherResourceSummaryEntry |
+| \_@root.record.CodeBProgramElementList.ProgramElementNumber |
+| \_@root.record.ItemExhibitList.P18Item.InitialSpares.EndItemBudgetActivity |
+| \_@root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.GFE.APCostElement |
+| \_@root.record.ItemExhibitList.P18Item.ReplenishmentSpares.EndItemBudgetActivity |
+| \_@root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement |
+| \_@root.record.FacilityList.ProductionSupportFacility |
+| \_@root.record.FacilityList.LayawayFacility |
+| \_@root.record.FacilityList.InactiveFacility |
+| \_@root.record.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ShipsExhibitList.P5ShipClass.P10AdvanceProcurement.APCostElementCategoryList.OtherCategoryList.OtherCategory |
+| \_@root.record.ShipsExhibitList.P5ShipClass.BudgetYearsForPDF.BudgetYear |
+| \_@root.record.ShipsExhibitList.P5ShipClass.ContractList.Contract |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.P35ItemList.P35Item |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.MajorItemList.MajorItem |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.OtherCostElementList.CostElement |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.MajorItemList.MajorItem |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.OtherCostElementList.CostElement |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.P35ItemList.P35Item |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.MajorItemList.MajorItem |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.OtherCostElementList.CostElement |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.OtherCategories.OtherCategory |
+| \_@root.record.ShipsExhibitList.CombinedP29OutfittingP30Delivery.OutfittingAndDeliveryCostList.OutfittingAndDeliveryCost |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.P35ItemList.P35Item |
 
 ##root.record.ItemExhibitList.P40AItemGroup
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.csv
 # of rows => 8987
-# of rows => 25
+# of rows => 27
 ```
 | Column |
 |--------|
@@ -1119,12 +1150,14 @@ filename => root.record.ItemExhibitList.P40AItemGroup.csv
 | ModificationItemsIndicator\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.csv
 # of rows => 24474
-# of rows => 26
+# of rows => 28
 ```
 | Column |
 |--------|
@@ -1154,12 +1187,14 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.csv
 | CategorySubtotal\_UnitCost |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.csv
 # of rows => 93920
-# of rows => 84
+# of rows => 89
 ```
 | Column |
 |--------|
@@ -1247,12 +1282,17 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.Item
 | DODIC\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ModelsAffectedList.ModelAffected |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ComponentSplit.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ComponentSplit.ComponentList.Component.csv
 # of rows => 4378
-# of rows => 27
+# of rows => 28
 ```
 | Column |
 |--------|
@@ -1283,12 +1323,13 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.Item
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.csv
 # of rows => 11072
-# of rows => 281
+# of rows => 289
 ```
 | Column |
 |--------|
@@ -1573,12 +1614,20 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.csv
 | IdCode\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.RelatedProgramElementList.ProgramElementNumber |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.SupportCost.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.DevelopmentMilestoneList.DevelopmentMilestone |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModelsAffectedList.ModelAffected |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.RelatedProgramElementList.ProgramElementNumber
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.RelatedProgramElementList.ProgramElementNumber.csv
 # of rows => 4855
-# of rows => 7
+# of rows => 8
 ```
 | Column |
 |--------|
@@ -1589,12 +1638,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.RelatedProgramE
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.SupportCost.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.SupportCost.CostElementList.CostElement.csv
 # of rows => 30325
-# of rows => 63
+# of rows => 64
 ```
 | Column |
 |--------|
@@ -1661,12 +1711,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.SupportCost.Cos
 | Remarks\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.csv
 # of rows => 13853
-# of rows => 289
+# of rows => 301
 ```
 | Column |
 |--------|
@@ -1959,12 +2010,24 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | P10AdvanceProcurement\_APCostElementCategoryList\_Other\_CategorySubtotal\_Total\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.RDTE.ProgramElementSummaryList.ProgramElementSummary |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.AKits.Recurring.KitList.Kit |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.BKits.Recurring.KitList.Kit |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.BKits.NonRecurring.KitList.Kit |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.ManufacturerList.Manufacturer |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.AKits.NonRecurring.KitList.Kit |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.IndividualModInstallationList.IndividualModInstallation |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.RDTE.ProgramElementSummaryList.ProgramElementSummary
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.RDTE.ProgramElementSummaryList.ProgramElementSummary.csv
 # of rows => 1112
-# of rows => 54
+# of rows => 55
 ```
 | Column |
 |--------|
@@ -2022,12 +2085,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.AKits.Recurring.KitList.Kit
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.AKits.Recurring.KitList.Kit.csv
 # of rows => 17478
-# of rows => 59
+# of rows => 60
 ```
 | Column |
 |--------|
@@ -2090,12 +2154,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | Remarks\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.BKits.Recurring.KitList.Kit
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.BKits.Recurring.KitList.Kit.csv
 # of rows => 20179
-# of rows => 68
+# of rows => 69
 ```
 | Column |
 |--------|
@@ -2167,12 +2232,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | Remarks\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.BKits.NonRecurring.KitList.Kit
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.BKits.NonRecurring.KitList.Kit.csv
 # of rows => 3857
-# of rows => 59
+# of rows => 60
 ```
 | Column |
 |--------|
@@ -2235,12 +2301,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | Remarks\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.ManufacturerList.Manufacturer.csv
 # of rows => 16546
-# of rows => 28
+# of rows => 29
 ```
 | Column |
 |--------|
@@ -2272,12 +2339,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.ComponentSplit.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.ComponentSplit.ComponentList.Component.csv
 # of rows => 850
-# of rows => 27
+# of rows => 28
 ```
 | Column |
 |--------|
@@ -2308,12 +2376,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.csv
 # of rows => 26255
-# of rows => 575
+# of rows => 595
 ```
 | Column |
 |--------|
@@ -2892,12 +2961,32 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | OrganicInstallation\_InstallationQuantity\_@footnote |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.CurrentYear.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearOne.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.ToComplete.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.Total.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.PriorYear.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearTwo.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearThree.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.AllPriorYears.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFour.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFive.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.Total.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.PriorYear.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.AllPriorYears.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearOne.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.CurrentYear.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearTwo.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearThree.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFour.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFive.SecondaryDistribution.ComponentList.Component |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.CurrentYear.ComponentSplit.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.CurrentYear.ComponentSplit.ComponentList.Component.csv
 # of rows => 342
-# of rows => 21
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -2922,12 +3011,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearOne.ComponentSplit.ComponentList.Component
 ```
 filename => ~ot.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearOne.ComponentSplit.ComponentList.Component.csv
 # of rows => 455
-# of rows => 21
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -2952,12 +3042,13 @@ filename => ~ot.record.ItemExhibitList.P3AModificationItemGroup.ModificationItem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.ToComplete.ComponentSplit.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.ToComplete.ComponentSplit.ComponentList.Component.csv
 # of rows => 588
-# of rows => 27
+# of rows => 28
 ```
 | Column |
 |--------|
@@ -2988,12 +3079,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.Total.ComponentSplit.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.Total.ComponentSplit.ComponentList.Component.csv
 # of rows => 588
-# of rows => 27
+# of rows => 28
 ```
 | Column |
 |--------|
@@ -3024,12 +3116,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.PriorYear.ComponentSplit.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.PriorYear.ComponentSplit.ComponentList.Component.csv
 # of rows => 247
-# of rows => 21
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -3054,12 +3147,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearTwo.ComponentSplit.ComponentList.Component
 ```
 filename => ~ot.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearTwo.ComponentSplit.ComponentList.Component.csv
 # of rows => 370
-# of rows => 15
+# of rows => 16
 ```
 | Column |
 |--------|
@@ -3078,12 +3172,13 @@ filename => ~ot.record.ItemExhibitList.P3AModificationItemGroup.ModificationItem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearThree.ComponentSplit.ComponentList.Component
 ```
 filename => ~.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearThree.ComponentSplit.ComponentList.Component.csv
 # of rows => 315
-# of rows => 13
+# of rows => 14
 ```
 | Column |
 |--------|
@@ -3100,12 +3195,13 @@ filename => ~.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemLi
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement
 ```
 filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.csv
 # of rows => 164
-# of rows => 33
+# of rows => 35
 ```
 | Column |
 |--------|
@@ -3142,12 +3238,14 @@ filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProc
 | ManufacturerList\_P10Manufacturer\_Rate185\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.ManufacturerList.P10Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.AllPriorYears.ComponentSplit.ComponentList.Component
 ```
 filename => ~ot.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.AllPriorYears.ComponentSplit.ComponentList.Component.csv
 # of rows => 192
-# of rows => 21
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -3172,12 +3270,13 @@ filename => ~ot.record.ItemExhibitList.P3AModificationItemGroup.ModificationItem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.AKits.NonRecurring.KitList.Kit
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.AKits.NonRecurring.KitList.Kit.csv
 # of rows => 2725
-# of rows => 57
+# of rows => 58
 ```
 | Column |
 |--------|
@@ -3238,12 +3337,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFour.ComponentSplit.ComponentList.Component
 ```
 filename => ~t.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFour.ComponentSplit.ComponentList.Component.csv
 # of rows => 201
-# of rows => 11
+# of rows => 12
 ```
 | Column |
 |--------|
@@ -3258,12 +3358,13 @@ filename => ~t.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemL
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFive.ComponentSplit.ComponentList.Component
 ```
 filename => ~t.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFive.ComponentSplit.ComponentList.Component.csv
 # of rows => 73
-# of rows => 9
+# of rows => 10
 ```
 | Column |
 |--------|
@@ -3276,12 +3377,13 @@ filename => ~t.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemL
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item
 ```
 filename => root.record.ItemExhibitList.P5Item.csv
 # of rows => 9742
-# of rows => 461
+# of rows => 486
 ```
 | Column |
 |--------|
@@ -3746,12 +3848,37 @@ filename => root.record.ItemExhibitList.P5Item.csv
 | PriorYearsDelta\_Cost\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.Recurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support |
+| \_@root.record.ItemExhibitList.P5Item.ComponentSplit.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.AncillaryEquipment.Recurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.CheckoutAndLaunch.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.AncillaryEquipment.NonRecurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.NonRecurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.NonRecurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.NonRecurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.NonRecurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement |
+| \_@root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.GFE.APCostElement |
+| \_@root.record.ItemExhibitList.P5Item.SecondaryDistribution.ComponentList.Component |
+| \_@root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement |
+| \_@root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.CommandAndLaunch.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.ShipbuildingCostToComplete |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.csv
 # of rows => 3835
-# of rows => 46
+# of rows => 49
 ```
 | Column |
 |--------|
@@ -3801,12 +3928,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.c
 | CategorySubtotal\_TotalCost\_Continuing\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.csv
 # of rows => 20564
-# of rows => 91
+# of rows => 94
 ```
 | Column |
 |--------|
@@ -3901,12 +4031,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.R
 | Remarks\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.SubCostElementList.SubCostElement |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 6051
-# of rows => 21
+# of rows => 23
 ```
 | Column |
 |--------|
@@ -3931,12 +4064,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.R
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 13941
-# of rows => 25
+# of rows => 28
 ```
 | Column |
 |--------|
@@ -3965,12 +4100,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.R
 | MonthlyDeliveryScheduleTotal\_ProcQuantity\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.csv
 # of rows => 12725
-# of rows => 13
+# of rows => 15
 ```
 | Column |
 |--------|
@@ -3987,12 +4125,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.R
 | ServiceAgencySuffix\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~hibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 98219
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -4004,12 +4144,13 @@ filename => ~hibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.csv
 # of rows => 1803
-# of rows => 82
+# of rows => 84
 ```
 | Column |
 |--------|
@@ -4095,12 +4236,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.N
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.csv
 # of rows => 9368
-# of rows => 47
+# of rows => 50
 ```
 | Column |
 |--------|
@@ -4151,12 +4294,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | CategorySubtotal\_TotalCost\_Continuing\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.csv
 # of rows => 30454
-# of rows => 86
+# of rows => 89
 ```
 | Column |
 |--------|
@@ -4246,12 +4392,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.SubCostElementList.SubCostElement |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.Recurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.Recurring.CostElementList.CostElement.csv
 # of rows => 1212
-# of rows => 70
+# of rows => 72
 ```
 | Column |
 |--------|
@@ -4325,12 +4474,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.csv
 # of rows => 9155
-# of rows => 20
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -4354,12 +4505,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.c
 | CategorySubtotal\_TotalCost\_Continuing\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.csv
 # of rows => 23828
-# of rows => 85
+# of rows => 88
 ```
 | Column |
 |--------|
@@ -4448,12 +4601,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.C
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.SubCostElementList.SubCostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer |
 
 ##root.record.OtherRelatedProgramElementList.ProgramElementNumber
 ```
 filename => root.record.OtherRelatedProgramElementList.ProgramElementNumber.csv
 # of rows => 7888
-# of rows => 7
+# of rows => 8
 ```
 | Column |
 |--------|
@@ -4464,12 +4620,13 @@ filename => root.record.OtherRelatedProgramElementList.ProgramElementNumber.csv
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement
 ```
 filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement.csv
 # of rows => 138
-# of rows => 24
+# of rows => 26
 ```
 | Column |
 |--------|
@@ -4497,12 +4654,14 @@ filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProc
 | ManufacturerList\_P10Manufacturer\_ReorderQuantity\_TotalLeadTimeAfterOct1InMonths\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement.ManufacturerList.P10Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.ComponentSplit.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P5Item.ComponentSplit.ComponentList.Component.csv
 # of rows => 1411
-# of rows => 24
+# of rows => 25
 ```
 | Column |
 |--------|
@@ -4530,12 +4689,13 @@ filename => root.record.ItemExhibitList.P5Item.ComponentSplit.ComponentList.Comp
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ComponentSplit.ComponentList.Component
 ```
 filename => root.record.ComponentSplit.ComponentList.Component.csv
 # of rows => 1458
-# of rows => 26
+# of rows => 27
 ```
 | Column |
 |--------|
@@ -4565,12 +4725,13 @@ filename => root.record.ComponentSplit.ComponentList.Component.csv
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ResourceSummary.OtherResourceSummaryEntryList.OtherResourceSummaryEntry
 ```
 filename => root.record.ResourceSummary.OtherResourceSummaryEntryList.OtherResourceSummaryEntry.csv
 # of rows => 324
-# of rows => 20
+# of rows => 21
 ```
 | Column |
 |--------|
@@ -4594,12 +4755,13 @@ filename => root.record.ResourceSummary.OtherResourceSummaryEntryList.OtherResou
 | @LessOrPlus |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 17348
-# of rows => 22
+# of rows => 24
 ```
 | Column |
 |--------|
@@ -4625,12 +4787,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 33885
-# of rows => 26
+# of rows => 29
 ```
 | Column |
 |--------|
@@ -4660,12 +4824,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | MonthlyDeliveryScheduleTotal\_ProcQuantity\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.csv
 # of rows => 10930
-# of rows => 13
+# of rows => 16
 ```
 | Column |
 |--------|
@@ -4682,12 +4849,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | Remarks\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~ibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 74838
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -4699,12 +4869,13 @@ filename => ~ibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.csv
 # of rows => 3662
-# of rows => 82
+# of rows => 85
 ```
 | Column |
 |--------|
@@ -4790,12 +4961,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.SubCostElementList.SubCostElement |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.csv
 # of rows => 225
-# of rows => 65
+# of rows => 67
 ```
 | Column |
 |--------|
@@ -4864,12 +5038,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
 
 ##root.record.CodeBProgramElementList.ProgramElementNumber
 ```
 filename => root.record.CodeBProgramElementList.ProgramElementNumber.csv
 # of rows => 2881
-# of rows => 7
+# of rows => 8
 ```
 | Column |
 |--------|
@@ -4880,12 +5056,13 @@ filename => root.record.CodeBProgramElementList.ProgramElementNumber.csv
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.SubCostElementList.SubCostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.SubCostElementList.SubCostElement.csv
 # of rows => 114
-# of rows => 31
+# of rows => 32
 ```
 | Column |
 |--------|
@@ -4920,12 +5097,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.R
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 55
-# of rows => 19
+# of rows => 21
 ```
 | Column |
 |--------|
@@ -4948,12 +5126,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 99
-# of rows => 24
+# of rows => 27
 ```
 | Column |
 |--------|
@@ -4981,12 +5161,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.
 | RevisionsAvailableDate\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~ibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 125
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -4998,12 +5181,13 @@ filename => ~ibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P18Item.InitialSpares.EndItemBudgetActivity
 ```
 filename => root.record.ItemExhibitList.P18Item.InitialSpares.EndItemBudgetActivity.csv
 # of rows => 413
-# of rows => 8
+# of rows => 10
 ```
 | Column |
 |--------|
@@ -5015,12 +5199,14 @@ filename => root.record.ItemExhibitList.P18Item.InitialSpares.EndItemBudgetActiv
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P18Item.InitialSpares.EndItemBudgetActivity.EndItemList.EndItem |
 
 ##root.record.ItemExhibitList.P18Item.InitialSpares.EndItemBudgetActivity.EndItemList.EndItem
 ```
 filename => root.record.ItemExhibitList.P18Item.InitialSpares.EndItemBudgetActivity.EndItemList.EndItem.csv
 # of rows => 3363
-# of rows => 25
+# of rows => 26
 ```
 | Column |
 |--------|
@@ -5049,12 +5235,13 @@ filename => root.record.ItemExhibitList.P18Item.InitialSpares.EndItemBudgetActiv
 | P1LineNumber\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.csv
 # of rows => 23481
-# of rows => 20
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -5078,12 +5265,14 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.Item
 | ReorderQuantity\_TotalLeadTimeAfterOct1InMonths\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 41054
-# of rows => 24
+# of rows => 27
 ```
 | Column |
 |--------|
@@ -5111,12 +5300,15 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.Item
 | MonthlyDeliveryScheduleTotal\_ProcQuantity\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.GFE.APCostElement
 ```
 filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.GFE.APCostElement.csv
 # of rows => 122
-# of rows => 33
+# of rows => 34
 ```
 | Column |
 |--------|
@@ -5153,12 +5345,13 @@ filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProc
 | ManufacturerList\_P10Manufacturer\_HistoryPlanningList\_HistoryPlanning\_ItemNameSuffix\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.SubCostElementList.SubCostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.SubCostElementList.SubCostElement.csv
 # of rows => 262
-# of rows => 56
+# of rows => 57
 ```
 | Column |
 |--------|
@@ -5218,12 +5411,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.AncillaryEquipment.Recurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.AncillaryEquipment.Recurring.CostElementList.CostElement.csv
 # of rows => 61
-# of rows => 85
+# of rows => 87
 ```
 | Column |
 |--------|
@@ -5312,12 +5506,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Ancillary
 | ManufacturerList\_Manufacturer\_ReorderQuantity\_TotalLeadTimeAfterOct1InMonths\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.AncillaryEquipment.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.AncillaryEquipment.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.AncillaryEquipment.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 66
-# of rows => 18
+# of rows => 19
 ```
 | Column |
 |--------|
@@ -5339,12 +5535,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Ancillary
 | OCO\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.csv
 # of rows => 116
-# of rows => 78
+# of rows => 80
 ```
 | Column |
 |--------|
@@ -5426,12 +5623,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Re
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
 
 ##root.record.ItemExhibitList.P18Item.ReplenishmentSpares.EndItemBudgetActivity
 ```
 filename => root.record.ItemExhibitList.P18Item.ReplenishmentSpares.EndItemBudgetActivity.csv
 # of rows => 162
-# of rows => 8
+# of rows => 10
 ```
 | Column |
 |--------|
@@ -5443,12 +5642,14 @@ filename => root.record.ItemExhibitList.P18Item.ReplenishmentSpares.EndItemBudge
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P18Item.ReplenishmentSpares.EndItemBudgetActivity.EndItemList.EndItem |
 
 ##root.record.ItemExhibitList.P18Item.ReplenishmentSpares.EndItemBudgetActivity.EndItemList.EndItem
 ```
 filename => root.record.ItemExhibitList.P18Item.ReplenishmentSpares.EndItemBudgetActivity.EndItemList.EndItem.csv
 # of rows => 794
-# of rows => 23
+# of rows => 24
 ```
 | Column |
 |--------|
@@ -5475,12 +5676,13 @@ filename => root.record.ItemExhibitList.P18Item.ReplenishmentSpares.EndItemBudge
 | P1LineNumber\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.csv
 # of rows => 696
-# of rows => 90
+# of rows => 92
 ```
 | Column |
 |--------|
@@ -5574,12 +5776,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehi
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 180
-# of rows => 24
+# of rows => 27
 ```
 | Column |
 |--------|
@@ -5607,12 +5811,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehi
 | RevisionsAvailableDate\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~List.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 236
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -5624,12 +5831,13 @@ filename => ~List.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.CheckoutAndLaunch.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.CheckoutAndLaunch.CostElementList.CostElement.csv
 # of rows => 604
-# of rows => 35
+# of rows => 36
 ```
 | Column |
 |--------|
@@ -5668,12 +5876,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.CheckoutA
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement
 ```
 filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.csv
 # of rows => 71
-# of rows => 23
+# of rows => 25
 ```
 | Column |
 |--------|
@@ -5700,12 +5909,14 @@ filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProc
 | QuantityPerAssembly\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.ManufacturerList.P10Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.AncillaryEquipment.NonRecurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.AncillaryEquipment.NonRecurring.CostElementList.CostElement.csv
 # of rows => 38
-# of rows => 32
+# of rows => 33
 ```
 | Column |
 |--------|
@@ -5741,12 +5952,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Ancillary
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 214
-# of rows => 19
+# of rows => 21
 ```
 | Column |
 |--------|
@@ -5769,12 +5981,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 335
-# of rows => 20
+# of rows => 21
 ```
 | Column |
 |--------|
@@ -5798,12 +6012,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics
 | OCO\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.NonRecurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.NonRecurring.CostElementList.CostElement.csv
 # of rows => 180
-# of rows => 35
+# of rows => 36
 ```
 | Column |
 |--------|
@@ -5842,12 +6057,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehi
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 88
-# of rows => 19
+# of rows => 21
 ```
 | Column |
 |--------|
@@ -5870,12 +6086,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Re
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 190
-# of rows => 22
+# of rows => 25
 ```
 | Column |
 |--------|
@@ -5901,12 +6119,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Re
 | MonthlyDeliveryScheduleTotal\_ProcQuantity\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~xhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 234
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -5918,12 +6139,13 @@ filename => ~xhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.csv
 # of rows => 644
-# of rows => 74
+# of rows => 76
 ```
 | Column |
 |--------|
@@ -6001,12 +6223,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.SubCostElementList.SubCostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.SubCostElementList.SubCostElement.csv
 # of rows => 52
-# of rows => 39
+# of rows => 40
 ```
 | Column |
 |--------|
@@ -6049,12 +6273,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 1396
-# of rows => 19
+# of rows => 21
 ```
 | Column |
 |--------|
@@ -6077,12 +6302,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | ReorderQuantity\_TotalLeadTimeAfterOct1InMonths\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 1988
-# of rows => 27
+# of rows => 31
 ```
 | Column |
 |--------|
@@ -6113,12 +6340,16 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | MonthlyDeliveryScheduleTotal\_ProcQuantity\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.NonRecurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.NonRecurring.CostElementList.CostElement.csv
 # of rows => 268
-# of rows => 55
+# of rows => 57
 ```
 | Column |
 |--------|
@@ -6177,12 +6408,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 139
-# of rows => 20
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -6206,12 +6439,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.
 | Rate185\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 204
-# of rows => 28
+# of rows => 29
 ```
 | Column |
 |--------|
@@ -6243,12 +6478,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.
 | MonthlyDeliveryScheduleTotal\_MonthlyDeliveryList\_MonthlyDelivery\_Amount\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.ManufacturerList.P10Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.ManufacturerList.P10Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 47
-# of rows => 17
+# of rows => 18
 ```
 | Column |
 |--------|
@@ -6269,12 +6505,13 @@ filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProc
 | ContractType\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.DevelopmentMilestoneList.DevelopmentMilestone
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.DevelopmentMilestoneList.DevelopmentMilestone.csv
 # of rows => 601
-# of rows => 9
+# of rows => 10
 ```
 | Column |
 |--------|
@@ -6287,12 +6524,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.DevelopmentMile
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.FacilityList.ProductionSupportFacility
 ```
 filename => root.record.FacilityList.ProductionSupportFacility.csv
 # of rows => 104
-# of rows => 9
+# of rows => 11
 ```
 | Column |
 |--------|
@@ -6305,12 +6543,14 @@ filename => root.record.FacilityList.ProductionSupportFacility.csv
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.FacilityList.ProductionSupportFacility.FacilityProjectList.FacilityProject |
 
 ##root.record.FacilityList.ProductionSupportFacility.FacilityProjectList.FacilityProject
 ```
 filename => root.record.FacilityList.ProductionSupportFacility.FacilityProjectList.FacilityProject.csv
 # of rows => 701
-# of rows => 62
+# of rows => 63
 ```
 | Column |
 |--------|
@@ -6376,12 +6616,13 @@ filename => root.record.FacilityList.ProductionSupportFacility.FacilityProjectLi
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.FacilityList.LayawayFacility
 ```
 filename => root.record.FacilityList.LayawayFacility.csv
 # of rows => 33
-# of rows => 9
+# of rows => 11
 ```
 | Column |
 |--------|
@@ -6394,12 +6635,14 @@ filename => root.record.FacilityList.LayawayFacility.csv
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.FacilityList.LayawayFacility.FacilityProjectList.FacilityProject |
 
 ##root.record.FacilityList.LayawayFacility.FacilityProjectList.FacilityProject
 ```
 filename => root.record.FacilityList.LayawayFacility.FacilityProjectList.FacilityProject.csv
 # of rows => 54
-# of rows => 18
+# of rows => 19
 ```
 | Column |
 |--------|
@@ -6421,12 +6664,13 @@ filename => root.record.FacilityList.LayawayFacility.FacilityProjectList.Facilit
 | ProductionEnd\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.FacilityList.InactiveFacility
 ```
 filename => root.record.FacilityList.InactiveFacility.csv
 # of rows => 43
-# of rows => 29
+# of rows => 30
 ```
 | Column |
 |--------|
@@ -6459,12 +6703,13 @@ filename => root.record.FacilityList.InactiveFacility.csv
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~tList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 504
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -6476,12 +6721,13 @@ filename => ~tList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.csv
 # of rows => 491
-# of rows => 77
+# of rows => 79
 ```
 | Column |
 |--------|
@@ -6562,12 +6808,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFi
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.NonRecurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.NonRecurring.CostElementList.CostElement.csv
 # of rows => 212
-# of rows => 67
+# of rows => 68
 ```
 | Column |
 |--------|
@@ -6638,12 +6886,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFi
 | AllPriorYearsDeliveries\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 151
-# of rows => 20
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -6667,12 +6916,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.N
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 433
-# of rows => 21
+# of rows => 24
 ```
 | Column |
 |--------|
@@ -6697,12 +6948,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.N
 | OCO\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.csv
 # of rows => 390
-# of rows => 12
+# of rows => 14
 ```
 | Column |
 |--------|
@@ -6718,12 +6972,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.N
 | ServiceAgencySuffix\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~itList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 3516
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -6735,12 +6991,13 @@ filename => ~itList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 188
-# of rows => 20
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -6764,12 +7021,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.
 | Rate185\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 302
-# of rows => 25
+# of rows => 28
 ```
 | Column |
 |--------|
@@ -6798,12 +7057,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.
 | MonthlyDeliveryScheduleTotal\_MonthlyDeliveryList\_MonthlyDelivery\_Amount\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule
 ```
 filename => ~yList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.csv
 # of rows => 1336
-# of rows => 10
+# of rows => 12
 ```
 | Column |
 |--------|
@@ -6817,12 +7079,14 @@ filename => ~yList.Hardware.Recurring.CostElementList.CostElement.ManufacturerLi
 | Name\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~List.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 7038
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -6834,12 +7098,13 @@ filename => ~List.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~ibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 136
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -6851,12 +7116,13 @@ filename => ~ibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule
 ```
 filename => ~yList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.csv
 # of rows => 66
-# of rows => 9
+# of rows => 11
 ```
 | Column |
 |--------|
@@ -6869,12 +7135,14 @@ filename => ~yList.Software.Recurring.CostElementList.CostElement.ManufacturerLi
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Software.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~List.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 314
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -6886,12 +7154,13 @@ filename => ~List.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.csv
 # of rows => 6584
-# of rows => 12
+# of rows => 14
 ```
 | Column |
 |--------|
@@ -6907,12 +7176,14 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.Item
 | Remarks\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 40946
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -6924,12 +7195,13 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.Item
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.ManufacturerList.P10Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.ManufacturerList.P10Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 125
-# of rows => 18
+# of rows => 19
 ```
 | Column |
 |--------|
@@ -6951,12 +7223,13 @@ filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProc
 | ContractType\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement.ManufacturerList.P10Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement.ManufacturerList.P10Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 59
-# of rows => 18
+# of rows => 19
 ```
 | Column |
 |--------|
@@ -6978,12 +7251,13 @@ filename => root.record.ItemExhibitList.P10AdvanceProcurementList.P10AdvanceProc
 | ItemNameSuffix\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.SubCostElementList.SubCostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.SubCostElementList.SubCostElement.csv
 # of rows => 6
-# of rows => 18
+# of rows => 19
 ```
 | Column |
 |--------|
@@ -7005,12 +7279,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.C
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 54
-# of rows => 19
+# of rows => 21
 ```
 | Column |
 |--------|
@@ -7033,12 +7308,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFi
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 140
-# of rows => 22
+# of rows => 25
 ```
 | Column |
 |--------|
@@ -7064,12 +7341,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFi
 | MonthlyDeliveryScheduleTotal\_ProcQuantity\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~t.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 16
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -7081,12 +7361,13 @@ filename => ~t.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.NonRecurring.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics.NonRecurring.CostElementList.CostElement.csv
 # of rows => 74
-# of rows => 17
+# of rows => 18
 ```
 | Column |
 |--------|
@@ -7107,12 +7388,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Logistics
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.csv
 # of rows => 181
-# of rows => 19
+# of rows => 21
 ```
 | Column |
 |--------|
@@ -7135,12 +7417,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.C
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 535
-# of rows => 25
+# of rows => 28
 ```
 | Column |
 |--------|
@@ -7169,12 +7453,15 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.C
 | RevisionsAvailableDate\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~ord.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 1743
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -7186,12 +7473,13 @@ filename => ~ord.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElem
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 30202
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -7203,12 +7491,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.R
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.csv
 # of rows => 860
-# of rows => 23
+# of rows => 25
 ```
 | Column |
 |--------|
@@ -7235,12 +7524,14 @@ filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostEleme
 | SCNProductionLeadtime\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.ManufacturerList.Manufacturer |
 
 ##root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.ManufacturerList.Manufacturer
 ```
 filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.ManufacturerList.Manufacturer.csv
 # of rows => 102
-# of rows => 12
+# of rows => 14
 ```
 | Column |
 |--------|
@@ -7256,12 +7547,14 @@ filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostEleme
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.CFE.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 266
-# of rows => 19
+# of rows => 20
 ```
 | Column |
 |--------|
@@ -7284,12 +7577,13 @@ filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostEleme
 | FundingVehicle\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.GFE.APCostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.GFE.APCostElement.csv
 # of rows => 318
-# of rows => 26
+# of rows => 28
 ```
 | Column |
 |--------|
@@ -7319,12 +7613,14 @@ filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostEleme
 | ForFY\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.GFE.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.GFE.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.GFE.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 107
-# of rows => 17
+# of rows => 18
 ```
 | Column |
 |--------|
@@ -7345,12 +7641,13 @@ filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostEleme
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 1315
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -7362,12 +7659,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Flyaway.N
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.SecondaryDistribution.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 9738
-# of rows => 25
+# of rows => 26
 ```
 | Column |
 |--------|
@@ -7396,12 +7694,13 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.Item
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModelsAffectedList.ModelAffected
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModelsAffectedList.ModelAffected.csv
 # of rows => 2373
-# of rows => 7
+# of rows => 8
 ```
 | Column |
 |--------|
@@ -7412,12 +7711,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModelsAffectedL
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.SecondaryDistribution.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P5Item.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 3340
-# of rows => 25
+# of rows => 26
 ```
 | Column |
 |--------|
@@ -7446,12 +7746,13 @@ filename => root.record.ItemExhibitList.P5Item.SecondaryDistribution.ComponentLi
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.SecondaryDistribution.ComponentList.Component
 ```
 filename => root.record.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 6005
-# of rows => 33
+# of rows => 34
 ```
 | Column |
 |--------|
@@ -7488,12 +7789,13 @@ filename => root.record.SecondaryDistribution.ComponentList.Component.csv
 | ModsOutYearDelta\_Cost\_BudgetYearFive\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement.csv
 # of rows => 169
-# of rows => 32
+# of rows => 34
 ```
 | Column |
 |--------|
@@ -7529,12 +7831,14 @@ filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostEleme
 | QuantityForBudgetYearList\_QuantityForBudgetYear\_Cost\_BudgetYearFive\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.EOQ.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 58
-# of rows => 18
+# of rows => 19
 ```
 | Column |
 |--------|
@@ -7556,12 +7860,13 @@ filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostEleme
 | FundingVehicle\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 68
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -7573,12 +7878,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Vehicles.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ModelsAffectedList.ModelAffected
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ModelsAffectedList.ModelAffected.csv
 # of rows => 5329
-# of rows => 7
+# of rows => 8
 ```
 | Column |
 |--------|
@@ -7589,12 +7895,13 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.Item
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.SecondaryDistribution.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Procurement.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 122
-# of rows => 16
+# of rows => 17
 ```
 | Column |
 |--------|
@@ -7614,12 +7921,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.Total.SecondaryDistribution.ComponentList.Component
 ```
 filename => ~oot.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.Total.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 124
-# of rows => 23
+# of rows => 24
 ```
 | Column |
 |--------|
@@ -7646,12 +7954,13 @@ filename => ~oot.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.PriorYear.SecondaryDistribution.ComponentList.Component
 ```
 filename => ~record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.PriorYear.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 66
-# of rows => 23
+# of rows => 24
 ```
 | Column |
 |--------|
@@ -7678,12 +7987,13 @@ filename => ~record.ItemExhibitList.P3AModificationItemGroup.ModificationItemLis
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.AllPriorYears.SecondaryDistribution.ComponentList.Component
 ```
 filename => ~rd.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.AllPriorYears.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 70
-# of rows => 17
+# of rows => 18
 ```
 | Column |
 |--------|
@@ -7704,12 +8014,13 @@ filename => ~rd.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.Mo
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.SecondaryDistribution.ComponentList.Component
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 1826
-# of rows => 25
+# of rows => 26
 ```
 | Column |
 |--------|
@@ -7738,12 +8049,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.SecondaryDistri
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearOne.SecondaryDistribution.ComponentList.Component
 ```
 filename => ~rd.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearOne.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 38
-# of rows => 17
+# of rows => 18
 ```
 | Column |
 |--------|
@@ -7764,12 +8076,13 @@ filename => ~rd.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.Mo
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.CurrentYear.SecondaryDistribution.ComponentList.Component
 ```
 filename => ~cord.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.CurrentYear.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 48
-# of rows => 15
+# of rows => 16
 ```
 | Column |
 |--------|
@@ -7788,12 +8101,13 @@ filename => ~cord.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearTwo.SecondaryDistribution.ComponentList.Component
 ```
 filename => ~rd.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearTwo.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 28
-# of rows => 13
+# of rows => 14
 ```
 | Column |
 |--------|
@@ -7810,12 +8124,13 @@ filename => ~rd.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.Mo
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearThree.SecondaryDistribution.ComponentList.Component
 ```
 filename => ~.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearThree.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 30
-# of rows => 13
+# of rows => 14
 ```
 | Column |
 |--------|
@@ -7832,12 +8147,13 @@ filename => ~.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.Modi
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFour.SecondaryDistribution.ComponentList.Component
 ```
 filename => ~d.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFour.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 24
-# of rows => 11
+# of rows => 12
 ```
 | Column |
 |--------|
@@ -7852,12 +8168,13 @@ filename => ~d.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.Mod
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFive.SecondaryDistribution.ComponentList.Component
 ```
 filename => ~d.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.Installation.ImplementationMethodList.ImplementationMethod.NonOrganicInstallation.InstallationCost.BudgetYearFive.SecondaryDistribution.ComponentList.Component.csv
 # of rows => 8
-# of rows => 9
+# of rows => 10
 ```
 | Column |
 |--------|
@@ -7870,12 +8187,13 @@ filename => ~d.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.Mod
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 11567
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -7887,12 +8205,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehicle.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 140
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -7904,12 +8223,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.SpaceVehi
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.csv
 # of rows => 202
-# of rows => 28
+# of rows => 30
 ```
 | Column |
 |--------|
@@ -7941,12 +8261,14 @@ filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostEleme
 | SCNProductionLeadtime\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning |
 
 ##root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning
 ```
 filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.csv
 # of rows => 156
-# of rows => 18
+# of rows => 19
 ```
 | Column |
 |--------|
@@ -7968,12 +8290,13 @@ filename => root.record.ItemExhibitList.P5Item.P10AdvanceProcurement.APCostEleme
 | RevisionsAvailableDate\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 154
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -7985,12 +8308,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Launch.Re
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.ItemList.Item.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 1010
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -8002,12 +8326,13 @@ filename => root.record.ItemExhibitList.P40AItemGroup.CategoryList.Category.Item
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.CommandAndLaunch.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.CommandAndLaunch.CostElementList.CostElement.csv
 # of rows => 23
-# of rows => 24
+# of rows => 25
 ```
 | Column |
 |--------|
@@ -8035,12 +8360,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.CommandAn
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.csv
 # of rows => 2
-# of rows => 22
+# of rows => 23
 ```
 | Column |
 |--------|
@@ -8066,12 +8392,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.P10AdvanceProcurement.APCostElementCategoryList.Other.APCostElement.csv
 # of rows => 8
-# of rows => 28
+# of rows => 29
 ```
 | Column |
 |--------|
@@ -8103,12 +8430,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.P10AdvanceProcu
 | SCNProductionLeadtime\_val |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~List.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleList.MonthlyDeliverySchedule.ComponentMonthlyDeliveryScheduleList.ComponentMonthlyDeliverySchedule.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 14
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -8120,12 +8448,13 @@ filename => ~List.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => ~t.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFielding.Recurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 12
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -8137,12 +8466,13 @@ filename => ~t.record.ItemExhibitList.P5Item.CostElementCategoryList.PackageFiel
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.IndividualModInstallationList.IndividualModInstallation
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.IndividualModInstallationList.IndividualModInstallation.csv
 # of rows => 4416
-# of rows => 288
+# of rows => 290
 ```
 | Column |
 |--------|
@@ -8434,12 +8764,14 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.IndividualModInstallationList.IndividualModInstallation.KitList.Kit |
 
 ##root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.IndividualModInstallationList.IndividualModInstallation.KitList.Kit
 ```
 filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationItemList.ModificationItem.IndividualModInstallationList.IndividualModInstallation.KitList.Kit.csv
 # of rows => 5140
-# of rows => 33
+# of rows => 34
 ```
 | Column |
 |--------|
@@ -8476,12 +8808,13 @@ filename => root.record.ItemExhibitList.P3AModificationItemGroup.ModificationIte
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.P10AdvanceProcurement.APCostElementCategoryList.OtherCategoryList.OtherCategory
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.P10AdvanceProcurement.APCostElementCategoryList.OtherCategoryList.OtherCategory.csv
 # of rows => 162
-# of rows => 14
+# of rows => 16
 ```
 | Column |
 |--------|
@@ -8499,12 +8832,14 @@ filename => root.record.ShipsExhibitList.P5ShipClass.P10AdvanceProcurement.APCos
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ShipsExhibitList.P5ShipClass.P10AdvanceProcurement.APCostElementCategoryList.OtherCategoryList.OtherCategory.APCostElement |
 
 ##root.record.ShipsExhibitList.P5ShipClass.P10AdvanceProcurement.APCostElementCategoryList.OtherCategoryList.OtherCategory.APCostElement
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.P10AdvanceProcurement.APCostElementCategoryList.OtherCategoryList.OtherCategory.APCostElement.csv
 # of rows => 616
-# of rows => 23
+# of rows => 24
 ```
 | Column |
 |--------|
@@ -8531,12 +8866,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.P10AdvanceProcurement.APCos
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.BudgetYearsForPDF.BudgetYear
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.BudgetYearsForPDF.BudgetYear.csv
 # of rows => 548
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -8548,12 +8884,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.BudgetYearsForPDF.BudgetYea
 | @P8AandP35 |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.ContractList.Contract
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.ContractList.Contract.csv
 # of rows => 2028
-# of rows => 17
+# of rows => 18
 ```
 | Column |
 |--------|
@@ -8574,12 +8911,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.ContractList.Contract.csv
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.P35ItemList.P35Item
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.P35ItemList.P35Item.csv
 # of rows => 652
-# of rows => 162
+# of rows => 165
 ```
 | Column |
 |--------|
@@ -8745,12 +9083,15 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Elect
 | @isSignificant |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.P35ItemList.P35Item.ManufacturerList.Manufacturer |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.P35ItemList.P35Item.CostCategoryList.OtherCategories.CostCategory |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.P35ItemList.P35Item.ManufacturerList.Manufacturer
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.P35ItemList.P35Item.ManufacturerList.Manufacturer.csv
 # of rows => 1178
-# of rows => 21
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -8775,12 +9116,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Elect
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.P35ItemList.P35Item.CostCategoryList.OtherCategories.CostCategory
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.P35ItemList.P35Item.CostCategoryList.OtherCategories.CostCategory.csv
 # of rows => 468
-# of rows => 26
+# of rows => 27
 ```
 | Column |
 |--------|
@@ -8810,12 +9152,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Elect
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.MajorItemList.MajorItem
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.MajorItemList.MajorItem.csv
 # of rows => 714
-# of rows => 28
+# of rows => 29
 ```
 | Column |
 |--------|
@@ -8847,12 +9190,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Elect
 | @isSignificant |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.OtherCostElementList.CostElement
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Electronics.CostElementAnalysis.OtherCostElementList.CostElement.csv
 # of rows => 106
-# of rows => 30
+# of rows => 31
 ```
 | Column |
 |--------|
@@ -8886,12 +9230,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Elect
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.MajorItemList.MajorItem
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.MajorItemList.MajorItem.csv
 # of rows => 402
-# of rows => 36
+# of rows => 37
 ```
 | Column |
 |--------|
@@ -8931,12 +9276,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.C
 | @isSignificant |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.OtherCostElementList.CostElement
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.OtherCostElementList.CostElement.csv
 # of rows => 112
-# of rows => 29
+# of rows => 30
 ```
 | Column |
 |--------|
@@ -8969,12 +9315,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.C
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.P35ItemList.P35Item
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.P35ItemList.P35Item.csv
 # of rows => 354
-# of rows => 162
+# of rows => 165
 ```
 | Column |
 |--------|
@@ -9140,12 +9487,15 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordna
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.P35ItemList.P35Item.ManufacturerList.Manufacturer |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.P35ItemList.P35Item.CostCategoryList.OtherCategories.CostCategory |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.P35ItemList.P35Item.ManufacturerList.Manufacturer
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.P35ItemList.P35Item.ManufacturerList.Manufacturer.csv
 # of rows => 638
-# of rows => 21
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -9170,12 +9520,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordna
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.MajorItemList.MajorItem
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.MajorItemList.MajorItem.csv
 # of rows => 218
-# of rows => 32
+# of rows => 33
 ```
 | Column |
 |--------|
@@ -9211,12 +9562,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordna
 | @isSignificant |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.OtherCostElementList.CostElement
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.OtherCostElementList.CostElement.csv
 # of rows => 82
-# of rows => 31
+# of rows => 32
 ```
 | Column |
 |--------|
@@ -9251,12 +9603,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordna
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.OtherCategories.OtherCategory
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.OtherCategories.OtherCategory.csv
 # of rows => 36
-# of rows => 18
+# of rows => 19
 ```
 | Column |
 |--------|
@@ -9278,12 +9631,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Other
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.CombinedP29OutfittingP30Delivery.OutfittingAndDeliveryCostList.OutfittingAndDeliveryCost
 ```
 filename => root.record.ShipsExhibitList.CombinedP29OutfittingP30Delivery.OutfittingAndDeliveryCostList.OutfittingAndDeliveryCost.csv
 # of rows => 150
-# of rows => 21
+# of rows => 23
 ```
 | Column |
 |--------|
@@ -9308,12 +9662,14 @@ filename => root.record.ShipsExhibitList.CombinedP29OutfittingP30Delivery.Outfit
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ShipsExhibitList.CombinedP29OutfittingP30Delivery.OutfittingAndDeliveryCostList.OutfittingAndDeliveryCost.OutfittingAndDeliveryCostElementListShip.OutfittingAndDeliveryCostElement |
 
 ##root.record.ShipsExhibitList.CombinedP29OutfittingP30Delivery.OutfittingAndDeliveryCostList.OutfittingAndDeliveryCost.OutfittingAndDeliveryCostElementListShip.OutfittingAndDeliveryCostElement
 ```
 filename => root.record.ShipsExhibitList.CombinedP29OutfittingP30Delivery.OutfittingAndDeliveryCostList.OutfittingAndDeliveryCost.OutfittingAndDeliveryCostElementListShip.OutfittingAndDeliveryCostElement.csv
 # of rows => 1344
-# of rows => 28
+# of rows => 29
 ```
 | Column |
 |--------|
@@ -9345,12 +9701,13 @@ filename => root.record.ShipsExhibitList.CombinedP29OutfittingP30Delivery.Outfit
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.P35ItemList.P35Item
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.P35ItemList.P35Item.csv
 # of rows => 86
-# of rows => 124
+# of rows => 127
 ```
 | Column |
 |--------|
@@ -9478,12 +9835,15 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.C
 | @isSignificant |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.P35ItemList.P35Item.CostCategoryList.OtherCategories.CostCategory |
+| \_@root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.P35ItemList.P35Item.ManufacturerList.Manufacturer |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.P35ItemList.P35Item.CostCategoryList.OtherCategories.CostCategory
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.P35ItemList.P35Item.CostCategoryList.OtherCategories.CostCategory.csv
 # of rows => 24
-# of rows => 19
+# of rows => 20
 ```
 | Column |
 |--------|
@@ -9506,12 +9866,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.C
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.P35ItemList.P35Item.ManufacturerList.Manufacturer
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.CostElementAnalysis.P35ItemList.P35Item.ManufacturerList.Manufacturer.csv
 # of rows => 160
-# of rows => 21
+# of rows => 22
 ```
 | Column |
 |--------|
@@ -9536,12 +9897,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.HME.C
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.ShipbuildingCostToComplete
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.ShipbuildingCostToComplete.csv
 # of rows => 42
-# of rows => 10
+# of rows => 12
 ```
 | Column |
 |--------|
@@ -9555,12 +9917,14 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Shipbuild
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
+| \_@root.record.ItemExhibitList.P5Item.CostElementCategoryList.ShipbuildingCostToComplete.CostElementList.CostElement |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.ShipbuildingCostToComplete.CostElementList.CostElement
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.ShipbuildingCostToComplete.CostElementList.CostElement.csv
 # of rows => 72
-# of rows => 10
+# of rows => 11
 ```
 | Column |
 |--------|
@@ -9574,12 +9938,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Shipbuild
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.P35ItemList.P35Item.CostCategoryList.OtherCategories.CostCategory
 ```
 filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordnance.CostElementAnalysis.P35ItemList.P35Item.CostCategoryList.OtherCategories.CostCategory.csv
 # of rows => 112
-# of rows => 20
+# of rows => 21
 ```
 | Column |
 |--------|
@@ -9603,12 +9968,13 @@ filename => root.record.ShipsExhibitList.P5ShipClass.CostElementCategories.Ordna
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 40
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -9620,12 +9986,13 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Support.C
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
 
 ##root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery
 ```
 filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.NonRecurring.CostElementList.CostElement.ManufacturerList.Manufacturer.HistoryPlanningList.HistoryPlanning.MonthlyDeliveryScheduleTotal.MonthlyDeliveryList.MonthlyDelivery.csv
 # of rows => 40
-# of rows => 8
+# of rows => 9
 ```
 | Column |
 |--------|
@@ -9637,3 +10004,4 @@ filename => root.record.ItemExhibitList.P5Item.CostElementCategoryList.Hardware.
 | @ROWID |
 | @PARENTROWID |
 | @PARENT |
+| \_@CHILDID |
